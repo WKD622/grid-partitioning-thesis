@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.19)  17 JUN 2021 13:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.19)  17 JUN 2021 15:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -847,18 +847,191 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-05-07 L3 programming layer (loader) 
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-05-07 L3 programming layer (code)
+\c_max_int=\count172
+\l_tmpa_int=\count173
+\l_tmpb_int=\count174
+\g_tmpa_int=\count175
+\g_tmpb_int=\count176
+\g__kernel_prg_map_int=\count177
+\c__ior_term_ior=\count178
+\c_log_iow=\count179
+\l_iow_line_count_int=\count180
+\l__iow_line_target_int=\count181
+\l__iow_one_indent_int=\count182
+\l__iow_indent_int=\count183
+\c_zero_dim=\dimen263
+\c_max_dim=\dimen264
+\l_tmpa_dim=\dimen265
+\l_tmpb_dim=\dimen266
+\g_tmpa_dim=\dimen267
+\g_tmpb_dim=\dimen268
+\c_zero_skip=\skip61
+\c_max_skip=\skip62
+\l_tmpa_skip=\skip63
+\l_tmpb_skip=\skip64
+\g_tmpa_skip=\skip65
+\g_tmpb_skip=\skip66
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count184
+\l__intarray_loop_int=\count185
+\c__intarray_sp_dim=\dimen269
+\g__intarray_font_int=\count186
+\c__fp_leading_shift_int=\count187
+\c__fp_middle_shift_int=\count188
+\c__fp_trailing_shift_int=\count189
+\c__fp_big_leading_shift_int=\count190
+\c__fp_big_middle_shift_int=\count191
+\c__fp_big_trailing_shift_int=\count192
+\c__fp_Bigg_leading_shift_int=\count193
+\c__fp_Bigg_middle_shift_int=\count194
+\c__fp_Bigg_trailing_shift_int=\count195
+\c__kernel_randint_max_int=\count196
+\g__fp_array_int=\count197
+\l__fp_array_loop_int=\count198
+\l__sort_length_int=\count199
+\l__sort_min_int=\count266
+\l__sort_top_int=\count267
+\l__sort_max_int=\count268
+\l__sort_true_max_int=\count269
+\l__sort_block_int=\count270
+\l__sort_begin_int=\count271
+\l__sort_end_int=\count272
+\l__sort_A_int=\count273
+\l__sort_B_int=\count274
+\l__sort_C_int=\count275
+\l__tl_analysis_normal_int=\count276
+\l__tl_analysis_index_int=\count277
+\l__tl_analysis_nesting_int=\count278
+\l__tl_analysis_type_int=\count279
+\l__regex_internal_a_int=\count280
+\l__regex_internal_b_int=\count281
+\l__regex_internal_c_int=\count282
+\l__regex_balance_int=\count283
+\l__regex_group_level_int=\count284
+\l__regex_mode_int=\count285
+\c__regex_cs_in_class_mode_int=\count286
+\c__regex_cs_mode_int=\count287
+\l__regex_catcodes_int=\count288
+\l__regex_default_catcodes_int=\count289
+\c__regex_catcode_D_int=\count290
+\c__regex_catcode_S_int=\count291
+\c__regex_catcode_L_int=\count292
+\c__regex_catcode_O_int=\count293
+\c__regex_catcode_A_int=\count294
+\c__regex_all_catcodes_int=\count295
+\l__regex_show_lines_int=\count296
+\l__regex_min_state_int=\count297
+\l__regex_max_state_int=\count298
+\l__regex_left_state_int=\count299
+\l__regex_right_state_int=\count300
+\l__regex_capturing_group_int=\count301
+\l__regex_min_pos_int=\count302
+\l__regex_max_pos_int=\count303
+\l__regex_curr_pos_int=\count304
+\l__regex_start_pos_int=\count305
+\l__regex_success_pos_int=\count306
+\l__regex_curr_char_int=\count307
+\l__regex_curr_catcode_int=\count308
+\l__regex_last_char_int=\count309
+\l__regex_case_changed_char_int=\count310
+\l__regex_curr_state_int=\count311
+\l__regex_step_int=\count312
+\l__regex_min_active_int=\count313
+\l__regex_max_active_int=\count314
+\l__regex_replacement_csnames_int=\count315
+\l__regex_match_count_int=\count316
+\l__regex_min_submatch_int=\count317
+\l__regex_submatch_int=\count318
+\l__regex_zeroth_submatch_int=\count319
+\g__regex_trace_regex_int=\count320
+\c_empty_box=\box52
+\l_tmpa_box=\box53
+\l_tmpb_box=\box54
+\g_tmpa_box=\box55
+\g_tmpb_box=\box56
+\l__box_top_dim=\dimen270
+\l__box_bottom_dim=\dimen271
+\l__box_left_dim=\dimen272
+\l__box_right_dim=\dimen273
+\l__box_top_new_dim=\dimen274
+\l__box_bottom_new_dim=\dimen275
+\l__box_left_new_dim=\dimen276
+\l__box_right_new_dim=\dimen277
+\l__box_internal_box=\box57
+\l__coffin_internal_box=\box58
+\l__coffin_internal_dim=\dimen278
+\l__coffin_offset_x_dim=\dimen279
+\l__coffin_offset_y_dim=\dimen280
+\l__coffin_x_dim=\dimen281
+\l__coffin_y_dim=\dimen282
+\l__coffin_x_prime_dim=\dimen283
+\l__coffin_y_prime_dim=\dimen284
+\c_empty_coffin=\box59
+\l__coffin_aligned_coffin=\box60
+\l__coffin_aligned_internal_coffin=\box61
+\l_tmpa_coffin=\box62
+\l_tmpb_coffin=\box63
+\g_tmpa_coffin=\box64
+\g_tmpb_coffin=\box65
+\l__coffin_bounding_shift_dim=\dimen285
+\l__coffin_left_corner_dim=\dimen286
+\l__coffin_right_corner_dim=\dimen287
+\l__coffin_bottom_corner_dim=\dimen288
+\l__coffin_top_corner_dim=\dimen289
+\l__coffin_scaled_total_height_dim=\dimen290
+\l__coffin_scaled_width_dim=\dimen291
+\c__coffin_empty_coffin=\box66
+\l__coffin_display_coffin=\box67
+\l__coffin_display_coord_coffin=\box68
+\l__coffin_display_pole_coffin=\box69
+\l__coffin_display_offset_dim=\dimen292
+\l__coffin_display_x_dim=\dimen293
+\l__coffin_display_y_dim=\dimen294
+\g__file_internal_ior=\read3
+\l__seq_internal_a_int=\count321
+\l__seq_internal_b_int=\count322
+\c__deprecation_minus_one=\count323
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2019-04-06 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count324
+\l__driver_pdf_tmp_box=\box70
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2019-05-03 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count325
+\g__xparse_grabber_int=\count326
+\l__xparse_m_args_int=\count327
+\l__xparse_v_nesting_int=\count328
+)
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
 (/usr/local/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
-\c@subfigure=\count172
-\c@subtable=\count173
+\c@subfigure=\count329
+\c@subtable=\count330
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count174
+\c@float@type=\count331
 \float@exts=\toks40
-\float@box=\box52
+\float@box=\box71
 \@float@everytoks=\toks41
-\@floatcapt=\box53
+\@floatcapt=\box72
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
@@ -867,10 +1040,10 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@cmds=\toks44
 \SOUL@buffer=\toks45
 \SOUL@token=\toks46
-\SOUL@spaceskip=\skip61
-\SOUL@ttwidth=\dimen263
-\SOUL@uldp=\dimen264
-\SOUL@ulht=\dimen265
+\SOUL@spaceskip=\skip67
+\SOUL@ttwidth=\dimen295
+\SOUL@uldp=\dimen296
+\SOUL@ulht=\dimen297
 )
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarymatrix.code.tex
@@ -904,16 +1077,16 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count175
-\scratchdimen=\dimen266
-\scratchbox=\box54
-\nofMPsegments=\count176
-\nofMParguments=\count177
+\scratchcounter=\count332
+\scratchdimen=\dimen298
+\scratchbox=\box73
+\nofMPsegments=\count333
+\nofMParguments=\count334
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count178
-\MPscratchDim=\dimen267
-\MPnumerator=\count179
-\makeMPintoPDFobject=\count180
+\MPscratchCnt=\count335
+\MPscratchDim=\dimen299
+\MPnumerator=\count336
+\makeMPintoPDFobject=\count337
 \everyMPtoPDFconversion=\toks48
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -967,8 +1140,8 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count181
-\AtBeginShipoutBox=\box55
+\c@lstlisting=\count338
+\AtBeginShipoutBox=\box74
 Package hyperref Info: Link coloring OFF on input line 8.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -976,7 +1149,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count182
+\c@section@level=\count339
 )
 LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
@@ -993,7 +1166,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (./chapters/01-title.tex
-<input/agh.pdf, id=15, 597.50829pt x 845.0471pt>
+<input/agh.pdf, id=23, 597.50829pt x 845.0471pt>
 File: input/agh.pdf Graphic file (type pdf)
 <use input/agh.pdf>
 Package pdftex.def Info: input/agh.pdf  used on input line 2.
@@ -1019,42 +1192,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
 )
 (./chapters/03-introduction.tex [3
 
-]) (./chapters/04-literature.tex [4])
-(./chapters/99-bibliography.tex [5]
-(/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.bbl)) [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 16.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 16.
+]) [4] (./chapters/04-literature.tex [5]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 11.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 11.
+
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 11.
+ [6]
+<images/libraries-comparision.png, id=75, 820.06375pt x 251.94125pt>
+File: images/libraries-comparision.png Graphic file (type png)
+<use images/libraries-comparision.png>
+Package pdftex.def Info: images/libraries-comparision.png  used on input line 4
+5.
+(pdftex.def)             Requested size: 273.14925pt x 83.9174pt.
+ [7 <./images/libraries-comparision.png>]) (./chapters/05-algorithm.tex [8])
+(./chapters/06-tests_results.tex [9]) (./chapters/99-bibliography.tex [10]
+(/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.bbl)) [11]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 18.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 18.
 
 (/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 16.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 16.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 18.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 18.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 16.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 18.
  ) 
 Here is how much of TeX's memory you used:
- 23255 strings out of 492616
- 427445 string characters out of 6129481
- 542441 words of memory out of 5000000
- 26706 multiletter control sequences out of 15000+600000
- 41602 words of font info for 28 fonts, out of 8000000 for 9000
+ 33008 strings out of 492616
+ 621816 string characters out of 6129481
+ 946053 words of memory out of 5000000
+ 36409 multiletter control sequences out of 15000+600000
+ 570603 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,11n,73p,1330b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
-texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/20
-19/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2019/texmf-
-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/
-type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publi
-c/lm/lmri12.pfb>
+ 56i,11n,73p,1330b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-d
+ist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2019/texmf-dist/fonts
+/type1/public/lm/lmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publ
+ic/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri1
+2.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
 Output written on /Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main
-.pdf (6 pages, 241227 bytes).
+.pdf (11 pages, 1760353 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 34 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 140 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 55 words of extra memory for PDF output out of 10000 (max. 10000000)
 

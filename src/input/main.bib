@@ -49,9 +49,59 @@ and L'Ecuyer, Pierre",
 }
 
 @article{article,
-author = {Diekmann, Ralf and Monien, Burkhard},
-year = {1994},
-month = {08},
-pages = {},
-title = {Using Helpful Sets to Improve Graph Bisections}
+    author = {Diekmann, Ralf and Monien, Burkhard},
+    year = {1994},
+    month = {08},
+    pages = {},
+    title = {Using Helpful Sets to Improve Graph Bisections}
+}
+
+
+@article{metis,
+    author = {Karypis, George and Kumar, Vipin},
+    year = {1999},
+    month = {01},
+    pages = {},
+    title = {Kumar, V.: A Fast and High Quality Multilevel Scheme for Partitioning Irregular Graphs. SIAM Journal on Scientific Computing 20(1), 359-392},
+    volume = {20},
+    journal = {Siam Journal on Scientific Computing},
+    doi = {10.1137/S1064827595287997}
+}
+
+@article{jostle,
+    author = {Walshaw, Chris and Cross, Mark},
+    year = {2004},
+    month = {07},
+    pages = {},
+    title = {Mesh Partitioning: A Multilevel Balancing and Refinement Algorithm},
+    volume = {22},
+    journal = {SIAM Journal on Scientific Computing},
+    doi = {10.1137/S1064827598337373}
+}
+
+
+@article{recursive,
+    author = {Berger, Marsha and Bokhari, Shahid},
+    year = {1987},
+    month = {06},
+    pages = {},
+    title = {A Partitioning Strategy for Nonuniform Problems on Multiprocessors},
+    volume = {C-36},
+    journal = {IEEE Transactions on Computers},
+    doi = {10.1109/TC.1987.1676942}
+}
+
+@article{KARYPIS199896,
+    title = {Multilevelk-way Partitioning Scheme for Irregular Graphs},
+    journal = {Journal of Parallel and Distributed Computing},
+    volume = {48},
+    number = {1},
+    pages = {96-129},
+    year = {1998},
+    issn = {0743-7315},
+    doi = {https://doi.org/10.1006/jpdc.1997.1404},
+    url = {https://www.sciencedirect.com/science/article/pii/S0743731597914040},
+    author = {George Karypis and Vipin Kumar},
+    keywords = {graph partitioning, multilevel partitioning methods, Kernighan–Lin heuristic, spectral partitioning methods, parallel sparse matrix algorithms.},
+    abstract = {In this paper, we present and study a class of graph partitioning algorithms that reduces the size of the graph by collapsing vertices and edges, we find ak-way partitioning of the smaller graph, and then we uncoarsen and refine it to construct ak-way partitioning for the original graph. These algorithms compute ak-way partitioning of a graphG= (V,E) inO(|E|) time, which is faster by a factor ofO(logk) than previously proposed multilevel recursive bisection algorithms. A key contribution of our work is in finding a high-quality and computationally inexpensive refinement algorithm that can improve upon an initialk-way partitioning. We also study the effectiveness of the overall scheme for a variety of coarsening schemes. We present experimental results on a large number of graphs arising in various domains including finite element methods, linear programming, VLSI, and transportation. Our experiments show that this new scheme produces partitions that are of comparable or better quality than those produced by the multilevel bisection algorithm and requires substantially smaller time. Graphs containing up to 450,000 vertices and 3,300,000 edges can be partitioned in 256 domains in less than 40 s on a workstation such as SGI's Challenge. Compared with the widely used multilevel spectral bisection algorithm, our new algorithm is usually two orders of magnitude faster and produces partitions with substantially smaller edge-cut.}
 }

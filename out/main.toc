@@ -1,3 +1,5 @@
 \babel@toc {polish}{}
 \contentsline {section}{\numberline {1}Wst\IeC {\k e}p}{4}{section.1}% 
-\contentsline {section}{\numberline {2}Przegl\IeC {\k a}d literatury}{5}{section.2}% 
+\contentsline {section}{\numberline {2}Przegl\IeC {\k a}d literatury -- SZKIELET POZIOMU 2}{6}{section.2}% 
+\contentsline {section}{\numberline {3}Algorytm}{9}{section.3}% 
+\contentsline {section}{\numberline {4}Wyniki}{10}{section.4}% 

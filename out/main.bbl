@@ -1,9 +1,21 @@
 \begin{thebibliography}{1}
 
-\bibitem{article}
-R.~Diekmann and B.~Monien.
-\newblock Using helpful sets to improve graph bisections.
-\newblock 08 1994.
+\bibitem{recursive}
+M.~Berger and S.~Bokhari.
+\newblock A partitioning strategy for nonuniform problems on multiprocessors.
+\newblock {\em IEEE Transactions on Computers}, C-36, 06 1987.
+
+\bibitem{KARYPIS199896}
+G.~Karypis and V.~Kumar.
+\newblock Multilevelk-way partitioning scheme for irregular graphs.
+\newblock {\em Journal of Parallel and Distributed Computing}, 48(1):96--129,
+  1998.
+
+\bibitem{metis}
+G.~Karypis and V.~Kumar.
+\newblock Kumar, v.: A fast and high quality multilevel scheme for partitioning
+  irregular graphs. siam journal on scientific computing 20(1), 359-392.
+\newblock {\em Siam Journal on Scientific Computing}, 20, 01 1999.
 
 \bibitem{1364754}
 B.~Monien and S.~Schamberger.
@@ -11,24 +23,9 @@ B.~Monien and S.~Schamberger.
 \newblock In {\em 16th Symposium on Computer Architecture and High Performance
   Computing}, pages 198--205, 2004.
 
-\bibitem{10.5555/1764891.1764924}
-R.~Preis.
-\newblock Linear time 1/2 -approximation algorithm for maximum weighted
-  matching in general graphs.
-\newblock In {\em Proceedings of the 16th Annual Conference on Theoretical
-  Aspects of Computer Science}, STACS'99, page 259–269, Berlin, Heidelberg,
-  1999. Springer-Verlag.
-
-\bibitem{Preis96theparty}
-R.~Preis and R.~Diekmann.
-\newblock The party partitioning library user guide - version 1.1, 1996.
-
-\bibitem{10.1007/3-540-44842-X_6}
-S.~Schamberger.
-\newblock Improvements to the helpful-set algorithm and a new evaluation scheme
-  for graph-partitioners.
-\newblock In V.~Kumar, M.~L. Gavrilova, C.~J.~K. Tan, and P.~L'Ecuyer, editors,
-  {\em Computational Science and Its Applications --- ICCSA 2003}, pages
-  49--53, Berlin, Heidelberg, 2003. Springer Berlin Heidelberg.
+\bibitem{jostle}
+C.~Walshaw and M.~Cross.
+\newblock Mesh partitioning: A multilevel balancing and refinement algorithm.
+\newblock {\em SIAM Journal on Scientific Computing}, 22, 07 2004.
 
 \end{thebibliography}
