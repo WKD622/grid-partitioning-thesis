@@ -4,41 +4,73 @@
 \section{Przegląd literatury -- SZKIELET POZIOMU 2}
 \label{sec:literature}
 
-1. Akapit wstępny o różnych podejściach do partycjonowania.
-O tym, że wyróżniamy dwa podstawowe podejścia:
+\subsection{Metody partycjonowania grafów}
 
-\begin{itemize}
-    \item {\cite{metis} - duzo o roznych metodach - mozna uwzglednic}
-    \item{siatka jest dzielona od razu na docelową liczbę partycji (podejście, które stosuję) - multilevel partitioning}
-    \item{Siatka jest dzielona na dwie części, następnie rekursywnie dzielimy każdą z nich aż do otrzymania oczekiwanej
-    liczby partycji}
-\end{itemize}
+1. [PODZIAŁ METOD PARTYCJONOWANIA -OD TYCH NAJMNIEJ WAŻNYCH DO NAJWAŻNIEJSZYCH] Rozbudowany podział metod został zaproponowany przez autorów artykułu - \cite{metis}
+oraz \cite{1364754}
+Zgodnie z ich analizą metody dzielimy na:
+\newline\newline
+a. [TUTAJ O METODACH SPEKTRALNYCH] Metody spektralne - partycjonowanie spektralne daje dobre rezultaty i jest metodą w miarę często używaną
+\cite{10.1137/0611030, 10.5555/147877.147902, improved_spectral}. Są to jednak metody kosztowne z racji na
+obliczanie wektorowa własnego odpowiadającego drugiej najmniejszej wartości własnej (Fielder wektor).
+Istnieję udane próby ulepszenia czasu wykonania tych metod, które polegają na liczeniu Fielder wektora poprzez
+algorytm wielopoziomowy - MSB \cite{fast_multilevel}. Jednak nawet te metody wciąż charakteryzują się wysoką złożonością.
 
-2. Akapit o rekursywnym dzieleniu siatek.
-\begin{itemize}
-    \item {że przykładowo jest algorytm\cite{recursive}, zakładający żę dzielimy siatkę na liczbę obszarów,
-        która jest równa potędze liczby dwa, algorytm potrafi także dzielić siatkę wedle możliwości obliczeniowych
-        poszczególnych rdzeni procesora. Dzielenie na liczbę obszarów równą potędze liczby jest poważnym ograniczeniem
-        wykluczającym zastosowanie tego algorytmu.}
-    \item{inne przykłady takich algorytmów}
-    \item {Akapit na temat tego że są to metody prostsze w implementacji, jednak nie sprawdzają się tak dobrze w kontekście bardziej
-    skomplikowanych problemów głównie ze względu na to, że mają zachłanną naturę.
-    Ponadto wykorzystanie takich algorytmów w kontekście niepodzielnych obszarów nie zdaje egzaminu,
-        ze względu na ich specyfikę. Podejście do partycjonowania zakładające dzielenie grafu na coraz mniejsze
-        części sprawia, że nie jesteśmy w stanie uwzględniać części niepodzielnych, lub rozwiązanie tego problemu byłoby skomplikowane.
-        Przykład - dzielimy siatkę na 4 części. Można sobie wyobrazić sytuację, kiedy obszar niepodzielny zajmuje 50\% całej siatki.
-        Po pierwszej turze rekursywnego algorytmu mamy dwie partycje, każda zajmująca 50\% powierzchni. Chcielibyśmy podzielić
-        każdą z nich na dwie części, natomiast nie jesteśmy w stanie tego zrobić ponieważ jedna z nich jest w całości obszarem
-        niepodzielnym.}
-    \item {Po wymienieniu powyższych wad wstęp do kolejnego akapitu, który mówi o tym, że w kontekście obszarów niepodzielnych
-    lepiej sprawdzają się algorytmy typu multilevel partitioning.}
-\end{itemize}
+b. [TUTAJ O REKURSYWNYCH METODACH] Metody rekursywne -
+Są to metody często prostsze w implementacji, jednak nie sprawdzają się tak dobrze w kontekście bardziej
+skomplikowanych problemów głównie ze względu na to, że mają zachłanną naturę.
+Ponadto wykorzystanie takich algorytmów w kontekście niepodzielnych obszarów nie zdaje egzaminu,
+ze względu na ich specyfikę. Podejście do partycjonowania zakładające dzielenie grafu na coraz mniejsze
+części sprawia, że nie jesteśmy w stanie uwzględniać części niepodzielnych, lub rozwiązanie tego problemu byłoby skomplikowane.
+Przykład - dzielimy siatkę na 4 części. Można sobie wyobrazić sytuację, kiedy obszar niepodzielny zajmuje 50\% całej siatki.
+Po pierwszej turze rekursywnego algorytmu mamy dwie partycje, każda zajmująca 50\% powierzchni. Chcielibyśmy podzielić
+każdą z nich na dwie części, natomiast nie jesteśmy w stanie tego zrobić ponieważ jedna z nich jest w całości obszarem
+niepodzielnym.
+Metoda \cite{recursive} zakłada żę dzielimy siatkę na liczbę obszarów,
+która jest równa potędze liczby dwa. Ta metoda potrafi także dzielić siatkę wedle możliwości obliczeniowych
+poszczególnych rdzeni procesora. Czasami metody rekursywne są implementowane jako faza metod
+bisekcji spektralnej \cite{10.1137/0611030}.
+
+c. [TUTAJ O METODACH GEOMETRYCZNYCH] Metody geometryczne - inną klasą metod są metody geometryczne \cite{Miller1994ACP, Raghavan93lineand, 185417, MiTeThVa93, NourOmid1987SolvingFE}.
+Ich cechą charakterystyczną jest szybki czas wykonania, natomiast gorsze rezultaty podziału.
+Najlepsze wyniki spośród wyżej wymienionych metod prezentują\cite{185417, MiTeThVa93}, natomiast z powodu
+losowej natury wymagane jest wielokrotne użycie algorytmu (od 5 do 50 razy) aby uzyskać wynik porównywalny
+z metodami spektralnymi. Wielokrotnie wywołanie zwiększa czas otrzymywania rezultatu, natomiast jest
+on wciąż niższy od metod spektralnych. Metody geometryczne są aplikowalne tylko w przypadku kiedy dostępne
+są współrzędne wszystkich wierzchołków w grafie. Dla wielu dziedzin problemów (programowanie liniowe, VLSI),
+nie otrzymujemy współrzędnych wraz z grafem. Istnieją algorytmy, które są w stanie obliczyć współrzędne dla
+wierzchołków grafu \cite{Chan95geometricspectral} wykorzystując metody spektralne ale są bardzo kosztowne i dominują czas potrzebny
+na samo partycjonowanie grafu.
+\newline\newline
+
+\begin{wrapfigure}{r}{0.6\textwidth}
+    \vspace{-4mm}
+    \includegraphics[width=\linewidth]{images/coarsening}
+    \caption{Wielopoziomowe partycjonowanie grafu przedstawiające fazę zmniejszania grafu, następnie przypisanie
+    partycji na zmniejszonym grafie, na końcu przywrócenie grafu to początkowej wielkości.
+    Źródło\cite{KARYPIS199896}.}
+    \label{fig:1}
+\end{wrapfigure}
+
+d. [TUTAJ O METODACH WIELOPOZIOMOWYCH] Metody wielopoziomowe
+\cite{metis, jostle, Bui1993AHF, 103500, 185177, 279334, inproceedings, 129970, 10.1145/165939.165942}
+- cechą charakterystyczną tego podejścia jest redukcja
+wielkości grafu poprzez łączenie wierzchołków i krawędzi, następnie dzielenie zmniejszonego grafu na partycje, ostatnią fazą
+jest przywrócenie początkowego grafu zachowując podział. Często graf zmniejszany jest aż liczba wierzchołków nie osiągnie
+liczby partycji, którą chcemy otrzymać \cite{1364754}, a fazie przywracania grafu do początkowej wielkości towarzyszy
+algorytm, którego celem jest ulepszanie podziału \cite{article}. Algorytm ten, bazując na zmniejszonym
+grafie, niesie za sobą niższy koszt obliczeniowy. Metody te zostały stworzone z myślą o zmniejszeniu czasu
+patrycjonowania kosztem jego jakości. Obecnie dają jednak bardzo dobre rezultaty również w kwestii jakości podziału.
+Faza zmniejszania grafu często jest stosunkowo łatwa do zrównoleglenia \cite{KARYPIS199871}. Fazą, która nie podlega
+zrównolegleniu jest faza ulepszania istniejącego podziału.
+Najczęsciej bazuje ona na metodzie Fiduccia-Mattheysesa \cite{10.5555/800263.809204},
+która jest zoptymalizowaną pod kątem czasu działania heurystyką Kerninghan-Lin (KL) \cite{6771089}.
+Biblioteki jak Party \cite{1364754}, Metis \cite{metis}, Jostle \cite{jostle}, Chaco \cite{inproceedings},
+dające state-of-the-art wyniki w kwestii jakości partycjonowania najczęściej bazują na schemacie wielopoziomowym
+\cite{inproceedings}.
 
 \newpage
-3. Akapit o dzieleniu siatek na docelową liczbę części
-\begin{itemize}
-    \item {Że są to metody często szybsze od metody rekursywnych\cite{KARYPIS199896}}
-\end{itemize}
+\subsection{Podejście na które się zdecydowałem}
 
 \begin{wrapfigure}{r}{0.6\textwidth}
     \vspace{-4mm}
@@ -48,5 +80,17 @@ O tym, że wyróżniamy dwa podstawowe podejścia:
     \label{fig:test2}
 \end{wrapfigure}
 
-\lipsum
+[TUTAJ O TYM NA JAKIE PODEJSCIE SIE ZDECYDOWAŁEM I DLACZEGO]
+\newline[WSTĘP]
+Wszystkie wyżej wymienione metody zajmują się problemem partycjonowania grafu, często są to metody, które biorą
+pod uwagę zmienną gęstość grafu [tutaj musze dodac publikacje], jednak żadna z nich
+nie bierze pod uwagę obszarów niepodzielnych oraz obszarów niebiorących udziału w obliczeniach.
+Jest to rozszerzenie problemu partycjonowania o dodatkowe warunki.
+
+\newline[DLACZEGO PARTY - PORÓWNANIE DO INNYCH BIBLIOTEK]
+W celu rozwiązania tego problemu zdecydowałem się zaadaptować jedną z istniejących metod.
+Biblioteka Party \cite{1364754} okazała się dawać najlepsze rezultaty w porównaniu do innych bibliotek dających rezultaty
+state-of-the-art.
+
+
 

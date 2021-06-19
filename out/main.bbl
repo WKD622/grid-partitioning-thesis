@@ -1,9 +1,60 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{fast_multilevel}
+S.~Barnard and H.~Simon.
+\newblock A fast multilevel implementation of recursive spectral bisection for
+  partitioning unstructured problems.
+\newblock pages 711--718, 01 1993.
 
 \bibitem{recursive}
 M.~Berger and S.~Bokhari.
 \newblock A partitioning strategy for nonuniform problems on multiprocessors.
 \newblock {\em IEEE Transactions on Computers}, C-36, 06 1987.
+
+\bibitem{Bui1993AHF}
+T.~N. Bui and C.~Jones.
+\newblock A heuristic for reducing fill-in in sparse matrix factorization.
+\newblock In {\em PPSC}, 1993.
+
+\bibitem{Chan95geometricspectral}
+T.~F. Chan, J.~R. Gilbert, and S.-H. Teng.
+\newblock Geometric spectral partitioning.
+\newblock Technical report, 1995.
+
+\bibitem{103500}
+C.-K. Cheng and Y.-C. Wei.
+\newblock An improved two-way partitioning algorithm with stable performance
+  (vlsi).
+\newblock {\em IEEE Transactions on Computer-Aided Design of Integrated
+  Circuits and Systems}, 10(12):1502--1511, 1991.
+
+\bibitem{article}
+R.~Diekmann and B.~Monien.
+\newblock Using helpful sets to improve graph bisections.
+\newblock 08 1994.
+
+\bibitem{129970}
+J.~Garbers, H.~Promel, and A.~Steger.
+\newblock Finding clusters in vlsi circuits.
+\newblock In {\em 1990 IEEE International Conference on Computer-Aided Design.
+  Digest of Technical Papers}, pages 520--523, 1990.
+
+\bibitem{279334}
+Hagen and Kahng.
+\newblock A new approach to effective circuit clustering.
+\newblock In {\em 1992 IEEE/ACM International Conference on Computer-Aided
+  Design}, pages 422--427, 1992.
+
+\bibitem{185177}
+L.~Hagen and A.~Kahng.
+\newblock Fast spectral methods for ratio cut partitioning and clustering.
+\newblock In {\em 1991 IEEE International Conference on Computer-Aided Design
+  Digest of Technical Papers}, pages 10--13, 1991.
+
+\bibitem{inproceedings}
+B.~Hendrickson and R.~Leland.
+\newblock A multi-level algorithm for partitioning graphs.
+\newblock pages 28-- 28, 02 1995.
 
 \bibitem{KARYPIS199896}
 G.~Karypis and V.~Kumar.
@@ -17,11 +68,66 @@ G.~Karypis and V.~Kumar.
   irregular graphs. siam journal on scientific computing 20(1), 359-392.
 \newblock {\em Siam Journal on Scientific Computing}, 20, 01 1999.
 
+\bibitem{improved_spectral}
+R.~Leland and B.~Hendrickson.
+\newblock An improved spectral graph partitioning algorithm for mapping
+  parallel computations.
+\newblock 16, 09 1992.
+
+\bibitem{10.1145/165939.165942}
+N.~Mansour, R.~Ponnusamy, A.~Choudhary, and G.~C. Fox.
+\newblock Graph contraction for physical optimization methods: A quality-cost
+  tradeoff for mapping data on parallel computers.
+\newblock In {\em Proceedings of the 7th International Conference on
+  Supercomputing}, ICS '93, page 1–10, New York, NY, USA, 1993. Association
+  for Computing Machinery.
+
+\bibitem{Miller1994ACP}
+G.~Miller, S.~Teng, and W.~Thurston.
+\newblock A cartesian parallel nested dissection algorithm.
+\newblock 1994.
+
+\bibitem{185417}
+G.~Miller, S.-H. Teng, and S.~Vavasis.
+\newblock A unified geometric approach to graph separators.
+\newblock In {\em [1991] Proceedings 32nd Annual Symposium of Foundations of
+  Computer Science}, pages 538--547, 1991.
+
+\bibitem{MiTeThVa93}
+G.~L. Miller, S.~Teng, W.~Thurston, and S.~A. Vavasis.
+\newblock Automatic mesh partitioning.
+\newblock In A.~George, J.~Gilbert, and J.~Liu, editors, {\em Graphs Theory and
+  Sparse Matrix Computation}, The IMA Volumes in Mathematics and its
+  Application, pages 57--84. Springer-Verlag, 1993.
+\newblock Vol 56.
+
 \bibitem{1364754}
 B.~Monien and S.~Schamberger.
 \newblock Graph partitioning with the party library: helpful-sets in practice.
 \newblock In {\em 16th Symposium on Computer Architecture and High Performance
   Computing}, pages 198--205, 2004.
+
+\bibitem{NourOmid1987SolvingFE}
+B.~Nour-Omid, A.~Raefsky, and G.~Lyzenga.
+\newblock Solving finite element equations on concurrent computers.
+\newblock 1987.
+
+\bibitem{10.1137/0611030}
+A.~Pothen, H.~D. Simon, and K.-P. Liou.
+\newblock Partitioning sparse matrices with eigenvectors of graphs.
+\newblock {\em SIAM J. Matrix Anal. Appl.}, 11(3):430–452, May 1990.
+
+\bibitem{10.5555/147877.147902}
+A.~Pothen, H.~D. Simon, L.~Wang, and S.~T. Barnard.
+\newblock Towards a fast implementation of spectral nested dissection.
+\newblock In {\em Proceedings of the 1992 ACM/IEEE Conference on
+  Supercomputing}, Supercomputing '92, page 42–51, Washington, DC, USA, 1992.
+  IEEE Computer Society Press.
+
+\bibitem{Raghavan93lineand}
+P.~Raghavan.
+\newblock Line and plane separators.
+\newblock Technical report, LAPACK WORKING NOTE 63 (UT CS-93-202), 1993.
 
 \bibitem{jostle}
 C.~Walshaw and M.~Cross.
