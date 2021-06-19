@@ -7,48 +7,49 @@ Warning--empty booktitle in fast_multilevel
 Warning--empty institution in Chan95geometricspectral
 Warning--empty journal in article
 Warning--empty booktitle in inproceedings
+Warning--empty booktitle in Analysis
 Warning--empty journal in improved_spectral
 Warning--empty booktitle in Miller1994ACP
 Warning--empty booktitle in NourOmid1987SolvingFE
-You've used 23 entries,
+You've used 28 entries,
             2118 wiz_defined-function locations,
-            636 strings with 7638 characters,
-and the built_in function-call counts, 8242 in all, are:
-= -- 799
-> -- 364
-< -- 10
-+ -- 149
-- -- 117
-* -- 500
-:= -- 1303
-add.period$ -- 73
-call.type$ -- 23
-change.case$ -- 128
+            666 strings with 8382 characters,
+and the built_in function-call counts, 10225 in all, are:
+= -- 1012
+> -- 423
+< -- 13
++ -- 175
+- -- 135
+* -- 604
+:= -- 1583
+add.period$ -- 90
+call.type$ -- 28
+change.case$ -- 152
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 372
-empty$ -- 664
-format.name$ -- 117
-if$ -- 1815
+cite$ -- 36
+duplicate$ -- 480
+empty$ -- 827
+format.name$ -- 135
+if$ -- 2284
 int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 21
-newline$ -- 119
-num.names$ -- 48
-pop$ -- 154
+int.to.str$ -- 28
+missing$ -- 26
+newline$ -- 144
+num.names$ -- 58
+pop$ -- 180
 preamble$ -- 1
-purify$ -- 103
+purify$ -- 122
 quote$ -- 0
-skip$ -- 304
+skip$ -- 406
 stack$ -- 0
-substring$ -- 429
-swap$ -- 119
-text.length$ -- 10
+substring$ -- 552
+swap$ -- 170
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 92
-warning$ -- 7
-while$ -- 69
-width$ -- 25
-write$ -- 254
-(There were 7 warnings)
+type$ -- 112
+warning$ -- 8
+while$ -- 85
+width$ -- 30
+write$ -- 313
+(There were 8 warnings)

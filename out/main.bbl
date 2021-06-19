@@ -33,6 +33,12 @@ R.~Diekmann and B.~Monien.
 \newblock Using helpful sets to improve graph bisections.
 \newblock 08 1994.
 
+\bibitem{10.5555/800263.809204}
+C.~M. Fiduccia and R.~M. Mattheyses.
+\newblock A linear-time heuristic for improving network partitions.
+\newblock In {\em Proceedings of the 19th Design Automation Conference}, DAC
+  '82, page 175–181. IEEE Press, 1982.
+
 \bibitem{129970}
 J.~Garbers, H.~Promel, and A.~Steger.
 \newblock Finding clusters in vlsi circuits.
@@ -56,10 +62,22 @@ B.~Hendrickson and R.~Leland.
 \newblock A multi-level algorithm for partitioning graphs.
 \newblock pages 28-- 28, 02 1995.
 
+\bibitem{Analysis}
+G.~Karypis and V.~Kumar.
+\newblock Analysis of multilevel graph partitioning.
+\newblock pages 29-- 29, 02 1995.
+
 \bibitem{KARYPIS199896}
 G.~Karypis and V.~Kumar.
 \newblock Multilevelk-way partitioning scheme for irregular graphs.
 \newblock {\em Journal of Parallel and Distributed Computing}, 48(1):96--129,
+  1998.
+
+\bibitem{KARYPIS199871}
+G.~Karypis and V.~Kumar.
+\newblock A parallel algorithm for multilevel graph partitioning and sparse
+  matrix ordering.
+\newblock {\em Journal of Parallel and Distributed Computing}, 48(1):71--95,
   1998.
 
 \bibitem{metis}
@@ -67,6 +85,11 @@ G.~Karypis and V.~Kumar.
 \newblock Kumar, v.: A fast and high quality multilevel scheme for partitioning
   irregular graphs. siam journal on scientific computing 20(1), 359-392.
 \newblock {\em Siam Journal on Scientific Computing}, 20, 01 1999.
+
+\bibitem{6771089}
+B.~W. Kernighan and S.~Lin.
+\newblock An efficient heuristic procedure for partitioning graphs.
+\newblock {\em The Bell System Technical Journal}, 49(2):291--307, 1970.
 
 \bibitem{improved_spectral}
 R.~Leland and B.~Hendrickson.
@@ -123,6 +146,14 @@ A.~Pothen, H.~D. Simon, L.~Wang, and S.~T. Barnard.
 \newblock In {\em Proceedings of the 1992 ACM/IEEE Conference on
   Supercomputing}, Supercomputing '92, page 42–51, Washington, DC, USA, 1992.
   IEEE Computer Society Press.
+
+\bibitem{weighted_maching}
+R.~Preis.
+\newblock Linear time 1/2 -approximation algorithm for maximum weighted
+  matching in general graphs.
+\newblock In {\em Proceedings of the 16th Annual Conference on Theoretical
+  Aspects of Computer Science}, STACS'99, page 259–269, Berlin, Heidelberg,
+  1999. Springer-Verlag.
 
 \bibitem{Raghavan93lineand}
 P.~Raghavan.
