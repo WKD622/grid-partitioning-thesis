@@ -1,22 +1,29 @@
 \newpage
 
 
-\section{Przegląd literatury -- SZKIELET POZIOMU 2}
+\section{Przegląd literatury}
 \label{sec:literature}
 
-\subsection{Metody partycjonowania grafów}
+\subsection{Istniejące metody partycjonowania grafów}
 
-1. (PODZIAŁ METOD PARTYCJONOWANIA -OD TYCH NAJMNIEJ WAŻNYCH DO NAJWAŻNIEJSZYCH) Rozbudowany podział metod został zaproponowany przez autorów artykułu - \cite{metis}
+1. Rozbudowany podział metod został zaproponowany przez autorów artykułu - \cite{metis}
 oraz \cite{1364754}
 Zgodnie z ich analizą metody dzielimy na:
-\newline\newline
-a. (TUTAJ O METODACH SPEKTRALNYCH) Metody spektralne - partycjonowanie spektralne daje dobre rezultaty i jest metodą w miarę często używaną
+\begin{itemize}
+    \item spektralne,
+    \item rekursywne,
+    \item geometryczne,
+    \item wielopoziomowe.
+\end{itemize}
+
+\subsubsection{Metody spektralne}
+Partycjonowanie spektralne daje dobre rezultaty i jest metodą w miarę często używaną
 \cite{10.1137/0611030, 10.5555/147877.147902, improved_spectral}. Są to jednak metody kosztowne z racji na
 obliczanie wektorowa własnego odpowiadającego drugiej najmniejszej wartości własnej (Fielder wektor).
 Istnieję udane próby ulepszenia czasu wykonania tych metod, które polegają na liczeniu Fielder wektora poprzez
 algorytm wielopoziomowy - MSB \cite{fast_multilevel}. Jednak nawet te metody wciąż charakteryzują się wysoką złożonością.
 
-b. (TUTAJ O REKURSYWNYCH METODACH) Metody rekursywne -
+\subsubsection{Metody rekursywne}
 Są to metody często prostsze w implementacji, jednak nie sprawdzają się tak dobrze w kontekście bardziej
 skomplikowanych problemów głównie ze względu na to, że mają zachłanną naturę.
 Ponadto wykorzystanie takich algorytmów w kontekście niepodzielnych obszarów nie zdaje egzaminu,
@@ -31,7 +38,8 @@ która jest równa potędze liczby dwa. Ta metoda potrafi także dzielić siatk�
 poszczególnych rdzeni procesora. Czasami metody rekursywne są implementowane jako faza metod
 bisekcji spektralnej \cite{10.1137/0611030}.
 
-c. (TUTAJ O METODACH GEOMETRYCZNYCH) Metody geometryczne - inną klasą metod są metody geometryczne \cite{Miller1994ACP, Raghavan93lineand, 185417, MiTeThVa93, NourOmid1987SolvingFE}.
+\subsubsection{Metody geometryczne}
+Inną klasą metod są metody geometryczne \cite{Miller1994ACP, Raghavan93lineand, 185417, MiTeThVa93, NourOmid1987SolvingFE}.
 Ich cechą charakterystyczną jest szybki czas wykonania, natomiast gorsze rezultaty podziału.
 Najlepsze wyniki spośród wyżej wymienionych metod prezentują \cite{185417, MiTeThVa93}, natomiast z powodu
 losowej natury wymagane jest wielokrotne użycie algorytmu (od 5 do 50 razy) aby uzyskać wynik porównywalny
@@ -43,16 +51,16 @@ wierzchołków grafu \cite{Chan95geometricspectral} wykorzystując metody spektr
 na samo partycjonowanie grafu.
 \newline\newline
 
-\begin{wrapfigure}{r}{0.6\textwidth}
-    \vspace{-4mm}
+\begin{figure}[h]
+    \centering
     \includegraphics[width=\linewidth]{images/coarsening}
     \caption{Wielopoziomowe partycjonowanie grafu przedstawiające fazę zmniejszania grafu, następnie przypisanie
     partycji na zmniejszonym grafie, na końcu przywrócenie grafu to początkowej wielkości.
     Źródło\cite{KARYPIS199896}.}
-    \label{fig:1}
-\end{wrapfigure}
+    \label{im:multilevel_partitioning}
+\end{figure}
 
-d. (TUTAJ O METODACH WIELOPOZIOMOWYCH) Metody wielopoziomowe
+\subsubsection{Metody wielopoziomowe}
 \cite{metis, jostle, Bui1993AHF, 103500, 185177, 279334, inproceedings, 129970, 10.1145/165939.165942}
 - cechą charakterystyczną tego podejścia jest redukcja
 wielkości grafu poprzez łączenie wierzchołków i krawędzi, następnie dzielenie zmniejszonego grafu na partycje, ostatnią fazą
@@ -69,44 +77,55 @@ dające state-of-the-art wyniki w kwestii jakości partycjonowania najczęściej
 \cite{inproceedings}.
 
 \newpage
-\subsection{Wybór metody}
+
+\subsection{Porównanie istniejących metod wielopoziomowych}
 
 \begin{wrapfigure}{r}{0.6\textwidth}
     \vspace{-4mm}
     \includegraphics[width=\linewidth]{images/libraries-comparision}
-    \caption{Partycjonowanie siatki 100x100 na 16 obszarów. Od lewej - pmetis\cite{metis} uzyskuje edge-cut wynoszący
-    688, następnie Jostle\cite{jostle} z wynikiem 695 oraz Party\cite{1364754} z wynikiem 615.}
-    \label{fig:test2}
+    \caption{Partycjonowanie siatki 100x100 na 16 obszarów. Od lewej - pmetis \cite{metis} uzyskuje edge-cut wynoszący
+    688, następnie Jostle \cite{jostle} z wynikiem 695 oraz Party \cite{1364754} z wynikiem 615. Źródło: \cite{1364754}.}
+    \label{im:partitioning_results}
 \end{wrapfigure}
 
-(TUTAJ O TYM NA JAKIE PODEJSCIE SIE ZDECYDOWAŁEM I DLACZEGO)
-
-(WSTĘP - UZASADNIENIENIE CZEMU MUSZĘ TWORZYĆ WŁASNĄ METODE NA BAZIE GOTOWYCH METOD)
 Wszystkie wyżej wymienione metody nie biorą pod uwagę problemu obszarów niepodzielnych oraz obszarów wyłączonych z obliczeń.
 W związku z tym moim zadaniem było znalezienie metody dającej możliwie najlepsze rezultaty w zakresie partycjonowania grafów oraz
 dostosowanie jej do wyżej wymienionych rozszerzeń problemu partycjonowania.
 
-(DLACZEGO PARTY - PORÓWNANIE DO INNYCH BIBLIOTEK)
-\begin{itemize}
-    \item {Metody wielopoziomowe były najlepszym wyborem, z racji na to, że gwarantowały najlepsze wyniki partycjonowania}
-    \item {Wiele metod wielopoziomowych do wyboru - \cite{metis, jostle, Bui1993AHF, 103500, 185177, 279334, inproceedings, 129970, 10.1145/165939.165942},
-        jednak brałem pod uwagę metody state-of-the-art jak Party \cite{1364754}, Metis \cite{metis}, Jostle \cite{jostle}, Chaco \cite{inproceedings},
-        dlatego głównie na nich skupię się w tym porównaniu.}
-    \item {podobieństwa i różnice -  Do zmniejszenia grafu stosowane są różne warianty Matching Algorithm.
-    Porównanie większości z nich można znaleźć tutaj \cite{Analysis}
-    Przykładowo biblioteka Party \cite{1364754} oraz Bui and Jones \cite{Bui1993AHF} stosują Maximal Weighted Matching \cite{weighted_maching}.
-    Ze względu na wymagania co do złożoności obliczeniowej wszystkie algorytmy używają heurystyk.
-    Wszystkie z tych metod zmniejszają graf, jednak tylko Jostle i Party zmniejsza graf,
-    aż do otrzymania liczby wierzchołków równej liczbie partycji, na które chcemy podzielić wejściowy graf.
-    Dzięki temu metoda partycjonowania, działająca na najmniejszym możliwym grafie jest dużo prostsza niż w pozostałych metodach.}
-\end{itemize}
+Metody wielopoziomowe były najlepszym wyborem, z racji na to, że gwarantowały najlepsze wyniki partycjonowania.
+Przykładów metod wielopoziomowych było bardzo dużo \cite{metis, jostle, Bui1993AHF, 103500, 185177, 279334, inproceedings, 129970, 10.1145/165939.165942},
+jednak skupiłem się głównie na tych, które dawały wyniki state-of-the-art. Były to biblioteki:
+Party \cite{1364754}, Metis \cite{metis}, Jostle \cite{jostle}, Chaco \cite{inproceedings}.
 
-Biblioteka Party \cite{1364754} okazała się dawać najlepsze rezultaty w porównaniu do innych bibliotek dających rezultaty
-state-of-the-art.
-Ponadto faza zmniejszania grafu często jest stosunkowo łatwa do zrównoleglenia \cite{KARYPIS199871}. Fazą, która nie podlega
-zrównolegleniu jest faza ulepszania istniejącego podziału.
-Najczęsciej bazuje ona na metodzie Fiduccia-Mattheysesa \cite{10.5555/800263.809204},
+Do zmniejszenia grafu stosowane są różne warianty matching algorithm (algorytm do budowania skojarzeń w grafie).
+Porównanie większości z nich można znaleźć tutaj \cite{Analysis}.
+Przykładowo biblioteka Jones oraz Bui \cite{Bui1993AHF} używam random weighted matching, natomiast Party \cite{1364754}
+stosuje LAM matching \cite{weighted_maching}.
+Ze względu na wymagania co do złożoności obliczeniowej wszystkie metody używają heurystyk.
+Wszystkie z tych metod zmniejszają graf, jednak tylko Jostle i Party zmniejsza graf
+aż do otrzymania liczby wierzchołków równej liczbie partycji, na które chcemy podzielić wejściowy graf.
+Dzięki temu metoda partycjonowania, działająca na najmniejszym możliwym grafie, jest dużo prostsza niż w pozostałych metodach.
+Kiedy graf jest zmniejszony, wierzchołki są przyporządkowywane do partycji a informacja na temat partycji jest propagowana
+do wierzchołków na wyższych poziomach zgodnie z partycją ich reprezentantów na najniższym poziomie. Ten proces prowadzi
+do partycjonowania początkowego grafu. Faza zmniejszania grafu jest ponadto stosunkowo łatwa do zrównoleglenia \cite{KARYPIS199871}.
+Fazą, która nie podlega zrównolegleniu jest faza ulepszania istniejącego podziału.
+Najczęściej bazuje ona na metodzie Fiduccia-Mattheysesa \cite{10.5555/800263.809204},
 która jest zoptymalizowaną pod kątem czasu działania heurystyką Kerninghan-Lin (KL) \cite{6771089}.
+W przeciwieństwie do Metis i Jostle, faza ulepszenia partycjonowania używana przez biblioteke Party bazuje na metodzie
+Helpful-Sets (HS). Heurystyka Helpful-Set wywodzi się z obserwacji teoretycznych wykorzystywanych do znajdowania górnych
+granic szerokości bisekcji grafów regularnych \cite{10.1007/3-540-54345-7_64, MONIEN2006475}.
+Szerokość bisekcji to minimalna liczba krawędzi, która musi zostać usunięta w celu podzielenia grafu na
+dwie równej wielkości części, lub różniące się wielkością o maksymalnie jeden wierzchołek.
+Party otrzymuje bardzo dobre wyniki stosując tę metodę \cite{10.1007/3-540-44842-X_6}, często uzyskując mniejszą długość
+granic pomiędzy obszarami niż Metis czy Jostle, jednocześnie jest tylko trochę bardziej kosztowna obliczeniowo.
+Heurystyka Helpful-Sets jest metodą bazującą na wyszukiwaniu lokalnym. Zaczynając od początkowej bisekcji \(\pi\) dąży
+do zminimalizowania długości granicy za pomocą lokalnie wprowadzanych zmian. Najważniejsza różnica względem metody KL
+polega na tym że KL przemieszcza tylko pojedyncze wierzchołki, natomiast HS zbiory wierzchołków. Zarówno Party, Metis
+jak i Jostle pozwalają na małe nierówności w kwestii wielkości obszarów co przekłada się na mniejsze długości granic,
+szczególnie na głębszych poziomach, kiedy przemieszczane są wierzchołki o dużych wagach - ciężko wtedy o otrzymanie
+idealnie równych obszarów.
 
-
-
+Biblioteka Party \cite{1364754} okazała się dawać najlepsze rezultaty w porównaniu do innych bibliotek dających wyniki
+state-of-the-art. Szczególną własnością Party była znacznie niższa długość granic w porównaniu do pozostałych bibliotek
+[Rysunek \ref{im:partitioning_results}], co było bardzo ważne dla mojej pracy. Dlatego to właśnie metodę z biblioteki
+Party zdecydowałem się modyfikować pod kątem obszarów niepodzielnych oraz obszarów wyłączonych z obliczeń.

@@ -11,45 +11,45 @@ Warning--empty booktitle in Analysis
 Warning--empty journal in improved_spectral
 Warning--empty booktitle in Miller1994ACP
 Warning--empty booktitle in NourOmid1987SolvingFE
-You've used 28 entries,
+You've used 31 entries,
             2118 wiz_defined-function locations,
-            666 strings with 8382 characters,
-and the built_in function-call counts, 10225 in all, are:
-= -- 1012
-> -- 423
-< -- 13
-+ -- 175
-- -- 135
-* -- 604
-:= -- 1583
-add.period$ -- 90
-call.type$ -- 28
-change.case$ -- 152
+            689 strings with 9139 characters,
+and the built_in function-call counts, 11505 in all, are:
+= -- 1145
+> -- 474
+< -- 15
++ -- 194
+- -- 150
+* -- 688
+:= -- 1783
+add.period$ -- 102
+call.type$ -- 31
+change.case$ -- 166
 chr.to.int$ -- 0
-cite$ -- 36
-duplicate$ -- 480
-empty$ -- 827
-format.name$ -- 135
-if$ -- 2284
+cite$ -- 39
+duplicate$ -- 535
+empty$ -- 931
+format.name$ -- 150
+if$ -- 2571
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 26
-newline$ -- 144
-num.names$ -- 58
-pop$ -- 180
+int.to.str$ -- 31
+missing$ -- 29
+newline$ -- 160
+num.names$ -- 68
+pop$ -- 195
 preamble$ -- 1
-purify$ -- 122
+purify$ -- 133
 quote$ -- 0
-skip$ -- 406
+skip$ -- 448
 stack$ -- 0
-substring$ -- 552
-swap$ -- 170
-text.length$ -- 13
+substring$ -- 645
+swap$ -- 189
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 112
+type$ -- 124
 warning$ -- 8
-while$ -- 85
-width$ -- 30
-write$ -- 313
+while$ -- 100
+width$ -- 33
+write$ -- 352
 (There were 8 warnings)

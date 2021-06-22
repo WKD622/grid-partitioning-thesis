@@ -62,6 +62,14 @@ B.~Hendrickson and R.~Leland.
 \newblock A multi-level algorithm for partitioning graphs.
 \newblock pages 28-- 28, 02 1995.
 
+\bibitem{10.1007/3-540-54345-7_64}
+J.~Hromkovi{\v{c}} and B.~Monien.
+\newblock The bisection problem for graphs of degree 4 (configuring transputer
+  systems).
+\newblock In A.~Tarlecki, editor, {\em Mathematical Foundations of Computer
+  Science 1991}, pages 211--220, Berlin, Heidelberg, 1991. Springer Berlin
+  Heidelberg.
+
 \bibitem{Analysis}
 G.~Karypis and V.~Kumar.
 \newblock Analysis of multilevel graph partitioning.
@@ -124,6 +132,12 @@ G.~L. Miller, S.~Teng, W.~Thurston, and S.~A. Vavasis.
   Application, pages 57--84. Springer-Verlag, 1993.
 \newblock Vol 56.
 
+\bibitem{MONIEN2006475}
+B.~Monien and R.~Preis.
+\newblock Upper bounds on the bisection width of 3- and 4-regular graphs.
+\newblock {\em Journal of Discrete Algorithms}, 4(3):475--498, 2006.
+\newblock Special issue in honour of Giorgio Ausiello.
+
 \bibitem{1364754}
 B.~Monien and S.~Schamberger.
 \newblock Graph partitioning with the party library: helpful-sets in practice.
@@ -159,6 +173,14 @@ R.~Preis.
 P.~Raghavan.
 \newblock Line and plane separators.
 \newblock Technical report, LAPACK WORKING NOTE 63 (UT CS-93-202), 1993.
+
+\bibitem{10.1007/3-540-44842-X_6}
+S.~Schamberger.
+\newblock Improvements to the helpful-set algorithm and a new evaluation scheme
+  for graph-partitioners.
+\newblock In V.~Kumar, M.~L. Gavrilova, C.~J.~K. Tan, and P.~L'Ecuyer, editors,
+  {\em Computational Science and Its Applications --- ICCSA 2003}, pages
+  49--53, Berlin, Heidelberg, 2003. Springer Berlin Heidelberg.
 
 \bibitem{jostle}
 C.~Walshaw and M.~Cross.
