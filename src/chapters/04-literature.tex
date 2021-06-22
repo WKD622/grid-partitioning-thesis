@@ -17,13 +17,31 @@ Zgodnie z ich analizą metody dzielimy na:
 \end{itemize}
 
 \subsubsection{Metody spektralne}
+\begin{wrapfigure}{r}{0.35\textwidth}
+    \vspace{-4mm}
+    \includegraphics[width=\linewidth]{images/recursive}
+    \caption{Przedstawia partycjonowanie rekursywne na głębokości wynoszącej 2. Linia partycjonowania a-b, która została stworzona
+    przez partycjonowanie poziomu 1 jest podzielona na 3 segmenty przez dwie linie partycjonowania poziomu drugiego:
+    c-d, e-f. Źródło: \cite{recursive}}
+    \label{im:recursive_partitioning}
+\end{wrapfigure}
 Partycjonowanie spektralne daje dobre rezultaty i jest metodą w miarę często używaną
-\cite{10.1137/0611030, 10.5555/147877.147902, improved_spectral}. Są to jednak metody kosztowne z racji na
+\cite{10.1137/0611030, 10.5555/147877.147902, improved_spectral}.
+Metoda \cite{10.1137/0611030} pokazuje algebraiczne podejście do obliczania separatorów wierzchołków - dolne granice
+rozmiarów separatorów można uzyskać w postaci wartości własnych macierzy Laplace'a związanej z grafem.
+Wektory własne Laplace'a (!!!) grafów siatkowych (!!!) można obliczyć z iloczynów Kroneckera (!!!) obejmujących wektory własne grafów typu
+ścieżka, a te wektory własne mogą być użyte do obliczania separatorów w grafach siatkowych.
+Artykuł \cite{10.5555/147877.147902} opisuje algorytm spectral nested dissection (SND) (!!!).
+Algorytm ten za pomocą znajomości spektralnych właściwości macierzy Laplacian (org. Laplacian matrix) (!!!) oblicza separatory w grafie.
+Artykuł \cite{improved_spectral} mówi o nowatorskim rozwinięciu metody spektralnej pod kątem umożliwienia podziału
+obliczeń na cztery bądź osiem części na każdym etapie rekursywnej dekompozycji.
+Są to jednak wszystko metody kosztowne z racji na
 obliczanie wektorowa własnego odpowiadającego drugiej najmniejszej wartości własnej (Fielder wektor).
-Istnieję udane próby ulepszenia czasu wykonania tych metod, które polegają na liczeniu Fielder wektora poprzez
+Istnieją udane próby ulepszenia czasu wykonania tych metod, które polegają na liczeniu Fielder wektora poprzez
 algorytm wielopoziomowy - MSB \cite{fast_multilevel}. Jednak nawet te metody wciąż charakteryzują się wysoką złożonością.
 
 \subsubsection{Metody rekursywne}
+
 Są to metody często prostsze w implementacji, jednak nie sprawdzają się tak dobrze w kontekście bardziej
 skomplikowanych problemów głównie ze względu na to, że mają zachłanną naturę.
 Ponadto wykorzystanie takich algorytmów w kontekście niepodzielnych obszarów nie zdaje egzaminu,
@@ -36,31 +54,72 @@ niepodzielnym.
 Metoda \cite{recursive} zakłada żę dzielimy siatkę na liczbę obszarów,
 która jest równa potędze liczby dwa. Ta metoda potrafi także dzielić siatkę wedle możliwości obliczeniowych
 poszczególnych rdzeni procesora. Czasami metody rekursywne są implementowane jako faza metod
-bisekcji spektralnej \cite{10.1137/0611030}.
+bisekcji spektralnej \cite{10.1137/0611030}. Przykłady działania partycjonowania rekursywnego przedstawione są na rysunkach
+\ref{im:recursive_partitioning} oraz \ref{im:rec_partitioning}.
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/recursive-part}
+    \caption{Metoda rekursywna - binarna dekompozycja dla 16 procesorów. Najpierw tworzone jest wertykalne cięcie,
+        które gwarantuje, że prawy i lewy obszar
+    zawiera połowę pracy do wykonania (lub takie, które jest jak najbliżej takiego podziału). Jeśli dostępne
+    są 4 procesory to każdy z dwóch segmentów partycjonowany jest horyzontalną linią, która spełnia te same założenia
+    jak ta dla pierwszego wertykalnego cięcia. Procedura jest kontynuowana na zmianę wykorzystując wertykalne i
+    horyzontalne cięcie aż do otrzymania podziału na oczekiwaną liczby obszarów. Źródło: \cite{recursive}}
+    \label{im:rec_partitioning}
+\end{figure}
+
+\newpage
 
 \subsubsection{Metody geometryczne}
-Inną klasą metod są metody geometryczne \cite{Miller1994ACP, Raghavan93lineand, 185417, MiTeThVa93, NourOmid1987SolvingFE}.
+
+\begin{wrapfigure}{r}{0.41\textwidth}
+    \vspace{-4mm}
+    \includegraphics[width=\linewidth]{images/recursive-partitioning}
+    \caption{Rekursywne partycjonowanie mapy USA - pierwszy obrazek od góry - za pomocą algorytmu numer 5 z artykułu \cite{MiTeThVa93},
+        strona 76. Dwa następne obrazki prezentują rezultat. Najpierw używane są geometryczne dane do obliczenia
+        ''continuous separator'' (!!!), następnie znajdowany jest ''vertex separator'' (!!!).}
+\end{wrapfigure}
+
+
+Inną klasą metod są metody geometryczne
+\cite{Miller1994ACP, Raghavan93lineand, 185417, MiTeThVa93, NourOmid1987SolvingFE}.
 Ich cechą charakterystyczną jest szybki czas wykonania, natomiast gorsze rezultaty podziału.
-Najlepsze wyniki spośród wyżej wymienionych metod prezentują \cite{185417, MiTeThVa93}, natomiast z powodu
-losowej natury wymagane jest wielokrotne użycie algorytmu (od 5 do 50 razy) aby uzyskać wynik porównywalny
-z metodami spektralnymi. Wielokrotnie wywołanie zwiększa czas otrzymywania rezultatu, natomiast jest
+Najlepsze wyniki spośród wyżej wymienionych metod prezentują \cite{185417, MiTeThVa93}.
+W artykule \cite{185417} zaproponowane klasę grafów zwaną k-overlap graphs (!!!). Istnienie
+separatora granicznego (separator bound) (!!!) jest udowodniony dla grafów k-overlap osadzonych (embedded) (!!!) w d wymiarach. Wyniki w tym
+artykule unifikują kilka wcześniejszych wyników dla separatorów.
+Separatory graniczne są obliczane w czasie liniowym (randomized linear-time) (!!!).
+Jeśli mamy K separatorów dla grafu o N wierzchołkach oznacza to, że istnieje podzbiór wierzchołków o wielkości K,
+których usunięcie spowoduje powstanie dwóch komponentów o mniej więcej podobnym rozmiarze.
+W artykule \cite{MiTeThVa93} opisano efektywną metodę partycjonowania siatek niestrukturalnych, która występują w metodach
+elementów skończonych (!!!) i różnic skończonych (!!!). Podejście to wykorzystuję strukturę geometryczną danej siatki i znajduje
+dobre partycjonowanie w czasie \(O(n)\). Można je aplikować do siatek w dwóch i trzech wymiarach. Ma zastosowanie
+w wydajnych algorytmach sekwencyjnych i równoległych do rozwiązywania rozbudowanych problemów (large-scale problems)
+w obliczeniach naukowych.
+Charakterystyką metod geometrycznych jest to, że z powodu losowej natury wymagane jest wielokrotne użycie algorytmu
+(od 5 do 50 razy) aby uzyskać wynik porównywalny z metodami spektralnymi.
+Wielokrotnie wywołanie zwiększa czas otrzymywania rezultatu, natomiast jest
 on wciąż niższy od metod spektralnych. Metody geometryczne są aplikowalne tylko w przypadku kiedy dostępne
 są współrzędne wszystkich wierzchołków w grafie. Dla wielu dziedzin problemów (programowanie liniowe, VLSI),
 nie otrzymujemy współrzędnych wraz z grafem. Istnieją algorytmy, które są w stanie obliczyć współrzędne dla
 wierzchołków grafu \cite{Chan95geometricspectral} wykorzystując metody spektralne ale są bardzo kosztowne i dominują czas potrzebny
 na samo partycjonowanie grafu.
-\newline\newline
+
+\newpage
+
+\subsubsection{Metody wielopoziomowe}
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=\linewidth]{images/coarsening}
     \caption{Wielopoziomowe partycjonowanie grafu przedstawiające fazę zmniejszania grafu, następnie przypisanie
-    partycji na zmniejszonym grafie, na końcu przywrócenie grafu to początkowej wielkości.
-    Źródło\cite{KARYPIS199896}.}
+    partycji na zmniejszonym grafie, na końcu przywrócenie grafu do początkowej wielkości.
+    Źródło: \cite{KARYPIS199896}.}
     \label{im:multilevel_partitioning}
 \end{figure}
 
-\subsubsection{Metody wielopoziomowe}
 \cite{metis, jostle, Bui1993AHF, 103500, 185177, 279334, inproceedings, 129970, 10.1145/165939.165942}
 - cechą charakterystyczną tego podejścia jest redukcja
 wielkości grafu poprzez łączenie wierzchołków i krawędzi, następnie dzielenie zmniejszonego grafu na partycje, ostatnią fazą
