@@ -187,4 +187,12 @@ C.~Walshaw and M.~Cross.
 \newblock Mesh partitioning: A multilevel balancing and refinement algorithm.
 \newblock {\em SIAM Journal on Scientific Computing}, 22, 07 2004.
 
+\bibitem{wiki:Graph_embedding}
+Wikipedia.
+\newblock {Graph embedding} --- {W}ikipedia{,} the free encyclopedia.
+\newblock
+  \url{http://en.wikipedia.org/w/index.php?title=Graph\%20embedding&oldid=1019397582},
+  2021.
+\newblock [Online; accessed 28-June-2021].
+
 \end{thebibliography}
