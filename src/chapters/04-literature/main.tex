@@ -6,7 +6,7 @@
 
 \subsection{Istniejące metody partycjonowania grafów}
 
-1. Rozbudowany podział metod został zaproponowany przez autorów artykułu - \cite{metis}
+Rozbudowany podział metod został zaproponowany przez autorów artykułu - \cite{metis}
 oraz \cite{1364754}
 Zgodnie z ich analizą metody dzielimy na:
 \begin{itemize}
@@ -83,7 +83,7 @@ niepodzielnym. Wykorzystanie takich algorytmów w kontekście niepodzielnych obs
 
 \begin{wrapfigure}{r}{0.41\textwidth}
     \includegraphics[width=\linewidth]{images/recursive-partitioning}
-    \caption{Rekursywne partycjonowanie mapy USA - pierwszy obrazek od góry - za pomocą algorytmu artykułu \cite{MiTeThVa93}.
+    \caption{Rekursywne partycjonowanie mapy USA - pierwszy obrazek od góry - za pomocą algorytmu z artykułu \cite{MiTeThVa93}.
     Dwa następne obrazki prezentują rezultat. Dane geometryczne używane są do obliczenia separatorów.}
 \end{wrapfigure}
 
@@ -100,7 +100,7 @@ wierzchołków o wcześniej wymienionej wielkości, który po usunięciu rozłą
 Wyniki w tym artykule unifikują kilka wcześniejszych wyników dla obliczania separatorów.
 Ponadto autorzy proponują rozwiązanie, które oblicza separatory w czasie liniowym.
 W artykule \cite{MiTeThVa93} opisano efektywną metodę partycjonowania siatek niestrukturalnych, która występują w metodach
-elementów skończonych i różnic skończonych. Podejście to wykorzystuję strukturę geometryczną danej siatki i znajduje
+elementów skończonych i różnic skończonych. Podejście to wykorzystuje strukturę geometryczną danej siatki i znajduje
 dobre partycjonowanie w czasie \(O(n)\). Można je aplikować do siatek w dwóch i trzech wymiarach. Ma zastosowanie
 w wydajnych algorytmach sekwencyjnych i równoległych do rozwiązywania rozbudowanych problemów w obliczeniach naukowych.
 Charakterystyką metod geometrycznych jest to, że z powodu losowej natury wymagane jest wielokrotne użycie algorytmu
@@ -111,7 +111,7 @@ są współrzędne wszystkich wierzchołków w grafie. Dla wielu dziedzin proble
 nie otrzymujemy współrzędnych wraz z grafem. Istnieją algorytmy, które są w stanie obliczyć współrzędne dla
 wierzchołków grafu \cite{Chan95geometricspectral} wykorzystując metody spektralne ale są bardzo kosztowne i dominują czas potrzebny
 na samo partycjonowanie grafu.
-Implementacje tego typu metod nie znalazły się wśród algorytmów stat-of-the-art dla problemu partycjonowania grafów,
+Implementacje tego typu metod nie znalazły się wśród algorytmów state-of-the-art dla problemu partycjonowania grafów,
 więc nie były brane pod uwagę w kontekście niniejszej pracy.
 
 \newpage
@@ -197,5 +197,5 @@ idealnie równych obszarów.
 
 Biblioteka Party \cite{1364754} okazała się dawać najlepsze rezultaty w porównaniu do innych bibliotek dających wyniki
 state-of-the-art. Szczególną własnością Party była znacznie niższa długość granic w porównaniu do pozostałych bibliotek
-[Rysunek \ref{im:partitioning_results}], co było bardzo ważne dla mojej pracy. Dlatego to właśnie metodę z biblioteki
+(Rysunek \ref{im:partitioning_results}), co było bardzo ważne dla mojej pracy. Dlatego to właśnie metodę z biblioteki
 Party zdecydowałem się wybrać jako podstawę rozwiązania prezentowanego w niniejszej pracy.

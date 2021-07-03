@@ -5,3 +5,12 @@
 \BOOKMARK [3][-]{subsubsection.1.1.3}{Metody geometryczne}{subsection.1.1}% 5
 \BOOKMARK [3][-]{subsubsection.1.1.4}{Metody wielopoziomowe}{subsection.1.1}% 6
 \BOOKMARK [2][-]{subsection.1.2}{Por\363wnanie istniejacych metod wielopoziomowych}{section.1}% 7
+\BOOKMARK [1][-]{section.2}{Szkielet rozdzia\233u czwartego - }{}% 8
+\BOOKMARK [2][-]{subsection.2.1}{Og\363lny opis algorytmu}{section.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Podzia\233 siatki na m k obszar\363w}{subsection.2.1}% 10
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Podzia\233 siatki na m obszar\363w}{subsection.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.2}{Podzia\233 siatki na m k obszar\363w - dok\233adny opis}{section.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Mapowanie obrazka na graf}{subsection.2.2}% 13
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Zmniejszanie i partycjonowanie grafu za pomoca algorytmu LAM}{subsection.2.2}% 14
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Modyfikacje algorytmu LAM}{subsection.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.3}{Przywracanie grafu do poczatkowego rozmiaru wraz z ulepszeniem podzia\233u}{section.2}% 16

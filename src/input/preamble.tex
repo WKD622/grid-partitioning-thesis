@@ -25,32 +25,33 @@
 \usepackage{subcaption}
 \usepackage{float}
 \usepackage{soul}
+\usepackage{placeins}
 
 \usetikzlibrary{matrix,calc}
 
 \setlength{\parindent}{0pt}
- 
+
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
 \definecolor{pythonbackcolour}{rgb}{1,1,0.94}
 \definecolor{consolebackcolour}{rgb}{0.32,0.32,0.35}
 \definecolor{lightblue}{RGB}{219, 255, 250}
-\definecolor{mygray}{RGB}{232, 232, 232}
+\definecolor{mygray}{RGB}{250, 250, 250}
 \definecolor{purple}{RGB}{249, 255, 229}
- 
-\lstdefinestyle{pythonstyle}{
-	frame=single,
-    backgroundcolor=\color{pythonbackcolour},   
+
+\lstdefinestyle{pseudocodestyle}{
+    frame=single,
+    backgroundcolor=\color{mygray},
     commentstyle=\color{codegreen},
     keywordstyle=\color{magenta},
     numberstyle=\tiny\color{codegray},
     stringstyle=\color{codepurple},
     basicstyle=\ttfamily\footnotesize,
-    breakatwhitespace=false,         
-    breaklines=true,                 
-    captionpos=b,                     
-    keepspaces=true,                 
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
     numbers=left,                    
     numbersep=5pt,                  
     showspaces=false,                
@@ -119,10 +120,10 @@
     breaklines=true,                 
     captionpos=b,                     
     keepspaces=true,                                   
-    numbersep=5pt,                  
-    showspaces=false,                
+    numbersep=5pt,
+    showspaces=false,
     showstringspaces=false,
-    showtabs=false,                  
+    showtabs=false,
     tabsize=2,
     showlines=true,
     aboveskip=1em,
@@ -130,14 +131,18 @@
 }
 
 
+\lstnewenvironment{pseudocode}
+{\lstset{style=pseudocodestyle, mathescape=true, escapeinside=@@}}
+{}
+
 \lstnewenvironment{python}
-  {\lstset{language = python, style=pythonstyle}}
-  {}
- 
- \lstnewenvironment{import}
-  {\lstset{language = python, style=importstyle}}
-  {}
-  
+{\lstset{language = python, style=pythonstyle}}
+{}
+
+\lstnewenvironment{import}
+{\lstset{language = python, style=importstyle}}
+{}
+
 \lstnewenvironment{bash}
   {\lstset{language=bash, style=consolestyle}}
   {}
@@ -147,15 +152,6 @@
   {}
   
 \newcommand{\myspace}{\vspace{6mm}}
- 
-\newcommand{\languages}{
-\begin{itemize}
-	\item Angielski (en)
-	\item Hiszpański (es)
-	\item Grecki (gr)
-	\item Holenderski (nl)
-\end{itemize}
-}
 
 \newcommand{\TODO}[1]{
 \myspace
@@ -175,3 +171,5 @@
 \supervisor{dr hab. inż. Wojciech Turek}
 
 \date{\the\year}
+
+\newtheorem{definition}{Definition}
