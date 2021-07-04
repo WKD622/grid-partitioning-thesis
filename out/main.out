@@ -14,3 +14,4 @@
 \BOOKMARK [3][-]{subsubsection.2.2.2}{Zmniejszanie i partycjonowanie grafu za pomoca algorytmu LAM}{subsection.2.2}% 14
 \BOOKMARK [3][-]{subsubsection.2.2.3}{Modyfikacje algorytmu LAM}{subsection.2.2}% 15
 \BOOKMARK [2][-]{subsection.2.3}{Przywracanie grafu do poczatkowego rozmiaru wraz z ulepszeniem podzia\233u}{section.2}% 16
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Uzywanie Helpful Sets w celu zmniejszenia d\233ugosci granic}{subsection.2.3}% 17
