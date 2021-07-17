@@ -182,6 +182,11 @@ S.~Schamberger.
   {\em Computational Science and Its Applications --- ICCSA 2003}, pages
   49--53, Berlin, Heidelberg, 2003. Springer Berlin Heidelberg.
 
+\bibitem{algorithms222}
+R.~Sedgewick and K.~Wayne.
+\newblock {\em Algorithms, 4th Edition.}
+\newblock Addison-Wesley, 2011.
+
 \bibitem{jostle}
 C.~Walshaw and M.~Cross.
 \newblock Mesh partitioning: A multilevel balancing and refinement algorithm.

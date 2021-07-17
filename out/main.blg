@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2019)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: abbrv.bst
 Database file #1: input/main.bib
@@ -11,45 +11,45 @@ Warning--empty booktitle in Analysis
 Warning--empty journal in improved_spectral
 Warning--empty booktitle in Miller1994ACP
 Warning--empty booktitle in NourOmid1987SolvingFE
-You've used 33 entries,
+You've used 34 entries,
             2118 wiz_defined-function locations,
-            700 strings with 9585 characters,
-and the built_in function-call counts, 11939 in all, are:
-= -- 1189
-> -- 488
+            706 strings with 9686 characters,
+and the built_in function-call counts, 12190 in all, are:
+= -- 1211
+> -- 501
 < -- 15
-+ -- 200
-- -- 154
-* -- 700
-:= -- 1857
-add.period$ -- 110
-call.type$ -- 33
-change.case$ -- 174
++ -- 205
+- -- 158
+* -- 712
+:= -- 1901
+add.period$ -- 113
+call.type$ -- 34
+change.case$ -- 178
 chr.to.int$ -- 0
-cite$ -- 41
-duplicate$ -- 549
-empty$ -- 975
-format.name$ -- 154
-if$ -- 2667
+cite$ -- 42
+duplicate$ -- 561
+empty$ -- 997
+format.name$ -- 158
+if$ -- 2720
 int.to.chr$ -- 0
-int.to.str$ -- 33
-missing$ -- 29
-newline$ -- 172
-num.names$ -- 72
-pop$ -- 211
+int.to.str$ -- 34
+missing$ -- 31
+newline$ -- 177
+num.names$ -- 74
+pop$ -- 220
 preamble$ -- 1
-purify$ -- 139
+purify$ -- 143
 quote$ -- 0
-skip$ -- 460
+skip$ -- 467
 stack$ -- 0
-substring$ -- 655
-swap$ -- 191
+substring$ -- 660
+swap$ -- 192
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 132
+type$ -- 134
 warning$ -- 8
-while$ -- 104
-width$ -- 35
-write$ -- 376
+while$ -- 106
+width$ -- 36
+write$ -- 386
 (There were 8 warnings)
