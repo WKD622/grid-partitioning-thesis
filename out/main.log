@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.5)  17 JUL 2021 12:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.5)  21 JUL 2021 22:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -165,25 +165,190 @@ Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 Package: polski 2017/05/04 v1.3.4 Polish language package
 
    Inputenc package detected. Catcodes not changed.
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count192
-\lst@gtempboxa=\box48
-\lst@token=\toks20
-\lst@length=\count193
-\lst@currlwidth=\dimen159
-\lst@column=\count194
-\lst@pos=\count195
-\lst@lostspace=\dimen160
-\lst@width=\dimen161
-\lst@newlines=\count196
-\lst@lineno=\count197
-\lst@maxwidth=\dimen162
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count192
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count193
+\FV@InFile=\read3
+\FV@TabBox=\box48
+\c@FancyVerbLine=\count194
+\FV@StepNumber=\count195
+\FV@OutFile=\write3
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count196
+\output=\toks20
+\linenoprevgraf=\count197
+\linenumbersep=\dimen159
+\linenumberwidth=\dimen160
+\c@linenumber=\count198
+\c@pagewiselinenumber=\count199
+\c@LN@truepage=\count266
+\c@internallinenumber=\count267
+\c@internallinenumbers=\count268
+\quotelinenumbersep=\dimen161
+\bframerule=\dimen162
+\bframesep=\dimen163
+\bframebox=\box49
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count269
+\c@FV@TrueTabCounter=\count270
+\FV@TabBox@Group=\box50
+\FV@TmpLength=\skip60
+\c@FV@HighlightLinesStart=\count271
+\c@FV@HighlightLinesStop=\count272
+\FV@LoopCount=\count273
+\FV@NCharsBox=\box51
+\FV@BreakIndent=\dimen164
+\FV@BreakIndentNChars=\count274
+\FV@BreakSymbolSepLeft=\dimen165
+\FV@BreakSymbolSepLeftNChars=\count275
+\FV@BreakSymbolSepRight=\dimen166
+\FV@BreakSymbolSepRightNChars=\count276
+\FV@BreakSymbolIndentLeft=\dimen167
+\FV@BreakSymbolIndentLeftNChars=\count277
+\FV@BreakSymbolIndentRight=\dimen168
+\FV@BreakSymbolIndentRightNChars=\count278
+\c@FancyVerbLineBreakLast=\count279
+\FV@LineBox=\box52
+\FV@LineIndentBox=\box53
+\FV@LineWidth=\dimen169
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count280
+\calc@Bcount=\count281
+\calc@Adimen=\dimen170
+\calc@Bdimen=\dimen171
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count282
+\calc@Cskip=\skip63
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+
+Package ifplatform Warning: 
+    shell escape is disabled, so I can only detect \ifwindows.
+
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count283
+\decimalpart=\count284
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip64
+\fb@frw=\dimen172
+\fb@frh=\dimen173
+\FrameRule=\dimen174
+\FrameSep=\dimen175
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/newfloat/newfloat.sty
+Package: newfloat 2019/09/02 v1.1l Defining new floating environments (AR)
+)
+\minted@appexistsfile=\read4
+\minted@bgbox=\box54
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count285
+\c@minted@pygmentizecounter=\count286
+Package newfloat Info: New float `listing' with options `fileext=lol,placement=
+tbp' on input line 1151.
+\c@listing=\count287
+\newfloat@ftype=\count288
+Package newfloat Info: float type `listing'=8 on input line 1151.
+)
+runsystem(mkdir -p _minted-main)...disabled (restricted).
+
+
+
+./input/preamble.tex:11: Package minted Error: You must invoke LaTeX with the -
+shell-escape flag.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \usepackage
+                {graphicx}
+Pass the -shell-escape flag to LaTeX. Refer to the minted.sty documentation for
+ more information.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count289
+\lst@gtempboxa=\box55
+\lst@token=\toks21
+\lst@length=\count290
+\lst@currlwidth=\dimen176
+\lst@column=\count291
+\lst@pos=\count292
+\lst@lostspace=\dimen177
+\lst@width=\dimen178
+\lst@newlines=\count293
+\lst@lineno=\count294
+\lst@maxwidth=\dimen179
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count198
-\lst@skipnumbers=\count199
-\lst@framebox=\box49
+\c@lstnumber=\count295
+\lst@skipnumbers=\count296
+\lst@framebox=\box56
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -254,23 +419,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
 
-(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
@@ -286,12 +434,9 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-)
-\@linkdim=\dimen163
-\Hy@linkcounter=\count266
-\Hy@pagecounter=\count267
+\@linkdim=\dimen180
+\Hy@linkcounter=\count297
+\Hy@pagecounter=\count298
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
@@ -304,10 +449,7 @@ nguages
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count268
+\Hy@SavedSpaceFactor=\count299
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
@@ -321,14 +463,14 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count269
+\c@Hy@tempcnt=\count300
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen164
+\XeTeXLinkMargin=\dimen181
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -337,9 +479,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count270
-\Field@Width=\dimen165
-\Fld@charsize=\dimen166
+\Fld@menulength=\count301
+\Field@Width=\dimen182
+\Fld@charsize=\dimen183
 Package hyperref Info: Hyper figures OFF on input line 6075.
 Package hyperref Info: Link nesting OFF on input line 6080.
 Package hyperref Info: Hyper index ON on input line 6083.
@@ -355,9 +497,9 @@ Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count271
-\c@Item=\count272
-\c@Hfootnote=\count273
+\Hy@abspage=\count302
+\c@Item=\count303
+\c@Hfootnote=\count304
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -369,8 +511,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count274
-\c@bookmark@seq@number=\count275
+\Fld@listcount=\count305
+\c@bookmark@seq@number=\count306
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -381,25 +523,12 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip60
+\Hy@SectionHShift=\skip65
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count276
-\c@@ppsavesec=\count277
-\c@@ppsaveapp=\count278
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count279
-\calc@Bcount=\count280
-\calc@Adimen=\dimen167
-\calc@Bdimen=\dimen168
-\calc@Askip=\skip61
-\calc@Bskip=\skip62
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count281
-\calc@Cskip=\skip63
+\c@@pps=\count307
+\c@@ppsavesec=\count308
+\c@@ppsaveapp=\count309
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
@@ -407,19 +536,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count282
+\actioncount=\count310
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count283
-\FP@xia=\count284
-\FP@xib=\count285
-\FP@xfa=\count286
-\FP@xfb=\count287
-\FP@rega=\count288
-\FP@regb=\count289
-\FP@regs=\count290
-\FP@times=\count291
+\FP@xs=\count311
+\FP@xia=\count312
+\FP@xib=\count313
+\FP@xfa=\count314
+\FP@xfb=\count315
+\FP@rega=\count316
+\FP@regb=\count317
+\FP@regs=\count318
+\FP@times=\count319
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -438,7 +567,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count292
+\FPseed=\count320
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -454,26 +583,26 @@ Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/dirtree/dirtree.tex
 `dirtree' v0.32, 2012/12/11 (jcc)
-\DT@offset=\dimen169
-\DT@width=\dimen170
-\DT@sep=\dimen171
-\DT@all=\dimen172
-\DT@rulewidth=\dimen173
-\DT@dotwidth=\dimen174
-\DTbaselineskip=\dimen175
-\DT@counti=\count293
-\DT@countii=\count294
-\DT@countiii=\count295
-\DT@countiv=\count296
-\DT@indent=\dimen176
-\DT@parskip=\dimen177
-\DT@baselineskip=\dimen178
+\DT@offset=\dimen184
+\DT@width=\dimen185
+\DT@sep=\dimen186
+\DT@all=\dimen187
+\DT@rulewidth=\dimen188
+\DT@dotwidth=\dimen189
+\DTbaselineskip=\dimen190
+\DT@counti=\count321
+\DT@countii=\count322
+\DT@countiii=\count323
+\DT@countiv=\count324
+\DT@indent=\dimen191
+\DT@parskip=\dimen192
+\DT@baselineskip=\dimen193
 )
 File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
-\@mathmargin=\skip64
+\@mathmargin=\skip66
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -481,23 +610,23 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
-\ex@=\dimen179
+\@emptytoks=\toks22
+\ex@=\dimen194
 ))
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen180
+\pmbraise@=\dimen195
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count297
+\inf@bad=\count325
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count298
-\leftroot@=\count299
+\uproot@=\count326
+\leftroot@=\count327
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count300
-\DOTSCASE@=\count301
+\classnum@=\count328
+\DOTSCASE@=\count329
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -532,31 +661,31 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-\Mathstrutbox@=\box50
-\strutbox@=\box51
-\big@size=\dimen181
+\Mathstrutbox@=\box57
+\strutbox@=\box58
+\big@size=\dimen196
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count302
-\c@MaxMatrixCols=\count303
+\macc@depth=\count330
+\c@MaxMatrixCols=\count331
 \dotsspace@=\muskip17
-\c@parentequation=\count304
-\dspbrk@lvl=\count305
-\tag@help=\toks22
-\row@=\count306
-\column@=\count307
-\maxfields@=\count308
-\andhelp@=\toks23
-\eqnshift@=\dimen182
-\alignsep@=\dimen183
-\tagshift@=\dimen184
-\tagwidth@=\dimen185
-\totwidth@=\dimen186
-\lineht@=\dimen187
-\@envbody=\toks24
-\multlinegap=\skip65
-\multlinetaggap=\skip66
-\mathdisplay@stack=\toks25
+\c@parentequation=\count332
+\dspbrk@lvl=\count333
+\tag@help=\toks23
+\row@=\count334
+\column@=\count335
+\maxfields@=\count336
+\andhelp@=\toks24
+\eqnshift@=\dimen197
+\alignsep@=\dimen198
+\tagshift@=\dimen199
+\tagwidth@=\dimen256
+\totwidth@=\dimen257
+\lineht@=\dimen258
+\@envbody=\toks25
+\multlinegap=\skip67
+\multlinetaggap=\skip68
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
@@ -566,14 +695,14 @@ Package: tcolorbox 2020/10/09 version 4.42 text color boxes
 (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks26
-\pgfutil@tempdima=\dimen188
-\pgfutil@tempdimb=\dimen189
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen259
+\pgfutil@tempdimb=\dimen260
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box52
+\pgfutil@abb=\box59
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
@@ -585,33 +714,33 @@ Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks27
-\pgfkeys@temptoks=\toks28
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks29
+\pgfkeys@tmptoks=\toks30
 ))
-\pgf@x=\dimen190
-\pgf@y=\dimen191
-\pgf@xa=\dimen192
-\pgf@ya=\dimen193
-\pgf@xb=\dimen194
-\pgf@yb=\dimen195
-\pgf@xc=\dimen196
-\pgf@yc=\dimen197
-\pgf@xd=\dimen198
-\pgf@yd=\dimen199
-\w@pgf@writea=\write3
-\r@pgf@reada=\read3
-\c@pgf@counta=\count309
-\c@pgf@countb=\count310
-\c@pgf@countc=\count311
-\c@pgf@countd=\count312
-\t@pgf@toka=\toks30
-\t@pgf@tokb=\toks31
-\t@pgf@tokc=\toks32
-\pgf@sys@id@count=\count313
+\pgf@x=\dimen261
+\pgf@y=\dimen262
+\pgf@xa=\dimen263
+\pgf@ya=\dimen264
+\pgf@xb=\dimen265
+\pgf@yb=\dimen266
+\pgf@xc=\dimen267
+\pgf@yc=\dimen268
+\pgf@xd=\dimen269
+\pgf@yd=\dimen270
+\w@pgf@writea=\write5
+\r@pgf@reada=\read5
+\c@pgf@counta=\count337
+\c@pgf@countb=\count338
+\c@pgf@countc=\count339
+\c@pgf@countd=\count340
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+\pgf@sys@id@count=\count341
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
@@ -629,8 +758,8 @@ File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count314
-\pgfsyssoftpath@bigbuffer@items=\count315
+\pgfsyssoftpath@smallbuffer@items=\count342
+\pgfsyssoftpath@bigbuffer@items=\count343
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -642,12 +771,12 @@ Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen256
-\pgfmath@count=\count316
-\pgfmath@box=\box53
-\pgfmath@toks=\toks33
-\pgfmath@stack@operand=\toks34
-\pgfmath@stack@operation=\toks35
+\pgfmath@dimen=\dimen271
+\pgfmath@count=\count344
+\pgfmath@box=\box60
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -668,57 +797,57 @@ code.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count317
+\c@pgfmathroundto@lastzeros=\count345
 )) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@picminx=\dimen257
-\pgf@picmaxx=\dimen258
-\pgf@picminy=\dimen259
-\pgf@picmaxy=\dimen260
-\pgf@pathminx=\dimen261
-\pgf@pathmaxx=\dimen262
-\pgf@pathminy=\dimen263
-\pgf@pathmaxy=\dimen264
-\pgf@xx=\dimen265
-\pgf@xy=\dimen266
-\pgf@yx=\dimen267
-\pgf@yy=\dimen268
-\pgf@zx=\dimen269
-\pgf@zy=\dimen270
+\pgf@picminx=\dimen272
+\pgf@picmaxx=\dimen273
+\pgf@picminy=\dimen274
+\pgf@picmaxy=\dimen275
+\pgf@pathminx=\dimen276
+\pgf@pathmaxx=\dimen277
+\pgf@pathminy=\dimen278
+\pgf@pathmaxy=\dimen279
+\pgf@xx=\dimen280
+\pgf@xy=\dimen281
+\pgf@yx=\dimen282
+\pgf@yy=\dimen283
+\pgf@zx=\dimen284
+\pgf@zy=\dimen285
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@path@lastx=\dimen271
-\pgf@path@lasty=\dimen272
+\pgf@path@lastx=\dimen286
+\pgf@path@lasty=\dimen287
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@shorten@end@additional=\dimen273
-\pgf@shorten@start@additional=\dimen274
+\pgf@shorten@end@additional=\dimen288
+\pgf@shorten@start@additional=\dimen289
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfpic=\box54
-\pgf@hbox=\box55
-\pgf@layerbox@main=\box56
-\pgf@picture@serial@count=\count318
+\pgfpic=\box61
+\pgf@hbox=\box62
+\pgf@layerbox@main=\box63
+\pgf@picture@serial@count=\count346
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgflinewidth=\dimen275
+\pgflinewidth=\dimen290
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@pt@x=\dimen276
-\pgf@pt@y=\dimen277
-\pgf@pt@temp=\dimen278
+\pgf@pt@x=\dimen291
+\pgf@pt@y=\dimen292
+\pgf@pt@temp=\dimen293
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -735,14 +864,14 @@ File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
 File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfarrowsep=\dimen279
+\pgfarrowsep=\dimen294
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@max=\dimen280
-\pgf@sys@shading@range@num=\count319
-\pgf@shadingcount=\count320
+\pgf@max=\dimen295
+\pgf@sys@shading@range@num=\count347
+\pgf@shadingcount=\count348
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -751,7 +880,7 @@ File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfexternal@startupbox=\box57
+\pgfexternal@startupbox=\box64
 ))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -772,7 +901,7 @@ File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfnodeparttextbox=\box58
+\pgfnodeparttextbox=\box65
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -781,17 +910,17 @@ File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@nodesepstart=\dimen281
-\pgf@nodesepend=\dimen282
+\pgf@nodesepstart=\dimen296
+\pgf@nodesepend=\dimen297
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
 Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
 )) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks36
-\verbatim@line=\toks37
-\verbatim@in@stream=\read4
+\every@verbatim=\toks37
+\verbatim@line=\toks38
+\verbatim@in@stream=\read6
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
@@ -799,23 +928,19 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (/usr/local/texlive/2021/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count321
-)
-\tcb@titlebox=\box59
-\tcb@upperbox=\box60
-\tcb@lowerbox=\box61
-\tcb@phantombox=\box62
-\c@tcbbreakpart=\count322
-\c@tcblayer=\count323
-\c@tcolorbox@number=\count324
-\tcb@temp=\box63
-\tcb@temp=\box64
-\tcb@temp=\box65
-\tcb@temp=\box66
-\tcb@out=\write4
-\tcb@record@out=\write5
+\tcb@titlebox=\box66
+\tcb@upperbox=\box67
+\tcb@lowerbox=\box68
+\tcb@phantombox=\box69
+\c@tcbbreakpart=\count349
+\c@tcblayer=\count350
+\c@tcolorbox@number=\count351
+\tcb@temp=\box70
+\tcb@temp=\box71
+\tcb@temp=\box72
+\tcb@temp=\box73
+\tcb@out=\write6
+\tcb@record@out=\write7
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
@@ -827,10 +952,10 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen283
-\pgffor@skip=\dimen284
-\pgffor@stack=\toks38
-\pgffor@toks=\toks39
+\pgffor@iter=\dimen298
+\pgffor@skip=\dimen299
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
 ))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -839,45 +964,45 @@ Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count325
-\pgfplotmarksize=\dimen285
+\pgf@plot@mark@count=\count352
+\pgfplotmarksize=\dimen300
 )
-\tikz@lastx=\dimen286
-\tikz@lasty=\dimen287
-\tikz@lastxsaved=\dimen288
-\tikz@lastysaved=\dimen289
-\tikz@lastmovetox=\dimen290
-\tikz@lastmovetoy=\dimen291
-\tikzleveldistance=\dimen292
-\tikzsiblingdistance=\dimen293
-\tikz@figbox=\box67
-\tikz@figbox@bg=\box68
-\tikz@tempbox=\box69
-\tikz@tempbox@bg=\box70
-\tikztreelevel=\count326
-\tikznumberofchildren=\count327
-\tikznumberofcurrentchild=\count328
-\tikz@fig@count=\count329
+\tikz@lastx=\dimen301
+\tikz@lasty=\dimen302
+\tikz@lastxsaved=\dimen303
+\tikz@lastysaved=\dimen304
+\tikz@lastmovetox=\dimen305
+\tikz@lastmovetoy=\dimen306
+\tikzleveldistance=\dimen307
+\tikzsiblingdistance=\dimen308
+\tikz@figbox=\box74
+\tikz@figbox@bg=\box75
+\tikz@tempbox=\box76
+\tikz@tempbox@bg=\box77
+\tikztreelevel=\count353
+\tikznumberofchildren=\count354
+\tikznumberofcurrentchild=\count355
+\tikz@fig@count=\count356
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count330
-\pgfmatrixcurrentcolumn=\count331
-\pgf@matrix@numberofcolumns=\count332
+\pgfmatrixcurrentrow=\count357
+\pgfmatrixcurrentcolumn=\count358
+\pgf@matrix@numberofcolumns=\count359
 )
-\tikz@expandcount=\count333
+\tikz@expandcount=\count360
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
 (/usr/local/texlive/2021/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen294
-\WF@size=\dimen295
-\c@WF@wrappedlines=\count334
-\WF@box=\box71
-\WF@everypar=\toks40
+\wrapoverhang=\dimen309
+\WF@size=\dimen310
+\c@WF@wrappedlines=\count361
+\WF@box=\box78
+\WF@everypar=\toks41
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
@@ -885,17 +1010,17 @@ Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen296
-\captionmargin@=\dimen297
-\captionwidth=\dimen298
-\caption@tempdima=\dimen299
-\caption@indent=\dimen300
-\caption@parindent=\dimen301
-\caption@hangindent=\dimen302
+\captionmargin=\dimen311
+\captionmargin@=\dimen312
+\captionwidth=\dimen313
+\caption@tempdima=\dimen314
+\caption@indent=\dimen315
+\caption@parindent=\dimen316
+\caption@hangindent=\dimen317
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count335
-\c@continuedfloat=\count336
+\c@caption@flags=\count362
+\c@continuedfloat=\count363
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
@@ -906,8 +1031,8 @@ Package: expl3 2021-02-18 L3 programming layer (loader)
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count337
-\l__pdf_internal_box=\box72
+\l__color_backend_stack_int=\count364
+\l__pdf_internal_box=\box79
 ))
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-
@@ -920,28 +1045,29 @@ File: lipsum.ltd.tex 2021-03-03 v2.3 The Lorem ipsum dummy text
 ))
 (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
-\c@subfigure=\count338
-\c@subtable=\count339
+\c@subfigure=\count365
+\c@subtable=\count366
+\c@sublisting=\count367
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count340
-\float@exts=\toks41
-\float@box=\box73
-\@float@everytoks=\toks42
-\@floatcapt=\box74
+\c@float@type=\count368
+\float@exts=\toks42
+\float@box=\box80
+\@float@everytoks=\toks43
+\@floatcapt=\box81
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks43
-\SOUL@lasttoken=\toks44
-\SOUL@cmds=\toks45
-\SOUL@buffer=\toks46
-\SOUL@token=\toks47
-\SOUL@spaceskip=\skip67
-\SOUL@ttwidth=\dimen303
-\SOUL@uldp=\dimen304
-\SOUL@ulht=\dimen305
+\SOUL@word=\toks44
+\SOUL@lasttoken=\toks45
+\SOUL@cmds=\toks46
+\SOUL@buffer=\toks47
+\SOUL@token=\toks48
+\SOUL@spaceskip=\skip69
+\SOUL@ttwidth=\dimen318
+\SOUL@uldp=\dimen319
+\SOUL@ulht=\dimen320
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
@@ -960,9 +1086,24 @@ File: tikzlibrarymatrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 s/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))
-\c@definition=\count341
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 8.
+\c@definition=\count369
+runsystem(which pygmentize && touch main.aex)...disabled (restricted).
 
+
+
+./main.tex:8: Package minted Error: You must have `pygmentize' installed to use
+ this package.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \begin{document}
+                    
+Refer to the installation instructions in the minted documentation for more inf
+ormation.
+
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 8.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -991,17 +1132,17 @@ LaTeX Font Info:    ... okay on input line 8.
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count342
-\scratchdimen=\dimen306
-\scratchbox=\box75
-\nofMPsegments=\count343
-\nofMParguments=\count344
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count345
-\MPscratchDim=\dimen307
-\MPnumerator=\count346
-\makeMPintoPDFobject=\count347
-\everyMPtoPDFconversion=\toks49
+\scratchcounter=\count370
+\scratchdimen=\dimen321
+\scratchbox=\box82
+\nofMPsegments=\count371
+\nofMParguments=\count372
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count373
+\MPscratchDim=\dimen322
+\MPnumerator=\count374
+\makeMPintoPDFobject=\count375
+\everyMPtoPDFconversion=\toks50
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1046,7 +1187,9 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count348
+Package newfloat Info: `float' package detected.
+Package newfloat Info: `wrapfig' package detected.
+\c@lstlisting=\count376
 Package hyperref Info: Link coloring OFF on input line 8.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1058,15 +1201,15 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count349
+\c@section@level=\count377
 )
 LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
 LaTeX Info: Redefining \nameref on input line 8.
  (/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.out)
 (/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.out)
-\@outlinefile=\write6
-\openout6 = `main.out'.
+\@outlinefile=\write8
+\openout8 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -1074,178 +1217,154 @@ Package caption Info: End \AtBeginDocument code.
 
 (./chapters/04-literature/main.tex
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-3.
+1.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-2.
+0.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-2.
+0.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-22.
+20.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-22.
+20.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 22.
+(Font)              <12> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 22.
+(Font)              <8> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 22.
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 22
+(Font)              <6> on input line 20.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 20
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 22
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 20
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<images/separator.png, id=104, 203.76125pt x 135.50626pt>
+<images/separator.png, id=88, 203.76125pt x 135.50626pt>
 File: images/separator.png Graphic file (type png)
 <use images/separator.png>
-Package pdftex.def Info: images/separator.png  used on input line 27.
+Package pdftex.def Info: images/separator.png  used on input line 25.
 (pdftex.def)             Requested size: 136.57462pt x 90.83005pt.
  [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./images/separator.png>]
-<images/recursive.png, id=136, 277.035pt x 257.96375pt>
+<images/recursive.png, id=120, 277.035pt x 257.96375pt>
 File: images/recursive.png Graphic file (type png)
 <use images/recursive.png>
-Package pdftex.def Info: images/recursive.png  used on input line 65.
+Package pdftex.def Info: images/recursive.png  used on input line 60.
 (pdftex.def)             Requested size: 136.57462pt x 127.17088pt.
-<images/recursive-part.png, id=139, 305.14pt x 297.11pt>
+<images/recursive-part.png, id=123, 305.14pt x 297.11pt>
 File: images/recursive-part.png Graphic file (type png)
 <use images/recursive-part.png>
-Package pdftex.def Info: images/recursive-part.png  used on input line 71.
+Package pdftex.def Info: images/recursive-part.png  used on input line 66.
 (pdftex.def)             Requested size: 136.57462pt x 132.9865pt.
  [2 <./images/recursive.png> <./images/recursive-part.png>]
-<images/recursive-partitioning.png, id=149, 444.66125pt x 973.6375pt>
+<images/recursive-partitioning.png, id=133, 444.66125pt x 973.6375pt>
 File: images/recursive-partitioning.png Graphic file (type png)
 <use images/recursive-partitioning.png>
 Package pdftex.def Info: images/recursive-partitioning.png  used on input line 
-85.
+80.
 (pdftex.def)             Requested size: 186.65175pt x 408.68726pt.
  [3 <./images/recursive-partitioning.png>]
-<images/coarsening.png, id=197, 584.1825pt x 460.72125pt>
+<images/coarsening.png, id=181, 584.1825pt x 460.72125pt>
 File: images/coarsening.png Graphic file (type png)
 <use images/coarsening.png>
-Package pdftex.def Info: images/coarsening.png  used on input line 138.
+Package pdftex.def Info: images/coarsening.png  used on input line 137.
 (pdftex.def)             Requested size: 409.71693pt x 323.13538pt.
-
-Underfull \vbox (badness 1043) has occurred while \output is active []
-
  [4 <./images/coarsening.png>]
-<images/libraries-comparision.png, id=231, 820.06375pt x 251.94125pt>
+<images/libraries-comparision.png, id=215, 820.06375pt x 251.94125pt>
 File: images/libraries-comparision.png Graphic file (type png)
 <use images/libraries-comparision.png>
 Package pdftex.def Info: images/libraries-comparision.png  used on input line 1
-59.
+58.
 (pdftex.def)             Requested size: 318.6695pt x 97.903pt.
- [5 <./images/libraries-comparision.png>])
-(./chapters/05-algorithm/main.tex [6]
-(./chapters/05-algorithm/parts/01-intro.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 10.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\cdot' on input line 10.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 10.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 22.
-
-) [7]
+ [5 <./images/libraries-comparision.png>]) (./chapters/05-algorithm/main.tex [6
+]
+(./chapters/05-algorithm/parts/01-intro.tex) [7]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 9.
+(Font)              <14.4> on input line 7.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 9.
+(Font)              <10> on input line 7.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 9.
+(Font)              <7> on input line 7.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 9.
+(hyperref)                removing `math shift' on input line 7.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\cdot' on input line 9.
+(hyperref)                removing `\cdot' on input line 7.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 9.
+(hyperref)                removing `math shift' on input line 7.
 
 (./chapters/05-algorithm/parts/02-graphic_to_graph.tex
-<images/grid1.png, id=290, 344.28625pt x 207.77625pt>
+<images/grid1.png, id=276, 344.28625pt x 207.77625pt>
 File: images/grid1.png Graphic file (type png)
 <use images/grid1.png>
-Package pdftex.def Info: images/grid1.png  used on input line 16.
+Package pdftex.def Info: images/grid1.png  used on input line 28.
 (pdftex.def)             Requested size: 273.14925pt x 164.84525pt.
  [8 <./images/grid1.png>]
-<images/areas_o_i/1.png, id=299, 292.09125pt x 293.095pt>
+<images/areas_o_i/1.png, id=285, 292.09125pt x 293.095pt>
 File: images/areas_o_i/1.png Graphic file (type png)
 <use images/areas_o_i/1.png>
-Package pdftex.def Info: images/areas_o_i/1.png  used on input line 41.
+Package pdftex.def Info: images/areas_o_i/1.png  used on input line 52.
 (pdftex.def)             Requested size: 136.57462pt x 137.04803pt.
-<images/areas_o_i/2.png, id=300, 292.09125pt x 293.095pt>
+<images/areas_o_i/2.png, id=286, 292.09125pt x 293.095pt>
 File: images/areas_o_i/2.png Graphic file (type png)
 <use images/areas_o_i/2.png>
-Package pdftex.def Info: images/areas_o_i/2.png  used on input line 46.
+Package pdftex.def Info: images/areas_o_i/2.png  used on input line 57.
 (pdftex.def)             Requested size: 136.57462pt x 137.04803pt.
-<images/strange7.png, id=301, 65.24374pt x 46.1725pt>
+<images/strange7.png, id=287, 65.24374pt x 46.1725pt>
 File: images/strange7.png Graphic file (type png)
 <use images/strange7.png>
-Package pdftex.def Info: images/strange7.png  used on input line 69.
+Package pdftex.def Info: images/strange7.png  used on input line 73.
 (pdftex.def)             Requested size: 56.9055pt x 40.27188pt.
-<images/strange7-graph.png, id=302, 335.2525pt x 235.88126pt>
+<images/strange7-graph.png, id=288, 335.2525pt x 235.88126pt>
 File: images/strange7-graph.png Graphic file (type png)
 <use images/strange7-graph.png>
-Package pdftex.def Info: images/strange7-graph.png  used on input line 74.
+Package pdftex.def Info: images/strange7-graph.png  used on input line 78.
 (pdftex.def)             Requested size: 136.57462pt x 96.09286pt.
 ) [9 <./images/areas_o_i/1.png> <./images/areas_o_i/2.png> <./images/strange7.p
-ng> <./images/strange7-graph.png>]
+ng> <./images/strange7-graph.png>] [10]
 (./chapters/05-algorithm/parts/03-shrinking_graph.tex
-<images/Maximum_matching.jpeg, id=314, 453.695pt x 453.695pt>
+<images/Maximum_matching.jpeg, id=304, 453.695pt x 453.695pt>
 File: images/Maximum_matching.jpeg Graphic file (type jpg)
 <use images/Maximum_matching.jpeg>
-Package pdftex.def Info: images/Maximum_matching.jpeg  used on input line 9.
+Package pdftex.def Info: images/Maximum_matching.jpeg  used on input line 8.
 (pdftex.def)             Requested size: 109.26108pt x 109.25594pt.
-<images/lam.png, id=318, 1117.17375pt x 409.53pt>
+<images/lam.png, id=309, 1117.17375pt x 409.53pt>
 File: images/lam.png Graphic file (type png)
 <use images/lam.png>
 Package pdftex.def Info: images/lam.png  used on input line 29.
 (pdftex.def)             Requested size: 409.71693pt x 150.1927pt.
- [10 <./images/Maximum_matching.jpeg> <./images/lam.png>]
+ [11 <./images/Maximum_matching.jpeg> <./images/lam.png>]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
 9.
 
@@ -1265,349 +1384,371 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 86.
 See the caption package documentation for explanation.
 
-[11]
-<images/lam-partitioning.png, id=387, 276.03125pt x 275.0275pt>
+Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
+t line 86.
+[12]
+<images/lam-partitioning.png, id=382, 276.03125pt x 275.0275pt>
 File: images/lam-partitioning.png Graphic file (type png)
 <use images/lam-partitioning.png>
 Package pdftex.def Info: images/lam-partitioning.png  used on input line 124.
 (pdftex.def)             Requested size: 136.57462pt x 136.08237pt.
-<images/lam-partitioning2.png, id=388, 275.0275pt x 275.0275pt>
+<images/lam-partitioning2.png, id=383, 275.0275pt x 275.0275pt>
 File: images/lam-partitioning2.png Graphic file (type png)
 <use images/lam-partitioning2.png>
 Package pdftex.def Info: images/lam-partitioning2.png  used on input line 129.
 (pdftex.def)             Requested size: 136.57462pt x 136.57758pt.
- [12 <./images/lam-partitioning.png> <./images/lam-partitioning2.png>]
-<images/part-steps/lam1.png, id=396, 275.0275pt x 274.02374pt>
+
+Underfull \vbox (badness 6063) has occurred while \output is active []
+
+ [13 <./images/lam-partitioning.png> <./images/lam-partitioning2.png>]
+./chapters/05-algorithm/parts/03-shrinking_graph.tex:159: Missing number, treat
+ed as zero.
+<to be read again> 
+                   m
+l.159 \vspace{mm}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<images/lam-obszary-niepodzielne/grid.png, id=393, 557.08125pt x 299.1175pt>
+File: images/lam-obszary-niepodzielne/grid.png Graphic file (type png)
+<use images/lam-obszary-niepodzielne/grid.png>
+Package pdftex.def Info: images/lam-obszary-niepodzielne/grid.png  used on inpu
+t line 164.
+(pdftex.def)             Requested size: 182.09833pt x 97.77342pt.
+<images/lam-obszary-niepodzielne/4.png, id=394, 532.99126pt x 272.01625pt>
+File: images/lam-obszary-niepodzielne/4.png Graphic file (type png)
+<use images/lam-obszary-niepodzielne/4.png>
+Package pdftex.def Info: images/lam-obszary-niepodzielne/4.png  used on input l
+ine 169.
+(pdftex.def)             Requested size: 182.09833pt x 92.93256pt.
+[14 <./images/lam-obszary-niepodzielne/grid.png> <./images/lam-obszary-niepodzi
+elne/4.png>]
+<images/part-steps/lam1.png, id=401, 275.0275pt x 274.02374pt>
 File: images/part-steps/lam1.png Graphic file (type png)
 <use images/part-steps/lam1.png>
-Package pdftex.def Info: images/part-steps/lam1.png  used on input line 144.
+Package pdftex.def Info: images/part-steps/lam1.png  used on input line 182.
 (pdftex.def)             Requested size: 97.87581pt x 97.51953pt.
-<images/part-steps/lam2.png, id=397, 274.02374pt x 274.02374pt>
+<images/part-steps/lam2.png, id=402, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam2.png Graphic file (type png)
 <use images/part-steps/lam2.png>
-Package pdftex.def Info: images/part-steps/lam2.png  used on input line 149.
+Package pdftex.def Info: images/part-steps/lam2.png  used on input line 187.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 142--152
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 180--190
 []$[]$ $[]$ 
  []
 
-<images/part-steps/lam3.png, id=398, 274.02374pt x 274.02374pt>
+<images/part-steps/lam3.png, id=403, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam3.png Graphic file (type png)
 <use images/part-steps/lam3.png>
-Package pdftex.def Info: images/part-steps/lam3.png  used on input line 155.
+Package pdftex.def Info: images/part-steps/lam3.png  used on input line 193.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
-<images/part-steps/lam4.png, id=399, 274.02374pt x 274.02374pt>
+<images/part-steps/lam4.png, id=404, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam4.png Graphic file (type png)
 <use images/part-steps/lam4.png>
-Package pdftex.def Info: images/part-steps/lam4.png  used on input line 160.
+Package pdftex.def Info: images/part-steps/lam4.png  used on input line 198.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 153--163
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 191--201
 []$[]$ $[]$ 
  []
 
-<images/part-steps/lam5.png, id=400, 274.02374pt x 274.02374pt>
+<images/part-steps/lam5.png, id=405, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam5.png Graphic file (type png)
 <use images/part-steps/lam5.png>
-Package pdftex.def Info: images/part-steps/lam5.png  used on input line 166.
+Package pdftex.def Info: images/part-steps/lam5.png  used on input line 204.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
-<images/part-steps/lam6.png, id=401, 274.02374pt x 274.02374pt>
+<images/part-steps/lam6.png, id=406, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam6.png Graphic file (type png)
 <use images/part-steps/lam6.png>
-Package pdftex.def Info: images/part-steps/lam6.png  used on input line 171.
+Package pdftex.def Info: images/part-steps/lam6.png  used on input line 209.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 164--174
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 202--212
 []$[]$ $[]$ 
  []
 
-<images/part-steps/lam7.png, id=402, 274.02374pt x 274.02374pt>
+<images/part-steps/lam7.png, id=407, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam7.png Graphic file (type png)
 <use images/part-steps/lam7.png>
-Package pdftex.def Info: images/part-steps/lam7.png  used on input line 177.
+Package pdftex.def Info: images/part-steps/lam7.png  used on input line 215.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
-<images/part-steps/lam8.png, id=403, 274.02374pt x 274.02374pt>
+<images/part-steps/lam8.png, id=408, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam8.png Graphic file (type png)
 <use images/part-steps/lam8.png>
-Package pdftex.def Info: images/part-steps/lam8.png  used on input line 182.
+Package pdftex.def Info: images/part-steps/lam8.png  used on input line 220.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 175--185
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 213--223
 []$[]$ $[]$ 
  []
 
-<images/part-steps/lam9.png, id=404, 274.02374pt x 274.02374pt>
+<images/part-steps/lam9.png, id=409, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam9.png Graphic file (type png)
 <use images/part-steps/lam9.png>
-Package pdftex.def Info: images/part-steps/lam9.png  used on input line 188.
+Package pdftex.def Info: images/part-steps/lam9.png  used on input line 226.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
-<images/part-steps/lam10.png, id=405, 274.02374pt x 274.02374pt>
+<images/part-steps/lam10.png, id=410, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam10.png Graphic file (type png)
 <use images/part-steps/lam10.png>
-Package pdftex.def Info: images/part-steps/lam10.png  used on input line 193.
+Package pdftex.def Info: images/part-steps/lam10.png  used on input line 231.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 186--198
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 224--236
 []$[]$ $[]$ 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13 <./images/part-steps/lam1.png> <./images/part-steps/lam2.png> <./images/par
+[15 <./images/part-steps/lam1.png> <./images/part-steps/lam2.png> <./images/par
 t-steps/lam3.png> <./images/part-steps/lam4.png> <./images/part-steps/lam5.png>
  <./images/part-steps/lam6.png> <./images/part-steps/lam7.png> <./images/part-s
-teps/lam8.png> <./images/part-steps/lam9.png> <./images/part-steps/lam10.png>]
-<images/lam-obszary-niepodzielne/grid.png, id=422, 557.08125pt x 299.1175pt>
-File: images/lam-obszary-niepodzielne/grid.png Graphic file (type png)
-<use images/lam-obszary-niepodzielne/grid.png>
-Package pdftex.def Info: images/lam-obszary-niepodzielne/grid.png  used on inpu
-t line 224.
-(pdftex.def)             Requested size: 136.57462pt x 73.32777pt.
-<images/lam-obszary-niepodzielne/4.png, id=423, 532.99126pt x 272.01625pt>
-File: images/lam-obszary-niepodzielne/4.png Graphic file (type png)
-<use images/lam-obszary-niepodzielne/4.png>
-Package pdftex.def Info: images/lam-obszary-niepodzielne/4.png  used on input l
-ine 229.
-(pdftex.def)             Requested size: 136.57462pt x 69.70149pt.
-) (./chapters/05-algorithm/parts/04-modifications_to_shrinking.tex [14
+teps/lam8.png> <./images/part-steps/lam9.png> <./images/part-steps/lam10.png>])
+(./chapters/05-algorithm/parts/04-modifications_to_shrinking.tex
+Underfull \vbox (badness 1418) has occurred while \output is active []
 
- <./images/lam-obszary-niepodzielne/grid.png> <./images/lam-obszary-niepodzieln
-e/4.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [16
 
- [15]
-<images/discount1.png, id=450, 430.60875pt x 274.02374pt>
+]
+<images/discount1.png, id=446, 430.60875pt x 274.02374pt>
 File: images/discount1.png Graphic file (type png)
 <use images/discount1.png>
-Package pdftex.def Info: images/discount1.png  used on input line 91.
+Package pdftex.def Info: images/discount1.png  used on input line 77.
 (pdftex.def)             Requested size: 159.33473pt x 101.39555pt.
-<images/discount2.png, id=451, 430.60875pt x 274.02374pt>
+<images/discount2.png, id=447, 430.60875pt x 274.02374pt>
 File: images/discount2.png Graphic file (type png)
 <use images/discount2.png>
-Package pdftex.def Info: images/discount2.png  used on input line 96.
+Package pdftex.def Info: images/discount2.png  used on input line 82.
 (pdftex.def)             Requested size: 159.33473pt x 101.39555pt.
-<images/discount3.png, id=452, 429.605pt x 275.0275pt>
+<images/discount3.png, id=448, 429.605pt x 275.0275pt>
 File: images/discount3.png Graphic file (type png)
 <use images/discount3.png>
-Package pdftex.def Info: images/discount3.png  used on input line 101.
+Package pdftex.def Info: images/discount3.png  used on input line 87.
 (pdftex.def)             Requested size: 159.33473pt x 102.00618pt.
-<images/discount4.png, id=453, 429.605pt x 275.0275pt>
+<images/discount4.png, id=449, 429.605pt x 275.0275pt>
 File: images/discount4.png Graphic file (type png)
 <use images/discount4.png>
-Package pdftex.def Info: images/discount4.png  used on input line 106.
+Package pdftex.def Info: images/discount4.png  used on input line 92.
 (pdftex.def)             Requested size: 159.33473pt x 102.00618pt.
-)
-[16 <./images/discount1.png> <./images/discount2.png> <./images/discount3.png> 
-<./images/discount4.png>]
+
+[17 <./images/discount1.png> <./images/discount2.png> <./images/discount3.png> 
+<./images/discount4.png>]) [18]
 (./chapters/05-algorithm/parts/05-intr_uncoarsening_phase.tex
-<images/refinement/1.png, id=466, 275.0275pt x 274.02374pt>
+<images/refinement/1.png, id=470, 275.0275pt x 274.02374pt>
 File: images/refinement/1.png Graphic file (type png)
 <use images/refinement/1.png>
-Package pdftex.def Info: images/refinement/1.png  used on input line 12.
+Package pdftex.def Info: images/refinement/1.png  used on input line 14.
 (pdftex.def)             Requested size: 91.04742pt x 90.71243pt.
-<images/refinement/2.png, id=467, 275.0275pt x 274.02374pt>
+<images/refinement/2.png, id=471, 275.0275pt x 274.02374pt>
 File: images/refinement/2.png Graphic file (type png)
 <use images/refinement/2.png>
-Package pdftex.def Info: images/refinement/2.png  used on input line 17.
+Package pdftex.def Info: images/refinement/2.png  used on input line 19.
 (pdftex.def)             Requested size: 91.04742pt x 90.71243pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--47
-
- []
-
-[17 <./images/refinement/1.png> <./images/refinement/2.png>]
+ [19 <./images/refinement/1.png> <./images/refinement/2.png>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 67.
+(caption)                particular \caption on input line 70.
 See the caption package documentation for explanation.
 
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
-[19] (./chapters/05-algorithm/parts/06-uncoarsening_phase_details.tex
-<images/helpfulsets/1.png, id=514, 270.00874pt x 223.83624pt>
+ [20]
+[21] (./chapters/05-algorithm/parts/06-uncoarsening_phase_details.tex
+<images/helpfulsets/1.png, id=519, 270.00874pt x 223.83624pt>
 File: images/helpfulsets/1.png Graphic file (type png)
 <use images/helpfulsets/1.png>
-Package pdftex.def Info: images/helpfulsets/1.png  used on input line 37.
+Package pdftex.def Info: images/helpfulsets/1.png  used on input line 39.
 (pdftex.def)             Requested size: 75.11646pt x 62.27069pt.
-<images/helpfulsets/2.png, id=515, 808.01875pt x 232.87pt>
+<images/helpfulsets/2.png, id=520, 808.01875pt x 232.87pt>
 File: images/helpfulsets/2.png Graphic file (type png)
 <use images/helpfulsets/2.png>
-Package pdftex.def Info: images/helpfulsets/2.png  used on input line 42.
+Package pdftex.def Info: images/helpfulsets/2.png  used on input line 44.
 (pdftex.def)             Requested size: 213.59898pt x 61.55745pt.
-<images/helpfulsets/3.png, id=516, 407.5225pt x 217.81375pt>
+<images/helpfulsets/3.png, id=521, 407.5225pt x 217.81375pt>
 File: images/helpfulsets/3.png Graphic file (type png)
 <use images/helpfulsets/3.png>
-Package pdftex.def Info: images/helpfulsets/3.png  used on input line 48.
+Package pdftex.def Info: images/helpfulsets/3.png  used on input line 50.
 (pdftex.def)             Requested size: 114.72064pt x 61.31645pt.
-<images/helpfulsets/4.png, id=517, 680.5425pt x 236.885pt>
+<images/helpfulsets/4.png, id=522, 680.5425pt x 236.885pt>
 File: images/helpfulsets/4.png Graphic file (type png)
 <use images/helpfulsets/4.png>
-Package pdftex.def Info: images/helpfulsets/4.png  used on input line 53.
+Package pdftex.def Info: images/helpfulsets/4.png  used on input line 55.
 (pdftex.def)             Requested size: 182.64082pt x 63.57304pt.
- [20 <./images/helpfulsets/1.png> <./images/helpfulsets/2.png> <./images/helpfu
-lsets/3.png> <./images/helpfulsets/4.png>] [21]
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 126.
-See the caption package documentation for explanation.
-
-[22]
-<images/helpful-balancing/1.png, id=598, 236.885pt x 235.88126pt>
+ [22 <./images/helpfulsets/1.png> <./images/helpfulsets/2.png> <./images/helpfu
+lsets/3.png> <./images/helpfulsets/4.png>]
+<images/helpful-balancing/1.png, id=544, 236.885pt x 235.88126pt>
 File: images/helpful-balancing/1.png Graphic file (type png)
 <use images/helpful-balancing/1.png>
-Package pdftex.def Info: images/helpful-balancing/1.png  used on input line 152
-.
+Package pdftex.def Info: images/helpful-balancing/1.png  used on input line 82.
+
 (pdftex.def)             Requested size: 97.87581pt x 97.46057pt.
-<images/helpful-balancing/2.png, id=599, 236.885pt x 235.88126pt>
+<images/helpful-balancing/2.png, id=545, 236.885pt x 235.88126pt>
 File: images/helpful-balancing/2.png Graphic file (type png)
 <use images/helpful-balancing/2.png>
-Package pdftex.def Info: images/helpful-balancing/2.png  used on input line 158
-.
+Package pdftex.def Info: images/helpful-balancing/2.png  used on input line 88.
+
 (pdftex.def)             Requested size: 97.87581pt x 97.46057pt.
-<images/helpful-balancing/3.png, id=600, 236.885pt x 235.88126pt>
+<images/helpful-balancing/3.png, id=546, 236.885pt x 235.88126pt>
 File: images/helpful-balancing/3.png Graphic file (type png)
 <use images/helpful-balancing/3.png>
-Package pdftex.def Info: images/helpful-balancing/3.png  used on input line 163
-.
+Package pdftex.def Info: images/helpful-balancing/3.png  used on input line 93.
+
 (pdftex.def)             Requested size: 97.87581pt x 97.46057pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 156--166
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 86--96
 []$[]$ $[]$ 
  []
 
-<images/helpful-balancing/4.png, id=601, 236.885pt x 235.88126pt>
+<images/helpful-balancing/4.png, id=547, 236.885pt x 235.88126pt>
 File: images/helpful-balancing/4.png Graphic file (type png)
 <use images/helpful-balancing/4.png>
-Package pdftex.def Info: images/helpful-balancing/4.png  used on input line 169
-.
+Package pdftex.def Info: images/helpful-balancing/4.png  used on input line 99.
+
 (pdftex.def)             Requested size: 97.87581pt x 97.46057pt.
-<images/helpful-balancing/5.png, id=602, 236.885pt x 235.88126pt>
+<images/helpful-balancing/5.png, id=548, 236.885pt x 235.88126pt>
 File: images/helpful-balancing/5.png Graphic file (type png)
 <use images/helpful-balancing/5.png>
-Package pdftex.def Info: images/helpful-balancing/5.png  used on input line 174
+Package pdftex.def Info: images/helpful-balancing/5.png  used on input line 104
 .
 (pdftex.def)             Requested size: 97.87581pt x 97.46057pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 167--178
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 97--108
 []$[]$ $[]$ 
  []
 
 [23 <./images/helpful-balancing/1.png> <./images/helpful-balancing/2.png> <./im
 ages/helpful-balancing/3.png> <./images/helpful-balancing/4.png> <./images/help
 ful-balancing/5.png>]
-<images/helpfulsets-sh/0.png, id=612, 235.88126pt x 235.88126pt>
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 162.
+See the caption package documentation for explanation.
+
+[24] [25]
+<images/helpfulsets-sh/0.png, id=621, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/0.png Graphic file (type png)
 <use images/helpfulsets-sh/0.png>
-Package pdftex.def Info: images/helpfulsets-sh/0.png  used on input line 185.
+Package pdftex.def Info: images/helpfulsets-sh/0.png  used on input line 217.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
-<images/helpfulsets-sh/1.png, id=613, 235.88126pt x 235.88126pt>
+<images/helpfulsets-sh/1.png, id=622, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/1.png Graphic file (type png)
 <use images/helpfulsets-sh/1.png>
-Package pdftex.def Info: images/helpfulsets-sh/1.png  used on input line 191.
+Package pdftex.def Info: images/helpfulsets-sh/1.png  used on input line 223.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
-<images/helpfulsets-sh/2.png, id=614, 235.88126pt x 235.88126pt>
+<images/helpfulsets-sh/2.png, id=623, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/2.png Graphic file (type png)
 <use images/helpfulsets-sh/2.png>
-Package pdftex.def Info: images/helpfulsets-sh/2.png  used on input line 196.
+Package pdftex.def Info: images/helpfulsets-sh/2.png  used on input line 228.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 189--199
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 221--231
 []$[]$ $[]$ 
  []
 
-<images/helpfulsets-sh/3.png, id=615, 235.88126pt x 235.88126pt>
+<images/helpfulsets-sh/3.png, id=624, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/3.png Graphic file (type png)
 <use images/helpfulsets-sh/3.png>
-Package pdftex.def Info: images/helpfulsets-sh/3.png  used on input line 202.
+Package pdftex.def Info: images/helpfulsets-sh/3.png  used on input line 234.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
-<images/helpfulsets-sh/4.png, id=616, 235.88126pt x 235.88126pt>
+<images/helpfulsets-sh/4.png, id=625, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/4.png Graphic file (type png)
 <use images/helpfulsets-sh/4.png>
-Package pdftex.def Info: images/helpfulsets-sh/4.png  used on input line 207.
+Package pdftex.def Info: images/helpfulsets-sh/4.png  used on input line 239.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 200--210
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 232--242
 []$[]$ $[]$ 
  []
 
-<images/helpfulsets-sh/5.png, id=617, 235.88126pt x 235.88126pt>
+<images/helpfulsets-sh/5.png, id=626, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/5.png Graphic file (type png)
 <use images/helpfulsets-sh/5.png>
-Package pdftex.def Info: images/helpfulsets-sh/5.png  used on input line 213.
+Package pdftex.def Info: images/helpfulsets-sh/5.png  used on input line 245.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
-<images/helpfulsets-sh/6.png, id=618, 235.88126pt x 235.88126pt>
+<images/helpfulsets-sh/6.png, id=627, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/6.png Graphic file (type png)
 <use images/helpfulsets-sh/6.png>
-Package pdftex.def Info: images/helpfulsets-sh/6.png  used on input line 218.
+Package pdftex.def Info: images/helpfulsets-sh/6.png  used on input line 250.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 211--221
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 243--253
 []$[]$ $[]$ 
  []
 
-<images/helpfulsets-sh/7.png, id=619, 235.88126pt x 235.88126pt>
+<images/helpfulsets-sh/7.png, id=628, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/7.png Graphic file (type png)
 <use images/helpfulsets-sh/7.png>
-Package pdftex.def Info: images/helpfulsets-sh/7.png  used on input line 224.
+Package pdftex.def Info: images/helpfulsets-sh/7.png  used on input line 256.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
-<images/helpfulsets-sh/8.png, id=620, 235.88126pt x 235.88126pt>
+<images/helpfulsets-sh/8.png, id=629, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/8.png Graphic file (type png)
 <use images/helpfulsets-sh/8.png>
-Package pdftex.def Info: images/helpfulsets-sh/8.png  used on input line 229.
+Package pdftex.def Info: images/helpfulsets-sh/8.png  used on input line 261.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 222--236
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 254--268
 []$[]$ $[]$ 
  []
 
 
-LaTeX Warning: Float too large for page by 34.10728pt on input line 238.
+LaTeX Warning: Float too large for page by 34.10728pt on input line 270.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24 <./images/helpfulsets-sh/0.png> <./images/helpfulsets-sh/1.png> <./images/h
+[26 <./images/helpfulsets-sh/0.png> <./images/helpfulsets-sh/1.png> <./images/h
 elpfulsets-sh/2.png> <./images/helpfulsets-sh/3.png> <./images/helpfulsets-sh/4
 .png> <./images/helpfulsets-sh/5.png> <./images/helpfulsets-sh/6.png> <./images
 /helpfulsets-sh/7.png> <./images/helpfulsets-sh/8.png>]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 295.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 324.
+See the caption package documentation for explanation.
+
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25
+ [27
 
-])
-[26]
+]
+[28]
 (./chapters/05-algorithm/parts/07-uncoarsening_phase_building_helpfulsets.tex
-<images/changing_helpful_values.png, id=664, 577.15625pt x 253.94875pt>
+<images/changing_helpful_values.png, id=670, 577.15625pt x 253.94875pt>
 File: images/changing_helpful_values.png Graphic file (type png)
 <use images/changing_helpful_values.png>
 Package pdftex.def Info: images/changing_helpful_values.png  used on input line
- 11.
+ 12.
 (pdftex.def)             Requested size: 273.14925pt x 120.18903pt.
 
-[27 <./images/changing_helpful_values.png>]
-<images/building-helpfulsets/3.png, id=674, 235.88126pt x 234.8775pt>
+[29 <./images/changing_helpful_values.png>]
+<images/building-helpfulsets/3.png, id=680, 235.88126pt x 234.8775pt>
 File: images/building-helpfulsets/3.png Graphic file (type png)
 <use images/building-helpfulsets/3.png>
 Package pdftex.def Info: images/building-helpfulsets/3.png  used on input line 
-38.
+39.
 (pdftex.def)             Requested size: 101.97656pt x 101.54369pt.
-<images/building-helpfulsets/4.png, id=675, 235.88126pt x 234.8775pt>
+<images/building-helpfulsets/4.png, id=681, 235.88126pt x 234.8775pt>
 File: images/building-helpfulsets/4.png Graphic file (type png)
 <use images/building-helpfulsets/4.png>
 Package pdftex.def Info: images/building-helpfulsets/4.png  used on input line 
-43.
+44.
 (pdftex.def)             Requested size: 101.97656pt x 101.54369pt.
-<images/building-helpfulsets/5.png, id=676, 235.88126pt x 234.8775pt>
+<images/building-helpfulsets/5.png, id=682, 235.88126pt x 234.8775pt>
 File: images/building-helpfulsets/5.png Graphic file (type png)
 <use images/building-helpfulsets/5.png>
 Package pdftex.def Info: images/building-helpfulsets/5.png  used on input line 
-48.
+49.
 (pdftex.def)             Requested size: 101.97656pt x 101.54369pt.
-) [28 <./images/building-helpfulsets/3.png> <./images/building-helpfulsets/4.pn
+) [30 <./images/building-helpfulsets/3.png> <./images/building-helpfulsets/4.pn
 g> <./images/building-helpfulsets/5.png>]
 (./chapters/05-algorithm/parts/08-uncoarsening_phase_searching_for_k_helpful_se
 t.tex
@@ -1631,13 +1772,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
-<images/building-helpfulsets/1.png, id=689, 387.4475pt x 245.91875pt>
+<images/building-helpfulsets/1.png, id=695, 387.4475pt x 245.91875pt>
 File: images/building-helpfulsets/1.png Graphic file (type png)
 <use images/building-helpfulsets/1.png>
 Package pdftex.def Info: images/building-helpfulsets/1.png  used on input line 
 25.
 (pdftex.def)             Requested size: 182.09833pt x 115.58182pt.
-<images/building-helpfulsets/2.png, id=690, 460.72125pt x 245.91875pt>
+<images/building-helpfulsets/2.png, id=696, 460.72125pt x 245.91875pt>
 File: images/building-helpfulsets/2.png Graphic file (type png)
 <use images/building-helpfulsets/2.png>
 Package pdftex.def Info: images/building-helpfulsets/2.png  used on input line 
@@ -1648,7 +1789,7 @@ Overfull \hbox (2.61105pt too wide) in paragraph at lines 23--35
 []$[]$ $[]$ 
  []
 
-) [29 <./images/building-helpfulsets/1.png> <./images/building-helpfulsets/2.pn
+) [31 <./images/building-helpfulsets/1.png> <./images/building-helpfulsets/2.pn
 g>]
 (./chapters/05-algorithm/parts/09-uncoarsening_phase_building_balancing_sets.te
 x
@@ -1657,7 +1798,7 @@ File: images/helpful-balancing/3.png Graphic file (type png)
 Package pdftex.def Info: images/helpful-balancing/3.png  used on input line 21.
 
 (pdftex.def)             Requested size: 101.97656pt x 101.54213pt.
-<images/helpful-balancing/6.png, id=700, 236.885pt x 235.88126pt>
+<images/helpful-balancing/6.png, id=707, 236.885pt x 235.88126pt>
 File: images/helpful-balancing/6.png Graphic file (type png)
 <use images/helpful-balancing/6.png>
 Package pdftex.def Info: images/helpful-balancing/6.png  used on input line 26.
@@ -1668,79 +1809,83 @@ File: images/helpful-balancing/4.png Graphic file (type png)
 Package pdftex.def Info: images/helpful-balancing/4.png  used on input line 31.
 
 (pdftex.def)             Requested size: 101.97656pt x 101.54213pt.
-<images/0-helpful-sets.png, id=703, 612.2875pt x 98.3675pt>
+<images/0-helpful-sets.png, id=710, 612.2875pt x 98.3675pt>
 File: images/0-helpful-sets.png Graphic file (type png)
 <use images/0-helpful-sets.png>
-Package pdftex.def Info: images/0-helpful-sets.png  used on input line 64.
+Package pdftex.def Info: images/0-helpful-sets.png  used on input line 63.
 (pdftex.def)             Requested size: 432.48053pt x 69.47966pt.
- [30 <./images/helpful-balancing/6.png>]
-<images/phase2.png, id=714, 770.88pt x 378.41376pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[32 <./images/helpful-balancing/6.png>]
+<images/phase2.png, id=721, 770.88pt x 378.41376pt>
 File: images/phase2.png Graphic file (type png)
 <use images/phase2.png>
-Package pdftex.def Info: images/phase2.png  used on input line 97.
+Package pdftex.def Info: images/phase2.png  used on input line 96.
 (pdftex.def)             Requested size: 295.9059pt x 145.2538pt.
- [31 <./images/0-helpful-sets.png> <./images/phase2.png>]
+ [33 <./images/0-helpful-sets.png> <./images/phase2.png>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 130.
+(caption)                particular \caption on input line 129.
 See the caption package documentation for explanation.
 
-[32]) (./chapters/05-algorithm/parts/10-balalncing.tex [33]
-<images/fields-balacing/1.png, id=767, 237.88875pt x 234.8775pt>
+[34]) [35] (./chapters/05-algorithm/parts/10-balalncing.tex
+<images/fields-balacing/1.png, id=774, 237.88875pt x 234.8775pt>
 File: images/fields-balacing/1.png Graphic file (type png)
 <use images/fields-balacing/1.png>
-Package pdftex.def Info: images/fields-balacing/1.png  used on input line 31.
+Package pdftex.def Info: images/fields-balacing/1.png  used on input line 21.
 (pdftex.def)             Requested size: 97.87581pt x 96.63728pt.
-<images/fields-balacing/2.png, id=768, 237.88875pt x 234.8775pt>
+<images/fields-balacing/2.png, id=775, 237.88875pt x 234.8775pt>
 File: images/fields-balacing/2.png Graphic file (type png)
 <use images/fields-balacing/2.png>
-Package pdftex.def Info: images/fields-balacing/2.png  used on input line 36.
+Package pdftex.def Info: images/fields-balacing/2.png  used on input line 26.
 (pdftex.def)             Requested size: 97.87581pt x 96.63728pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 29--39
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 19--29
 []$[]$ $[]$ 
  []
 
-<images/fields-balacing/3.png, id=769, 237.88875pt x 234.8775pt>
+<images/fields-balacing/3.png, id=776, 237.88875pt x 234.8775pt>
 File: images/fields-balacing/3.png Graphic file (type png)
 <use images/fields-balacing/3.png>
-Package pdftex.def Info: images/fields-balacing/3.png  used on input line 42.
+Package pdftex.def Info: images/fields-balacing/3.png  used on input line 32.
 (pdftex.def)             Requested size: 97.87581pt x 96.63728pt.
-<images/fields-balacing/4.png, id=770, 237.88875pt x 234.8775pt>
+<images/fields-balacing/4.png, id=777, 237.88875pt x 234.8775pt>
 File: images/fields-balacing/4.png Graphic file (type png)
 <use images/fields-balacing/4.png>
-Package pdftex.def Info: images/fields-balacing/4.png  used on input line 47.
+Package pdftex.def Info: images/fields-balacing/4.png  used on input line 37.
 (pdftex.def)             Requested size: 97.87581pt x 96.63728pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 40--50
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 30--40
 []$[]$ $[]$ 
  []
 
-<images/fields-balacing/5.png, id=771, 237.88875pt x 234.8775pt>
+<images/fields-balacing/5.png, id=778, 237.88875pt x 234.8775pt>
 File: images/fields-balacing/5.png Graphic file (type png)
 <use images/fields-balacing/5.png>
-Package pdftex.def Info: images/fields-balacing/5.png  used on input line 53.
+Package pdftex.def Info: images/fields-balacing/5.png  used on input line 43.
 (pdftex.def)             Requested size: 97.87581pt x 96.63728pt.
-<images/fields-balacing/6.png, id=772, 237.88875pt x 234.8775pt>
+<images/fields-balacing/6.png, id=779, 237.88875pt x 234.8775pt>
 File: images/fields-balacing/6.png Graphic file (type png)
 <use images/fields-balacing/6.png>
-Package pdftex.def Info: images/fields-balacing/6.png  used on input line 58.
+Package pdftex.def Info: images/fields-balacing/6.png  used on input line 48.
 (pdftex.def)             Requested size: 97.87581pt x 96.63728pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 51--63
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 41--53
 []$[]$ $[]$ 
  []
 
-[34 <./images/fields-balacing/1.png> <./images/fields-balacing/2.png> <./images
+[36 <./images/fields-balacing/1.png> <./images/fields-balacing/2.png> <./images
 /fields-balacing/3.png> <./images/fields-balacing/4.png> <./images/fields-balac
-ing/5.png> <./images/fields-balacing/6.png>])
+ing/5.png> <./images/fields-balacing/6.png>]) [37]
 (./chapters/05-algorithm/parts/11-denosing.tex
-<images/noises/1.png, id=788, 314.17375pt x 312.16624pt>
+<images/noises/1.png, id=800, 314.17375pt x 312.16624pt>
 File: images/noises/1.png Graphic file (type png)
 <use images/noises/1.png>
 Package pdftex.def Info: images/noises/1.png  used on input line 10.
 (pdftex.def)             Requested size: 136.57462pt x 135.70071pt.
-<images/noises/2.png, id=789, 314.17375pt x 312.16624pt>
+<images/noises/2.png, id=801, 314.17375pt x 312.16624pt>
 File: images/noises/2.png Graphic file (type png)
 <use images/noises/2.png>
 Package pdftex.def Info: images/noises/2.png  used on input line 15.
@@ -1750,52 +1895,47 @@ Overfull \hbox (2.61105pt too wide) in paragraph at lines 8--19
 []$[]$ $[]$ 
  []
 
-<images/noises/3.png, id=790, 501.875pt x 497.86pt>
+<images/noises/3.png, id=803, 501.875pt x 497.86pt>
 File: images/noises/3.png Graphic file (type png)
 <use images/noises/3.png>
-Package pdftex.def Info: images/noises/3.png  used on input line 27.
+Package pdftex.def Info: images/noises/3.png  used on input line 32.
 (pdftex.def)             Requested size: 136.57462pt x 135.47993pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[35 <./images/noises/1.png> <./images/noises/2.png>])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36 <./images/noises/3.png>] [37]
+[38 <./images/noises/1.png> <./images/noises/2.png> <./images/noises/3.png>])
+[39]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 27.
+(hyperref)                removing `math shift' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 27.
+(hyperref)                removing `math shift' on input line 28.
 
 (./chapters/05-algorithm/parts/12-shrinking_graph.tex
-<images/m/1.png, id=810, 532.99126pt x 273.02pt>
+<images/m/1.png, id=816, 532.99126pt x 273.02pt>
 File: images/m/1.png Graphic file (type png)
 <use images/m/1.png>
 Package pdftex.def Info: images/m/1.png  used on input line 13.
 (pdftex.def)             Requested size: 182.09833pt x 93.27548pt.
-<images/m/2.png, id=811, 532.99126pt x 273.02pt>
+<images/m/2.png, id=817, 532.99126pt x 273.02pt>
 File: images/m/2.png Graphic file (type png)
 <use images/m/2.png>
 Package pdftex.def Info: images/m/2.png  used on input line 18.
 (pdftex.def)             Requested size: 182.09833pt x 93.27548pt.
- [38 <./images/m/1.png> <./images/m/2.png>]
-<images/m/3.png, id=822, 532.99126pt x 273.02pt>
+ [40 <./images/m/1.png> <./images/m/2.png>]
+<images/m/3.png, id=828, 532.99126pt x 273.02pt>
 File: images/m/3.png Graphic file (type png)
 <use images/m/3.png>
-Package pdftex.def Info: images/m/3.png  used on input line 77.
+Package pdftex.def Info: images/m/3.png  used on input line 76.
 (pdftex.def)             Requested size: 182.09833pt x 93.27548pt.
-<images/m/4.png, id=823, 532.99126pt x 273.02pt>
+<images/m/4.png, id=829, 532.99126pt x 273.02pt>
 File: images/m/4.png Graphic file (type png)
 <use images/m/4.png>
-Package pdftex.def Info: images/m/4.png  used on input line 82.
+Package pdftex.def Info: images/m/4.png  used on input line 81.
 (pdftex.def)             Requested size: 182.09833pt x 93.27548pt.
-)) (./chapters/99-bibliography/main.tex [39 <./images/m/3.png> <./images/m/4.pn
+)) (./chapters/99-bibliography/main.tex [41 <./images/m/3.png> <./images/m/4.pn
 g>]
-(/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.bbl [40]
-[41]
+(/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.bbl [42]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 196--202
 \T1/lmtt/m/n/12 wikipedia . org / w / index . php ? title = Graph % 20embedding
  & oldid = 1019397582$[]\T1/lmr/m/n/12 ,
@@ -1807,18 +1947,18 @@ Underfull \hbox (badness 2359) in paragraph at lines 204--211
  the free en-cyc-lo-pe-
  []
 
-)) [42] (/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.aux)
+)) [44] (/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 549FE9DA71779BDFE8B0F8D5257F9CB0;5687.
+(rerunfilecheck)             Checksum: DFF8E2B8FC56DF89B2A31272AEB8B33D;4922.
  ) 
 Here is how much of TeX's memory you used:
- 28787 strings out of 478994
- 523288 string characters out of 5858185
- 1464839 words of memory out of 5000000
- 45292 multiletter control sequences out of 15000+600000
+ 31508 strings out of 478994
+ 582350 string characters out of 5858185
+ 1567767 words of memory out of 5000000
+ 47962 multiletter control sequences out of 15000+600000
  467521 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,12n,91p,1330b,1894s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 91i,11n,91p,1330b,1203s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2021/t
 exmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2021/texmf-dist/
@@ -1842,10 +1982,10 @@ sr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2021
 /texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
 Output written on /Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main
-.pdf (42 pages, 5276814 bytes).
+.pdf (44 pages, 5278537 bytes).
 PDF statistics:
- 984 PDF objects out of 1000 (max. 8388607)
- 746 compressed objects within 8 object streams
- 300 named destinations out of 1000 (max. 500000)
- 562 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 991 PDF objects out of 1000 (max. 8388607)
+ 751 compressed objects within 8 object streams
+ 299 named destinations out of 1000 (max. 500000)
+ 530 words of extra memory for PDF output out of 10000 (max. 10000000)
 

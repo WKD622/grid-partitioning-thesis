@@ -1,10 +1,8 @@
 \newpage
 
 
-\section{Przegląd literatury}
+\section{Istniejące metody partycjonowania grafów}
 \label{sec:literature}
-
-\subsection{Istniejące metody partycjonowania grafów}
 
 Rozbudowany podział metod został zaproponowany przez autorów artykułu - \cite{metis}
 oraz \cite{1364754}
@@ -16,7 +14,7 @@ Zgodnie z ich analizą metody dzielimy na:
     \item wielopoziomowe.
 \end{itemize}
 
-\subsubsection{Metody spektralne}
+\subsection{Metody spektralne}
 Partycjonowanie spektralne daje dobre rezultaty i jest metodą w miarę często używaną
 \cite{10.1137/0611030, 10.5555/147877.147902, improved_spectral}.
 Podzbiór wierzchołków \(S \subset V\) grafu G nazywamy separatorem jeśli dwa wierzchołki w tym samym komponencie
@@ -43,7 +41,7 @@ Istnieją udane próby ulepszenia czasu wykonania tych metod, które polegają n
 algorytm wielopoziomowy - MSB \cite{fast_multilevel}. Jednak nawet te metody wciąż charakteryzują się wysoką złożonością.
 
 
-\subsubsection{Metody rekursywne}
+\subsection{Metody rekursywne}
 
 Są to metody często prostsze w implementacji, jednak nie sprawdzają się tak dobrze w kontekście bardziej
 skomplikowanych problemów głównie ze względu na to, że mają zachłanną naturę.
@@ -52,12 +50,9 @@ która jest równa potędze liczby dwa. Ta metoda potrafi także dzielić siatk�
 poszczególnych rdzeni procesora. Czasami metody rekursywne są implementowane jako faza metod
 bisekcji spektralnej \cite{10.1137/0611030}. Przykłady działania partycjonowania rekursywnego przedstawione są na rysunkach
 \ref{im:recursive_partitioning} oraz \ref{im:rec_partitioning}.
+
 Specyfika tych metod polegająca na dzieleniu grafu na coraz mniejsze
 części sprawia, że nie jesteśmy w stanie uwzględniać części niepodzielnych, lub rozwiązanie tego problemu byłoby skomplikowane.
-Przykładem jest sytuacja kiedy dzielimy siatkę na 4 części. Można sobie wyobrazić sytuację, kiedy obszar niepodzielny zajmuje 50\% całej siatki.
-Po pierwszej turze rekursywnego algorytmu mamy dwie partycje, każda zajmująca 50\% powierzchni. Chcielibyśmy podzielić
-każdą z nich na dwie części, natomiast nie jesteśmy w stanie tego zrobić ponieważ jedna z nich jest w całości obszarem
-niepodzielnym. Wykorzystanie takich algorytmów w kontekście niepodzielnych obszarów nie zdaje więc egzaminu.
 
 
 \begin{figure}[h]
@@ -79,7 +74,7 @@ niepodzielnym. Wykorzystanie takich algorytmów w kontekście niepodzielnych obs
 \end{figure}
 
 \newpage
-\subsubsection{Metody geometryczne}
+\subsection{Metody geometryczne}
 
 \begin{wrapfigure}{r}{0.41\textwidth}
     \includegraphics[width=\linewidth]{images/recursive-partitioning}
@@ -91,7 +86,7 @@ niepodzielnym. Wykorzystanie takich algorytmów w kontekście niepodzielnych obs
 Inną klasą metod są metody geometryczne
 \cite{Miller1994ACP, Raghavan93lineand, 185417, MiTeThVa93, NourOmid1987SolvingFE}.
 Używają danych geometrycznych o grafie w celu znalezienia dobrego partycjonowania.
-Ich cechą charakterystyczną jest szybki czas wykonania, natomiast gorsze rezultaty podziału niż metody spektralne.
+Ich cechą charakterystyczną jest relatywnie krótki czas wykonania, natomiast gorsze rezultaty podziału niż metody spektralne.
 Najlepsze wyniki spośród wyżej wymienionych metod prezentują \cite{185417, MiTeThVa93}.
 W artykule \cite{185417} zaproponowane klasę grafów zwaną k-overlap graphs. Dla grafów k-overlap osadzonych w d wymiarach
  \cite{wiki:Graph_embedding} udowadniają istnieje separatora wielkości \(O(k^{1/d}D^{{d-1}/d})\).
@@ -116,18 +111,22 @@ więc nie były brane pod uwagę w kontekście niniejszej pracy.
 
 \newpage
 
-\subsubsection{Metody wielopoziomowe}
+\subsection{Metody wielopoziomowe}
 
 Istnieje wiele implementacji metod wielopoziomowych: \cite{metis, jostle, Bui1993AHF, 103500, 185177, 279334, inproceedings, 129970, 10.1145/165939.165942}.
 Cechą charakterystyczną tego podejścia jest redukcja
 wielkości grafu poprzez łączenie wierzchołków i krawędzi, następnie dzielenie zmniejszonego grafu na partycje, ostatnią fazą
-jest przywrócenie początkowego grafu zachowując podział. Często graf zmniejszany jest aż liczba wierzchołków nie osiągnie
+jest przywrócenie początkowego grafu zachowując podział.
+Często graf zmniejszany jest aż liczba wierzchołków nie osiągnie
 liczby partycji, którą chcemy otrzymać \cite{1364754}, a fazie przywracania grafu do początkowej wielkości towarzyszy
-algorytm, którego celem jest ulepszanie podziału \cite{article, 10.5555/800263.809204}. Algorytm ten, bazując na zmniejszonym
-grafie, niesie za sobą niższy koszt obliczeniowy. Jego działanie polega na zmniejszaniu długości granic pomiędzy partycjami
-z jednoczesnym zachowaniem ich wielkości. Na tym etapie może także zostać dodana faza balansowania, która stopniowo zmniejsza różnice
-w wielkości pól pomiędzy obszarami. Metody te zostały stworzone z myślą o zmniejszeniu czasu
-patrycjonowania kosztem jego jakości. Obecnie dają jednak bardzo dobre rezultaty również w kwestii jakości podziału.
+algorytm, którego celem jest ulepszanie podziału \cite{article, 10.5555/800263.809204}.
+Algorytm ten, bazując na zmniejszonym
+grafie, niesie za sobą niższy koszt obliczeniowy.
+Jego działanie polega na zmniejszaniu długości granic pomiędzy partycjami z jednoczesnym zachowaniem ich wielkości.
+Na tym etapie może także zostać dodana faza balansowania, która stopniowo zmniejsza różnice w wielkości pól pomiędzy
+obszarami.
+Metody te zostały stworzone z myślą o zmniejszeniu czasu patrycjonowania kosztem jego jakości.
+Obecnie dają jednak bardzo dobre rezultaty również w kwestii jakości podziału.
 Późniejsze prace w dziedzinie tych algorytmów pokazały, że dają one lepsze rezultaty niż metody spektralne \cite{metis}.
 Biblioteki jak Party \cite{1364754}, Metis \cite{metis}, Jostle \cite{jostle}, Chaco \cite{inproceedings},
 dające state-of-the-art wyniki w kwestii jakości partycjonowania najczęściej bazują na schemacie wielopoziomowym
@@ -149,8 +148,8 @@ Wszystkie wyżej wymienione metody nie biorą pod uwagę problemu obszarów niep
 W związku z tym celem niniejszej pracy stało się znalezienie metody dającej możliwie najlepsze rezultaty w zakresie partycjonowania grafów oraz
 dostosowanie jej do wyżej wymienionych rozszerzeń problemu partycjonowania.
 
-Metody wielopoziomowe były najlepszym wyborem, z racji na to, że gwarantowały najlepsze wyniki partycjonowania.
-Przykładów metod wielopoziomowych było bardzo dużo \cite{metis, jostle, Bui1993AHF, 103500, 185177, 279334, inproceedings, 129970, 10.1145/165939.165942},
+Metody wielopoziomowe są najlepszym wyborem, z racji na to, że gwarantowały najlepsze wyniki partycjonowania.
+Przykładów metod wielopoziomowych jest bardzo dużo \cite{metis, jostle, Bui1993AHF, 103500, 185177, 279334, inproceedings, 129970, 10.1145/165939.165942},
 jednak skupiłem się głównie na tych, które dawały wyniki state-of-the-art. Były to biblioteki:
 Party \cite{1364754}, Metis \cite{metis}, Jostle \cite{jostle}, Chaco \cite{inproceedings}.
 
@@ -171,31 +170,39 @@ Wszystkie z tych metod zmniejszają graf, jednak tylko Jostle i Party zmniejsza 
 aż do otrzymania liczby wierzchołków równej liczbie partycji, na które chcemy podzielić wejściowy graf.
 Dzięki temu metoda partycjonowania, działająca na najmniejszym możliwym grafie, jest dużo prostsza niż w pozostałych metodach.
 Kiedy graf jest zmniejszony, wierzchołki są przyporządkowywane do partycji a informacja na temat partycji jest propagowana
-do wierzchołków na wyższych poziomach zgodnie z partycją ich reprezentantów na najniższym poziomie. Ten proces prowadzi
-do partycjonowania początkowego grafu. Faza zmniejszania grafu jest ponadto stosunkowo łatwa do zrównoleglenia \cite{KARYPIS199871}.
+do wierzchołków na wyższych poziomach zgodnie z partycją ich reprezentantów na najniższym poziomie.
+Ten proces prowadzi do partycjonowania początkowego grafu.
+Faza zmniejszania grafu jest ponadto stosunkowo łatwa do zrównoleglenia \cite{KARYPIS199871}.
 Fazą, która nie podlega zrównolegleniu jest faza ulepszania istniejącego podziału.
 Najczęściej bazuje ona na metodzie Fiduccia-Mattheysesa \cite{10.5555/800263.809204},
 która jest zoptymalizowaną pod kątem czasu działania heurystyką Kerninghan-Lin (KL) \cite{6771089}.
 Artykuł \cite{6771089} podejmuje problem partycjonowania wierzchołków grafu, którego krawędzie mają
-przyporządkowane wagi - koszt. Jego celem jest ustanowienie podziału na obszary o wybranej wielkości wraz
+przyporządkowane wagi - koszt.
+Jego celem jest ustanowienie podziału na obszary o wybranej wielkości wraz
 ze zminimalizowaniem sumy kosztów na wszystkich granicach.
-Artykuł \cite{10.5555/800263.809204} przedstawia heurystykę do poprawiania partycjonowania sieci. Algorytm ten przesuwa
-pojedyncze komórki pomiędzy blokami wraz z utrzymaniem oczekiwanego rozmiaru bloków.
-W przeciwieństwie do Metis i Jostle, faza ulepszenia partycjonowania używana przez biblioteke Party bazuje na metodzie
-Helpful-Sets (HS). Heurystyka Helpful-Set wywodzi się z obserwacji teoretycznych wykorzystywanych do znajdowania górnych
+Artykuł \cite{10.5555/800263.809204} przedstawia heurystykę do poprawiania partycjonowania sieci.
+Algorytm ten przesuwa pojedyncze komórki pomiędzy blokami wraz z utrzymaniem oczekiwanego rozmiaru bloków.
+W przeciwieństwie do Metis i Jostle, faza ulepszenia partycjonowania używana przez bibliotekę Party bazuje na metodzie
+Helpful-Sets (HS).
+Heurystyka Helpful-Set wywodzi się z obserwacji teoretycznych wykorzystywanych do znajdowania górnych
 granic szerokości bisekcji grafów regularnych \cite{10.1007/3-540-54345-7_64, MONIEN2006475}.
 Szerokość bisekcji to minimalna liczba krawędzi, która musi zostać usunięta w celu podzielenia grafu na
 dwie równej wielkości części, lub różniące się wielkością o maksymalnie jeden wierzchołek.
 Party otrzymuje bardzo dobre wyniki stosując tę metodę \cite{10.1007/3-540-44842-X_6}, często uzyskując mniejszą długość
 granic pomiędzy obszarami niż Metis czy Jostle, jednocześnie jest tylko trochę bardziej kosztowna obliczeniowo.
-Heurystyka Helpful-Sets jest metodą bazującą na wyszukiwaniu lokalnym. Zaczynając od początkowej bisekcji \(\pi\) dąży
-do zminimalizowania długości granicy za pomocą lokalnie wprowadzanych zmian. Najważniejsza różnica względem metody KL
-polega na tym że KL przemieszcza tylko pojedyncze wierzchołki, natomiast HS zbiory wierzchołków. Zarówno Party, Metis
-jak i Jostle pozwalają na małe nierówności w kwestii wielkości obszarów co przekłada się na mniejsze długości granic,
+Heurystyka Helpful-Sets jest metodą bazującą na wyszukiwaniu lokalnym.
+Zaczynając od początkowej bisekcji \(\pi\) dąży
+do zminimalizowania długości granicy za pomocą lokalnie wprowadzanych zmian.
+Najważniejsza różnica względem metody KL polega na tym że KL przemieszcza tylko pojedyncze wierzchołki,
+natomiast HS zbiory wierzchołków.
+Zarówno Party, Metis, jak i Jostle pozwalają na małe nierówności w kwestii wielkości obszarów co przekłada się na
+mniejsze długości granic,
 szczególnie na głębszych poziomach, kiedy przemieszczane są wierzchołki o dużych wagach - ciężko wtedy o otrzymanie
 idealnie równych obszarów.
 
 Biblioteka Party \cite{1364754} okazała się dawać najlepsze rezultaty w porównaniu do innych bibliotek dających wyniki
-state-of-the-art. Szczególną własnością Party była znacznie niższa długość granic w porównaniu do pozostałych bibliotek
-(Rysunek \ref{im:partitioning_results}), co było bardzo ważne dla mojej pracy. Dlatego to właśnie metodę z biblioteki
+state-of-the-art.
+Szczególną własnością Party była znacznie niższa długość granic w porównaniu do pozostałych bibliotek
+(Rysunek \ref{im:partitioning_results}), co było bardzo ważne dla mojej pracy.
+Dlatego to właśnie metodę z biblioteki
 Party zdecydowałem się wybrać jako podstawę rozwiązania prezentowanego w niniejszej pracy.

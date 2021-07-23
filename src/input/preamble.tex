@@ -7,6 +7,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[MeX]{polski}
 
+\usepackage[newfloat]{minted}
 \usepackage{graphicx}
 \usepackage{listings}
 \usepackage{xcolor}
@@ -135,7 +136,9 @@
 
 
 \lstnewenvironment{pseudocode}
-{\lstset{style=pseudocodestyle, mathescape=true, escapeinside=@@}}
+{
+    \lstset{style=pseudocodestyle, mathescape=true, escapeinside=@@}
+}
 {}
 
 \lstnewenvironment{python}
@@ -163,6 +166,8 @@
 \myspace
 }
 
+\SetupFloatingEnvironment{listing}{name=Pseudokod}
+
 
 \author{Jakub Ziarko}
 
@@ -175,4 +180,4 @@
 
 \date{\the\year}
 
-\newtheorem{definition}{Definition}
+\newtheorem{definition}{Definicja}
