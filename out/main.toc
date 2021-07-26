@@ -1,0 +1,29 @@
+\babel@toc {polish}{}
+\contentsline {section}{\numberline {1}Wstęp}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Motywacja}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Cel pracy oraz wprowadzenie}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Struktura pracy}{5}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Istniejące metody partycjonowania grafów}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Metody spektralne}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Metody rekursywne}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Metody geometryczne}{8}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Metody wielopoziomowe}{9}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Porównanie istniejących metod wielopoziomowych}{10}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Opis algorytmu}{12}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Podział siatki na $m \cdot k$ obszarów}{13}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Konwersja pliku graficznego na graf i redukcja obszarów niepodzielnych}{13}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Zmniejszanie i partycjonowanie grafu za pomocą algorytmu LAM}{16}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Szczegóły modyfikacji algorytmu LAM}{21}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}Przywracanie grafu do początkowego rozmiaru wraz z ulepszeniem podziału}{24}{subsubsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.5}Używanie Helpful Sets w celu zmniejszenia długości granic}{27}{subsubsection.3.1.5}%
+\contentsline {subsubsection}{\numberline {3.1.6}Szczegóły budowania zbioru helpful}{34}{subsubsection.3.1.6}%
+\contentsline {subsubsection}{\numberline {3.1.7}Szukanie zbioru $k$-helpful gdzie $k \geq limit$}{36}{subsubsection.3.1.7}%
+\contentsline {subsubsection}{\numberline {3.1.8}Szczegóły budowania zbioru balancing}{37}{subsubsection.3.1.8}%
+\contentsline {subsubsection}{\numberline {3.1.9}Balansowanie rozmiarów obszarów}{41}{subsubsection.3.1.9}%
+\contentsline {subsubsection}{\numberline {3.1.10}Usuwanie obszarów rozproszonych}{43}{subsubsection.3.1.10}%
+\contentsline {subsection}{\numberline {3.2}Podział siatki na $m$ obszarów}{45}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Wyniki}{47}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Wyniki dla podziału na $m \cdot k$ obszarów}{47}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Wyniki dla podziału siatek bez obszarów niepodzielnych i wyłączonych z obliczeń}{47}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Wyniki dla podziału siatek z obszarami niepodzielnymi i wyłączonymi z obliczeń}{49}{subsubsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.2}Wyniki dla podziału na $m$ obszarów}{55}{subsection.4.2}%
