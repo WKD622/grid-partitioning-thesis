@@ -1,0 +1,16 @@
+Rezultaty obliczeń były otrzymywane w taki sam sposób jak w artykule \cite{1364754}.
+Algorytm wywoływany był $100$ razu, na końcu wybierany był najlepszy podział.
+O ile w artykule \cite{1364754} wybranie najlepszego wyniku odbywało się poprzez liczenie długości granic między obszarami,
+tak w moim wypadku nie było to oczywiste.
+Autorzy \cite{1364754} mogli tak zaprojektować wybieranie najlepszego podziału, ponieważ nie występowały u nich
+obszary niepodzielne, przez które znacznie ciężej zdefiniować najlepszy podział.
+W implementacji bez obszarów niepodzielnym to, co jest niezmienne to równe pola obszarów.
+Jeśli założymy, że nasza implementacja zawsze będzie w stanie zwrócić podział równy pod względem pól,
+co da się zagwarantować na siatce bez obszarów niepodzielnych, to pozostaje nam minimalizować sumaryczną długość granic.
+Obszary niepodzielne sprawiają, że często pola partycji nie mogą być równe, a minimalizacja długości granic może
+prowadzić do dużych nierówności w kwestii pól partycji co pokażę na dalszych przykładach.
+Kryterium wyłaniania najlepszego podziału było więc wybierane często wedle mojej, subiektywnej oceny.
+Przykładowo, kiedy obszary niepodzielne w znaczny sposób utrudniały podział były to maksymalnie równe pola,
+kiedy dowolność ułożenia była duża z racji na małe obszary niepodzielne, kryterium była długość granic.
+Kryterium równych pól może być liczone za pomocą odchylenia standardowego bądź w mniej skomplikowanych przypadkach
+za pomocą różnicy między największym i najmniejszym obszarem.

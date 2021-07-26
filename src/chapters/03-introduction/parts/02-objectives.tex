@@ -1,0 +1,19 @@
+\subsection{Cel pracy oraz wprowadzenie}
+Celem tej pracy jest skonstruowanie algorytmu tworzącego podział siatki na partycje.
+Podział ten będzie się odbywał dla węzłów homogenicznych, a więc takich gdzie każdy rdzeń ma identyczną moc obliczeniową.
+Partycje więc muszą być równe pod względem pola.
+Dodatkową cechą takiego partycjonowania jest zminimalizowanie długości granic między partycjami (ang. edge-cut),
+tak by narzut komunikacyjny był jak najniższy.
+Początkowa siatka powinna pozwalać na zdefiniowanie obszarów niepodzielnych oraz obszarów wyłączonych z obliczeń.
+Obszar niepodzielny nie może znajdować się w więcej niż jednej partycji, natomiast
+obszary wyłączone z obliczeń nie powinien być brany pod uwagę podczas partycjonowania, tak by wszystkie węzły obliczeniowe
+obsługiwały równe pod względem pola obszary siatki, na których ma szansę odbyć się symulacja.
+
+W celu partycjonowania siatka zostanie zamieniona na odpowiadający jej graf.
+Graf następnie, przy wykorzystaniu proponowanych przez literaturę oraz zmodyfikowanych przeze mnie algorytmów grafowych
+zostanie poddany partycjonowaniu.
+Partycjonowanie będzie się odbywało dwukrotnie.
+Jeśli bowiem mamy $m$ węzłów obliczeniowych, każdy po $k$ rdzeni, to siatka najpierw zostanie podzielona na
+$m \cdot k$ możliwie równych pod względem pola obszarów, następnie $m \cdot k$ partycji zostanie podzielone
+na $m$ partycji, każda po $k$ podobszarów.
+W ten sposób funkcjonujący algorytm został opisany w tej pracy.

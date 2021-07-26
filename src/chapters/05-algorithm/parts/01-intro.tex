@@ -1,0 +1,27 @@
+W tym rozdziale w szczegółach opisany zostanie algorytm podziału siatki, który został zaimplementowany na potrzeby
+niniejszej pracy.
+W ramach algorytmu podziału siatki, zakładając $m$ node'ów, każdy zawierający $k$ rdzeni, wyróżniam dwa następujące etapy:
+
+\begin{enumerate}
+    \item Podział siatki na $m \cdot k$ obszarów.
+    \item Podział siatki podzielonej na $m \cdot k$ obszarów na m obszarów.
+\end{enumerate}
+
+W ramach etapu podział siatki na $m \cdot k$ obszarów wyróżniam następujące podetapy:
+        {\begin{enumerate}
+             \item {mapowanie wejściowego pliku graficznego przedstawiającego początkową siatkę na graf,}
+             \item {zmniejszanie grafu algorytmem LAM \cite{weighted_maching} do liczby wierzchołków równej liczbie partycji,
+                 na które chcemy podzielić wejściową siatkę,}
+             \item {przypisanie numerów partycji do wierzchołków w zmniejszonym grafie,}
+             \item {stopniowe przywracanie grafu z jednoczesnym wyrównaniem krawędzi \cite{10.1007/3-540-44842-X_6} oraz balansowaniem pól obszarów (mniejsze
+             obszary powiększają się kosztem większych),}
+             \item {usunięcie obszarów rozproszonych.}
+\end{enumerate}}
+
+W ramach etapu podziału siatki na $m$ obszarów wyróżniam następujące podetapy:
+\begin{enumerate}
+    \item {zmniejszanie grafu algorytmem LAM \cite{weighted_maching} do liczby wierzchołków równej liczbie partycji,
+        na które chcemy podzielić wejściową siatkę,}
+    \item {przypisanie numerów partycji do wierzchołków w zmniejszonym grafie,}
+    \item {udoskonalenie podziału.}
+\end{enumerate}
