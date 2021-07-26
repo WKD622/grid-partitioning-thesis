@@ -2,85 +2,54 @@ This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: abbrv.bst
-I couldn't open database file input/main.bib
----line 283 of file main.aux
- : \bibdata{input/main
- :                    }
-I'm skipping whatever remains of this command
-I found no database files---while reading file main.aux
-Warning--I didn't find a database entry for "metis"
-Warning--I didn't find a database entry for "1364754"
-Warning--I didn't find a database entry for "10.1137/0611030"
-Warning--I didn't find a database entry for "10.5555/147877.147902"
-Warning--I didn't find a database entry for "improved_spectral"
-Warning--I didn't find a database entry for "MiTeThVa93"
-Warning--I didn't find a database entry for "fast_multilevel"
-Warning--I didn't find a database entry for "recursive"
-Warning--I didn't find a database entry for "Miller1994ACP"
-Warning--I didn't find a database entry for "Raghavan93lineand"
-Warning--I didn't find a database entry for "185417"
-Warning--I didn't find a database entry for "NourOmid1987SolvingFE"
-Warning--I didn't find a database entry for "wiki:Graph_embedding"
-Warning--I didn't find a database entry for "Chan95geometricspectral"
-Warning--I didn't find a database entry for "jostle"
-Warning--I didn't find a database entry for "Bui1993AHF"
-Warning--I didn't find a database entry for "103500"
-Warning--I didn't find a database entry for "185177"
-Warning--I didn't find a database entry for "279334"
-Warning--I didn't find a database entry for "inproceedings"
-Warning--I didn't find a database entry for "129970"
-Warning--I didn't find a database entry for "10.1145/165939.165942"
-Warning--I didn't find a database entry for "article"
-Warning--I didn't find a database entry for "10.5555/800263.809204"
-Warning--I didn't find a database entry for "KARYPIS199896"
-Warning--I didn't find a database entry for "Analysis"
-Warning--I didn't find a database entry for "weighted_maching"
-Warning--I didn't find a database entry for "KARYPIS199871"
-Warning--I didn't find a database entry for "6771089"
-Warning--I didn't find a database entry for "10.1007/3-540-54345-7_64"
-Warning--I didn't find a database entry for "MONIEN2006475"
-Warning--I didn't find a database entry for "10.1007/3-540-44842-X_6"
-Warning--I didn't find a database entry for "wiki:skojarzenie"
-Warning--I didn't find a database entry for "algorithms222"
-You've used 0 entries,
+Database file #1: input/main.bib
+Warning--empty booktitle in fast_multilevel
+Warning--empty institution in Chan95geometricspectral
+Warning--empty journal in article
+Warning--empty booktitle in inproceedings
+Warning--empty booktitle in Analysis
+Warning--empty journal in improved_spectral
+Warning--empty booktitle in Miller1994ACP
+Warning--empty booktitle in NourOmid1987SolvingFE
+You've used 34 entries,
             2118 wiz_defined-function locations,
-            541 strings with 4318 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            706 strings with 9686 characters,
+and the built_in function-call counts, 12190 in all, are:
+= -- 1211
+> -- 501
+< -- 15
++ -- 205
+- -- 158
+* -- 712
+:= -- 1901
+add.period$ -- 113
+call.type$ -- 34
+change.case$ -- 178
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 42
+duplicate$ -- 561
+empty$ -- 997
+format.name$ -- 158
+if$ -- 2720
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 34
+missing$ -- 31
+newline$ -- 177
+num.names$ -- 74
+pop$ -- 220
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 143
 quote$ -- 0
-skip$ -- 1
+skip$ -- 467
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 660
+swap$ -- 192
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There were 2 error messages)
+type$ -- 134
+warning$ -- 8
+while$ -- 106
+width$ -- 36
+write$ -- 386
+(There were 8 warnings)

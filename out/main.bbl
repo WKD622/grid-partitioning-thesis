@@ -1,3 +1,212 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{fast_multilevel}
+S.~Barnard and H.~Simon.
+\newblock A fast multilevel implementation of recursive spectral bisection for
+  partitioning unstructured problems.
+\newblock pages 711--718, 01 1993.
+
+\bibitem{recursive}
+M.~Berger and S.~Bokhari.
+\newblock A partitioning strategy for nonuniform problems on multiprocessors.
+\newblock {\em IEEE Transactions on Computers}, C-36, 06 1987.
+
+\bibitem{Bui1993AHF}
+T.~N. Bui and C.~Jones.
+\newblock A heuristic for reducing fill-in in sparse matrix factorization.
+\newblock In {\em PPSC}, 1993.
+
+\bibitem{Chan95geometricspectral}
+T.~F. Chan, J.~R. Gilbert, and S.-H. Teng.
+\newblock Geometric spectral partitioning.
+\newblock Technical report, 1995.
+
+\bibitem{103500}
+C.-K. Cheng and Y.-C. Wei.
+\newblock An improved two-way partitioning algorithm with stable performance
+  (vlsi).
+\newblock {\em IEEE Transactions on Computer-Aided Design of Integrated
+  Circuits and Systems}, 10(12):1502--1511, 1991.
+
+\bibitem{article}
+R.~Diekmann and B.~Monien.
+\newblock Using helpful sets to improve graph bisections.
+\newblock 08 1994.
+
+\bibitem{10.5555/800263.809204}
+C.~M. Fiduccia and R.~M. Mattheyses.
+\newblock A linear-time heuristic for improving network partitions.
+\newblock In {\em Proceedings of the 19th Design Automation Conference}, DAC
+  '82, page 175–181. IEEE Press, 1982.
+
+\bibitem{129970}
+J.~Garbers, H.~Promel, and A.~Steger.
+\newblock Finding clusters in vlsi circuits.
+\newblock In {\em 1990 IEEE International Conference on Computer-Aided Design.
+  Digest of Technical Papers}, pages 520--523, 1990.
+
+\bibitem{279334}
+Hagen and Kahng.
+\newblock A new approach to effective circuit clustering.
+\newblock In {\em 1992 IEEE/ACM International Conference on Computer-Aided
+  Design}, pages 422--427, 1992.
+
+\bibitem{185177}
+L.~Hagen and A.~Kahng.
+\newblock Fast spectral methods for ratio cut partitioning and clustering.
+\newblock In {\em 1991 IEEE International Conference on Computer-Aided Design
+  Digest of Technical Papers}, pages 10--13, 1991.
+
+\bibitem{inproceedings}
+B.~Hendrickson and R.~Leland.
+\newblock A multi-level algorithm for partitioning graphs.
+\newblock pages 28-- 28, 02 1995.
+
+\bibitem{10.1007/3-540-54345-7_64}
+J.~Hromkovi{\v{c}} and B.~Monien.
+\newblock The bisection problem for graphs of degree 4 (configuring transputer
+  systems).
+\newblock In A.~Tarlecki, editor, {\em Mathematical Foundations of Computer
+  Science 1991}, pages 211--220, Berlin, Heidelberg, 1991. Springer Berlin
+  Heidelberg.
+
+\bibitem{Analysis}
+G.~Karypis and V.~Kumar.
+\newblock Analysis of multilevel graph partitioning.
+\newblock pages 29-- 29, 02 1995.
+
+\bibitem{KARYPIS199896}
+G.~Karypis and V.~Kumar.
+\newblock Multilevelk-way partitioning scheme for irregular graphs.
+\newblock {\em Journal of Parallel and Distributed Computing}, 48(1):96--129,
+  1998.
+
+\bibitem{KARYPIS199871}
+G.~Karypis and V.~Kumar.
+\newblock A parallel algorithm for multilevel graph partitioning and sparse
+  matrix ordering.
+\newblock {\em Journal of Parallel and Distributed Computing}, 48(1):71--95,
+  1998.
+
+\bibitem{metis}
+G.~Karypis and V.~Kumar.
+\newblock Kumar, v.: A fast and high quality multilevel scheme for partitioning
+  irregular graphs. siam journal on scientific computing 20(1), 359-392.
+\newblock {\em Siam Journal on Scientific Computing}, 20, 01 1999.
+
+\bibitem{6771089}
+B.~W. Kernighan and S.~Lin.
+\newblock An efficient heuristic procedure for partitioning graphs.
+\newblock {\em The Bell System Technical Journal}, 49(2):291--307, 1970.
+
+\bibitem{improved_spectral}
+R.~Leland and B.~Hendrickson.
+\newblock An improved spectral graph partitioning algorithm for mapping
+  parallel computations.
+\newblock 16, 09 1992.
+
+\bibitem{10.1145/165939.165942}
+N.~Mansour, R.~Ponnusamy, A.~Choudhary, and G.~C. Fox.
+\newblock Graph contraction for physical optimization methods: A quality-cost
+  tradeoff for mapping data on parallel computers.
+\newblock In {\em Proceedings of the 7th International Conference on
+  Supercomputing}, ICS '93, page 1–10, New York, NY, USA, 1993. Association
+  for Computing Machinery.
+
+\bibitem{Miller1994ACP}
+G.~Miller, S.~Teng, and W.~Thurston.
+\newblock A cartesian parallel nested dissection algorithm.
+\newblock 1994.
+
+\bibitem{185417}
+G.~Miller, S.-H. Teng, and S.~Vavasis.
+\newblock A unified geometric approach to graph separators.
+\newblock In {\em [1991] Proceedings 32nd Annual Symposium of Foundations of
+  Computer Science}, pages 538--547, 1991.
+
+\bibitem{MiTeThVa93}
+G.~L. Miller, S.~Teng, W.~Thurston, and S.~A. Vavasis.
+\newblock Automatic mesh partitioning.
+\newblock In A.~George, J.~Gilbert, and J.~Liu, editors, {\em Graphs Theory and
+  Sparse Matrix Computation}, The IMA Volumes in Mathematics and its
+  Application, pages 57--84. Springer-Verlag, 1993.
+\newblock Vol 56.
+
+\bibitem{MONIEN2006475}
+B.~Monien and R.~Preis.
+\newblock Upper bounds on the bisection width of 3- and 4-regular graphs.
+\newblock {\em Journal of Discrete Algorithms}, 4(3):475--498, 2006.
+\newblock Special issue in honour of Giorgio Ausiello.
+
+\bibitem{1364754}
+B.~Monien and S.~Schamberger.
+\newblock Graph partitioning with the party library: helpful-sets in practice.
+\newblock In {\em 16th Symposium on Computer Architecture and High Performance
+  Computing}, pages 198--205, 2004.
+
+\bibitem{NourOmid1987SolvingFE}
+B.~Nour-Omid, A.~Raefsky, and G.~Lyzenga.
+\newblock Solving finite element equations on concurrent computers.
+\newblock 1987.
+
+\bibitem{10.1137/0611030}
+A.~Pothen, H.~D. Simon, and K.-P. Liou.
+\newblock Partitioning sparse matrices with eigenvectors of graphs.
+\newblock {\em SIAM J. Matrix Anal. Appl.}, 11(3):430–452, May 1990.
+
+\bibitem{10.5555/147877.147902}
+A.~Pothen, H.~D. Simon, L.~Wang, and S.~T. Barnard.
+\newblock Towards a fast implementation of spectral nested dissection.
+\newblock In {\em Proceedings of the 1992 ACM/IEEE Conference on
+  Supercomputing}, Supercomputing '92, page 42–51, Washington, DC, USA, 1992.
+  IEEE Computer Society Press.
+
+\bibitem{weighted_maching}
+R.~Preis.
+\newblock Linear time 1/2 -approximation algorithm for maximum weighted
+  matching in general graphs.
+\newblock In {\em Proceedings of the 16th Annual Conference on Theoretical
+  Aspects of Computer Science}, STACS'99, page 259–269, Berlin, Heidelberg,
+  1999. Springer-Verlag.
+
+\bibitem{Raghavan93lineand}
+P.~Raghavan.
+\newblock Line and plane separators.
+\newblock Technical report, LAPACK WORKING NOTE 63 (UT CS-93-202), 1993.
+
+\bibitem{10.1007/3-540-44842-X_6}
+S.~Schamberger.
+\newblock Improvements to the helpful-set algorithm and a new evaluation scheme
+  for graph-partitioners.
+\newblock In V.~Kumar, M.~L. Gavrilova, C.~J.~K. Tan, and P.~L'Ecuyer, editors,
+  {\em Computational Science and Its Applications --- ICCSA 2003}, pages
+  49--53, Berlin, Heidelberg, 2003. Springer Berlin Heidelberg.
+
+\bibitem{algorithms222}
+R.~Sedgewick and K.~Wayne.
+\newblock {\em Algorithms, 4th Edition.}
+\newblock Addison-Wesley, 2011.
+
+\bibitem{jostle}
+C.~Walshaw and M.~Cross.
+\newblock Mesh partitioning: A multilevel balancing and refinement algorithm.
+\newblock {\em SIAM Journal on Scientific Computing}, 22, 07 2004.
+
+\bibitem{wiki:Graph_embedding}
+Wikipedia.
+\newblock {Graph embedding} --- {W}ikipedia{,} the free encyclopedia.
+\newblock
+  \url{http://en.wikipedia.org/w/index.php?title=Graph\%20embedding&oldid=1019397582},
+  2021.
+\newblock [Online; accessed 28-June-2021].
+
+\bibitem{wiki:skojarzenie}
+Wikipedia.
+\newblock {Skojarzenie (teoria grafów)} --- {W}ikipedia{,} the free
+  encyclopedia.
+\newblock
+  \url{http://pl.wikipedia.org/w/index.php?title=Skojarzenie\%20(teoria\%20graf\%C3\%B3w)&oldid=56877732},
+  2021.
+\newblock [Online; accessed 30-June-2021].
 
 \end{thebibliography}

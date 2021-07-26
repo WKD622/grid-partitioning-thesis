@@ -78,7 +78,7 @@ do optymalizacji granic używany jest algorytm HelpfulSets, który
 wywoływany jest wielokrotnie na różnych etapach przywracania grafu.
 Nie było natomiast informacji na temat tego, jak często ten algorytm jest wywoływany oraz w jakich stadiach przywracania grafu.
 W związku z powyższym zaproponowałem wyżej wymienione rozwiązanie.
-Dodatkową modyfikacją przywracania algorytmu było również wzięcie pod uwagę obszarów wyłączonych z obliczeń.
+Dodatkową modyfikacją algorytmu przywracania grafu było również wzięcie pod uwagę obszarów niepodzielnych.
 Pierwsza pętla WHILE (linia $4$) odpowiedzialna jest za przywrócenie zwykłych
 redukcji, to znaczy tych, które zostały stworzone przez algorytm LAM oraz wprowadzenie ulepszeń.
 Inne redukcje to te, które wykonywane są na obszarach niepodzielnych zaraz po
