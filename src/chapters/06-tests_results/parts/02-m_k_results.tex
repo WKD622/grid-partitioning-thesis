@@ -34,9 +34,9 @@ Jest to wynik niemal idealny.
 Wynikiem idealnym dla długości granic byłby wynik $600$.
 Charakterystyką tego podziału jest to, że ze względu na brak obszarów niepodzielnych, które mogą utrudniać
 wymianę granicznych wierzchołków udało się otrzymać niemal idealnie równe pola.
-Ciężko powiedzieć, czemu jest aż tak duża różnica w stosunku do biblioteki Party.
+Ciężko powiedzieć, czemu wystąpiła aż tak duża różnica w kwestii długości granic w stosunku do biblioteki Party.
 Być może przesądziły o tym różnice w implementacji, które najprawdopodobniej wyniknęły z nie dość szczegółowo opisanego algorytmu
-w artykule dotyczącym biblioteki Party \cite{1364754}.
+w artykule dotyczącym tej biblioteki \cite{1364754}.
 Przyglądając się mojemu rezultatowi, można zaproponować kilka pomniejszych usprawnień, które mogłyby jeszcze trochę polepszyć wynik.
 Można by przykładowo kosztem wielkości pól, zmusić algorytm do tworzenia prostych granic między obszarami.
 Ciężko mi jednak wyobrazić sobie modyfikację, która sprawiałaby, że obszary ustawiałyby się tak jakby siatka dzielona
@@ -49,7 +49,7 @@ Kolejną różnicą jest czas wykonania partycjonowania, który dla sprzętu wyp
 wraz z $1$ GB pamięci operacyjnej dla Party wyniósł $0.03$s.
 Dla mojego sprzętu wyposażonego w $2.3$ GHz Quad-Core Intel Core i$5$ z $2018$ roku wraz z $8$ GB pamięci operacyjnej
 czas ten wyniósł $18$s.
-Jest to o tyle dziwne, że algorytm do zmniejszania grafu, zwany weighted matching nie jest wcale algorytmem bardzo skomplikowanym.
+Sam algorytm do zmniejszania grafu, zwany algorytmem LAM nie jest bardzo skomplikowany.
 Jest więc to zaskakujące, ponieważ w mojej implementacji sama część odpowiedzialna za zmniejszanie grafu, to jest algorytm LAM,
 potrzebuje około $5$s aby zmniejszyć graf siatki $100$x$100$ do potrzebnej wielkości.
 To wciąż $160$ razy gorszy wynik dla jednej części mojej implementacji w porównaniu do całego algorytmu biblioteki
@@ -461,4 +461,115 @@ Dodatkowo dalej pokażę, że jeśli są one duże i nie są skupione w jednych 
 problematyczne dla algorytmu LAM, a także znaczenie wydłużają czas partycjonowania.
 Zawsze szybszym, efektywniejszym wyjściem jest skorzystanie z opcji usunięcia ich z siatki.
 \FloatBarrier
-
+\vspace{4mm}
+Na rysunkach \ref{result:15}, \ref{result:16}, \ref{result:17} oraz \ref{result:18} widać przykład siatki obrazującej
+mapę.
+Obszary wyłączone z obliczeń symbolizują ściany oraz pomieszczenia, na których nie będą przebiegały obliczenia.
+Żółte, niepodzielne obszary są w drzwiach lub ciasnych przejściach.
+Wygenerowałem cztery różne podziały.
+Dwa pierwsze nie zamieniają obszarów wyłączonych z obliczeń na wierzchołki w grafie.
+Partycjonowanie przedstawione na rysunku \ref{result:15} zostało wybrane wedle kryterium najmniejszego odchylenia standardowego dla pól obszarów,
+natomiast partycjonowanie z rysunku \ref{result:16} wedle kryterium najmniejszej długości granic.
+Dla partycjonowań \ref{result:17} oraz \ref{result:18} wygląda to analogicznie, tutaj natomiast obszary wyłączone z obliczeń
+zostały zamienione na wierzchołki o wagach $0$.
+Rezultaty \ref{result:15}, \ref{result:16} są znacznie lepsze od \ref{result:17} oraz \ref{result:18} pod względem
+długości granic, ze względu na ściany, które ograniczają liczbę krawędzi łączących różne partycje.
+Wynika z tego, że jeśli na wejściowej siatce nie ma żadnych obszarów, które są całkowicie odłączone od innych
+(innymi słowy można znaleźć ścieżkę między każdą parą pokoi na mapie)
+lepsze rezultaty daje metoda, która nie tworzy wierzchołków dla obszarów wyłączonych z obliczeń.
+Tak jak wcześniej, tam gdzie wybierany jest podział wedle kryterium najmniejszej długości granic, otrzymujemy krótsze
+granice kosztem nieco mniej równego podziału, dla drugiego kryterium na odwrót.
+\begin{figure}[h]
+\centering
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.9\linewidth]{images/results/m_k/with/15/grid}}
+    \caption[short]{}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.9\linewidth]{images/results/m_k/with/15/partitioning}}
+    \caption[short]{}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/results/m_k/with/15/results}
+    \caption[short]{}
+\end{subfigure}
+\caption{Siatka $100$x$100$. Podział na $16$ partycji.
+Obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
+Sumaryczna długość granic dla tego wyniku wynosi $392$.
+Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.}
+\label{result:15}
+\end{figure}
+\begin{figure}[h]
+\centering
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.9\linewidth]{images/results/m_k/with/16/grid}}
+    \caption[short]{}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.9\linewidth]{images/results/m_k/with/16/partitioning}}
+    \caption[short]{}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/results/m_k/with/16/results}
+    \caption[short]{}
+\end{subfigure}
+\caption{Siatka $100$x$100$. Podział na $16$ partycji.
+Obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
+Sumaryczna długość granic dla tego wyniku wynosi $347$.
+Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
+\label{result:16}
+    
+\end{figure}
+\begin{figure}[h]
+\centering
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.9\linewidth]{images/results/m_k/with/17/grid}}
+    \caption[short]{}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.9\linewidth]{images/results/m_k/with/17/partitioning}}
+    \caption[short]{}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/results/m_k/with/17/results}
+    \caption[short]{}
+\end{subfigure}
+\caption{Siatka $100$x$100$. Podział na $16$ partycji.
+Obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
+Sumaryczna długość granic dla tego wyniku wynosi $908$.
+Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.}
+\label{result:17}
+\end{figure}
+\begin{figure}[h]
+\centering
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.9\linewidth]{images/results/m_k/with/18/grid}}
+    \caption[short]{}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.9\linewidth]{images/results/m_k/with/18/partitioning}}
+    \caption[short]{}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/results/m_k/with/18/results}
+    \caption[short]{}
+\end{subfigure}
+\caption{Siatka $100$x$100$. Podział na $16$ partycji.
+Obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
+Sumaryczna długość granic dla tego wyniku wynosi $739$.
+Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
+\label{result:18}
+\end{figure}
+\FloatBarrier

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.26)  26 JUL 2021 19:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.5)  27 JUL 2021 22:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1108,7 +1108,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 8.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-(/Users/jakubz/Workspace/grid-partitioning-thesis/out/main.aux)
+(/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -1206,8 +1206,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
 LaTeX Info: Redefining \nameref on input line 8.
- (/Users/jakubz/Workspace/grid-partitioning-thesis/out/main.out)
-(/Users/jakubz/Workspace/grid-partitioning-thesis/out/main.out)
+ (/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.out)
+(/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.out)
 \@outlinefile=\write8
 \openout8 = `main.out'.
 
@@ -1239,7 +1239,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./input
 /agh.pdf>] [2]) (./chapters/02-table_of_contents/main.tex
-(/Users/jakubz/Workspace/grid-partitioning-thesis/out/main.toc
+(/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
 .
 
@@ -2329,12 +2329,101 @@ File: images/results/m_k/with/13/results.png Graphic file (type png)
 Package pdftex.def Info: images/results/m_k/with/13/results.png  used on input 
 line 446.
 (pdftex.def)             Requested size: 135.20732pt x 109.0881pt.
-) [54
+<images/results/m_k/with/15/grid.png, id=1121, 476.78125pt x 474.77374pt>
+File: images/results/m_k/with/15/grid.png Graphic file (type png)
+<use images/results/m_k/with/15/grid.png>
+Package pdftex.def Info: images/results/m_k/with/15/grid.png  used on input lin
+e 486.
+(pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
+<images/results/m_k/with/15/partitioning.png, id=1122, 476.78125pt x 474.77374p
+t>
+File: images/results/m_k/with/15/partitioning.png Graphic file (type png)
+<use images/results/m_k/with/15/partitioning.png>
+Package pdftex.def Info: images/results/m_k/with/15/partitioning.png  used on i
+nput line 491.
+(pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
+<images/results/m_k/with/15/results.png, id=1123, 268.00125pt x 336.25626pt>
+File: images/results/m_k/with/15/results.png Graphic file (type png)
+<use images/results/m_k/with/15/results.png>
+Package pdftex.def Info: images/results/m_k/with/15/results.png  used on input 
+line 496.
+(pdftex.def)             Requested size: 135.20732pt x 169.64131pt.
+<images/results/m_k/with/16/grid.png, id=1124, 476.78125pt x 474.77374pt>
+File: images/results/m_k/with/16/grid.png Graphic file (type png)
+<use images/results/m_k/with/16/grid.png>
+Package pdftex.def Info: images/results/m_k/with/16/grid.png  used on input lin
+e 509.
+(pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
+<images/results/m_k/with/16/partitioning.png, id=1125, 476.78125pt x 474.77374p
+t>
+File: images/results/m_k/with/16/partitioning.png Graphic file (type png)
+<use images/results/m_k/with/16/partitioning.png>
+Package pdftex.def Info: images/results/m_k/with/16/partitioning.png  used on i
+nput line 514.
+(pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
+<images/results/m_k/with/16/results.png, id=1126, 268.00125pt x 336.25626pt>
+File: images/results/m_k/with/16/results.png Graphic file (type png)
+<use images/results/m_k/with/16/results.png>
+Package pdftex.def Info: images/results/m_k/with/16/results.png  used on input 
+line 519.
+(pdftex.def)             Requested size: 135.20732pt x 169.64131pt.
+<images/results/m_k/with/17/grid.png, id=1127, 476.78125pt x 474.77374pt>
+File: images/results/m_k/with/17/grid.png Graphic file (type png)
+<use images/results/m_k/with/17/grid.png>
+Package pdftex.def Info: images/results/m_k/with/17/grid.png  used on input lin
+e 533.
+(pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
+<images/results/m_k/with/17/partitioning.png, id=1128, 476.78125pt x 474.77374p
+t>
+File: images/results/m_k/with/17/partitioning.png Graphic file (type png)
+<use images/results/m_k/with/17/partitioning.png>
+Package pdftex.def Info: images/results/m_k/with/17/partitioning.png  used on i
+nput line 538.
+(pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
+<images/results/m_k/with/17/results.png, id=1129, 268.00125pt x 336.25626pt>
+File: images/results/m_k/with/17/results.png Graphic file (type png)
+<use images/results/m_k/with/17/results.png>
+Package pdftex.def Info: images/results/m_k/with/17/results.png  used on input 
+line 543.
+(pdftex.def)             Requested size: 135.20732pt x 169.64131pt.
+<images/results/m_k/with/18/grid.png, id=1130, 476.78125pt x 474.77374pt>
+File: images/results/m_k/with/18/grid.png Graphic file (type png)
+<use images/results/m_k/with/18/grid.png>
+Package pdftex.def Info: images/results/m_k/with/18/grid.png  used on input lin
+e 556.
+(pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
+<images/results/m_k/with/18/partitioning.png, id=1131, 476.78125pt x 474.77374p
+t>
+File: images/results/m_k/with/18/partitioning.png Graphic file (type png)
+<use images/results/m_k/with/18/partitioning.png>
+Package pdftex.def Info: images/results/m_k/with/18/partitioning.png  used on i
+nput line 561.
+(pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
+<images/results/m_k/with/18/results.png, id=1132, 281.05pt x 336.25626pt>
+File: images/results/m_k/with/18/results.png Graphic file (type png)
+<use images/results/m_k/with/18/results.png>
+Package pdftex.def Info: images/results/m_k/with/18/results.png  used on input 
+line 566.
+(pdftex.def)             Requested size: 135.20732pt x 161.76546pt.
+ [54
 
  <./images/results/m_k/with/14/grid.png> <./images/results/m_k/with/14/partitio
 ning.png> <./images/results/m_k/with/14/results.png> <./images/results/m_k/with
 /13/grid.png> <./images/results/m_k/with/13/partitioning.png> <./images/results
 /m_k/with/13/results.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[55 <./images/results/m_k/with/15/grid.png> <./images/results/m_k/with/15/parti
+tioning.png> <./images/results/m_k/with/15/results.png> <./images/results/m_k/w
+ith/16/grid.png> <./images/results/m_k/with/16/partitioning.png> <./images/resu
+lts/m_k/with/16/results.png>] [56 <./images/results/m_k/with/17/grid.png> <./im
+ages/results/m_k/with/17/partitioning.png> <./images/results/m_k/with/17/result
+s.png> <./images/results/m_k/with/18/grid.png> <./images/results/m_k/with/18/pa
+rtitioning.png> <./images/results/m_k/with/18/results.png>])
 (./chapters/06-tests_results/parts/03-m_results.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2344,8 +2433,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
-) [55]) (./chapters/99-bibliography/main.tex
-(/Users/jakubz/Workspace/grid-partitioning-thesis/out/main.bbl [56] [57]
+) [57
+
+]) (./chapters/99-bibliography/main.tex
+(/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.bbl [58]
+[59]
 Underfull \hbox (badness 10000) in paragraph at lines 196--202
 \T1/lmtt/m/n/12 wikipedia . org / w / index . php ? title = Graph % 20embedding
  & oldid = 1019397582$[]\T1/lmr/m/n/12 ,
@@ -2357,7 +2449,7 @@ Underfull \hbox (badness 2359) in paragraph at lines 204--211
  the free en-cyc-lo-pe-
  []
 
-)) [58] (/Users/jakubz/Workspace/grid-partitioning-thesis/out/main.aux)
+)) [60] (/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2365,10 +2457,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 027AEA6D30B2A09477EA393744B829A6;7018.
  ) 
 Here is how much of TeX's memory you used:
- 31997 strings out of 478994
- 598522 string characters out of 5858184
+ 32095 strings out of 478994
+ 602292 string characters out of 5858185
  1568767 words of memory out of 5000000
- 48357 multiletter control sequences out of 15000+600000
+ 48445 multiletter control sequences out of 15000+600000
  484863 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  91i,11n,91p,1330b,1204s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2394,11 +2486,11 @@ y10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></u
 sr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2021
 /texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/jakubz/Workspace/grid-partitioning-thesis/out/main.pdf
- (58 pages, 7570550 bytes).
+Output written on /Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main
+.pdf (60 pages, 8460101 bytes).
 PDF statistics:
- 1288 PDF objects out of 1440 (max. 8388607)
- 926 compressed objects within 10 object streams
- 338 named destinations out of 1000 (max. 500000)
- 852 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1337 PDF objects out of 1440 (max. 8388607)
+ 949 compressed objects within 10 object streams
+ 344 named destinations out of 1000 (max. 500000)
+ 912 words of extra memory for PDF output out of 10000 (max. 10000000)
 
