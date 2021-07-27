@@ -148,15 +148,42 @@ Jest to dobry wynik.
     \includegraphics[width=0.9\linewidth]{images/results/m_k/with/4/results}
     \caption[short]{}
 \end{subfigure}
-\caption{Siatka $50$x$50$. Podział na $8$ partycji. Sumaryczna długość granic dla tego wyniku wynosi $320$.
+\caption{Siatka $50$x$50$. Podział na $8$ partycji. Obszary wyłączone z obliczeń mapowane na wierzchołki z wagą $0$.
+Sumaryczna długość granic dla tego wyniku wynosi $177$.
 Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
 \label{result:4}
 \end{figure}
 
-Dla tej siatki \ref{result:4} sprawdzane jest, czy algorytm bierze pod uwagę obszary wyłączone z obliczeń.
+\begin{figure}[h]
+\centering
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.6\linewidth]{images/results/m_k/with/1/grid}}
+    \caption[short]{}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.6\linewidth]{images/results/m_k/with/1/partitioning}}
+    \caption[short]{}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/results/m_k/with/1/results}
+    \caption[short]{}
+\end{subfigure}
+\caption{Siatka $50$x$50$. Podział na $8$ partycji. Obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
+Sumaryczna długość granic dla tego wyniku wynosi $137$.
+Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
+\label{result:1}
+\end{figure}
+
+Dla siatki przedstawionej na rysunku \ref{result:4} sprawdzane jest, czy algorytm bierze pod uwagę obszary wyłączone z obliczeń.
 Na rezultacie widać, że wszystkie pola są niemal identyczne pod względem wagi.
 Pole żółte urosło do dużych rozmiarów, jednak mimo to ma taką samą wagę jak pozostałe pola.
 Algorytm poprawnie bierze pod uwagę obszary wyłączone z obliczeń.
+Na rysunku \ref{result:1} przedstawiono partycjonowanie tej samej siatki, ale dla tego przypadku obszary wyłączone
+z obliczeń nie są mapowane na wierzchołki w grafie.
+W efekcie partycjonowanie trwa krócej, a długość granic jest znacznie mniejsza.
 
 \vspace{8mm}
 \begin{figure}[h]
@@ -313,10 +340,10 @@ Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla
 \label{result:9}
 \end{figure}
 
-Widać, że partycjonowanie na $3$ części na rysunku \ref{result:7} daje znacznie więcej swobody, w rezultacie
+Widać, że partycjonowanie na $3$ części na rysunku \ref{result:8} daje znacznie więcej swobody, w rezultacie
 partycje są niemal identycznej wielkości.
 Ustawienie obszarów niepodzielnych motywuje nadal ułożenie partycji i zwiększa długość granic.
-Rysunek \ref{result:8} to bardziej ekstremalna wersja \ref{result:10}.
+Partycjonowanie przedstawione na rysunku \ref{result:9} to bardziej ekstremalna wersja partycjonowania na rysunku \ref{result:7}.
 Partycje, które miały możliwość wyrównania pola między sobą, jak partycje $6$, $4$ oraz $5$,
 mają praktycznie identyczne pola.
 Analizując ten rysunek trudno jest zaproponować lepsze początkowe ułożenie obszarów w celu późniejszej, lepszej optymalizacji
@@ -331,7 +358,7 @@ Dla rysunku \ref{result:11} otrzymaliśmy równiejsze pola, kosztem gorszej dłu
 Na rysunku \ref{result:12} otrzymaliśmy krótsze granice, kosztem równości pól.
 Różnicą w tym wypadku jest to, że na raz na siatce pojawiają się zarówno obszary wyłączone z obliczeń jak i
 obszary niepodzielne.
-Algorytm bardzo dobrze radzi sobie z uwzględnieniem obydwu, otrzymuje krótkie granice oraz w w miarę równe obszary.
+Algorytm bardzo dobrze radzi sobie z uwzględnieniem obydwu, otrzymuje krótkie granice oraz niemal równe obszary.
 \begin{figure}[h]
 \centering
 \begin{subfigure}{.33\textwidth}
@@ -349,12 +376,12 @@ Algorytm bardzo dobrze radzi sobie z uwzględnieniem obydwu, otrzymuje krótkie 
     \includegraphics[width=0.9\linewidth]{images/results/m_k/with/11/results}
     \caption[short]{}
 \end{subfigure}
-\caption{Siatka $50$x$50$. Sumaryczna długość granic dla tego wyniku wynosi $295$.
+\caption{Siatka $50$x$50$. Podział na $10$ partycji.
+Obszary wyłączone z obliczeń mapowane na wierzchołki z wagą $0$.
+Sumaryczna długość granic dla tego wyniku wynosi $295$.
 Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.}
 \label{result:11}
 \end{figure}
-
-
 \begin{figure}[h]
 \centering
 \begin{subfigure}{.33\textwidth}
@@ -372,9 +399,66 @@ Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla
     \includegraphics[width=0.9\linewidth]{images/results/m_k/with/12/results}
     \caption[short]{}
 \end{subfigure}
-\caption{Siatka $50$x$50$. Sumaryczna długość granic dla tego wyniku wynosi $261$.
+\caption{Siatka $50$x$50$. Podział na $10$ partycji.
+Obszary wyłączone z obliczeń mapowane na wierzchołki z wagą $0$.
+Sumaryczna długość granic dla tego wyniku wynosi $261$.
 Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
 \label{result:12}
 \end{figure}
 \FloatBarrier
-\lipsum
+\begin{figure}[h]
+\centering
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.6\linewidth]{images/results/m_k/with/14/grid}}
+    \caption[short]{}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.6\linewidth]{images/results/m_k/with/14/partitioning}}
+    \caption[short]{}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/results/m_k/with/14/results}
+    \caption[short]{}
+\end{subfigure}
+\caption{Siatka $50$x$50$. Podział na 10 partycji.
+Obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
+Sumaryczna długość granic dla tego wyniku wynosi $252$.
+Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.}
+\label{result:14}
+\end{figure}
+\begin{figure}[h]
+\centering
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.6\linewidth]{images/results/m_k/with/13/grid}}
+    \caption[short]{}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.6\linewidth]{images/results/m_k/with/13/partitioning}}
+    \caption[short]{}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/results/m_k/with/13/results}
+    \caption[short]{}
+\end{subfigure}
+\caption{Siatka $50$x$50$. Podział na 10 partycji.
+Obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
+Sumaryczna długość granic dla tego wyniku wynosi $221$.
+Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
+\label{result:13}
+\end{figure}
+Rysunek \ref{result:13} oraz \ref{result:14} prezentują partycjonowanie tej samej siatki, ale z użyciem wariantu algorytmu
+gdzie obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
+W efekcie dla obydwu kryteriów wyboru najlepszego partycjonowania otrzymujemy mniejszą długość granic.
+Do tej pory dla wszystkich przykładów nietworzenie wierzchołków w miejsce obszarów wyłączonych z obliczeń
+zwracało lepsze rezultaty i ten trend utrzyma się do samego końca.
+Dodatkowo dalej pokażę, że jeśli są one duże i nie są skupione w jednych miejscach siatki to są bardzo
+problematyczne dla algorytmu LAM, a także znaczenie wydłużają czas partycjonowania.
+Zawsze szybszym, efektywniejszym wyjściem jest skorzystanie z opcji usunięcia ich z siatki.
+\FloatBarrier
+
