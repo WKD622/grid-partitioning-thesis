@@ -1,0 +1,38 @@
+\newpage
+\section{Podsumowanie i kierunek rozwoju}
+
+W ramach niniejszej pracy odtworzona oraz zmodyfikowana została metoda partycjonowania grafów używana przez
+bibliotekę Party \cite{1364754}.
+Metoda zmodyfikowana została z myślą o partycjonowaniu siatek dla efektywnego zrównoleglenia symulacji 2$D$.
+Symulacje przeprowadzane są na $m$ węzłach, każdy zawierający $k$ rdzeni.
+Siatka musi być podzielona na $m$ równych partycji po $k$ równych podobszarów każda.
+Ważnym wymaganiem było dzielenie z zachowaniem możliwie krótkich granic między obszarami, ponieważ im dłuższe granice,
+tym większy koszt komunikacji.
+
+Algorytm został zrealizowany w dwóch etapach.
+Pierwszy dzielił siatkę na $m \cdot k$ partycji.
+Drugi dzielił siatkę podzieloną na $m \cdot k$ partycji na $m$ partycji, każda po $k$ równych podobszarów.
+Nowym elementem było uwzględnienie przy partycjonowaniu obszarów niepodzielnych oraz wyłączonych
+z obliczeń.
+
+Pierwszy etap podziału na $m \cdot k$ partycji był najbardziej czasochłonnym elementem pracy.
+Odtworzenie algorytmu oraz dostosowaniu go pod rozszerzone wymagania zakończyło się sukcesem.
+Algorytm otrzymał wyniki bliskie bibliotekom uznawanym przez literature jako dające wyniki state-of-the-art,
+ponadto obsługuje nieobsługiwane przez te biblioteki obszary niepodzielne oraz wyłączone z obliczeń.
+
+Drugi etap został zrealizowany przy pomocy narzędzi stworzonych na potrzeby pierwszego etapu, dlatego wyniki nie są
+aż tak dobre.
+Bazuje głównie na wielokrotnym powtarzaniu obliczeń, następnie na wybieraniu najlepszych rezultatów.
+Algorytm wybrany do tego etapu nie do końca nadaje się do dzielenia na partycje o idealnie równej liczbie podobszarów,
+dlatego musiał zostać dopełniony algorytmem zachłannym.
+
+Cel pracy został osiągnięty.
+Jako dalsze kierunki rozwoju wskazałbym:
+\begin{enumerate}
+    \item {Poprawienie implementacji etapu pierwszego, w celu otrzymania wyników bliższych oryginalnej implementacji.
+    Oznacza to poprawienie wyników dla długości granic, ale w szczególności poprawienie wydajności,
+    ponieważ czasy wykonywania stanowiły największą różnice w stosunku do oryginalnej implementacji.}
+    \item {Rozwinięcie drugiego etapu, poprzez zaproponowanie innego algorytmu, który w swojej charakterystyce
+    od samego początku został zaprojektowany pod kątem otrzymywania obszarów o równej liczbie wierzchołków, lub też
+    udoskonalenie aktualnego rozwiązania.}
+\end{enumerate}

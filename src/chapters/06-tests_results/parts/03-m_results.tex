@@ -12,6 +12,14 @@ Jest to możliwe, ponieważ szukanie $m$ ma niski koszt obliczeniowy.
 Ze wszystkich wywołań wybierane jest ten podział na $m$ partycji, który ma najkrótszą długość granic.
 Długość granic pod rysunkiem podawana jest dla podziału na $m$ obszarów.
 
+\vspace{4mm}
+
+Rysunek \ref{result:m:1} pokazuje partycjonowanie dla $k$ i $m$ wynoszącego $4$.
+$16$ obszarów dzielone jest na $4$ partycje po $4$ podobszarów każda.
+Podział na $m$ obszarów nie wykazał żadnych obszarów rozproszonych - każda partycja jest jedną całością,
+a granica między obszarami jest krótka.
+Wszystkie z czterech partycji mają niemal równe rozmiary, to znaczy, że wielkości partycji dla podziału (a) są
+niemal idealnie równe.
 \begin{figure}[h]
 \centering
 \begin{subfigure}{.33\textwidth}
@@ -23,15 +31,85 @@ Długość granic pod rysunkiem podawana jest dla podziału na $m$ obszarów.
     \centering
     \fbox{\includegraphics[width=0.7\linewidth]{images/results/m/1/m}}
     \caption[short]{}
-\end{subfigure}%
+\end{subfigure}
 \begin{subfigure}{.33\textwidth}
     \centering
     \includegraphics[width=0.9\linewidth]{images/results/m/1/results}
     \caption[short]{}
 \end{subfigure}
-\caption{Siatka $100$x$100$. Podział na $16$ partycji.
-Obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
-Sumaryczna długość granic dla tego wyniku wynosi $382$.
+\caption{Siatka $50$x$50$. $k$ i $m$ wynosi $4$.
+Sumaryczna długość granic dla tego wyniku wynosi $146$.
 Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
 \label{result:m:1}
+\end{figure}
+
+Rysunek \ref{result:m:2} pokazuje partycjonowanie dla $k$ i $m$ wynoszącego $7$.
+$49$ obszarów dzielone jest na $7$ partycji po $7$ podobszarów każda.
+Po raz pierwszy widoczne są obszary rozproszone, są jednak one pojedyncze i tylko dla partycji $1$.
+Wszystkie z siedmiu partycji mają niemal równe rozmiary, to znaczy, że wielkości partycji dla podziału (a) są
+niemal idealnie równe.
+
+Rysunek \ref{result:m:3} pokazuje partycjonowanie dla $k$ i $m$ wynoszącego $10$.
+$100$ obszarów dzielone jest na $10$ partycji po $10$ podobszarów każda.
+Wraz z liczbą obszarów rośnie liczba partycji rozproszonych, nie jest ona jednak duża.
+Jest to tylko kilka pojedynczych obszarów.
+Podział można uznać za udany.
+
+Można zaobserwować, że wraz z liczbą partycji rośnie liczba partycji rozproszonych, nie jest to jednak bardzo intensywne
+zjawisko.
+Eksperymenty wykazały, że w celu znalezienia najlepszego partycjonowania lepiej wykonać więcej
+podziałów na $m \cdot k$ partycji ($100$ prób), a następnie
+dla każdego z nich podobną liczbę partycjowań na $m$ partycji po $k$ obszarów ($100$ prób),
+niż wykonać mniej podziałów na $m \cdot k$ partycji ($1$-$10$ prób) i dla każdego
+z nich znacznie więcej partycjowań na $m$ partycji po $k$ obszarów ($1000$-$3000$ prób).
+Druga opcja jest możliwa, ponieważ wyliczanie partycjowań na $m$ partycji po $k$ obszarów jest bardzo mało kosztowne
+obliczeniowo, ale dla tej opcji występuje znacznie więcej obszarów rozproszonych i długość granic między partycjami
+jest większa.
+
+
+\begin{figure}[h]
+\centering
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.7\linewidth]{images/results/m/2/mk}}
+    \caption[short]{}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.7\linewidth]{images/results/m/2/m}}
+    \caption[short]{}
+\end{subfigure}
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/results/m/2/results}
+    \caption[short]{}
+\end{subfigure}
+\caption{Siatka $50$x$50$. $k$ i $m$ wynosi $7$.
+Sumaryczna długość granic dla tego wyniku wynosi $365$.
+Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
+\label{result:m:2}
+\end{figure}
+
+
+\begin{figure}[h]
+\centering
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.7\linewidth]{images/results/m/3/mk}}
+    \caption[short]{}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.7\linewidth]{images/results/m/3/m}}
+    \caption[short]{}
+\end{subfigure}
+\begin{subfigure}{.33\textwidth}
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/results/m/3/results}
+    \caption[short]{}
+\end{subfigure}
+\caption{Siatka $50$x$50$. $k$ i $m$ wynosi $10$.
+Sumaryczna długość granic dla tego wyniku wynosi $509$.
+Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
+\label{result:m:3}
 \end{figure}
