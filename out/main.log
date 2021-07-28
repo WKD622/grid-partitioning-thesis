@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.5)  28 JUL 2021 18:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.5)  28 JUL 2021 20:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2030,84 +2030,84 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [47] [48 <./images/results/m_k/without/1/partitioning.png> <./images/results/m_
 k/without/1/results.png>]
-<images/results/m_k/with/2/grid.png, id=973, 312.16624pt x 312.16624pt>
+<images/results/m_k/with/2/grid.png, id=974, 312.16624pt x 312.16624pt>
 File: images/results/m_k/with/2/grid.png Graphic file (type png)
 <use images/results/m_k/with/2/grid.png>
 Package pdftex.def Info: images/results/m_k/with/2/grid.png  used on input line
- 78.
+ 73.
 (pdftex.def)             Requested size: 90.13974pt x 90.14006pt.
-<images/results/m_k/with/2/partitioning.png, id=974, 312.16624pt x 312.16624pt>
+<images/results/m_k/with/2/partitioning.png, id=975, 312.16624pt x 312.16624pt>
 
 File: images/results/m_k/with/2/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/2/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/2/partitioning.png  used on in
-put line 83.
+put line 78.
 (pdftex.def)             Requested size: 90.13974pt x 90.14006pt.
-<images/results/m_k/with/2/results.png, id=975, 223.83624pt x 158.5925pt>
+<images/results/m_k/with/2/results.png, id=976, 223.83624pt x 158.5925pt>
 File: images/results/m_k/with/2/results.png Graphic file (type png)
 <use images/results/m_k/with/2/results.png>
 Package pdftex.def Info: images/results/m_k/with/2/results.png  used on input l
-ine 88.
+ine 83.
 (pdftex.def)             Requested size: 135.20732pt x 95.79991pt.
-<images/results/m_k/with/3/grid.png, id=977, 376.40625pt x 376.40625pt>
+<images/results/m_k/with/3/grid.png, id=978, 376.40625pt x 376.40625pt>
 File: images/results/m_k/with/3/grid.png Graphic file (type png)
 <use images/results/m_k/with/3/grid.png>
 Package pdftex.def Info: images/results/m_k/with/3/grid.png  used on input line
- 110.
+ 105.
 (pdftex.def)             Requested size: 90.13974pt x 90.13832pt.
-<images/results/m_k/with/3/partitioning.png, id=978, 376.40625pt x 376.40625pt>
+<images/results/m_k/with/3/partitioning.png, id=979, 376.40625pt x 376.40625pt>
 
 File: images/results/m_k/with/3/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/3/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/3/partitioning.png  used on in
-put line 115.
+put line 110.
 (pdftex.def)             Requested size: 90.13974pt x 90.13832pt.
-<images/results/m_k/with/3/results.png, id=979, 272.01625pt x 189.70876pt>
+<images/results/m_k/with/3/results.png, id=980, 272.01625pt x 189.70876pt>
 File: images/results/m_k/with/3/results.png Graphic file (type png)
 <use images/results/m_k/with/3/results.png>
 Package pdftex.def Info: images/results/m_k/with/3/results.png  used on input l
-ine 120.
+ine 115.
 (pdftex.def)             Requested size: 135.20732pt x 94.30124pt.
-<images/results/m_k/with/4/grid.png, id=981, 375.4025pt x 374.39874pt>
+<images/results/m_k/with/4/grid.png, id=982, 375.4025pt x 374.39874pt>
 File: images/results/m_k/with/4/grid.png Graphic file (type png)
 <use images/results/m_k/with/4/grid.png>
 Package pdftex.def Info: images/results/m_k/with/4/grid.png  used on input line
- 138.
+ 133.
 (pdftex.def)             Requested size: 90.13974pt x 89.89752pt.
-<images/results/m_k/with/4/partitioning.png, id=982, 376.40625pt x 375.4025pt>
+<images/results/m_k/with/4/partitioning.png, id=983, 376.40625pt x 375.4025pt>
 File: images/results/m_k/with/4/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/4/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/4/partitioning.png  used on in
-put line 143.
+put line 138.
 (pdftex.def)             Requested size: 90.13974pt x 89.89795pt.
-<images/results/m_k/with/4/results.png, id=983, 260.975pt x 170.6375pt>
+<images/results/m_k/with/4/results.png, id=984, 260.975pt x 170.6375pt>
 File: images/results/m_k/with/4/results.png Graphic file (type png)
 <use images/results/m_k/with/4/results.png>
 Package pdftex.def Info: images/results/m_k/with/4/results.png  used on input l
-ine 148.
+ine 143.
 (pdftex.def)             Requested size: 135.20732pt x 88.40654pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/results/m_k/with/1/grid.png, id=984, 375.4025pt x 374.39874pt>
+<images/results/m_k/with/1/grid.png, id=985, 375.4025pt x 374.39874pt>
 File: images/results/m_k/with/1/grid.png Graphic file (type png)
 <use images/results/m_k/with/1/grid.png>
 Package pdftex.def Info: images/results/m_k/with/1/grid.png  used on input line
- 161.
+ 156.
 (pdftex.def)             Requested size: 90.13974pt x 89.89752pt.
-<images/results/m_k/with/1/partitioning.png, id=985, 376.40625pt x 376.40625pt>
+<images/results/m_k/with/1/partitioning.png, id=986, 376.40625pt x 376.40625pt>
 
 File: images/results/m_k/with/1/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/1/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/1/partitioning.png  used on in
-put line 166.
+put line 161.
 (pdftex.def)             Requested size: 90.13974pt x 90.13832pt.
-<images/results/m_k/with/1/results.png, id=986, 257.96375pt x 169.63374pt>
+<images/results/m_k/with/1/results.png, id=987, 257.96375pt x 169.63374pt>
 File: images/results/m_k/with/1/results.png Graphic file (type png)
 <use images/results/m_k/with/1/results.png>
 Package pdftex.def Info: images/results/m_k/with/1/results.png  used on input l
-ine 171.
+ine 166.
 (pdftex.def)             Requested size: 135.20732pt x 88.9115pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2116,167 +2116,167 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 oning.png> <./images/results/m_k/with/2/results.png> <./images/results/m_k/with
 /3/grid.png> <./images/results/m_k/with/3/partitioning.png> <./images/results/m
 _k/with/3/results.png>]
-<images/results/m_k/with/5/grid.png, id=1002, 375.4025pt x 376.40625pt>
+<images/results/m_k/with/5/grid.png, id=1003, 375.4025pt x 376.40625pt>
 File: images/results/m_k/with/5/grid.png Graphic file (type png)
 <use images/results/m_k/with/5/grid.png>
 Package pdftex.def Info: images/results/m_k/with/5/grid.png  used on input line
- 193.
+ 188.
 (pdftex.def)             Requested size: 90.13974pt x 90.37955pt.
-<images/results/m_k/with/5/partitioning.png, id=1003, 375.4025pt x 376.40625pt>
+<images/results/m_k/with/5/partitioning.png, id=1004, 375.4025pt x 376.40625pt>
 
 File: images/results/m_k/with/5/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/5/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/5/partitioning.png  used on in
-put line 198.
+put line 193.
 (pdftex.def)             Requested size: 90.13974pt x 90.37955pt.
-<images/results/m_k/with/5/results.png, id=1004, 269.005pt x 170.6375pt>
+<images/results/m_k/with/5/results.png, id=1005, 269.005pt x 170.6375pt>
 File: images/results/m_k/with/5/results.png Graphic file (type png)
 <use images/results/m_k/with/5/results.png>
 Package pdftex.def Info: images/results/m_k/with/5/results.png  used on input l
-ine 203.
+ine 198.
 (pdftex.def)             Requested size: 135.20732pt x 85.76637pt.
  [50 <./images/results/m_k/with/4/grid.png> <./images/results/m_k/with/4/partit
 ioning.png> <./images/results/m_k/with/4/results.png> <./images/results/m_k/wit
 h/1/grid.png> <./images/results/m_k/with/1/partitioning.png> <./images/results/
 m_k/with/1/results.png> <./images/results/m_k/with/5/grid.png> <./images/result
 s/m_k/with/5/partitioning.png> <./images/results/m_k/with/5/results.png>]
-<images/results/m_k/with/6/grid.png, id=1028, 377.41pt x 375.4025pt>
+<images/results/m_k/with/6/grid.png, id=1029, 377.41pt x 375.4025pt>
 File: images/results/m_k/with/6/grid.png Graphic file (type png)
 <use images/results/m_k/with/6/grid.png>
 Package pdftex.def Info: images/results/m_k/with/6/grid.png  used on input line
- 229.
+ 224.
 (pdftex.def)             Requested size: 90.13974pt x 89.65736pt.
-<images/results/m_k/with/6/partitioning.png, id=1029, 377.41pt x 375.4025pt>
+<images/results/m_k/with/6/partitioning.png, id=1030, 377.41pt x 375.4025pt>
 File: images/results/m_k/with/6/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/6/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/6/partitioning.png  used on in
-put line 234.
+put line 229.
 (pdftex.def)             Requested size: 90.13974pt x 89.65736pt.
-<images/results/m_k/with/6/results.png, id=1030, 270.00874pt x 106.3975pt>
+<images/results/m_k/with/6/results.png, id=1031, 270.00874pt x 106.3975pt>
 File: images/results/m_k/with/6/results.png Graphic file (type png)
 <use images/results/m_k/with/6/results.png>
 Package pdftex.def Info: images/results/m_k/with/6/results.png  used on input l
-ine 239.
+ine 234.
 (pdftex.def)             Requested size: 135.20732pt x 53.27979pt.
-<images/results/m_k/with/10/grid.png, id=1031, 375.4025pt x 375.4025pt>
+<images/results/m_k/with/10/grid.png, id=1032, 375.4025pt x 375.4025pt>
 File: images/results/m_k/with/10/grid.png Graphic file (type png)
 <use images/results/m_k/with/10/grid.png>
 Package pdftex.def Info: images/results/m_k/with/10/grid.png  used on input lin
-e 250.
+e 245.
 (pdftex.def)             Requested size: 90.13974pt x 90.13853pt.
-<images/results/m_k/with/10/partitioning.png, id=1032, 375.4025pt x 375.4025pt>
+<images/results/m_k/with/10/partitioning.png, id=1033, 375.4025pt x 375.4025pt>
 
 File: images/results/m_k/with/10/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/10/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/10/partitioning.png  used on i
-nput line 255.
+nput line 250.
 (pdftex.def)             Requested size: 90.13974pt x 90.13853pt.
-<images/results/m_k/with/10/results.png, id=1033, 271.0125pt x 104.39pt>
+<images/results/m_k/with/10/results.png, id=1034, 271.0125pt x 104.39pt>
 File: images/results/m_k/with/10/results.png Graphic file (type png)
 <use images/results/m_k/with/10/results.png>
 Package pdftex.def Info: images/results/m_k/with/10/results.png  used on input 
-line 260.
+line 255.
 (pdftex.def)             Requested size: 135.20732pt x 52.08176pt.
-<images/results/m_k/with/7/grid.png, id=1037, 375.4025pt x 375.4025pt>
+<images/results/m_k/with/7/grid.png, id=1038, 375.4025pt x 375.4025pt>
 File: images/results/m_k/with/7/grid.png Graphic file (type png)
 <use images/results/m_k/with/7/grid.png>
 Package pdftex.def Info: images/results/m_k/with/7/grid.png  used on input line
- 282.
+ 276.
 (pdftex.def)             Requested size: 90.13974pt x 90.13853pt.
-<images/results/m_k/with/7/partitioning.png, id=1038, 375.4025pt x 375.4025pt>
+<images/results/m_k/with/7/partitioning.png, id=1039, 375.4025pt x 375.4025pt>
 File: images/results/m_k/with/7/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/7/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/7/partitioning.png  used on in
-put line 287.
+put line 281.
 (pdftex.def)             Requested size: 90.13974pt x 90.13853pt.
-<images/results/m_k/with/7/results.png, id=1039, 270.00874pt x 146.5475pt>
+<images/results/m_k/with/7/results.png, id=1040, 270.00874pt x 146.5475pt>
 File: images/results/m_k/with/7/results.png Graphic file (type png)
 <use images/results/m_k/with/7/results.png>
 Package pdftex.def Info: images/results/m_k/with/7/results.png  used on input l
-ine 292.
+ine 286.
 (pdftex.def)             Requested size: 135.20732pt x 73.38536pt.
-<images/results/m_k/with/8/grid.png, id=1040, 376.40625pt x 375.4025pt>
+<images/results/m_k/with/8/grid.png, id=1041, 376.40625pt x 375.4025pt>
 File: images/results/m_k/with/8/grid.png Graphic file (type png)
 <use images/results/m_k/with/8/grid.png>
 Package pdftex.def Info: images/results/m_k/with/8/grid.png  used on input line
- 303.
+ 297.
 (pdftex.def)             Requested size: 90.13974pt x 89.89795pt.
-<images/results/m_k/with/8/partitioning.png, id=1041, 376.40625pt x 375.4025pt>
+<images/results/m_k/with/8/partitioning.png, id=1042, 376.40625pt x 375.4025pt>
 
 File: images/results/m_k/with/8/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/8/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/8/partitioning.png  used on in
-put line 308.
+put line 302.
 (pdftex.def)             Requested size: 90.13974pt x 89.89795pt.
-<images/results/m_k/with/8/results.png, id=1042, 265.99374pt x 64.24pt>
+<images/results/m_k/with/8/results.png, id=1043, 265.99374pt x 64.24pt>
 File: images/results/m_k/with/8/results.png Graphic file (type png)
 <use images/results/m_k/with/8/results.png>
 Package pdftex.def Info: images/results/m_k/with/8/results.png  used on input l
-ine 313.
+ine 307.
 (pdftex.def)             Requested size: 135.20732pt x 32.65413pt.
  [51 <./images/results/m_k/with/6/grid.png> <./images/results/m_k/with/6/partit
 ioning.png> <./images/results/m_k/with/6/results.png> <./images/results/m_k/wit
 h/10/grid.png> <./images/results/m_k/with/10/partitioning.png> <./images/result
 s/m_k/with/10/results.png>]
-<images/results/m_k/with/9/grid.png, id=1058, 377.41pt x 374.39874pt>
+<images/results/m_k/with/9/grid.png, id=1059, 377.41pt x 374.39874pt>
 File: images/results/m_k/with/9/grid.png Graphic file (type png)
 <use images/results/m_k/with/9/grid.png>
 Package pdftex.def Info: images/results/m_k/with/9/grid.png  used on input line
- 325.
+ 319.
 (pdftex.def)             Requested size: 90.13974pt x 89.41763pt.
-<images/results/m_k/with/9/partitioning.png, id=1059, 377.41pt x 374.39874pt>
+<images/results/m_k/with/9/partitioning.png, id=1060, 377.41pt x 374.39874pt>
 File: images/results/m_k/with/9/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/9/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/9/partitioning.png  used on in
-put line 330.
+put line 324.
 (pdftex.def)             Requested size: 90.13974pt x 89.41763pt.
-<images/results/m_k/with/9/results.png, id=1060, 268.00125pt x 209.78375pt>
+<images/results/m_k/with/9/results.png, id=1061, 268.00125pt x 209.78375pt>
 File: images/results/m_k/with/9/results.png Graphic file (type png)
 <use images/results/m_k/with/9/results.png>
 Package pdftex.def Info: images/results/m_k/with/9/results.png  used on input l
-ine 335.
+ine 329.
 (pdftex.def)             Requested size: 135.20732pt x 105.8359pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/results/m_k/with/11/grid.png, id=1070, 376.40625pt x 375.4025pt>
+<images/results/m_k/with/11/grid.png, id=1071, 376.40625pt x 375.4025pt>
 File: images/results/m_k/with/11/grid.png Graphic file (type png)
 <use images/results/m_k/with/11/grid.png>
 Package pdftex.def Info: images/results/m_k/with/11/grid.png  used on input lin
-e 366.
+e 358.
 (pdftex.def)             Requested size: 90.13974pt x 89.89795pt.
-<images/results/m_k/with/11/partitioning.png, id=1071, 376.40625pt x 375.4025pt
+<images/results/m_k/with/11/partitioning.png, id=1072, 376.40625pt x 375.4025pt
 >
 File: images/results/m_k/with/11/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/11/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/11/partitioning.png  used on i
-nput line 371.
+nput line 363.
 (pdftex.def)             Requested size: 90.13974pt x 89.89795pt.
-<images/results/m_k/with/11/results.png, id=1072, 260.975pt x 209.78375pt>
+<images/results/m_k/with/11/results.png, id=1073, 260.975pt x 209.78375pt>
 File: images/results/m_k/with/11/results.png Graphic file (type png)
 <use images/results/m_k/with/11/results.png>
 Package pdftex.def Info: images/results/m_k/with/11/results.png  used on input 
-line 376.
+line 368.
 (pdftex.def)             Requested size: 135.20732pt x 108.68803pt.
-<images/results/m_k/with/12/grid.png, id=1073, 376.40625pt x 375.4025pt>
+<images/results/m_k/with/12/grid.png, id=1074, 376.40625pt x 375.4025pt>
 File: images/results/m_k/with/12/grid.png Graphic file (type png)
 <use images/results/m_k/with/12/grid.png>
 Package pdftex.def Info: images/results/m_k/with/12/grid.png  used on input lin
-e 389.
+e 381.
 (pdftex.def)             Requested size: 90.13974pt x 89.89795pt.
-<images/results/m_k/with/12/partitioning.png, id=1074, 376.40625pt x 375.4025pt
+<images/results/m_k/with/12/partitioning.png, id=1075, 376.40625pt x 375.4025pt
 >
 File: images/results/m_k/with/12/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/12/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/12/partitioning.png  used on i
-nput line 394.
+nput line 386.
 (pdftex.def)             Requested size: 90.13974pt x 89.89795pt.
-<images/results/m_k/with/12/results.png, id=1075, 266.9975pt x 209.78375pt>
+<images/results/m_k/with/12/results.png, id=1076, 266.9975pt x 209.78375pt>
 File: images/results/m_k/with/12/results.png Graphic file (type png)
 <use images/results/m_k/with/12/results.png>
 Package pdftex.def Info: images/results/m_k/with/12/results.png  used on input 
-line 399.
+line 391.
 (pdftex.def)             Requested size: 135.20732pt x 106.23924pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2293,117 +2293,117 @@ sults/m_k/with/9/partitioning.png> <./images/results/m_k/with/9/results.png> <.
 g.png> <./images/results/m_k/with/11/results.png> <./images/results/m_k/with/12
 /grid.png> <./images/results/m_k/with/12/partitioning.png> <./images/results/m_
 k/with/12/results.png>]
-<images/results/m_k/with/14/grid.png, id=1101, 376.40625pt x 375.4025pt>
+<images/results/m_k/with/14/grid.png, id=1102, 376.40625pt x 375.4025pt>
 File: images/results/m_k/with/14/grid.png Graphic file (type png)
 <use images/results/m_k/with/14/grid.png>
 Package pdftex.def Info: images/results/m_k/with/14/grid.png  used on input lin
-e 413.
+e 405.
 (pdftex.def)             Requested size: 90.13974pt x 89.89795pt.
-<images/results/m_k/with/14/partitioning.png, id=1102, 376.40625pt x 377.41pt>
+<images/results/m_k/with/14/partitioning.png, id=1103, 376.40625pt x 377.41pt>
 File: images/results/m_k/with/14/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/14/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/14/partitioning.png  used on i
-nput line 418.
+nput line 410.
 (pdftex.def)             Requested size: 90.13974pt x 90.37868pt.
-<images/results/m_k/with/14/results.png, id=1103, 264.99pt x 213.79875pt>
+<images/results/m_k/with/14/results.png, id=1104, 264.99pt x 213.79875pt>
 File: images/results/m_k/with/14/results.png Graphic file (type png)
 <use images/results/m_k/with/14/results.png>
 Package pdftex.def Info: images/results/m_k/with/14/results.png  used on input 
-line 423.
+line 415.
 (pdftex.def)             Requested size: 135.20732pt x 109.0881pt.
-<images/results/m_k/with/13/grid.png, id=1104, 376.40625pt x 375.4025pt>
+<images/results/m_k/with/13/grid.png, id=1105, 376.40625pt x 375.4025pt>
 File: images/results/m_k/with/13/grid.png Graphic file (type png)
 <use images/results/m_k/with/13/grid.png>
 Package pdftex.def Info: images/results/m_k/with/13/grid.png  used on input lin
-e 436.
+e 428.
 (pdftex.def)             Requested size: 90.13974pt x 89.89795pt.
-<images/results/m_k/with/13/partitioning.png, id=1105, 376.40625pt x 377.41pt>
+<images/results/m_k/with/13/partitioning.png, id=1106, 376.40625pt x 377.41pt>
 File: images/results/m_k/with/13/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/13/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/13/partitioning.png  used on i
-nput line 441.
+nput line 433.
 (pdftex.def)             Requested size: 90.13974pt x 90.37868pt.
-<images/results/m_k/with/13/results.png, id=1106, 264.99pt x 213.79875pt>
+<images/results/m_k/with/13/results.png, id=1107, 264.99pt x 213.79875pt>
 File: images/results/m_k/with/13/results.png Graphic file (type png)
 <use images/results/m_k/with/13/results.png>
 Package pdftex.def Info: images/results/m_k/with/13/results.png  used on input 
-line 446.
+line 438.
 (pdftex.def)             Requested size: 135.20732pt x 109.0881pt.
-<images/results/m_k/with/15/grid.png, id=1121, 476.78125pt x 474.77374pt>
+<images/results/m_k/with/15/grid.png, id=1123, 476.78125pt x 474.77374pt>
 File: images/results/m_k/with/15/grid.png Graphic file (type png)
 <use images/results/m_k/with/15/grid.png>
 Package pdftex.def Info: images/results/m_k/with/15/grid.png  used on input lin
-e 486.
+e 480.
 (pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
-<images/results/m_k/with/15/partitioning.png, id=1122, 476.78125pt x 474.77374p
+<images/results/m_k/with/15/partitioning.png, id=1124, 476.78125pt x 474.77374p
 t>
 File: images/results/m_k/with/15/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/15/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/15/partitioning.png  used on i
-nput line 491.
+nput line 485.
 (pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
-<images/results/m_k/with/15/results.png, id=1123, 268.00125pt x 336.25626pt>
+<images/results/m_k/with/15/results.png, id=1125, 268.00125pt x 336.25626pt>
 File: images/results/m_k/with/15/results.png Graphic file (type png)
 <use images/results/m_k/with/15/results.png>
 Package pdftex.def Info: images/results/m_k/with/15/results.png  used on input 
-line 496.
+line 490.
 (pdftex.def)             Requested size: 135.20732pt x 169.64131pt.
-<images/results/m_k/with/16/grid.png, id=1124, 476.78125pt x 474.77374pt>
+<images/results/m_k/with/16/grid.png, id=1126, 476.78125pt x 474.77374pt>
 File: images/results/m_k/with/16/grid.png Graphic file (type png)
 <use images/results/m_k/with/16/grid.png>
 Package pdftex.def Info: images/results/m_k/with/16/grid.png  used on input lin
-e 509.
+e 503.
 (pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
-<images/results/m_k/with/16/partitioning.png, id=1125, 476.78125pt x 474.77374p
+<images/results/m_k/with/16/partitioning.png, id=1127, 476.78125pt x 474.77374p
 t>
 File: images/results/m_k/with/16/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/16/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/16/partitioning.png  used on i
-nput line 514.
+nput line 508.
 (pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
-<images/results/m_k/with/16/results.png, id=1126, 268.00125pt x 336.25626pt>
+<images/results/m_k/with/16/results.png, id=1128, 268.00125pt x 336.25626pt>
 File: images/results/m_k/with/16/results.png Graphic file (type png)
 <use images/results/m_k/with/16/results.png>
 Package pdftex.def Info: images/results/m_k/with/16/results.png  used on input 
-line 519.
+line 513.
 (pdftex.def)             Requested size: 135.20732pt x 169.64131pt.
-<images/results/m_k/with/17/grid.png, id=1127, 476.78125pt x 474.77374pt>
+<images/results/m_k/with/17/grid.png, id=1129, 476.78125pt x 474.77374pt>
 File: images/results/m_k/with/17/grid.png Graphic file (type png)
 <use images/results/m_k/with/17/grid.png>
 Package pdftex.def Info: images/results/m_k/with/17/grid.png  used on input lin
-e 533.
+e 527.
 (pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
-<images/results/m_k/with/17/partitioning.png, id=1128, 476.78125pt x 474.77374p
+<images/results/m_k/with/17/partitioning.png, id=1130, 476.78125pt x 474.77374p
 t>
 File: images/results/m_k/with/17/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/17/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/17/partitioning.png  used on i
-nput line 538.
+nput line 532.
 (pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
-<images/results/m_k/with/17/results.png, id=1129, 268.00125pt x 336.25626pt>
+<images/results/m_k/with/17/results.png, id=1131, 268.00125pt x 336.25626pt>
 File: images/results/m_k/with/17/results.png Graphic file (type png)
 <use images/results/m_k/with/17/results.png>
 Package pdftex.def Info: images/results/m_k/with/17/results.png  used on input 
-line 543.
+line 537.
 (pdftex.def)             Requested size: 135.20732pt x 169.64131pt.
-<images/results/m_k/with/18/grid.png, id=1130, 476.78125pt x 474.77374pt>
+<images/results/m_k/with/18/grid.png, id=1132, 476.78125pt x 474.77374pt>
 File: images/results/m_k/with/18/grid.png Graphic file (type png)
 <use images/results/m_k/with/18/grid.png>
 Package pdftex.def Info: images/results/m_k/with/18/grid.png  used on input lin
-e 556.
+e 550.
 (pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
-<images/results/m_k/with/18/partitioning.png, id=1131, 476.78125pt x 474.77374p
+<images/results/m_k/with/18/partitioning.png, id=1133, 476.78125pt x 474.77374p
 t>
 File: images/results/m_k/with/18/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/18/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/18/partitioning.png  used on i
-nput line 561.
+nput line 555.
 (pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
-<images/results/m_k/with/18/results.png, id=1132, 281.05pt x 336.25626pt>
+<images/results/m_k/with/18/results.png, id=1134, 281.05pt x 336.25626pt>
 File: images/results/m_k/with/18/results.png Graphic file (type png)
 <use images/results/m_k/with/18/results.png>
 Package pdftex.def Info: images/results/m_k/with/18/results.png  used on input 
-line 566.
+line 560.
 (pdftex.def)             Requested size: 135.20732pt x 161.76546pt.
  [54
 
@@ -2424,24 +2424,24 @@ lts/m_k/with/16/results.png>] [56 <./images/results/m_k/with/17/grid.png> <./im
 ages/results/m_k/with/17/partitioning.png> <./images/results/m_k/with/17/result
 s.png> <./images/results/m_k/with/18/grid.png> <./images/results/m_k/with/18/pa
 rtitioning.png> <./images/results/m_k/with/18/results.png>]
-<images/results/m_k/with/19/grid.png, id=1171, 1241.63875pt x 671.50874pt>
+<images/results/m_k/with/19/grid.png, id=1173, 1241.63875pt x 671.50874pt>
 File: images/results/m_k/with/19/grid.png Graphic file (type png)
 <use images/results/m_k/with/19/grid.png>
 Package pdftex.def Info: images/results/m_k/with/19/grid.png  used on input lin
-e 580.
+e 574.
 (pdftex.def)             Requested size: 341.43309pt x 184.6501pt.
-<images/results/m_k/with/19/partitioning.png, id=1172, 1241.63875pt x 671.50874
+<images/results/m_k/with/19/partitioning.png, id=1174, 1241.63875pt x 671.50874
 pt>
 File: images/results/m_k/with/19/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/19/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/19/partitioning.png  used on i
-nput line 585.
+nput line 579.
 (pdftex.def)             Requested size: 341.43309pt x 184.6501pt.
-<images/results/m_k/with/19/results.png, id=1173, 272.01625pt x 329.23pt>
+<images/results/m_k/with/19/results.png, id=1175, 272.01625pt x 329.23pt>
 File: images/results/m_k/with/19/results.png Graphic file (type png)
 <use images/results/m_k/with/19/results.png>
 Package pdftex.def Info: images/results/m_k/with/19/results.png  used on input 
-line 590.
+line 584.
 (pdftex.def)             Requested size: 136.57462pt x 165.30785pt.
 
 
@@ -2461,7 +2461,39 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
-) [59]) (./chapters/99-bibliography/main.tex
+
+./chapters/06-tests_results/parts/03-m_results.tex:9: Package inputenc Error: U
+nicode character ∂ (U+2202)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...ania na $m \cdot k$ partycji, a dla każ∂
+                                                  ego z tych podziałów wyk...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+<images/results/m/1/mk.png, id=1189, 477.785pt x 474.77374pt>
+File: images/results/m/1/mk.png Graphic file (type png)
+<use images/results/m/1/mk.png>
+Package pdftex.def Info: images/results/m/1/mk.png  used on input line 19.
+(pdftex.def)             Requested size: 105.1615pt x 104.494pt.
+<images/results/m/1/m.png, id=1190, 477.785pt x 474.77374pt>
+File: images/results/m/1/m.png Graphic file (type png)
+<use images/results/m/1/m.png>
+Package pdftex.def Info: images/results/m/1/m.png  used on input line 24.
+(pdftex.def)             Requested size: 105.1615pt x 104.494pt.
+<images/results/m/1/results.png, id=1191, 268.00125pt x 146.5475pt>
+File: images/results/m/1/results.png Graphic file (type png)
+<use images/results/m/1/results.png>
+Package pdftex.def Info: images/results/m/1/results.png  used on input line 29.
+
+(pdftex.def)             Requested size: 135.20732pt x 73.93321pt.
+) [59 <./images/results/m/1/mk.png> <./images/results/m/1/m.png> <./images/resu
+lts/m/1/results.png>]) (./chapters/99-bibliography/main.tex
 (/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.bbl [60]
 [61]
 Underfull \hbox (badness 10000) in paragraph at lines 196--202
@@ -2483,10 +2515,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 027AEA6D30B2A09477EA393744B829A6;7018.
  ) 
 Here is how much of TeX's memory you used:
- 32121 strings out of 478994
- 603230 string characters out of 5858185
+ 32148 strings out of 478994
+ 603897 string characters out of 5858185
  1568767 words of memory out of 5000000
- 48467 multiletter control sequences out of 15000+600000
+ 48490 multiletter control sequences out of 15000+600000
  484863 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  91i,11n,91p,1330b,1204s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2513,10 +2545,10 @@ sr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2021
 /texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
 Output written on /Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main
-.pdf (62 pages, 12031245 bytes).
+.pdf (62 pages, 12218069 bytes).
 PDF statistics:
- 1354 PDF objects out of 1440 (max. 8388607)
- 958 compressed objects within 10 object streams
- 347 named destinations out of 1000 (max. 500000)
- 927 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1363 PDF objects out of 1440 (max. 8388607)
+ 961 compressed objects within 10 object streams
+ 348 named destinations out of 1000 (max. 500000)
+ 942 words of extra memory for PDF output out of 10000 (max. 10000000)
 

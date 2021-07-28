@@ -49,19 +49,15 @@ Kolejną różnicą jest czas wykonania partycjonowania, który dla sprzętu wyp
 wraz z $1$ GB pamięci operacyjnej dla Party wyniósł $0.03$s.
 Dla mojego sprzętu wyposażonego w $2.3$ GHz Quad-Core Intel Core i$5$ z $2018$ roku wraz z $8$ GB pamięci operacyjnej
 czas ten wyniósł $18$s.
-Sam algorytm do zmniejszania grafu, zwany algorytmem LAM nie jest bardzo skomplikowany.
-Jest więc to zaskakujące, ponieważ w mojej implementacji sama część odpowiedzialna za zmniejszanie grafu, to jest algorytm LAM,
-potrzebuje około $5$s aby zmniejszyć graf siatki $100$x$100$ do potrzebnej wielkości.
-To wciąż $160$ razy gorszy wynik dla jednej części mojej implementacji w porównaniu do całego algorytmu biblioteki
-Party.
-Nie jest to algorytm o skomplikowanym kodzie, jest on również bardzo dobrze udokumentowany.
-Wszędzie gdzie miałem możliwość wybierałem większe zużycie pamięci, kosztem krótszych obliczeń, starałem się również
-zawsze wybierać struktury danych ze stałym dostępem do danych.
-Różnica ta jest ogromna.
+Wszędzie gdzie miałem możliwość wybierałem większe zużycie pamięci kosztem krótszych obliczeń, starałem się również
+wybierać struktury danych ze stałą szybkością dostępu do informacji.
 Operacje umieszczone w algorytmie ze względu na obszary niepodzielne oraz wyłączone z obliczeń nie wprowadzają
 modyfikacji, które mogłyby w aż tak znacznym stopniu wpływać na złożoność obliczeniową.
 Być może jest to też kwestia kosztownych operacji na grafach dostarczonych przez bibliotekę NetworkX,
 z których korzystałem nie będąc w pełni świadomym ich złożoności obliczeniowej.
+Rozwiązanie zaproponowane w niniejszej pracy jest prototypem, którego celem
+nie było uzyskanie lepszej wydajności, ale wykazanie poprawności i jakości rozwiązania.
+Wydajność natomiast da się poprawić, czego dowodem jest istniejąca implementacja opisana w \cite{1364754}.
 
 \newpage
 
@@ -69,7 +65,6 @@ z których korzystałem nie będąc w pełni świadomym ich złożoności oblicz
 W tym podrozdziale przedstawione są wyniki dla siatek z obszarami niepodzielnymi i wyłączonymi
 z obliczeń.
 Przykłady są celowo dobrane tak, aby były problematyczne dla algorytmu.
-
 
 \begin{figure}[h]
 \centering
@@ -177,10 +172,10 @@ Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
 \label{result:1}
 \end{figure}
 
-Dla siatki przedstawionej na rysunku \ref{result:4} sprawdzane jest, czy algorytm bierze pod uwagę obszary wyłączone z obliczeń.
+Dla siatki przedstawionej na rysunku \ref{result:4} sprawdzane jest, czy algorytm poprawnie uwzględnia obszary wyłączone z obliczeń.
 Na rezultacie widać, że wszystkie pola są niemal identyczne pod względem wagi.
-Pole żółte urosło do dużych rozmiarów, jednak mimo to ma taką samą wagę jak pozostałe pola.
-Algorytm poprawnie bierze pod uwagę obszary wyłączone z obliczeń.
+Pole partycji $4$ urosło do dużych rozmiarów, jednak mimo to ma taką samą wagę jak pozostałe pola.
+Algorytm poprawnie uwzględnia obszary wyłączone z obliczeń.
 Na rysunku \ref{result:1} przedstawiono partycjonowanie tej samej siatki, ale dla tego przypadku obszary wyłączone
 z obliczeń nie są mapowane na wierzchołki w grafie.
 W efekcie partycjonowanie trwa krócej, a długość granic jest znacznie mniejsza.
@@ -213,14 +208,14 @@ Tego typu podziały są trudne dla algorytmu.
 W rezultacie otrzymujemy podział, gdzie wszystkie obszary dookoła obszaru czerwonego mają niemal równe pola, co jest
 najlepszym możliwym rezultatem dla tej siatki.
 Nie są one idealnie równe, ponieważ podział był wybierany wedle kryterium długości granic.
-Uznałem, że jest to lepsze kryterium, ponieważ wciąż algorytm ma całkiem dużą swobodę w kwestii optymalizacji granic i
+Uznałem, że jest to lepsze kryterium, ponieważ dla tego przypadku algorytm ma całkiem dużą swobodę w kwestii optymalizacji granic i
 pól partycji.
 
 Rysunek \ref{result:6} oraz \ref{result:10} przedstawia partycjonowanie tej samej siatki.
 Dla rysunku \ref{result:6} najlepszy rezultat został wybrany poprzez kryterium najmniejszego odchylenia standardowego
 dla pól partycji, natomiast dla rysunku \ref{result:10} poprzez kryterium najmniejszej długość granic.
 Widać jak różne podziały może tworzyć ten sam algorytm w zależności od początkowego ustawienia obszarów.
-Dla rysunku \ref{result:6} otrzymaliśmy równiejsze pola, kosztem gorszej długości granic pomiędzy obszarami.
+Dla rysunku \ref{result:6} otrzymaliśmy partycje o bardziej zbliżonych wielkościach, kosztem gorszej długości granic pomiędzy obszarami.
 Na rysunku \ref{result:10} otrzymaliśmy krótsze granice, kosztem równości pól.
 \begin{figure}[h]
 \centering
@@ -268,12 +263,11 @@ Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
 Rysunek \ref{result:7}, \ref{result:8} oraz \ref{result:9} przedstawia partycjonowanie tej samej siatki, odpowiednio na
 $7$, $3$ oraz $10$ części.
 Jest to bardzo trudna siatka do partycjonowania, ponieważ z racji na ułożenie obszarów niepodzielnych
-nie pozwala na zbytnie minimalizowanie granic pomiędzy obszarami, a także wpływa na wielkość obszarów, ponieważ niektóre
-obszary niepodzielne będą wymuszać większe partycje, niż powinny wyniknąć z podziału na zwykłej siatce tego
-samego rozmiaru.
+nie pozwala na zbytnie optymalizowanie długości granic oraz wielkości pól partycji.
+Obszary niepodzielne będą wymuszać kształt granic oraz wielkość partycji.
 Pierwszy podział jest na $7$ części, ponieważ tyle jest białych i żółtych sfer na rysunku.
 Algorytm próbuje wyrównywać pola na tyle, na ile jest to możliwe.
-Widać, że partycje, które ze sobą sąsiadowały i miały możliwość wyrównania obszarów są w miarę tej samej wielkości.
+Widać, że partycje, które ze sobą sąsiadują i mają możliwość wyrównania wielkości pól są podobnej wielkości.
 Jest to na przykład partycja $6$ oraz $0$.
 \begin{figure}[h]
 \centering
@@ -340,14 +334,12 @@ Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla
 \label{result:9}
 \end{figure}
 
-Widać, że partycjonowanie na $3$ części na rysunku \ref{result:8} daje znacznie więcej swobody, w rezultacie
+Można zaobserwować, że partycjonowanie na $3$ części na rysunku \ref{result:8} daje znacznie więcej swobody, w rezultacie
 partycje są niemal identycznej wielkości.
-Ustawienie obszarów niepodzielnych motywuje nadal ułożenie partycji i zwiększa długość granic.
+Ustawienie obszarów niepodzielnych nadal motywuje ułożenie partycji i zwiększa długość granic.
 Partycjonowanie przedstawione na rysunku \ref{result:9} to bardziej ekstremalna wersja partycjonowania na rysunku \ref{result:7}.
 Partycje, które miały możliwość wyrównania pola między sobą, jak partycje $6$, $4$ oraz $5$,
 mają praktycznie identyczne pola.
-Analizując ten rysunek trudno jest zaproponować lepsze początkowe ułożenie obszarów w celu późniejszej, lepszej optymalizacji
-pól obszarów.
 Algorytm bardzo dobrze radzi sobie z tym trudnym przypadkiem.
 
 \vspace{4mm}
@@ -356,7 +348,7 @@ Rysunek \ref{result:11} oraz \ref{result:12} pokazuje bardzo podobną sytuację 
 \ref{result:10}.
 Dla rysunku \ref{result:11} otrzymaliśmy równiejsze pola, kosztem gorszej długości granic pomiędzy obszarami.
 Na rysunku \ref{result:12} otrzymaliśmy krótsze granice, kosztem równości pól.
-Różnicą w tym wypadku jest to, że na raz na siatce pojawiają się zarówno obszary wyłączone z obliczeń jak i
+Różnicą w tym wypadku jest to, że na siatce pojawiają się zarówno obszary wyłączone z obliczeń jak i
 obszary niepodzielne.
 Algorytm bardzo dobrze radzi sobie z uwzględnieniem obydwu, otrzymuje krótkie granice oraz niemal równe obszary.
 \begin{figure}[h]
@@ -457,7 +449,7 @@ gdzie obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
 W efekcie dla obydwu kryteriów wyboru najlepszego partycjonowania otrzymujemy mniejszą długość granic.
 Do tej pory dla wszystkich przykładów nietworzenie wierzchołków w miejsce obszarów wyłączonych z obliczeń
 zwracało lepsze rezultaty i ten trend utrzyma się do samego końca.
-Dodatkowo dalej pokażę, że jeśli są one duże i nie są skupione w jednych miejscach siatki to są bardzo
+Moje testowanie wykazało, że jeśli są one duże oraz mają długą granicę w stosunku do pola to są bardzo
 problematyczne dla algorytmu LAM, a także znaczenie wydłużają czas partycjonowania.
 Zawsze szybszym, efektywniejszym wyjściem jest skorzystanie z opcji usunięcia ich z siatki.
 \FloatBarrier
@@ -479,6 +471,8 @@ Wynika z tego, że jeśli na wejściowej siatce nie ma żadnych obszarów, któr
 lepsze rezultaty daje metoda, która nie tworzy wierzchołków dla obszarów wyłączonych z obliczeń.
 Tak jak wcześniej, tam gdzie wybierany jest podział wedle kryterium najmniejszej długości granic, otrzymujemy krótsze
 granice kosztem nieco mniej równego podziału, dla drugiego kryterium na odwrót.
+Na rysunku \ref{result:17} widać, że pojedyncze partycje mają tendencję do zabierania dużych pól obszarów wyłączonych z obliczeń
+wydłużając niepotrzebnie granice (partycja $0$, $10$).
 \begin{figure}[h]
 \centering
 \begin{subfigure}{.33\textwidth}
@@ -600,5 +594,5 @@ Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla
 Na rysunku \ref{result:19} widoczne jest partycjonowanie siatki o większym rozmiarze, mającej
 przypominać plan budynku.
 Tym razem ze względu na czas liczenia najlepszy rezultat został wybrany spośród $10$ wywołań algorytmu.
-Algorytm bardzo dobrze poradził sobie z zadaniem otrzymując w miarę równe pod względem pola obszary oraz uwzględniając
+Algorytm bardzo dobrze poradził sobie z zadaniem otrzymując podobne pod względem pola obszary oraz uwzględniając
 obszary niepodzielne i wyłączone z obliczeń.
