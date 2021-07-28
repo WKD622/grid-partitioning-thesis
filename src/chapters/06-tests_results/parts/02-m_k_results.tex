@@ -573,3 +573,32 @@ Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
 \label{result:18}
 \end{figure}
 \FloatBarrier
+\begin{figure}[h]
+\centering
+\begin{subfigure}{\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.75\linewidth]{images/results/m_k/with/19/grid}}
+    \caption[short]{}
+\end{subfigure}
+\begin{subfigure}{\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.75\linewidth]{images/results/m_k/with/19/partitioning}}
+    \caption[short]{}
+\end{subfigure}
+\begin{subfigure}{\textwidth}
+    \centering
+    \includegraphics[width=0.3\linewidth]{images/results/m_k/with/19/results}
+    \caption[short]{}
+\end{subfigure}
+\caption{Siatka $260$x$143$. Podział na $16$ partycji.
+Obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
+Sumaryczna długość granic dla tego wyniku wynosi $531$.
+Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.}
+\label{result:19}
+\end{figure}
+\FloatBarrier
+Na rysunku \ref{result:19} widoczne jest partycjonowanie siatki o większym rozmiarze, mającej
+przypominać plan budynku.
+Tym razem ze względu na czas liczenia najlepszy rezultat został wybrany spośród $10$ wywołań algorytmu.
+Algorytm bardzo dobrze poradził sobie z zadaniem otrzymując w miarę równe pod względem pola obszary oraz uwzględniając
+obszary niepodzielne i wyłączone z obliczeń.

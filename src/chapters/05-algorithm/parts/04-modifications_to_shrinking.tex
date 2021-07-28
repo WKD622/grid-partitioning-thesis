@@ -23,7 +23,7 @@ niepodzielnych.
 W tym celu stworzony został nowy, zmodyfikowany warunek \ref{eq:condition3}, który jest warunkiem \ref{eq:condition1}
 rozszerzonym o $discount$ (wzór \ref{eq:condition2}).
 \begin{equation}
-discount = \frac{t}{T \cdot \frac{w_{highest}}{w_{lowest} + 1} \cdot \log(number\_of\_partitions)}
+discount = \frac{t}{T \cdot \frac{w_{highest}}{w_{lowest} + 1} \cdot \log(number\_of\_partitions) + 1}
 \label{eq:condition2}
 \end{equation}
 Jeśli $discount > 1$ wtedy przypisywaną ma wartość 1.
