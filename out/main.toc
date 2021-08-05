@@ -27,4 +27,4 @@
 \contentsline {subsubsection}{\numberline {4.1.1}Wyniki dla podziału siatek bez obszarów niepodzielnych i wyłączonych z obliczeń}{47}{subsubsection.4.1.1}%
 \contentsline {subsubsection}{\numberline {4.1.2}Wyniki dla podziału siatek z obszarami niepodzielnymi i wyłączonymi z obliczeń}{49}{subsubsection.4.1.2}%
 \contentsline {subsection}{\numberline {4.2}Wyniki dla podziału na $m$ obszarów}{59}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Podsumowanie i kierunek rozwoju}{61}{section.5}%
+\contentsline {section}{\numberline {5}Podsumowanie i kierunek rozwoju}{62}{section.5}%
