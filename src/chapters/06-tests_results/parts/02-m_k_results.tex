@@ -22,7 +22,9 @@ Rezultat w kwestii długości granic jest bardzo dobry w porównaniu do innych b
     \caption[short]{}
 \end{subfigure}
 \caption{Siatka $100$x$100$. Podział na $16$ partycji. Sumaryczna długość granic dla tego wyniku wynosi $686$.
-Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic. }
+Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic. Odchylenie standardowe wielkości pól wynosi
+$0.0779$.}
+
 \label{result:w1}
 \end{figure}
 Wszystkie te biblioteki traktowane są przez literature jako biblioteki dające wyniki state-of-the-art.
@@ -33,7 +35,8 @@ otrzymuje wynik $615$.
 Jest to wynik niemal idealny.
 Wynikiem idealnym dla długości granic byłby wynik $600$.
 Charakterystyką tego podziału jest to, że ze względu na brak obszarów niepodzielnych, które mogą utrudniać
-wymianę granicznych wierzchołków udało się otrzymać niemal idealnie równe pola.
+wymianę granicznych wierzchołków udało się otrzymać niemal idealnie równe pola, świadczy o tym niskie odchylenie
+standardowe od średniej wielkości pola partycji.
 Ciężko powiedzieć, czemu wystąpiła aż tak duża różnica w kwestii długości granic w stosunku do biblioteki Party.
 Być może przesądziły o tym różnice w implementacji, które najprawdopodobniej wyniknęły z nie dość szczegółowo opisanego algorytmu
 w artykule dotyczącym tej biblioteki \cite{1364754}.
@@ -59,12 +62,24 @@ Rozwiązanie zaproponowane w niniejszej pracy jest prototypem, którego celem
 nie było uzyskanie lepszej wydajności, ale wykazanie poprawności i jakości rozwiązania.
 Wydajność natomiast da się poprawić, czego dowodem jest istniejąca implementacja opisana w \cite{1364754}.
 
-\newpage
-
 \subsubsection{Wyniki dla podziału siatek z obszarami niepodzielnymi i wyłączonymi z obliczeń}
 W tym podrozdziale przedstawione są wyniki dla siatek z obszarami niepodzielnymi i wyłączonymi
 z obliczeń.
 Przykłady są celowo dobrane tak, aby były problematyczne dla algorytmu.
+
+\vspace{3mm}
+\textbf{Partycjonowanie 1}
+\vspace{1mm}
+
+Siatka przedstawiona na rysunku \ref{result:2} jest trudnym przypadkiem, ponieważ nie daje znacznych możliwości na wyrównanie pól
+w dalszych częściach algorytmu.
+Wynik jest więc zależny od algorytmu LAM.
+Aby otrzymać najlepszy rezultat musi on dobrze ustawić partycje od samego początku.
+Dla tego przypadku nie da się otrzymać idealnie równego podziału, ale najlepszym rezultat będzie, gdy każda partycja będzie
+w osobnym pionowym pasku.
+Drugi obszar niepodzielny jest o jeden piksel węższy od pozostałych, dlatego w rezultacie partycjonowania pomiędzy partycją
+$6$ a $1$ następuje wyrównanie pola.
+Otrzymany rezultat jest najlepszym lub niemal najlepszym jaki można otrzymać.
 
 \begin{figure}[h]
 \centering
@@ -84,19 +99,23 @@ Przykłady są celowo dobrane tak, aby były problematyczne dla algorytmu.
     \caption[short]{}
 \end{subfigure}
 \caption{Siatka $50$x$50$. Podział na $9$ partycji. Sumaryczna długość granic dla tego wyniku wynosi $402$.
-Kryterium wyboru najlepszego rezultatu to najmniejsza różnica pomiędzy polem największej i najmniejszej partycji.}
+Kryterium wyboru najlepszego rezultatu to najmniejsza różnica pomiędzy polem największej i najmniejszej partycji.
+Odchylenie standardowe wielkości pól wynosi $0.875$.}
 \label{result:2}
 \end{figure}
 
-Siatka przedstawiona na rysunku \ref{result:2} jest trudnym przypadkiem, ponieważ nie daje znacznych możliwości na wyrównanie pól
-w dalszych częściach algorytmu.
-Wynik jest więc zależny od algorytmu LAM.
-Aby otrzymać najlepszy rezultat musi on dobrze ustawić partycje od samego początku.
-Dla tego przypadku nie da się otrzymać idealnie równego podziału, ale najlepszym rezultat będzie, gdy każda partycja będzie
-w osobnym pionowym pasku.
-Drugi obszar niepodzielny jest o jeden piksel węższy od pozostałych, dlatego w rezultacie partycjonowania pomiędzy partycją
-$6$ a $1$ następuje wyrównanie pola.
-Otrzymany rezultat jest najlepszym lub niemal najlepszym jaki można otrzymać.
+\newpage
+\vspace{3mm}
+\textbf{Partycjonowanie 2}
+\vspace{1mm}
+
+Siatka partycjonowania na rysunku \ref{result:3} daje możliwość wymieniania się przez obszary wierzchołkami granicznymi,
+jest to jednak znacznie utrudnione przez obszary niepodzielne.
+Wyniki wybierane wedle kryterium najkrótszej długości granic dawały rezultaty z dużymi różnicami w kwestii pól partycji.
+Rezultat daje niemal idealnie równe pola partycji, o czym świadczy niska wartość odchylenia standardowego od średniej wielkości
+pola partycji.
+Obszary są raczej zwarte.
+Jest to dobry wynik.
 
 \begin{figure}[h]
 \centering
@@ -116,15 +135,24 @@ Otrzymany rezultat jest najlepszym lub niemal najlepszym jaki można otrzymać.
     \caption[short]{}
 \end{subfigure}
 \caption{Siatka $50$x$50$. Podział na $8$ partycji. Sumaryczna długość granic dla tego wyniku wynosi $313$.
-Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.}
+Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.
+Odchylenie standardowe wielkości pól wynosi $0.1011$.}
 \label{result:3}
 \end{figure}
 
-Siatka partycjonowania na rysunku \ref{result:3} daje możliwość wymieniania się przez obszary wierzchołkami granicznymi,
-jest to jednak znacznie utrudnione przez obszary niepodzielne.
-Wyniki wybierane wedle kryterium najkrótszej długości granic dawały rezultaty z dużymi różnicami w kwestii pól partycji.
-Rezultat daje niemal idealnie równe pola partycji, obszary są raczej zwarte.
-Jest to dobry wynik.
+\vspace{3mm}
+\textbf{Partycjonowanie 3}
+\vspace{1mm}
+
+Dla siatki przedstawionej na rysunku \ref{result:4} sprawdzane jest, czy algorytm poprawnie uwzględnia obszary wyłączone z obliczeń.
+Na rezultacie widać, że wszystkie pola są niemal identyczne pod względem wagi.
+Pole partycji $4$ urosło do dużych rozmiarów, jednak mimo to ma taką samą wagę jak pozostałe pola.
+Algorytm poprawnie uwzględnia obszary wyłączone z obliczeń.
+Na rysunku \ref{result:1} przedstawiono partycjonowanie tej samej siatki, ale dla tego przypadku obszary wyłączone
+z obliczeń nie są mapowane na wierzchołki w grafie.
+W efekcie partycjonowanie trwa krócej, a długość granic jest znacznie mniejsza.
+Oba rezultaty mają bardzo zbliżone wielkości pól partycji, jednak to przykład przedstawiony na rysunku \ref{result:4} posiada niższe
+odchylenie standardowe dla wielkości partycji.
 
 \begin{figure}[h]
 \centering
@@ -145,7 +173,8 @@ Jest to dobry wynik.
 \end{subfigure}
 \caption{Siatka $50$x$50$. Podział na $8$ partycji. Obszary wyłączone z obliczeń mapowane na wierzchołki z wagą $0$.
 Sumaryczna długość granic dla tego wyniku wynosi $177$.
-Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
+Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.
+Odchylenie standardowe wielkości pól wynosi $0.0793$.}
 \label{result:4}
 \end{figure}
 
@@ -168,19 +197,24 @@ Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
 \end{subfigure}
 \caption{Siatka $50$x$50$. Podział na $8$ partycji. Obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
 Sumaryczna długość granic dla tego wyniku wynosi $137$.
-Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
+Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.
+Odchylenie standardowe wielkości pól wynosi $0.1808$.}
 \label{result:1}
 \end{figure}
 
-Dla siatki przedstawionej na rysunku \ref{result:4} sprawdzane jest, czy algorytm poprawnie uwzględnia obszary wyłączone z obliczeń.
-Na rezultacie widać, że wszystkie pola są niemal identyczne pod względem wagi.
-Pole partycji $4$ urosło do dużych rozmiarów, jednak mimo to ma taką samą wagę jak pozostałe pola.
-Algorytm poprawnie uwzględnia obszary wyłączone z obliczeń.
-Na rysunku \ref{result:1} przedstawiono partycjonowanie tej samej siatki, ale dla tego przypadku obszary wyłączone
-z obliczeń nie są mapowane na wierzchołki w grafie.
-W efekcie partycjonowanie trwa krócej, a długość granic jest znacznie mniejsza.
+\newpage
+\vspace{3mm}
+\textbf{Partycjonowanie 4}
+\vspace{1mm}
 
-\vspace{8mm}
+Dla siatki przedstawionej na rysunku \ref{result:5} sprawdzane jest działanie $discount$ dla algorytmu LAM.
+Tego typu podziały są trudne dla algorytmu.
+W rezultacie otrzymujemy podział, gdzie wszystkie obszary dookoła obszaru czerwonego mają niemal równe pola, co jest
+najlepszym możliwym rezultatem dla tej siatki.
+Nie są one idealnie równe, ponieważ podział był wybierany wedle kryterium długości granic.
+Uznałem, że jest to lepsze kryterium, ponieważ dla tego przypadku algorytm ma całkiem dużą swobodę w kwestii optymalizacji granic i
+pól partycji.
+
 \begin{figure}[h]
 \centering
 \begin{subfigure}{.33\textwidth}
@@ -199,17 +233,15 @@ W efekcie partycjonowanie trwa krócej, a długość granic jest znacznie mniejs
     \caption[short]{}
 \end{subfigure}
 \caption{Siatka $50$x$50$. Podział na $8$ partycji. Sumaryczna długość granic dla tego wyniku wynosi $196$.
-Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
+Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.
+Odchylenie standardowe wielkości pól bez partycji $0$ wynosi $0.7596$, natomiast z partycją $0$ wynosi $6.7426$.}
 \label{result:5}
 \end{figure}
 
-Dla siatki przedstawionej na rysunku \ref{result:5} sprawdzane jest działanie $discount$ dla algorytmu LAM.
-Tego typu podziały są trudne dla algorytmu.
-W rezultacie otrzymujemy podział, gdzie wszystkie obszary dookoła obszaru czerwonego mają niemal równe pola, co jest
-najlepszym możliwym rezultatem dla tej siatki.
-Nie są one idealnie równe, ponieważ podział był wybierany wedle kryterium długości granic.
-Uznałem, że jest to lepsze kryterium, ponieważ dla tego przypadku algorytm ma całkiem dużą swobodę w kwestii optymalizacji granic i
-pól partycji.
+\newpage
+\vspace{3mm}
+\textbf{Partycjonowanie 5}
+\vspace{1mm}
 
 Rysunek \ref{result:6} oraz \ref{result:10} przedstawia partycjonowanie tej samej siatki.
 Dla rysunku \ref{result:6} najlepszy rezultat został wybrany poprzez kryterium najmniejszego odchylenia standardowego
@@ -235,7 +267,8 @@ Na rysunku \ref{result:10} otrzymaliśmy krótsze granice, kosztem równości p�
     \caption[short]{}
 \end{subfigure}
 \caption{Siatka $50$x$50$. Podział na $5$ partycji. Sumaryczna długość granic dla tego wyniku wynosi $172$.
-Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.}
+Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.
+Odchylenie standardowe wielkości pól wynosi $0.8279$.}
 \label{result:6}
 \end{figure}
 \begin{figure}[h]
@@ -256,9 +289,14 @@ Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla
     \caption[short]{}
 \end{subfigure}
 \caption{Siatka $50$x$50$. Podział na $5$ partycji. Sumaryczna długość granic dla tego wyniku wynosi $159$.
-Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
+Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.
+Odchylenie standardowe wielkości pól wynosi $2.1419$.}
 \label{result:10}
 \end{figure}
+
+\vspace{3mm}
+\textbf{Partycjonowanie 6}
+\vspace{1mm}
 
 Rysunek \ref{result:7}, \ref{result:8} oraz \ref{result:9} przedstawia partycjonowanie tej samej siatki, odpowiednio na
 $7$, $3$ oraz $10$ części.
@@ -287,7 +325,8 @@ Jest to na przykład partycja $6$ oraz $0$.
     \caption[short]{}
 \end{subfigure}
 \caption{Siatka $50$x$50$. Podział na $7$ partycji. Sumaryczna długość granic dla tego wyniku wynosi $369$.
-Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.}
+Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.
+Odchylenie standardowe wielkości pól wynosi $2.4488$.}
 \label{result:7}
 \end{figure}
 \begin{figure}[h]
@@ -308,10 +347,10 @@ Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla
     \caption[short]{}
 \end{subfigure}
 \caption{Siatka $50$x$50$. Podział na $3$ partycje. Sumaryczna długość granic dla tego wyniku wynosi $141$.
-Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.}
+Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.
+Odchylenie standardowe wielkości pól wynosi $0.0942$.}
 \label{result:8}
 \end{figure}
-
 \begin{figure}[h]
 \centering
 \begin{subfigure}{.33\textwidth}
@@ -330,10 +369,11 @@ Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla
     \caption[short]{}
 \end{subfigure}
 \caption{Siatka $50$x$50$. Podział na $10$ partycji. Sumaryczna długość granic dla tego wyniku wynosi $417$.
-Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.}
+Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.
+Odchylenie standardowe wielkości pól wynosi $2.9097$.}
 \label{result:9}
 \end{figure}
-
+\FloatBarrier
 Można zaobserwować, że partycjonowanie na $3$ części na rysunku \ref{result:8} daje znacznie więcej swobody, w rezultacie
 partycje są niemal identycznej wielkości.
 Ustawienie obszarów niepodzielnych nadal motywuje ułożenie partycji i zwiększa długość granic.
@@ -342,7 +382,9 @@ Partycje, które miały możliwość wyrównania pola między sobą, jak partycj
 mają praktycznie identyczne pola.
 Algorytm bardzo dobrze radzi sobie z tym trudnym przypadkiem.
 
-\vspace{4mm}
+\vspace{3mm}
+\textbf{Partycjonowanie 7}
+\vspace{1mm}
 
 Rysunek \ref{result:11} oraz \ref{result:12} pokazuje bardzo podobną sytuację jak dla rysunku \ref{result:6} oraz
 \ref{result:10}.
@@ -371,7 +413,8 @@ Algorytm bardzo dobrze radzi sobie z uwzględnieniem obydwu, otrzymuje krótkie 
 \caption{Siatka $50$x$50$. Podział na $10$ partycji.
 Obszary wyłączone z obliczeń mapowane na wierzchołki z wagą $0$.
 Sumaryczna długość granic dla tego wyniku wynosi $295$.
-Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.}
+Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.
+Odchylenie standardowe wielkości pól wynosi $0.2317$.}
 \label{result:11}
 \end{figure}
 \begin{figure}[h]
@@ -394,7 +437,8 @@ Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla
 \caption{Siatka $50$x$50$. Podział na $10$ partycji.
 Obszary wyłączone z obliczeń mapowane na wierzchołki z wagą $0$.
 Sumaryczna długość granic dla tego wyniku wynosi $261$.
-Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
+Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.
+Odchylenie standardowe wielkości pól wynosi $1.3627$.}
 \label{result:12}
 \end{figure}
 \FloatBarrier
@@ -418,7 +462,8 @@ Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
 \caption{Siatka $50$x$50$. Podział na 10 partycji.
 Obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
 Sumaryczna długość granic dla tego wyniku wynosi $252$.
-Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.}
+Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.
+Odchylenie standardowe wielkości pól wynosi $0.1617$.}
 \label{result:14}
 \end{figure}
 \begin{figure}[h]
@@ -441,10 +486,11 @@ Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla
 \caption{Siatka $50$x$50$. Podział na 10 partycji.
 Obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
 Sumaryczna długość granic dla tego wyniku wynosi $221$.
-Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
+Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.
+Odchylenie standardowe wielkości pól wynosi $1.9504$.}
 \label{result:13}
 \end{figure}
-Rysunek \ref{result:13} oraz \ref{result:14} prezentują partycjonowanie tej samej siatki, ale z użyciem wariantu algorytmu
+Rysunek \ref{result:14} oraz \ref{result:13} prezentują partycjonowanie tej samej siatki, ale z użyciem wariantu algorytmu
 gdzie obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
 W efekcie dla obydwu kryteriów wyboru najlepszego partycjonowania otrzymujemy mniejszą długość granic.
 Do tej pory dla wszystkich przykładów nietworzenie wierzchołków w miejsce obszarów wyłączonych z obliczeń
@@ -453,7 +499,10 @@ Moje testowanie wykazało, że jeśli są one duże oraz mają długą granicę 
 problematyczne dla algorytmu LAM, a także znaczenie wydłużają czas partycjonowania.
 Zawsze szybszym, efektywniejszym wyjściem jest skorzystanie z opcji usunięcia ich z siatki.
 \FloatBarrier
-\vspace{4mm}
+\vspace{3mm}
+\textbf{Partycjonowanie 8}
+\vspace{1mm}
+
 Na rysunkach \ref{result:15}, \ref{result:16}, \ref{result:17} oraz \ref{result:18} widać przykład siatki obrazującej
 mapę.
 Obszary wyłączone z obliczeń symbolizują ściany oraz pomieszczenia, na których nie będą przebiegały obliczenia.
@@ -464,15 +513,7 @@ Partycjonowanie przedstawione na rysunku \ref{result:15} zostało wybrane wedle 
 natomiast partycjonowanie z rysunku \ref{result:16} wedle kryterium najmniejszej długości granic.
 Dla partycjonowań \ref{result:17} oraz \ref{result:18} wygląda to analogicznie, tutaj natomiast obszary wyłączone z obliczeń
 zostały zamienione na wierzchołki o wagach $0$.
-Rezultaty \ref{result:15}, \ref{result:16} są znacznie lepsze od \ref{result:17} oraz \ref{result:18} pod względem
-długości granic, ze względu na ściany, które ograniczają liczbę krawędzi łączących różne partycje.
-Wynika z tego, że jeśli na wejściowej siatce nie ma żadnych obszarów, które są całkowicie odłączone od innych
-(innymi słowy można znaleźć ścieżkę między każdą parą pokoi na mapie)
-lepsze rezultaty daje metoda, która nie tworzy wierzchołków dla obszarów wyłączonych z obliczeń.
-Tak jak wcześniej, tam gdzie wybierany jest podział wedle kryterium najmniejszej długości granic, otrzymujemy krótsze
-granice kosztem nieco mniej równego podziału, dla drugiego kryterium na odwrót.
-Na rysunku \ref{result:17} widać, że pojedyncze partycje mają tendencję do zabierania dużych pól obszarów wyłączonych z obliczeń
-wydłużając niepotrzebnie granice (partycja $0$, $10$).
+
 \begin{figure}[h]
 \centering
 \begin{subfigure}{.33\textwidth}
@@ -493,7 +534,8 @@ wydłużając niepotrzebnie granice (partycja $0$, $10$).
 \caption{Siatka $100$x$100$. Podział na $16$ partycji.
 Obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
 Sumaryczna długość granic dla tego wyniku wynosi $392$.
-Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.}
+Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.
+Odchylenie standardowe wielkości pól wynosi $0.2541$.}
 \label{result:15}
 \end{figure}
 \begin{figure}[h]
@@ -516,10 +558,21 @@ Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla
 \caption{Siatka $100$x$100$. Podział na $16$ partycji.
 Obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
 Sumaryczna długość granic dla tego wyniku wynosi $347$.
-Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
+Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.
+Odchylenie standardowe wielkości pól wynosi $1.2042$.}
 \label{result:16}
-    
 \end{figure}
+Rezultaty \ref{result:15}, \ref{result:16} są lepsze od \ref{result:17} oraz \ref{result:18} pod względem
+długości granic, ze względu na ściany, które ograniczają liczbę krawędzi łączących różne partycje.
+Natomiast rezultaty \ref{result:17} oraz \ref{result:18} są lepsze pod względem równości pól partycji.
+Wynika z tego, że jeśli wyżej cenimy optymalizację długość granic między partycjami (na przykład dle niniejszej pracy)
+oraz na wejściowej siatce nie ma żadnych obszarów, które są całkowicie odłączone od innych
+(innymi słowy można znaleźć ścieżkę między każdą parą pokoi na mapie)
+lepsze rezultaty daje metoda, która nie tworzy wierzchołków dla obszarów wyłączonych z obliczeń.
+Tak jak wcześniej, tam gdzie wybierany jest podział wedle kryterium najmniejszej długości granic, otrzymujemy krótsze
+granice kosztem nieco mniej równego podziału, dla drugiego kryterium na odwrót.
+Na rysunku \ref{result:17} widać, że pojedyncze partycje mają tendencję do zabierania dużych pól obszarów wyłączonych z obliczeń
+wydłużając niepotrzebnie granice (partycja $0$, $10$).
 \begin{figure}[h]
 \centering
 \begin{subfigure}{.33\textwidth}
@@ -540,7 +593,8 @@ Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
 \caption{Siatka $100$x$100$. Podział na $16$ partycji.
 Obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
 Sumaryczna długość granic dla tego wyniku wynosi $908$.
-Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.}
+Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.
+Odchylenie standardowe wielkości pól wynosi $0.0651$.}
 \label{result:17}
 \end{figure}
 \begin{figure}[h]
@@ -563,10 +617,47 @@ Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla
 \caption{Siatka $100$x$100$. Podział na $16$ partycji.
 Obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
 Sumaryczna długość granic dla tego wyniku wynosi $739$.
-Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
+Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.
+Odchylenie standardowe wielkości pól wynosi $0.2649$.}
 \label{result:18}
 \end{figure}
-\FloatBarrier
+
+\newpage
+\vspace{3mm}
+\textbf{Partycjonowanie 9}
+\vspace{1mm}
+
+Na rysunku \ref{result:19} widoczne jest partycjonowanie siatki o większym rozmiarze, mającej
+przypominać plan budynku.
+Tym razem ze względu na czas liczenia najlepszy rezultat został wybrany spośród $10$ wywołań algorytmu.
+Algorytm bardzo dobrze poradził sobie z zadaniem otrzymując podobne pod względem pola obszary oraz uwzględniając
+obszary niepodzielne i wyłączone z obliczeń.
+Powstał jeden obszar rozproszony dla partycji numer $13$.
+Dla tego przykładu usuwanie obszarów rozproszonych było wyłączone, ponieważ ściany bardzo
+ograniczają możliwości balansowania pól i nie jest oczywistym, że obszary nierozproszone będą zawsze dawać najlepsze rezultaty.
+Ta część algorytmu daje bardzo dobrze rezultaty bez względu na wielkość siatki wejściowej.
+Wielokrotne, kosztowne obliczeniowo wywołania algorytmu miały na celu wykazanie najlepszych rezultatów, jednak algorytm
+ten działa bardzo stabilnie i również bez wielokrotnych wywołań dostarcza dobre rezultaty.
+Wyniki odchylenia standardowego wielkości pól partycji dla dziesięciu kolejnych wywołań, dla siatki przedstawionej
+na rysunku \ref{result:19} (jest to inne wywołanie algorytmu, niż to z którego został wybrany wynik przedstawiony na rysunku
+\ref{result:19}):
+\begin{enumerate}
+    \item $std = 0.7902$, $cut\_size=531$
+    \item $std = 0.8277$, $cut\_size=552$
+    \item $std = 0.5269$, $cut\_size=607$
+    \item $std = 0.4602$, $cut\_size=473$
+    \item $std = 0.3403$, $cut\_size=601$
+    \item $std = 1.1961$, $cut\_size=583$
+    \item $std = 0.4940$, $cut\_size=545$
+    \item $std = 0.8982$, $cut\_size=497$
+    \item $std = 0.7613$, $cut\_size=615$
+    \item $std = 0.6832$, $cut\_size=578$
+\end{enumerate}
+
+Wyniki są zależne od wielu czynników, na przykład od wyboru stopnia agresywności balansowania pól lub od tego,
+czy pozwolimy balansować pola przez krótkie granice.
+Dla przykładu jak na rysunku \ref{result:19}, ma to bardzo duży wpływ na rezultat.
+
 \begin{figure}[h]
 \centering
 \begin{subfigure}{\textwidth}
@@ -587,15 +678,8 @@ Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.}
 \caption{Siatka $260$x$143$. Podział na $16$ partycji.
 Obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
 Sumaryczna długość granic dla tego wyniku wynosi $531$.
-Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.}
+Kryterium wyboru najlepszego rezultatu to najmniejsze odchylenie standardowe dla pól partycji.
+Odchylenie standardowe wielkości pól wynosi $0.6339$.}
 \label{result:19}
 \end{figure}
 \FloatBarrier
-Na rysunku \ref{result:19} widoczne jest partycjonowanie siatki o większym rozmiarze, mającej
-przypominać plan budynku.
-Tym razem ze względu na czas liczenia najlepszy rezultat został wybrany spośród $10$ wywołań algorytmu.
-Algorytm bardzo dobrze poradził sobie z zadaniem otrzymując podobne pod względem pola obszary oraz uwzględniając
-obszary niepodzielne i wyłączone z obliczeń.
-Ta część algorytmu daje bardzo dobrze rezultaty bez względu na wielkość siatki wejściowej.
-Wielokrotne, kosztowne obliczeniowo wywołania algorytmu miały na celu wykazanie najlepszych rezultatów, jednak algorytm
-ten działa bardzo stabilnie i również bez wielokrotnych wywołań dostarcza dobre rezultaty.
