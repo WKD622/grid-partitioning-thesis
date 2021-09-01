@@ -7,9 +7,10 @@ Dla symulacji definiujemy zasady jej odbywania oraz siatkę, na której ma się 
 Celem takiej symulacji może być przykładowo zbadanie ruchu pieszego na mapie galerii handlowej, następnie wyodrębnienie miejsc
 zatłoczonych, które wymagają poprawek w projekcie.
 Dzieląc siatkę na równe partycje możemy podzielić obliczenia, które się niej odbywają, na węzły obliczeniowe.
+
 Na potrzeby rozwiązania siatka zamieniana jest na graf.
-Niniejsza praca proponuje wielopoziomowy algorytm partycjonowania grafów, który bazuje na algorytmie
-weighted matching oraz metodzie Helpful-Sets.
+Niniejsza praca proponuje wielopoziomowy algorytm partycjonowania grafów, który bazuje na algorytmie LAM
+matching oraz heurystyce Helpful-Sets.
 Początkowy graf zmniejszany jest, aż do otrzymania odpowiedniej liczby wierzchołków, partycjonowany, a następnie
 przywracany do początkowych rozmiarów wraz z zachowaniem utworzonych partycji.
 Podczas odtwarzania partycjonowanie jest ulepszane w celu skrócenia granic między partycjami.
