@@ -8,7 +8,11 @@ Celem takiej symulacji może być przykładowo zbadanie ruchu pieszego na mapie 
 zatłoczonych, które wymagają poprawek w projekcie.
 Dzieląc siatkę na równe partycje możemy podzielić obliczenia, które się niej odbywają, na węzły obliczeniowe.
 Na potrzeby rozwiązania siatka zamieniana jest na graf.
-Niniejsza praca proponuje algorytm partycjonowania grafów, który bazuje na metodzie Helpful-Sets.
+Niniejsza praca proponuje wielopoziomowy algorytm partycjonowania grafów, który bazuje na algorytmie
+weighted matching oraz metodzie Helpful-Sets.
+Początkowy graf zmniejszany jest, aż do otrzymania odpowiedniej liczby wierzchołków, partycjonowany, a następnie
+przywracany do początkowych rozmiarów wraz z zachowaniem utworzonych partycji.
+Podczas odtwarzania partycjonowanie jest ulepszane w celu skrócenia granic między partycjami.
 Został on odtworzony oraz rozszerzony względem oryginalnego rozwiązania o uwzględnianie obszarów niepodzielnych
 oraz wyłączonych z obliczeń.
 Zaprezentowane są szczegóły implementacyjne algorytmu, a także wyniki jego działania.
@@ -17,4 +21,4 @@ Jest on także porównywany do innych rozwiązań.
 \newline
 \vspace{10mm}
 
-Słowa kluczowe: Heuristic Graph Partitioning, Helpful-Sets, Grid partitioning.
+Słowa kluczowe: Heuristic Graph Partitioning, Helpful-Sets, Grid Partitioning.
