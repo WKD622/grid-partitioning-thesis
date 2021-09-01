@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.26)  1 SEP 2021 12:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.5)  1 SEP 2021 23:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1108,7 +1108,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 8.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-(/Users/jakubz/Workspace/grid-partitioning-thesis/out/main.aux)
+(/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -1206,8 +1206,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
 LaTeX Info: Redefining \nameref on input line 8.
- (/Users/jakubz/Workspace/grid-partitioning-thesis/out/main.out)
-(/Users/jakubz/Workspace/grid-partitioning-thesis/out/main.out)
+ (/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.out)
+(/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.out)
 \@outlinefile=\write8
 \openout8 = `main.out'.
 
@@ -1239,7 +1239,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./input
 /agh.pdf>] [2]) (./chapters/02-table_of_contents/main.tex
-(/Users/jakubz/Workspace/grid-partitioning-thesis/out/main.toc
+(/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
 .
 
@@ -1383,46 +1383,49 @@ File: images/grid1.png Graphic file (type png)
 <use images/grid1.png>
 Package pdftex.def Info: images/grid1.png  used on input line 29.
 (pdftex.def)             Requested size: 273.14925pt x 164.84525pt.
+
+Underfull \vbox (badness 1184) has occurred while \output is active []
+
  [14 <./images/grid1.png>]
 <images/strange7.png, id=409, 65.24374pt x 46.1725pt>
 File: images/strange7.png Graphic file (type png)
 <use images/strange7.png>
-Package pdftex.def Info: images/strange7.png  used on input line 69.
+Package pdftex.def Info: images/strange7.png  used on input line 66.
 (pdftex.def)             Requested size: 54.629pt x 38.66132pt.
 <images/rm/2.png, id=410, 404.51125pt x 277.035pt>
 File: images/rm/2.png Graphic file (type png)
 <use images/rm/2.png>
-Package pdftex.def Info: images/rm/2.png  used on input line 74.
+Package pdftex.def Info: images/rm/2.png  used on input line 71.
 (pdftex.def)             Requested size: 138.3965pt x 94.78246pt.
 <images/rm/1.png, id=411, 404.51125pt x 277.035pt>
 File: images/rm/1.png Graphic file (type png)
 <use images/rm/1.png>
-Package pdftex.def Info: images/rm/1.png  used on input line 79.
+Package pdftex.def Info: images/rm/1.png  used on input line 76.
 (pdftex.def)             Requested size: 138.3965pt x 94.78246pt.
 <images/in/1.png, id=412, 292.09125pt x 292.09125pt>
 File: images/in/1.png Graphic file (type png)
 <use images/in/1.png>
-Package pdftex.def Info: images/in/1.png  used on input line 93.
+Package pdftex.def Info: images/in/1.png  used on input line 90.
 (pdftex.def)             Requested size: 136.57462pt x 136.57869pt.
 <images/in/2.png, id=413, 292.09125pt x 292.09125pt>
 File: images/in/2.png Graphic file (type png)
 <use images/in/2.png>
-Package pdftex.def Info: images/in/2.png  used on input line 98.
+Package pdftex.def Info: images/in/2.png  used on input line 95.
 (pdftex.def)             Requested size: 136.57462pt x 136.57869pt.
 <images/in/3.png, id=414, 292.09125pt x 292.09125pt>
 File: images/in/3.png Graphic file (type png)
 <use images/in/3.png>
-Package pdftex.def Info: images/in/3.png  used on input line 103.
+Package pdftex.def Info: images/in/3.png  used on input line 100.
 (pdftex.def)             Requested size: 136.57462pt x 136.57869pt.
 <images/in/4.png, id=415, 292.09125pt x 292.09125pt>
 File: images/in/4.png Graphic file (type png)
 <use images/in/4.png>
-Package pdftex.def Info: images/in/4.png  used on input line 108.
+Package pdftex.def Info: images/in/4.png  used on input line 105.
 (pdftex.def)             Requested size: 136.57462pt x 136.57869pt.
 <images/in/5.png, id=416, 292.09125pt x 292.09125pt>
 File: images/in/5.png Graphic file (type png)
 <use images/in/5.png>
-Package pdftex.def Info: images/in/5.png  used on input line 113.
+Package pdftex.def Info: images/in/5.png  used on input line 110.
 (pdftex.def)             Requested size: 136.57462pt x 136.57869pt.
 
 
@@ -1439,52 +1442,52 @@ Package pdftex.def Info: images/Maximum_matching.jpeg  used on input line 8.
 <images/lam.png, id=440, 1117.17375pt x 409.53pt>
 File: images/lam.png Graphic file (type png)
 <use images/lam.png>
-Package pdftex.def Info: images/lam.png  used on input line 29.
+Package pdftex.def Info: images/lam.png  used on input line 28.
 (pdftex.def)             Requested size: 409.71693pt x 150.1927pt.
  [17
 
  <./images/Maximum_matching.jpeg> <./images/lam.png>]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
-9.
+8.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 40.
+(Font)              <5> on input line 39.
 
 
 Package caption Warning: \captionsetup{type*=...} or \captionof
-(caption)                outside box or environment on input line 83.
+(caption)                outside box or environment on input line 82.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 86.
+(caption)                particular \caption on input line 85.
 See the caption package documentation for explanation.
 
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 86.
+t line 85.
 [18]
 <images/lam-partitioning.png, id=513, 276.03125pt x 275.0275pt>
 File: images/lam-partitioning.png Graphic file (type png)
 <use images/lam-partitioning.png>
-Package pdftex.def Info: images/lam-partitioning.png  used on input line 124.
+Package pdftex.def Info: images/lam-partitioning.png  used on input line 122.
 (pdftex.def)             Requested size: 136.57462pt x 136.08237pt.
 <images/lam-partitioning2.png, id=514, 275.0275pt x 275.0275pt>
 File: images/lam-partitioning2.png Graphic file (type png)
 <use images/lam-partitioning2.png>
-Package pdftex.def Info: images/lam-partitioning2.png  used on input line 129.
+Package pdftex.def Info: images/lam-partitioning2.png  used on input line 127.
 (pdftex.def)             Requested size: 136.57462pt x 136.57758pt.
 
 Underfull \vbox (badness 6063) has occurred while \output is active []
 
  [19 <./images/lam-partitioning.png> <./images/lam-partitioning2.png>]
-./chapters/05-algorithm/parts/03-shrinking_graph.tex:159: Missing number, treat
+./chapters/05-algorithm/parts/03-shrinking_graph.tex:157: Missing number, treat
 ed as zero.
 <to be read again> 
                    m
-l.159 \vspace{mm}
+l.157 \vspace{mm}
                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1494,88 +1497,88 @@ look up `weird error' in the index to The TeXbook.)
 File: images/lam-obszary-niepodzielne/grid.png Graphic file (type png)
 <use images/lam-obszary-niepodzielne/grid.png>
 Package pdftex.def Info: images/lam-obszary-niepodzielne/grid.png  used on inpu
-t line 164.
+t line 162.
 (pdftex.def)             Requested size: 182.09833pt x 97.77342pt.
 <images/lam-obszary-niepodzielne/4.png, id=525, 532.99126pt x 272.01625pt>
 File: images/lam-obszary-niepodzielne/4.png Graphic file (type png)
 <use images/lam-obszary-niepodzielne/4.png>
 Package pdftex.def Info: images/lam-obszary-niepodzielne/4.png  used on input l
-ine 169.
+ine 167.
 (pdftex.def)             Requested size: 182.09833pt x 92.93256pt.
 [20 <./images/lam-obszary-niepodzielne/grid.png> <./images/lam-obszary-niepodzi
 elne/4.png>]
 <images/part-steps/lam1.png, id=532, 275.0275pt x 274.02374pt>
 File: images/part-steps/lam1.png Graphic file (type png)
 <use images/part-steps/lam1.png>
-Package pdftex.def Info: images/part-steps/lam1.png  used on input line 182.
+Package pdftex.def Info: images/part-steps/lam1.png  used on input line 180.
 (pdftex.def)             Requested size: 97.87581pt x 97.51953pt.
 <images/part-steps/lam2.png, id=533, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam2.png Graphic file (type png)
 <use images/part-steps/lam2.png>
-Package pdftex.def Info: images/part-steps/lam2.png  used on input line 187.
+Package pdftex.def Info: images/part-steps/lam2.png  used on input line 185.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 180--190
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 178--188
 []$[]$ $[]$ 
  []
 
 <images/part-steps/lam3.png, id=534, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam3.png Graphic file (type png)
 <use images/part-steps/lam3.png>
-Package pdftex.def Info: images/part-steps/lam3.png  used on input line 193.
+Package pdftex.def Info: images/part-steps/lam3.png  used on input line 191.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
 <images/part-steps/lam4.png, id=535, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam4.png Graphic file (type png)
 <use images/part-steps/lam4.png>
-Package pdftex.def Info: images/part-steps/lam4.png  used on input line 198.
+Package pdftex.def Info: images/part-steps/lam4.png  used on input line 196.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 191--201
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 189--199
 []$[]$ $[]$ 
  []
 
 <images/part-steps/lam5.png, id=536, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam5.png Graphic file (type png)
 <use images/part-steps/lam5.png>
-Package pdftex.def Info: images/part-steps/lam5.png  used on input line 204.
+Package pdftex.def Info: images/part-steps/lam5.png  used on input line 202.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
 <images/part-steps/lam6.png, id=537, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam6.png Graphic file (type png)
 <use images/part-steps/lam6.png>
-Package pdftex.def Info: images/part-steps/lam6.png  used on input line 209.
+Package pdftex.def Info: images/part-steps/lam6.png  used on input line 207.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 202--212
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 200--210
 []$[]$ $[]$ 
  []
 
 <images/part-steps/lam7.png, id=538, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam7.png Graphic file (type png)
 <use images/part-steps/lam7.png>
-Package pdftex.def Info: images/part-steps/lam7.png  used on input line 215.
+Package pdftex.def Info: images/part-steps/lam7.png  used on input line 213.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
 <images/part-steps/lam8.png, id=539, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam8.png Graphic file (type png)
 <use images/part-steps/lam8.png>
-Package pdftex.def Info: images/part-steps/lam8.png  used on input line 220.
+Package pdftex.def Info: images/part-steps/lam8.png  used on input line 218.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 213--223
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 211--221
 []$[]$ $[]$ 
  []
 
 <images/part-steps/lam9.png, id=540, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam9.png Graphic file (type png)
 <use images/part-steps/lam9.png>
-Package pdftex.def Info: images/part-steps/lam9.png  used on input line 226.
+Package pdftex.def Info: images/part-steps/lam9.png  used on input line 224.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
 <images/part-steps/lam10.png, id=541, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam10.png Graphic file (type png)
 <use images/part-steps/lam10.png>
-Package pdftex.def Info: images/part-steps/lam10.png  used on input line 231.
+Package pdftex.def Info: images/part-steps/lam10.png  used on input line 229.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 224--236
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 222--233
 []$[]$ $[]$ 
  []
 
@@ -2597,7 +2600,8 @@ Package pdftex.def Info: images/results/m/5/results.png  used on input line 156
 ) [63 <./images/results/m/5/mk.png> <./images/results/m/5/m.png> <./images/resu
 lts/m/5/results.png>]) (./chapters/07-further_development/main.tex)
 (./chapters/99-bibliography/main.tex [64]
-(/Users/jakubz/Workspace/grid-partitioning-thesis/out/main.bbl [65] [66]
+(/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.bbl [65]
+[66]
 Underfull \hbox (badness 10000) in paragraph at lines 196--202
 \T1/lmtt/m/n/12 wikipedia . org / w / index . php ? title = Graph % 20embedding
  & oldid = 1019397582$[]\T1/lmr/m/n/12 ,
@@ -2609,7 +2613,7 @@ Underfull \hbox (badness 2359) in paragraph at lines 204--211
  the free en-cyc-lo-pe-
  []
 
-)) [67] (/Users/jakubz/Workspace/grid-partitioning-thesis/out/main.aux)
+)) [67] (/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2618,7 +2622,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  32273 strings out of 478994
- 606888 string characters out of 5858184
+ 606948 string characters out of 5858185
  1568767 words of memory out of 5000000
  48582 multiletter control sequences out of 15000+600000
  484863 words of font info for 86 fonts, out of 8000000 for 9000
@@ -2646,8 +2650,8 @@ y10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></u
 sr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2021
 /texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/jakubz/Workspace/grid-partitioning-thesis/out/main.pdf
- (67 pages, 12872695 bytes).
+Output written on /Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main
+.pdf (67 pages, 12872522 bytes).
 PDF statistics:
  1453 PDF objects out of 1728 (max. 8388607)
  1021 compressed objects within 11 object streams

@@ -157,8 +157,8 @@ Wszystkie wyżej wymienione metody nie biorą pod uwagę problemu obszarów niep
 W związku z tym celem niniejszej pracy stało się znalezienie metody dającej możliwie najlepsze rezultaty w zakresie partycjonowania grafów oraz
 dostosowanie jej do wyżej wymienionych rozszerzeń problemu partycjonowania.
 
-Metody wielopoziomowe są najlepszym wyborem, ponieważ gwarantują najlepsze wyniki partycjonowania.
-Przykładów metod wielopoziomowych jest bardzo dużo \cite{metis, jostle, Bui1993AHF, 103500, 185177, 279334, inproceedings, 129970, 10.1145/165939.165942},
+Metody wielopoziomowe gwarantują najlepsze wyniki partycjonowania.
+Przykładów tych jest bardzo wiele \cite{metis, jostle, Bui1993AHF, 103500, 185177, 279334, inproceedings, 129970, 10.1145/165939.165942},
 jednak skupiłem się głównie na tych, które dawały wyniki state-of-the-art. Były to biblioteki:
 Party \cite{1364754}, Metis \cite{metis}, Jostle \cite{jostle}, Chaco \cite{inproceedings}.
 
@@ -177,8 +177,8 @@ stosuje LAM matching \cite{weighted_maching}.
 Ze względu na wysoką złożoność obliczeniową wszystkie metody używają heurystyk.
 Wszystkie z tych metod zmniejszają graf, jednak tylko Jostle i Party zmniejsza graf,
 aż do otrzymania liczby wierzchołków równej liczbie partycji, na które chcemy podzielić wejściowy graf.
-Dzięki temu metoda partycjonowania, działająca na najmniejszym możliwym grafie, jest dużo prostsza niż w pozostałych metodach.
-Kiedy graf jest zmniejszony, wierzchołki są przyporządkowywane do partycji a informacja na temat partycji jest przenoszona
+Dzięki temu metoda partycjonowania, działająca na najmniejszym możliwym grafie, jest dużo prostsza niż w przypadku pozostałych metod.
+Kiedy graf jest zmniejszony, wierzchołki są przyporządkowywane do partycji, a informacja na temat partycji jest przenoszona
 do wierzchołków na wyższych poziomach, zgodnie z partycją ich reprezentantów na najniższym poziomie.
 Ten proces prowadzi do partycjonowania początkowego grafu.
 Faza zmniejszania grafu jest ponadto stosunkowo łatwa do zrównoleglenia \cite{KARYPIS199871}.
@@ -191,27 +191,28 @@ Jego celem jest ustanowienie podziału na obszary o wybranej wielkości wraz
 ze zminimalizowaniem sumy kosztów na wszystkich granicach.
 Artykuł \cite{10.5555/800263.809204} przedstawia heurystykę do poprawiania partycjonowania sieci.
 Algorytm ten przesuwa pojedyncze komórki pomiędzy blokami wraz z utrzymaniem oczekiwanego rozmiaru bloków.
-W przeciwieństwie do Metis i Jostle, faza ulepszenia partycjonowania używana przez bibliotekę Party bazuje na metodzie
+W przeciwieństwie do Metis i Jostle faza ulepszenia partycjonowania używana przez bibliotekę Party, bazuje na metodzie
 Helpful-Sets (HS).
 Heurystyka Helpful-Set wywodzi się z obserwacji teoretycznych wykorzystywanych do znajdowania górnych
 granic szerokości bisekcji grafów regularnych \cite{10.1007/3-540-54345-7_64, MONIEN2006475}.
 Szerokość bisekcji to minimalna liczba krawędzi, która musi zostać usunięta w celu podzielenia grafu na
 dwie równej wielkości części lub różniące się wielkością o maksymalnie jeden wierzchołek.
-Party otrzymuje bardzo dobre wyniki stosując tę metodę \cite{10.1007/3-540-44842-X_6}, często uzyskując mniejszą długość
-granic pomiędzy obszarami niż Metis czy Jostle, jednocześnie jest tylko trochę bardziej kosztowna obliczeniowo.
+Party daje bardzo dobre wyniki stosując tę metodę \cite{10.1007/3-540-44842-X_6}, uzyskując często mniejszą długość
+granic pomiędzy obszarami niż Metis czy Jostle.
+Jednocześnie jest tylko trochę bardziej kosztowna obliczeniowo.
 Heurystyka Helpful-Sets jest metodą bazującą na wyszukiwaniu lokalnym.
 Zaczynając od początkowej bisekcji \(\pi\) dąży
 do zminimalizowania długości granicy za pomocą lokalnie wprowadzanych zmian.
-Najważniejsza różnica względem metody KL polega na tym że KL przemieszcza tylko pojedyncze wierzchołki,
+Najważniejsza różnica względem metody KL polega na tym, że KL przemieszcza tylko pojedyncze wierzchołki,
 natomiast HS zbiory wierzchołków.
-Zarówno Party, Metis, jak i Jostle pozwalają na małe nierówności w kwestii wielkości obszarów co przekłada się na
+Zarówno Party, Metis, jak i Jostle pozwalają na małe różnice wielkości obszarów, co przekłada się na
 mniejsze długości granic,
-szczególnie na głębszych poziomach, kiedy przemieszczane są wierzchołki o dużych wagach - ciężko wtedy o otrzymanie
-idealnie równych obszarów.
+szczególnie na głębszych poziomach, kiedy przemieszczane są wierzchołki o dużych wagach.
+Ciężko wtedy o otrzymanie idealnie równych obszarów.
 
 Biblioteka Party \cite{1364754} okazała się dawać najlepsze rezultaty w porównaniu do innych bibliotek dających wyniki
 state-of-the-art.
 Szczególną własnością Party była znacznie niższa długość granic w porównaniu do pozostałych bibliotek
 (Rysunek \ref{im:partitioning_results}), co było bardzo ważne dla mojej pracy.
 Dlatego to właśnie metodę z biblioteki
-Party zdecydowałem się wybrać jako podstawę rozwiązania prezentowanego w niniejszej pracy.
+Party zdecydowałem się wybrać jako podstawę rozwiązania, prezentowanego w niniejszej pracy.
