@@ -193,7 +193,7 @@ niż $-d/2$, nie może również przekroczyć wagi $s_{max}$.
 Wartość $d$ to średni stopień wierzchołka w grafie.
 Dla mojej implementacji mógłbym założyć, że $d$ jest zawsze równe $4$ - wynika to ze sposobu, w jaki buduję
 graf z wejściowej siatki (rysunek \ref{im:indivisible}).
-Jednak ta zasada się nie sprawdzała.
+Jednak ta zasada nie działa.
 Algorytm budowania zbioru helpful jest bowiem zachłanny i często budował zbiory, które spełniały kryterium nieprzekraczania
 wagi $s_{max}$ oraz miały ujemną wartość helpful, większą niż $-2$.
 Jednak później w kodzie oryginalnego algorytmu sprawdzane było, czy zbiór nie ma ujemnej wartości helpful i
