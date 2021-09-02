@@ -1,12 +1,13 @@
 \subsubsection{Używanie Helpful Sets w celu zmniejszenia długości granic}
 Heurystyka Helpful Sets startuje od początkowego podziału i za pomocą lokalnie wprowadzanych zmian zmniejsza długość granic.
 Algorytm startuje od poszukiwania zbioru \texttt{k-helpful}, to jest podzbioru wierzchołków ze zbioru $V_1$ lub $V_2$,
-który zmniejsza długość granicy o $k$ jeśli zostanie przeniesiony do drugiej partycji.
+który zmniejsza długość granicy o $k$, jeśli zostanie przeniesiony do drugiej partycji.
 Jeśli taki zbiór zostaje znaleziony w jednej z dwóch
-partycji, powiedzmy że w $V_1$, to jest przenoszony do $V_2$. Następnie algorytm zaczyna szukać w części $V_2$, która
+partycji, na przykład w $V_1$, to jest przenoszony do $V_2$.
+Następnie algorytm zaczyna szukać w części $V_2$, która
 jest aktualnie wystarczająco duża, aby zbalansować podział i zwiększyć długość granicy o maksymalnie $(k-1)$ krawędzi.
-Jeśli taki \texttt{balancing set} zostaje znaleziony to przenoszony jest do zbioru $V_1$ i proces zaczyna się od początku.
-Działanie algorytmu dobrze widać na rysunku \ref{im:balancing} oraz \ref{im:h_steps} .
+Jeśli taki \texttt{balancing set} zostaje znaleziony, to przenoszony jest do zbioru $V_1$ i proces zaczyna się od początku.
+Działanie algorytmu dobrze widać na rysunku \ref{im:balancing} oraz \ref{im:h_steps}.
 Zanim algorytm zostanie opisany dokładniej, potrzebne są definicje zbiorów helpful oraz balancing:
 
 \begin{definition}
@@ -30,7 +31,7 @@ Przeniesienie zbioru $S$ do drugiej partycji zmniejsza długość granicy o $H(S
 Przykłady zbiorów $2$-helpful pokazane są na rysunku \ref{im:helpfulsets:example}.
 
 Autorzy artykułu \cite{article} zamienne używają pojęć diff-value oraz helpfulness.
-Postanowiłem, że będę trzymać się nazwy helpfulness zarówno dla wierzchołków, jak i dla zbiorów.
+W niniejszej pracy używana jest nazwa helpfulness zarówno dla wierzchołków, jak i dla zbiorów.
 
 \begin{figure}[h]
 \centering
@@ -104,7 +105,7 @@ z jednej partycji do drugiej.
     \fbox{\includegraphics[width=\imgss\textwidth]{images/helpful-balancing/5}}
     \caption[short]{krok 4 - przeniesienie zbioru balancing}
 \end{subfigure}%
-\caption{Obrazki pokazują początkowy podział, następnie jedno wywołanie algorytmu Helpful Sets. Rozmiar partycji pozostaje
+\caption{Obrazki pokazują początkowy podział, a następnie jedno wywołanie algorytmu Helpful Sets. Rozmiar partycji pozostaje
 niemal identyczny, zmniejsza się długość granicy.}
 \label{im:balancing}
 \end{figure}
@@ -159,41 +160,41 @@ niemal identyczny, zmniejsza się długość granicy.}
   ENDIF
 \end{pseudocode}
 \vspace{-8mm}
-\captionof{listing}{Kod przedstawiający zmodyfikowany przeze mnie algorytm Helpful-Set 2-partitioning.}
+\captionof{listing}{Kod przedstawiający zmodyfikowany na potrzeby niniejszej pracy algorytm Helpful-Set $2$-partitioning.}
 \label{code:helpful_sets}
 \newpage
 Kluczowym elementem algorytmu jest ustalenie wartości helpfulness $l$ zbiorów, których szukamy.
-Jeśli $l$ jest ustawione na zbyt małe to obiecujące zbiory są przeoczane, natomiast jeśli $l$ jest za duże
-to czas wykonywania algorytmu jest dłuższy, natomiast znalezione przy tym zbiory wcale nie są lepsze.
-W celu uzyskania $l$ Party używa techniki zwanej \texttt{adaptive limitation} \cite{article}.
+Jeśli wartość $l$ jest zbyt mała, to obiecujące zbiory są przeoczane, natomiast jeśli $l$ jest za duże,
+to czas wykonywania algorytmu jest dłuższy, natomiast znalezione przy tym zbiory nie są lepsze.
+W celu uzyskania $l$, Party używa techniki zwanej \texttt{adaptive limitation} \cite{article}.
 Początkowe $l$ ustawiane jest na wartość $cut/2$.
-Wartość $l$ jest zmniejszana o połowę albo ustawiana na najlepszą znalezioną helpfulness, jeśli zbiór $l$-helpful
-nie może zostać znaleziony w żadnym z dwóch optymalizowanych zbiorów oraz podwajany, jeśli poszukiwanie
+Wartość $l$ jest zmniejszana o połowę albo ustawiana na najlepszą znalezioną wartość helpfulness, jeśli zbiór $l$-helpful
+nie może zostać znaleziony w żadnym z dwóch optymalizowanych zbiorów oraz podwajana, jeśli poszukiwanie
 zakończy się sukcesem.
 Autorzy \cite{1364754} zaproponowali kilka modyfikacji do algorytmu.
 Po pierwsze, zamiast używać pojedynczego limitu $l$ użyto dwóch oddzielnych limitów dla zbioru $A$ oraz zbioru $B$.
-Po drugie, dopuszczono do pojawiania się małych nierówności w kwestii wielkości obszarów.
+Po drugie, dopuszczono do pojawiania się małych różnic wielkości obszarów.
 Jest to szczególnie ważne, kiedy podział optymalizowany jest wielokrotnie, na niecałkowicie przywróconym
 do początkowego rozmiaru grafie.
 Przenoszone wówczas wierzchołki mają często wagi $\geq 1$, ponadto istnieją różnice pomiędzy wagami wierzchołków,
-co przekłada się na to, że ciężko idealnie zbalansować optymalizowane obszary.
+co przekłada się na trudności w idealnym zbalansowaniu optymalizowanych obszarów.
 To podejście zostało również zaimplementowane w bibliotekach Jostle and Metis.
-Udowodniono, że pozytywnie wpływa ona na optymalizacje długości granic, ponieważ małe nierówności w postaci pól pozwalają
-zwykle na lepsze zoptymalizowanie długości granic.
+Udowodniono, że wpływa ono pozytywnie na optymalizację długości granic, ponieważ dopuszczenie niewielkich
+różnic w powierzchni pól pozwala zwykle na lepsze zoptymalizowanie długości granic.
 Po trzecie algorytm balansowania obszarów, który zachłannie wyrównuje pola obszarów został przeniesiony na koniec.
 
-Algorytm \ref{code:helpful_sets} przedstawia zmodyfikowaną przeze mnie procedure.
-Pierwszą moją modyfikacją jest sprawdzanie, czy balansowane obszary mają wciąż ze sobą granice (linia $2$).
+Algorytm \ref{code:helpful_sets} przedstawia zmodyfikowaną przeze mnie procedurę.
+Pierwszą moją modyfikacją jest sprawdzanie, czy balansowane obszary wciąż ze sobą graniczą (linia $2$).
 Może się zdarzyć, że na skutek balansowania innych obszarów granica ta zostanie przerwana.
-Jak w poprzedniej implementacji limity $l_A$ oraz $l_B$ ustawiane są na połowę aktualnej długości granicy pomiędzy
+Jak w poprzedniej implementacji, limity $l_A$ oraz $l_B$ ustawiane są na połowę aktualnej długości granicy pomiędzy
 obszarami $A$ i $B$ (linia $5$).
-W rozwiązaniu zaproponowanym przez autorów \cite{1364754} podczas wyszukiwania zbiór helpful nie może stać się mniej
-niż $-d/2$ helpful, nie może również przekroczyć wagi $s_{max}$.
+W rozwiązaniu zaproponowanym przez autorów \cite{1364754}, podczas wyszukiwania, wartość helpful zbioru helpful nie może stać się mniejsza
+niż $-d/2$, nie może również przekroczyć wagi $s_{max}$.
 Wartość $d$ to średni stopień wierzchołka w grafie.
-Dla mojej implementacji mógłbym założyć, że $d$ jest zawsze równe $4$ - wynika to ze sposobu, w jaki buduje
+Dla mojej implementacji mógłbym założyć, że $d$ jest zawsze równe $4$ - wynika to ze sposobu, w jaki buduję
 graf z wejściowej siatki (rysunek \ref{im:indivisible}).
 Jednak ta zasada się nie sprawdzała.
-Algorytm budowania zbioru helpful jest bowiem zachłanny i często budował zbiory, który spełniały kryterium nieprzekraczania
+Algorytm budowania zbioru helpful jest bowiem zachłanny i często budował zbiory, które spełniały kryterium nieprzekraczania
 wagi $s_{max}$ oraz miały ujemną wartość helpful, większą niż $-2$.
 Jednak później w kodzie oryginalnego algorytmu sprawdzane było, czy zbiór nie ma ujemnej wartości helpful i
 jeśli miał to budowanie zaczynało się od początku.
