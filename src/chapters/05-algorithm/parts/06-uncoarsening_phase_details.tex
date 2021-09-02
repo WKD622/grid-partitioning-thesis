@@ -196,7 +196,7 @@ graf z wejściowej siatki (rysunek \ref{im:indivisible}).
 Jednak ta zasada nie działa.
 Algorytm budowania zbioru helpful jest bowiem zachłanny i często budował zbiory, które spełniały kryterium nieprzekraczania
 wagi $s_{max}$ oraz miały ujemną wartość helpful, większą niż $-2$.
-Jednak później w kodzie oryginalnego algorytmu sprawdzane było, czy zbiór nie ma ujemnej wartości helpful i
+W kodzie oryginalnego algorytmu później sprawdzane było, czy zbiór nie ma ujemnej wartości helpful i
 jeśli miał to budowanie zaczynało się od początku.
 Przez to algorytm wywoływał się wielokrotnie bez zakończenia się sukcesem.
 Moim rozwiązaniem była zmiana tej instrukcji na warunek na wielkość zbioru $S_A$ (linia $25$) oraz na
