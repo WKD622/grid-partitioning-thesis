@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.5)  5 SEP 2021 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.5)  5 SEP 2021 18:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1788,20 +1788,20 @@ elpfulsets-sh/2.png> <./images/helpfulsets-sh/3.png> <./images/helpfulsets-sh/4
 /helpfulsets-sh/7.png> <./images/helpfulsets-sh/8.png>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 300.
+(caption)                particular \caption on input line 297.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 329.
+(caption)                particular \caption on input line 326.
 See the caption package documentation for explanation.
 
-
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33
 
-])
+]
 [34]
 (./chapters/05-algorithm/parts/07-uncoarsening_phase_building_helpfulsets.tex
 <images/changing_helpful_values.png, id=799, 577.15625pt x 253.94875pt>
@@ -2007,12 +2007,12 @@ Package pdftex.def Info: images/m/2.png  used on input line 18.
 <images/m/3.png, id=957, 532.99126pt x 273.02pt>
 File: images/m/3.png Graphic file (type png)
 <use images/m/3.png>
-Package pdftex.def Info: images/m/3.png  used on input line 76.
+Package pdftex.def Info: images/m/3.png  used on input line 75.
 (pdftex.def)             Requested size: 182.09833pt x 93.27548pt.
 <images/m/4.png, id=958, 532.99126pt x 273.02pt>
 File: images/m/4.png Graphic file (type png)
 <use images/m/4.png>
-Package pdftex.def Info: images/m/4.png  used on input line 81.
+Package pdftex.def Info: images/m/4.png  used on input line 80.
 (pdftex.def)             Requested size: 182.09833pt x 93.27548pt.
 )) (./chapters/06-tests_results/main.tex [47 <./images/m/3.png> <./images/m/4.p
 ng>] (./chapters/06-tests_results/parts/01-intro.tex)
@@ -2617,6 +2617,9 @@ Underfull \hbox (badness 2359) in paragraph at lines 204--211
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: FBCD9B95504497D09363A591CC1AF719;7267.
  ) 
@@ -2651,7 +2654,7 @@ sr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2021
 /texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
 Output written on /Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main
-.pdf (67 pages, 12872700 bytes).
+.pdf (67 pages, 12872621 bytes).
 PDF statistics:
  1453 PDF objects out of 1728 (max. 8388607)
  1021 compressed objects within 11 object streams

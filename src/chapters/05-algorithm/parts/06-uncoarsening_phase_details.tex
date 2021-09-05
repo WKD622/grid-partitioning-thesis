@@ -275,15 +275,12 @@ zachowana. Na potrzeby przykładu balansowanie pól jest wyłączone.}
 Pętla WHILE, która znajduje się między liniami $7$ i $42$ jest wykonywana, dopóki suma limitów jest większa od $1$.
 W oryginalnej implementacji wartość ta wynosiła $0$, jednak wtedy algorytm wywoływał się bardzo długo,
 niekoniecznie poprawiając jakość partycjonowania.
+Jeśli limit $l_A$ jest dużo mniejszy od limitu $l_B$ zbiory $A$ i $B$ są ze sobą zamieniane (linia $9$).
+Ten warunek powoduje, że zbiór helpful szukany jest najpierw w bardziej obiecującej partycji.
 Jeśli zbiór $l_A$-helpful ($S_A$) (z wagą $w(S_A)$ oraz wartością helpfulness wynoszącą $h(S_A)$) nie może zostać
 znaleziony (linia $12$), limit jest redukowany do najlepszej znalezionej wartości helpfulness ($b(S_A)$).
-
-Jeśli limit $l_A$ jest dużo mniejszy od limitu $l_B$ zbiory $A$ i $B$ są ze sobą zamieniane.
-Ten warunek powoduje, że zbiór helpful szukany jest najpierw w bardziej obiecującej partycji.
 Dalej podejmowana jest decyzja czy nastąpi wyszukiwanie w partycji $B$ (linia $14$).
-Jeśli tak, to ustalany jest zbiór $S_B$ (linia $15$).
-
-
+W jej wyniku ustalony może zostać zbiór $S_B$ (linia $15$).
 Dalej zbiór z większą wartością helpfulness jest nazywany $S_A$ (linia $17$) lub limit
 drugiej partycji jest redukowany (linia $19$), a zbiór $S_B$ usuwany (linia $22$).
 Jeśli wielkość zbioru helpful jest równa $0$, to limit ustawiany jest na $0$ (linia $25$), a algorytm powtarzany.

@@ -21,11 +21,11 @@ Ten sam efekt występuje dla obszaru zielonego na obrazku (b).}
 \end{figure}
 
 Problem spowodowany jest etapem optymalizacji podziału.
-Dzieje się tak, ponieważ obszary handlują ze sobą granicznymi wierzchołkami w celu wyrównania granic.
-Przykład podziału, na którym taki problem może się pojawić jest rysunek \ref{im:noises_2}.
+Dzieje się tak, ponieważ obszary wymieniają się ze sobą granicznymi wierzchołkami w celu wyrównania granic.
+Przykładem podziału, na którym taki problem może się pojawić jest rysunek \ref{im:noises_2}.
 W lewym rogu widać obszar zaznaczony czerwonym kółkiem, znajdujący się pomiędzy dwoma zielonymi obszarami.
 Wąska, dolna odnoga tego obszaru jest potencjalnym miejscem, gdzie może nastąpić
-odcięcie i przez to przedzielenie tego obszaru na dwie części.
+odcięcie i przedzielenie tego obszaru na dwie części.
 
 \begin{figure}[h]
 \centering
@@ -39,27 +39,28 @@ Algorytm optymalizacji granic jest szczególnie narażony na tego typu zachowani
 kiedy graf jest zredukowany i pod pojedynczymi wierzchołkami przenoszone są tak naprawdę całe ich zbiory.
 Wtedy często wystarczy przenieść jeden wierzchołek, aby przedzielić inny obszar na dwie części.
 Dlatego też algorytm optymalizacji podziału aktywowany jest dopiero na grafie przywróconym w $85-90\%$ do
-pierwotnego rozmiaru - wtedy szansa na powstanie obszarów rozproszonych znacznie spada.
+pierwotnego rozmiaru.
+Wtedy szansa na powstanie obszarów rozproszonych znacznie spada.
 Kolejnym czynnikiem ryzyka są obszary niepodzielne.
 Reprezentują je wierzchołki, które zostają zastąpione początkowym zbiorem wierzchołków
 dopiero po zakończeniu optymalizacji.
 Przeniesienie takiego obszaru do innej partycji w fazie optymalizacji, tak samo jak w poprzednim przypadku, może skutkować
 powstaniem obszarów rozproszonych.
-Bardzo często również obszary rozproszone pojawiają się w początkowych wywołaniach optymalizacji granic, ale są niwelowane przez
+Bardzo często obszary rozproszone pojawiają się również w początkowych wywołaniach optymalizacji granic, ale są niwelowane przez
 kolejne wywołania algorytmu optymalizacji.
-Ważnym faktem jest, że algorytm LAM ze względu na swoją charakterystykę dąży do budowania obszarów równych pod względem
-pola oraz ''zbitych'', więc taka sytuacja nie zdarza się często.
+Istotne jest, że algorytm LAM ze względu na swoją charakterystykę dąży do budowania obszarów równych pod względem
+pola oraz ''zwartych'', więc taka sytuacja nie zdarza się często.
 Ponadto, jak wynika z moich obserwacji, pojawiające się obszary rozproszone są zawsze bardzo małe w
 porównaniu do pozostałych obszarów.
 
-Rozwiązanie dla tego problemu, które prezentuję w niniejszej pracy polega na pojedynczym przeiterowaniu po grafie
-w celu znalezienia takich obszarów, następnie na przyporządkowaniu wszystkich obszarów rozproszonych do jednego
-z przylegających do nich obszarów.
-Algorytm usuwania obszarów rozproszonych jest wywoływany raz na grafie przywróconym do początkowych rozmiarów,
+Rozwiązanie tego problemu, które prezentuję w niniejszej pracy, polega na pojedynczym przeiterowaniu po grafie
+w celu znalezienia takich obszarów, a
+następnie na przyporządkowaniu wszystkich obszarów rozproszonych do jednego z przylegających do nich obszarów.
+Algorytm usuwania obszarów rozproszonych jest wywoływany raz, na grafie przywróconym do początkowych rozmiarów,
 po wszystkich wywołaniach
 algorytmu optymalizacji granic i wielkości pól.
 
-Zdecydowałem się na tego typu, proste rozwiązanie z racji na rzadkość występowania tego problemu oraz tego, że zwykle
+Zdecydowałem się na takie rozwiązanie z racji na rzadkość występowania tego problemu oraz w związku z faktem, że zwykle
 powstałe obszary rozproszone są bardzo małe.
-Według mnie takie rozwiązanie jest dużo tańsze obliczeniowo i rozsądniejsze przy skali tego
-zjawiska niż wykluczenie wystąpienia tego typu sytuacji dodatkowymi modyfikacjami algorytmu.
+Według mnie takie rozwiązanie jest dużo tańsze obliczeniowo i bardziej racjonalne przy skali tego
+zjawiska niż próba wykluczenia wystąpienia takich sytuacji dodatkowymi modyfikacjami algorytmu.
