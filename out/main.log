@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.5)  5 SEP 2021 18:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.5)  5 SEP 2021 23:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1216,7 +1216,7 @@ Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 (./chapters/01-title/main.tex
-<input/agh.pdf, id=127, 597.50829pt x 845.0471pt>
+<input/agh.pdf, id=123, 597.50829pt x 845.0471pt>
 File: input/agh.pdf Graphic file (type pdf)
 <use input/agh.pdf>
 Package pdftex.def Info: input/agh.pdf  used on input line 2.
@@ -1238,45 +1238,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./input
-/agh.pdf>] [2]) (./chapters/02-table_of_contents/main.tex
+/agh.pdf>]) (./chapters/02-table_of_contents/main.tex
 (/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-4.
+3.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-4.
+3.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 4.
+(Font)              <12> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <8> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 4.
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 4.
+(Font)              <6> on input line 3.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 3.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 4.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 3.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ulasy.fd
@@ -1286,78 +1286,64 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 \openout9 = `main.toc'.
 
 )
-(./chapters/00-summary/main.tex [3
+(./chapters/03-introduction/main.tex [2
 
 ]
-
-./chapters/00-summary/main.tex:22: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 \newline
-             
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) (./chapters/03-introduction/main.tex [4]
 (./chapters/03-introduction/parts/01-motivation.tex
-<images/kroliki.png, id=200, 462.72874pt x 204.765pt>
+<images/kroliki.png, id=186, 462.72874pt x 204.765pt>
 File: images/kroliki.png Graphic file (type png)
 <use images/kroliki.png>
 Package pdftex.def Info: images/kroliki.png  used on input line 23.
 (pdftex.def)             Requested size: 273.14925pt x 120.87277pt.
 )
-(./chapters/03-introduction/parts/02-objectives.tex [5 <./images/kroliki.png>])
+(./chapters/03-introduction/parts/02-objectives.tex [3 <./images/kroliki.png>])
 (./chapters/03-introduction/parts/03-structure.tex))
-(./chapters/04-literature/main.tex [6]
+(./chapters/04-literature/main.tex [4]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
 1.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<images/separator.png, id=218, 203.76125pt x 135.50626pt>
+<images/separator.png, id=205, 203.76125pt x 135.50626pt>
 File: images/separator.png Graphic file (type png)
 <use images/separator.png>
 Package pdftex.def Info: images/separator.png  used on input line 25.
 (pdftex.def)             Requested size: 136.57462pt x 90.83005pt.
- [7 <./images/separator.png>]
-<images/recursive.png, id=244, 277.035pt x 257.96375pt>
+ [5 <./images/separator.png>]
+<images/recursive.png, id=230, 277.035pt x 257.96375pt>
 File: images/recursive.png Graphic file (type png)
 <use images/recursive.png>
 Package pdftex.def Info: images/recursive.png  used on input line 62.
 (pdftex.def)             Requested size: 136.57462pt x 127.17088pt.
-<images/recursive-part.png, id=247, 305.14pt x 297.11pt>
+<images/recursive-part.png, id=233, 305.14pt x 297.11pt>
 File: images/recursive-part.png Graphic file (type png)
 <use images/recursive-part.png>
 Package pdftex.def Info: images/recursive-part.png  used on input line 68.
 (pdftex.def)             Requested size: 136.57462pt x 132.9865pt.
- [8 <./images/recursive.png> <./images/recursive-part.png>]
-<images/recursive-partitioning.png, id=258, 444.66125pt x 973.6375pt>
+ [6 <./images/recursive.png> <./images/recursive-part.png>]
+<images/recursive-partitioning.png, id=244, 444.66125pt x 973.6375pt>
 File: images/recursive-partitioning.png Graphic file (type png)
 <use images/recursive-partitioning.png>
 Package pdftex.def Info: images/recursive-partitioning.png  used on input line 
 82.
 (pdftex.def)             Requested size: 186.65175pt x 408.68726pt.
- [9 <./images/recursive-partitioning.png>]
-<images/coarsening.png, id=305, 584.1825pt x 460.72125pt>
+ [7 <./images/recursive-partitioning.png>]
+<images/coarsening.png, id=292, 584.1825pt x 460.72125pt>
 File: images/coarsening.png Graphic file (type png)
 <use images/coarsening.png>
 Package pdftex.def Info: images/coarsening.png  used on input line 146.
 (pdftex.def)             Requested size: 409.71693pt x 323.13538pt.
- [10 <./images/coarsening.png>]
-<images/libraries-comparision.png, id=338, 820.06375pt x 251.94125pt>
+ [8 <./images/coarsening.png>]
+<images/libraries-comparision.png, id=325, 820.06375pt x 251.94125pt>
 File: images/libraries-comparision.png Graphic file (type png)
 <use images/libraries-comparision.png>
 Package pdftex.def Info: images/libraries-comparision.png  used on input line 1
 67.
 (pdftex.def)             Requested size: 318.6695pt x 97.903pt.
- [11 <./images/libraries-comparision.png>]) (./chapters/05-algorithm/main.tex [
-12]
-(./chapters/05-algorithm/parts/01-intro.tex) [13]
+ [9 <./images/libraries-comparision.png>]) (./chapters/05-algorithm/main.tex [1
+0]
+(./chapters/05-algorithm/parts/01-intro.tex) [11]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 7.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1378,7 +1364,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 7.
 
 (./chapters/05-algorithm/parts/02-graphic_to_graph.tex
-<images/grid1.png, id=400, 344.28625pt x 207.77625pt>
+<images/grid1.png, id=386, 344.28625pt x 207.77625pt>
 File: images/grid1.png Graphic file (type png)
 <use images/grid1.png>
 Package pdftex.def Info: images/grid1.png  used on input line 29.
@@ -1386,43 +1372,43 @@ Package pdftex.def Info: images/grid1.png  used on input line 29.
 
 Underfull \vbox (badness 1184) has occurred while \output is active []
 
- [14 <./images/grid1.png>]
-<images/strange7.png, id=409, 65.24374pt x 46.1725pt>
+ [12 <./images/grid1.png>]
+<images/strange7.png, id=395, 65.24374pt x 46.1725pt>
 File: images/strange7.png Graphic file (type png)
 <use images/strange7.png>
 Package pdftex.def Info: images/strange7.png  used on input line 66.
 (pdftex.def)             Requested size: 54.629pt x 38.66132pt.
-<images/rm/2.png, id=410, 404.51125pt x 277.035pt>
+<images/rm/2.png, id=396, 404.51125pt x 277.035pt>
 File: images/rm/2.png Graphic file (type png)
 <use images/rm/2.png>
 Package pdftex.def Info: images/rm/2.png  used on input line 71.
 (pdftex.def)             Requested size: 138.3965pt x 94.78246pt.
-<images/rm/1.png, id=411, 404.51125pt x 277.035pt>
+<images/rm/1.png, id=397, 404.51125pt x 277.035pt>
 File: images/rm/1.png Graphic file (type png)
 <use images/rm/1.png>
 Package pdftex.def Info: images/rm/1.png  used on input line 76.
 (pdftex.def)             Requested size: 138.3965pt x 94.78246pt.
-<images/in/1.png, id=412, 292.09125pt x 292.09125pt>
+<images/in/1.png, id=398, 292.09125pt x 292.09125pt>
 File: images/in/1.png Graphic file (type png)
 <use images/in/1.png>
 Package pdftex.def Info: images/in/1.png  used on input line 90.
 (pdftex.def)             Requested size: 136.57462pt x 136.57869pt.
-<images/in/2.png, id=413, 292.09125pt x 292.09125pt>
+<images/in/2.png, id=399, 292.09125pt x 292.09125pt>
 File: images/in/2.png Graphic file (type png)
 <use images/in/2.png>
 Package pdftex.def Info: images/in/2.png  used on input line 95.
 (pdftex.def)             Requested size: 136.57462pt x 136.57869pt.
-<images/in/3.png, id=414, 292.09125pt x 292.09125pt>
+<images/in/3.png, id=400, 292.09125pt x 292.09125pt>
 File: images/in/3.png Graphic file (type png)
 <use images/in/3.png>
 Package pdftex.def Info: images/in/3.png  used on input line 100.
 (pdftex.def)             Requested size: 136.57462pt x 136.57869pt.
-<images/in/4.png, id=415, 292.09125pt x 292.09125pt>
+<images/in/4.png, id=401, 292.09125pt x 292.09125pt>
 File: images/in/4.png Graphic file (type png)
 <use images/in/4.png>
 Package pdftex.def Info: images/in/4.png  used on input line 105.
 (pdftex.def)             Requested size: 136.57462pt x 136.57869pt.
-<images/in/5.png, id=416, 292.09125pt x 292.09125pt>
+<images/in/5.png, id=402, 292.09125pt x 292.09125pt>
 File: images/in/5.png Graphic file (type png)
 <use images/in/5.png>
 Package pdftex.def Info: images/in/5.png  used on input line 110.
@@ -1431,20 +1417,20 @@ Package pdftex.def Info: images/in/5.png  used on input line 110.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15 <./images/strange7.png> <./images/rm/2.png> <./images/rm/1.png>] [16 <./ima
+[13 <./images/strange7.png> <./images/rm/2.png> <./images/rm/1.png>] [14 <./ima
 ges/in/1.png> <./images/in/2.png> <./images/in/3.png> <./images/in/4.png> <./im
 ages/in/5.png>]) (./chapters/05-algorithm/parts/03-shrinking_graph.tex
-<images/Maximum_matching.jpeg, id=435, 453.695pt x 453.695pt>
+<images/Maximum_matching.jpeg, id=422, 453.695pt x 453.695pt>
 File: images/Maximum_matching.jpeg Graphic file (type jpg)
 <use images/Maximum_matching.jpeg>
 Package pdftex.def Info: images/Maximum_matching.jpeg  used on input line 8.
 (pdftex.def)             Requested size: 109.26108pt x 109.25594pt.
-<images/lam.png, id=440, 1117.17375pt x 409.53pt>
+<images/lam.png, id=427, 1117.17375pt x 409.53pt>
 File: images/lam.png Graphic file (type png)
 <use images/lam.png>
 Package pdftex.def Info: images/lam.png  used on input line 28.
 (pdftex.def)             Requested size: 409.71693pt x 150.1927pt.
- [17
+ [15
 
  <./images/Maximum_matching.jpeg> <./images/lam.png>]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
@@ -1468,13 +1454,13 @@ See the caption package documentation for explanation.
 
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
 t line 85.
-[18]
-<images/lam-partitioning.png, id=513, 276.03125pt x 275.0275pt>
+[16]
+<images/lam-partitioning.png, id=500, 276.03125pt x 275.0275pt>
 File: images/lam-partitioning.png Graphic file (type png)
 <use images/lam-partitioning.png>
 Package pdftex.def Info: images/lam-partitioning.png  used on input line 122.
 (pdftex.def)             Requested size: 136.57462pt x 136.08237pt.
-<images/lam-partitioning2.png, id=514, 275.0275pt x 275.0275pt>
+<images/lam-partitioning2.png, id=501, 275.0275pt x 275.0275pt>
 File: images/lam-partitioning2.png Graphic file (type png)
 <use images/lam-partitioning2.png>
 Package pdftex.def Info: images/lam-partitioning2.png  used on input line 127.
@@ -1482,7 +1468,7 @@ Package pdftex.def Info: images/lam-partitioning2.png  used on input line 127.
 
 Underfull \vbox (badness 6063) has occurred while \output is active []
 
- [19 <./images/lam-partitioning.png> <./images/lam-partitioning2.png>]
+ [17 <./images/lam-partitioning.png> <./images/lam-partitioning2.png>]
 ./chapters/05-algorithm/parts/03-shrinking_graph.tex:157: Missing number, treat
 ed as zero.
 <to be read again> 
@@ -1493,26 +1479,26 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<images/lam-obszary-niepodzielne/grid.png, id=524, 557.08125pt x 299.1175pt>
+<images/lam-obszary-niepodzielne/grid.png, id=510, 557.08125pt x 299.1175pt>
 File: images/lam-obszary-niepodzielne/grid.png Graphic file (type png)
 <use images/lam-obszary-niepodzielne/grid.png>
 Package pdftex.def Info: images/lam-obszary-niepodzielne/grid.png  used on inpu
 t line 162.
 (pdftex.def)             Requested size: 182.09833pt x 97.77342pt.
-<images/lam-obszary-niepodzielne/4.png, id=525, 532.99126pt x 272.01625pt>
+<images/lam-obszary-niepodzielne/4.png, id=511, 532.99126pt x 272.01625pt>
 File: images/lam-obszary-niepodzielne/4.png Graphic file (type png)
 <use images/lam-obszary-niepodzielne/4.png>
 Package pdftex.def Info: images/lam-obszary-niepodzielne/4.png  used on input l
 ine 167.
 (pdftex.def)             Requested size: 182.09833pt x 92.93256pt.
-[20 <./images/lam-obszary-niepodzielne/grid.png> <./images/lam-obszary-niepodzi
+[18 <./images/lam-obszary-niepodzielne/grid.png> <./images/lam-obszary-niepodzi
 elne/4.png>]
-<images/part-steps/lam1.png, id=532, 275.0275pt x 274.02374pt>
+<images/part-steps/lam1.png, id=518, 275.0275pt x 274.02374pt>
 File: images/part-steps/lam1.png Graphic file (type png)
 <use images/part-steps/lam1.png>
 Package pdftex.def Info: images/part-steps/lam1.png  used on input line 180.
 (pdftex.def)             Requested size: 97.87581pt x 97.51953pt.
-<images/part-steps/lam2.png, id=533, 274.02374pt x 274.02374pt>
+<images/part-steps/lam2.png, id=519, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam2.png Graphic file (type png)
 <use images/part-steps/lam2.png>
 Package pdftex.def Info: images/part-steps/lam2.png  used on input line 185.
@@ -1522,12 +1508,12 @@ Overfull \hbox (2.61105pt too wide) in paragraph at lines 178--188
 []$[]$ $[]$ 
  []
 
-<images/part-steps/lam3.png, id=534, 274.02374pt x 274.02374pt>
+<images/part-steps/lam3.png, id=520, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam3.png Graphic file (type png)
 <use images/part-steps/lam3.png>
 Package pdftex.def Info: images/part-steps/lam3.png  used on input line 191.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
-<images/part-steps/lam4.png, id=535, 274.02374pt x 274.02374pt>
+<images/part-steps/lam4.png, id=521, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam4.png Graphic file (type png)
 <use images/part-steps/lam4.png>
 Package pdftex.def Info: images/part-steps/lam4.png  used on input line 196.
@@ -1537,12 +1523,12 @@ Overfull \hbox (2.61105pt too wide) in paragraph at lines 189--199
 []$[]$ $[]$ 
  []
 
-<images/part-steps/lam5.png, id=536, 274.02374pt x 274.02374pt>
+<images/part-steps/lam5.png, id=522, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam5.png Graphic file (type png)
 <use images/part-steps/lam5.png>
 Package pdftex.def Info: images/part-steps/lam5.png  used on input line 202.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
-<images/part-steps/lam6.png, id=537, 274.02374pt x 274.02374pt>
+<images/part-steps/lam6.png, id=523, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam6.png Graphic file (type png)
 <use images/part-steps/lam6.png>
 Package pdftex.def Info: images/part-steps/lam6.png  used on input line 207.
@@ -1552,12 +1538,12 @@ Overfull \hbox (2.61105pt too wide) in paragraph at lines 200--210
 []$[]$ $[]$ 
  []
 
-<images/part-steps/lam7.png, id=538, 274.02374pt x 274.02374pt>
+<images/part-steps/lam7.png, id=524, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam7.png Graphic file (type png)
 <use images/part-steps/lam7.png>
 Package pdftex.def Info: images/part-steps/lam7.png  used on input line 213.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
-<images/part-steps/lam8.png, id=539, 274.02374pt x 274.02374pt>
+<images/part-steps/lam8.png, id=525, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam8.png Graphic file (type png)
 <use images/part-steps/lam8.png>
 Package pdftex.def Info: images/part-steps/lam8.png  used on input line 218.
@@ -1567,12 +1553,12 @@ Overfull \hbox (2.61105pt too wide) in paragraph at lines 211--221
 []$[]$ $[]$ 
  []
 
-<images/part-steps/lam9.png, id=540, 274.02374pt x 274.02374pt>
+<images/part-steps/lam9.png, id=526, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam9.png Graphic file (type png)
 <use images/part-steps/lam9.png>
 Package pdftex.def Info: images/part-steps/lam9.png  used on input line 224.
 (pdftex.def)             Requested size: 97.87581pt x 97.87494pt.
-<images/part-steps/lam10.png, id=541, 274.02374pt x 274.02374pt>
+<images/part-steps/lam10.png, id=527, 274.02374pt x 274.02374pt>
 File: images/part-steps/lam10.png Graphic file (type png)
 <use images/part-steps/lam10.png>
 Package pdftex.def Info: images/part-steps/lam10.png  used on input line 229.
@@ -1585,51 +1571,51 @@ Overfull \hbox (2.61105pt too wide) in paragraph at lines 222--233
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21 <./images/part-steps/lam1.png> <./images/part-steps/lam2.png> <./images/par
+[19 <./images/part-steps/lam1.png> <./images/part-steps/lam2.png> <./images/par
 t-steps/lam3.png> <./images/part-steps/lam4.png> <./images/part-steps/lam5.png>
  <./images/part-steps/lam6.png> <./images/part-steps/lam7.png> <./images/part-s
 teps/lam8.png> <./images/part-steps/lam9.png> <./images/part-steps/lam10.png>])
 (./chapters/05-algorithm/parts/04-modifications_to_shrinking.tex
 Underfull \vbox (badness 1418) has occurred while \output is active []
 
- [22
+ [20
 
 ]
-<images/discount1.png, id=577, 430.60875pt x 274.02374pt>
+<images/discount1.png, id=564, 430.60875pt x 274.02374pt>
 File: images/discount1.png Graphic file (type png)
 <use images/discount1.png>
 Package pdftex.def Info: images/discount1.png  used on input line 77.
 (pdftex.def)             Requested size: 159.33473pt x 101.39555pt.
-<images/discount2.png, id=578, 430.60875pt x 274.02374pt>
+<images/discount2.png, id=565, 430.60875pt x 274.02374pt>
 File: images/discount2.png Graphic file (type png)
 <use images/discount2.png>
 Package pdftex.def Info: images/discount2.png  used on input line 82.
 (pdftex.def)             Requested size: 159.33473pt x 101.39555pt.
-<images/discount3.png, id=579, 429.605pt x 275.0275pt>
+<images/discount3.png, id=566, 429.605pt x 275.0275pt>
 File: images/discount3.png Graphic file (type png)
 <use images/discount3.png>
 Package pdftex.def Info: images/discount3.png  used on input line 87.
 (pdftex.def)             Requested size: 159.33473pt x 102.00618pt.
-<images/discount4.png, id=580, 429.605pt x 275.0275pt>
+<images/discount4.png, id=567, 429.605pt x 275.0275pt>
 File: images/discount4.png Graphic file (type png)
 <use images/discount4.png>
 Package pdftex.def Info: images/discount4.png  used on input line 92.
 (pdftex.def)             Requested size: 159.33473pt x 102.00618pt.
 
-[23 <./images/discount1.png> <./images/discount2.png> <./images/discount3.png> 
-<./images/discount4.png>]) [24]
+[21 <./images/discount1.png> <./images/discount2.png> <./images/discount3.png> 
+<./images/discount4.png>]) [22]
 (./chapters/05-algorithm/parts/05-intr_uncoarsening_phase.tex
-<images/refinement/1.png, id=601, 275.0275pt x 274.02374pt>
+<images/refinement/1.png, id=588, 275.0275pt x 274.02374pt>
 File: images/refinement/1.png Graphic file (type png)
 <use images/refinement/1.png>
 Package pdftex.def Info: images/refinement/1.png  used on input line 14.
 (pdftex.def)             Requested size: 91.04742pt x 90.71243pt.
-<images/refinement/2.png, id=602, 275.0275pt x 274.02374pt>
+<images/refinement/2.png, id=589, 275.0275pt x 274.02374pt>
 File: images/refinement/2.png Graphic file (type png)
 <use images/refinement/2.png>
 Package pdftex.def Info: images/refinement/2.png  used on input line 19.
 (pdftex.def)             Requested size: 91.04742pt x 90.71243pt.
- [25 <./images/refinement/1.png> <./images/refinement/2.png>]
+ [23 <./images/refinement/1.png> <./images/refinement/2.png>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 72.
@@ -1638,43 +1624,43 @@ See the caption package documentation for explanation.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
-[27] (./chapters/05-algorithm/parts/06-uncoarsening_phase_details.tex
-<images/helpfulsets/1.png, id=650, 270.00874pt x 223.83624pt>
+ [24]
+[25] (./chapters/05-algorithm/parts/06-uncoarsening_phase_details.tex
+<images/helpfulsets/1.png, id=636, 270.00874pt x 223.83624pt>
 File: images/helpfulsets/1.png Graphic file (type png)
 <use images/helpfulsets/1.png>
 Package pdftex.def Info: images/helpfulsets/1.png  used on input line 40.
 (pdftex.def)             Requested size: 75.11646pt x 62.27069pt.
-<images/helpfulsets/2.png, id=651, 808.01875pt x 232.87pt>
+<images/helpfulsets/2.png, id=637, 808.01875pt x 232.87pt>
 File: images/helpfulsets/2.png Graphic file (type png)
 <use images/helpfulsets/2.png>
 Package pdftex.def Info: images/helpfulsets/2.png  used on input line 45.
 (pdftex.def)             Requested size: 213.59898pt x 61.55745pt.
-<images/helpfulsets/3.png, id=652, 407.5225pt x 217.81375pt>
+<images/helpfulsets/3.png, id=638, 407.5225pt x 217.81375pt>
 File: images/helpfulsets/3.png Graphic file (type png)
 <use images/helpfulsets/3.png>
 Package pdftex.def Info: images/helpfulsets/3.png  used on input line 51.
 (pdftex.def)             Requested size: 114.72064pt x 61.31645pt.
-<images/helpfulsets/4.png, id=653, 680.5425pt x 236.885pt>
+<images/helpfulsets/4.png, id=639, 680.5425pt x 236.885pt>
 File: images/helpfulsets/4.png Graphic file (type png)
 <use images/helpfulsets/4.png>
 Package pdftex.def Info: images/helpfulsets/4.png  used on input line 56.
 (pdftex.def)             Requested size: 182.64082pt x 63.57304pt.
- [28 <./images/helpfulsets/1.png> <./images/helpfulsets/2.png> <./images/helpfu
+ [26 <./images/helpfulsets/1.png> <./images/helpfulsets/2.png> <./images/helpfu
 lsets/3.png> <./images/helpfulsets/4.png>]
-<images/helpful-balancing/1.png, id=673, 236.885pt x 235.88126pt>
+<images/helpful-balancing/1.png, id=660, 236.885pt x 235.88126pt>
 File: images/helpful-balancing/1.png Graphic file (type png)
 <use images/helpful-balancing/1.png>
 Package pdftex.def Info: images/helpful-balancing/1.png  used on input line 83.
 
 (pdftex.def)             Requested size: 97.87581pt x 97.46057pt.
-<images/helpful-balancing/2.png, id=674, 236.885pt x 235.88126pt>
+<images/helpful-balancing/2.png, id=661, 236.885pt x 235.88126pt>
 File: images/helpful-balancing/2.png Graphic file (type png)
 <use images/helpful-balancing/2.png>
 Package pdftex.def Info: images/helpful-balancing/2.png  used on input line 89.
 
 (pdftex.def)             Requested size: 97.87581pt x 97.46057pt.
-<images/helpful-balancing/3.png, id=675, 236.885pt x 235.88126pt>
+<images/helpful-balancing/3.png, id=662, 236.885pt x 235.88126pt>
 File: images/helpful-balancing/3.png Graphic file (type png)
 <use images/helpful-balancing/3.png>
 Package pdftex.def Info: images/helpful-balancing/3.png  used on input line 94.
@@ -1685,13 +1671,13 @@ Overfull \hbox (2.61105pt too wide) in paragraph at lines 87--97
 []$[]$ $[]$ 
  []
 
-<images/helpful-balancing/4.png, id=676, 236.885pt x 235.88126pt>
+<images/helpful-balancing/4.png, id=663, 236.885pt x 235.88126pt>
 File: images/helpful-balancing/4.png Graphic file (type png)
 <use images/helpful-balancing/4.png>
 Package pdftex.def Info: images/helpful-balancing/4.png  used on input line 100
 .
 (pdftex.def)             Requested size: 97.87581pt x 97.46057pt.
-<images/helpful-balancing/5.png, id=677, 236.885pt x 235.88126pt>
+<images/helpful-balancing/5.png, id=664, 236.885pt x 235.88126pt>
 File: images/helpful-balancing/5.png Graphic file (type png)
 <use images/helpful-balancing/5.png>
 Package pdftex.def Info: images/helpful-balancing/5.png  used on input line 105
@@ -1702,7 +1688,7 @@ Overfull \hbox (2.61105pt too wide) in paragraph at lines 98--109
 []$[]$ $[]$ 
  []
 
-[29 <./images/helpful-balancing/1.png> <./images/helpful-balancing/2.png> <./im
+[27 <./images/helpful-balancing/1.png> <./images/helpful-balancing/2.png> <./im
 ages/helpful-balancing/3.png> <./images/helpful-balancing/4.png> <./images/help
 ful-balancing/5.png>]
 
@@ -1710,18 +1696,18 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 163.
 See the caption package documentation for explanation.
 
-[30] [31]
-<images/helpfulsets-sh/0.png, id=749, 235.88126pt x 235.88126pt>
+[28] [29]
+<images/helpfulsets-sh/0.png, id=735, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/0.png Graphic file (type png)
 <use images/helpfulsets-sh/0.png>
 Package pdftex.def Info: images/helpfulsets-sh/0.png  used on input line 219.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
-<images/helpfulsets-sh/1.png, id=750, 235.88126pt x 235.88126pt>
+<images/helpfulsets-sh/1.png, id=736, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/1.png Graphic file (type png)
 <use images/helpfulsets-sh/1.png>
 Package pdftex.def Info: images/helpfulsets-sh/1.png  used on input line 225.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
-<images/helpfulsets-sh/2.png, id=751, 235.88126pt x 235.88126pt>
+<images/helpfulsets-sh/2.png, id=737, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/2.png Graphic file (type png)
 <use images/helpfulsets-sh/2.png>
 Package pdftex.def Info: images/helpfulsets-sh/2.png  used on input line 230.
@@ -1731,12 +1717,12 @@ Overfull \hbox (2.61105pt too wide) in paragraph at lines 223--233
 []$[]$ $[]$ 
  []
 
-<images/helpfulsets-sh/3.png, id=752, 235.88126pt x 235.88126pt>
+<images/helpfulsets-sh/3.png, id=738, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/3.png Graphic file (type png)
 <use images/helpfulsets-sh/3.png>
 Package pdftex.def Info: images/helpfulsets-sh/3.png  used on input line 236.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
-<images/helpfulsets-sh/4.png, id=753, 235.88126pt x 235.88126pt>
+<images/helpfulsets-sh/4.png, id=739, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/4.png Graphic file (type png)
 <use images/helpfulsets-sh/4.png>
 Package pdftex.def Info: images/helpfulsets-sh/4.png  used on input line 241.
@@ -1746,12 +1732,12 @@ Overfull \hbox (2.61105pt too wide) in paragraph at lines 234--244
 []$[]$ $[]$ 
  []
 
-<images/helpfulsets-sh/5.png, id=754, 235.88126pt x 235.88126pt>
+<images/helpfulsets-sh/5.png, id=740, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/5.png Graphic file (type png)
 <use images/helpfulsets-sh/5.png>
 Package pdftex.def Info: images/helpfulsets-sh/5.png  used on input line 247.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
-<images/helpfulsets-sh/6.png, id=755, 235.88126pt x 235.88126pt>
+<images/helpfulsets-sh/6.png, id=741, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/6.png Graphic file (type png)
 <use images/helpfulsets-sh/6.png>
 Package pdftex.def Info: images/helpfulsets-sh/6.png  used on input line 252.
@@ -1761,12 +1747,12 @@ Overfull \hbox (2.61105pt too wide) in paragraph at lines 245--255
 []$[]$ $[]$ 
  []
 
-<images/helpfulsets-sh/7.png, id=756, 235.88126pt x 235.88126pt>
+<images/helpfulsets-sh/7.png, id=742, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/7.png Graphic file (type png)
 <use images/helpfulsets-sh/7.png>
 Package pdftex.def Info: images/helpfulsets-sh/7.png  used on input line 258.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
-<images/helpfulsets-sh/8.png, id=757, 235.88126pt x 235.88126pt>
+<images/helpfulsets-sh/8.png, id=743, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/8.png Graphic file (type png)
 <use images/helpfulsets-sh/8.png>
 Package pdftex.def Info: images/helpfulsets-sh/8.png  used on input line 263.
@@ -1782,7 +1768,7 @@ LaTeX Warning: Float too large for page by 34.10728pt on input line 272.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[32 <./images/helpfulsets-sh/0.png> <./images/helpfulsets-sh/1.png> <./images/h
+[30 <./images/helpfulsets-sh/0.png> <./images/helpfulsets-sh/1.png> <./images/h
 elpfulsets-sh/2.png> <./images/helpfulsets-sh/3.png> <./images/helpfulsets-sh/4
 .png> <./images/helpfulsets-sh/5.png> <./images/helpfulsets-sh/6.png> <./images
 /helpfulsets-sh/7.png> <./images/helpfulsets-sh/8.png>]
@@ -1799,38 +1785,38 @@ See the caption package documentation for explanation.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33
+ [31
 
 ]
-[34]
+[32]
 (./chapters/05-algorithm/parts/07-uncoarsening_phase_building_helpfulsets.tex
-<images/changing_helpful_values.png, id=799, 577.15625pt x 253.94875pt>
+<images/changing_helpful_values.png, id=786, 577.15625pt x 253.94875pt>
 File: images/changing_helpful_values.png Graphic file (type png)
 <use images/changing_helpful_values.png>
 Package pdftex.def Info: images/changing_helpful_values.png  used on input line
  12.
 (pdftex.def)             Requested size: 273.14925pt x 120.18903pt.
 
-[35 <./images/changing_helpful_values.png>]
-<images/building-helpfulsets/3.png, id=809, 235.88126pt x 234.8775pt>
+[33 <./images/changing_helpful_values.png>]
+<images/building-helpfulsets/3.png, id=796, 235.88126pt x 234.8775pt>
 File: images/building-helpfulsets/3.png Graphic file (type png)
 <use images/building-helpfulsets/3.png>
 Package pdftex.def Info: images/building-helpfulsets/3.png  used on input line 
 39.
 (pdftex.def)             Requested size: 101.97656pt x 101.54369pt.
-<images/building-helpfulsets/4.png, id=810, 235.88126pt x 234.8775pt>
+<images/building-helpfulsets/4.png, id=797, 235.88126pt x 234.8775pt>
 File: images/building-helpfulsets/4.png Graphic file (type png)
 <use images/building-helpfulsets/4.png>
 Package pdftex.def Info: images/building-helpfulsets/4.png  used on input line 
 44.
 (pdftex.def)             Requested size: 101.97656pt x 101.54369pt.
-<images/building-helpfulsets/5.png, id=811, 235.88126pt x 234.8775pt>
+<images/building-helpfulsets/5.png, id=798, 235.88126pt x 234.8775pt>
 File: images/building-helpfulsets/5.png Graphic file (type png)
 <use images/building-helpfulsets/5.png>
 Package pdftex.def Info: images/building-helpfulsets/5.png  used on input line 
 49.
 (pdftex.def)             Requested size: 101.97656pt x 101.54369pt.
-) [36 <./images/building-helpfulsets/3.png> <./images/building-helpfulsets/4.pn
+) [34 <./images/building-helpfulsets/3.png> <./images/building-helpfulsets/4.pn
 g> <./images/building-helpfulsets/5.png>]
 (./chapters/05-algorithm/parts/08-uncoarsening_phase_searching_for_k_helpful_se
 t.tex
@@ -1854,13 +1840,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
-<images/building-helpfulsets/1.png, id=824, 387.4475pt x 245.91875pt>
+<images/building-helpfulsets/1.png, id=811, 387.4475pt x 245.91875pt>
 File: images/building-helpfulsets/1.png Graphic file (type png)
 <use images/building-helpfulsets/1.png>
 Package pdftex.def Info: images/building-helpfulsets/1.png  used on input line 
 25.
 (pdftex.def)             Requested size: 182.09833pt x 115.58182pt.
-<images/building-helpfulsets/2.png, id=825, 460.72125pt x 245.91875pt>
+<images/building-helpfulsets/2.png, id=812, 460.72125pt x 245.91875pt>
 File: images/building-helpfulsets/2.png Graphic file (type png)
 <use images/building-helpfulsets/2.png>
 Package pdftex.def Info: images/building-helpfulsets/2.png  used on input line 
@@ -1871,7 +1857,7 @@ Overfull \hbox (2.61105pt too wide) in paragraph at lines 23--35
 []$[]$ $[]$ 
  []
 
-) [37 <./images/building-helpfulsets/1.png> <./images/building-helpfulsets/2.pn
+) [35 <./images/building-helpfulsets/1.png> <./images/building-helpfulsets/2.pn
 g>]
 (./chapters/05-algorithm/parts/09-uncoarsening_phase_building_balancing_sets.te
 x
@@ -1880,7 +1866,7 @@ File: images/helpful-balancing/3.png Graphic file (type png)
 Package pdftex.def Info: images/helpful-balancing/3.png  used on input line 21.
 
 (pdftex.def)             Requested size: 101.97656pt x 101.54213pt.
-<images/helpful-balancing/6.png, id=836, 236.885pt x 235.88126pt>
+<images/helpful-balancing/6.png, id=822, 236.885pt x 235.88126pt>
 File: images/helpful-balancing/6.png Graphic file (type png)
 <use images/helpful-balancing/6.png>
 Package pdftex.def Info: images/helpful-balancing/6.png  used on input line 26.
@@ -1891,7 +1877,7 @@ File: images/helpful-balancing/4.png Graphic file (type png)
 Package pdftex.def Info: images/helpful-balancing/4.png  used on input line 31.
 
 (pdftex.def)             Requested size: 101.97656pt x 101.54213pt.
-<images/0-helpful-sets.png, id=839, 612.2875pt x 98.3675pt>
+<images/0-helpful-sets.png, id=825, 612.2875pt x 98.3675pt>
 File: images/0-helpful-sets.png Graphic file (type png)
 <use images/0-helpful-sets.png>
 Package pdftex.def Info: images/0-helpful-sets.png  used on input line 63.
@@ -1900,25 +1886,25 @@ Package pdftex.def Info: images/0-helpful-sets.png  used on input line 63.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[38 <./images/helpful-balancing/6.png>]
-<images/phase2.png, id=850, 770.88pt x 378.41376pt>
+[36 <./images/helpful-balancing/6.png>]
+<images/phase2.png, id=836, 770.88pt x 378.41376pt>
 File: images/phase2.png Graphic file (type png)
 <use images/phase2.png>
 Package pdftex.def Info: images/phase2.png  used on input line 96.
 (pdftex.def)             Requested size: 295.9059pt x 145.2538pt.
- [39 <./images/0-helpful-sets.png> <./images/phase2.png>]
+ [37 <./images/0-helpful-sets.png> <./images/phase2.png>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 129.
 See the caption package documentation for explanation.
 
-[40]) [41] (./chapters/05-algorithm/parts/10-balalncing.tex
-<images/fields-balacing/1.png, id=902, 237.88875pt x 234.8775pt>
+[38]) [39] (./chapters/05-algorithm/parts/10-balalncing.tex
+<images/fields-balacing/1.png, id=889, 237.88875pt x 234.8775pt>
 File: images/fields-balacing/1.png Graphic file (type png)
 <use images/fields-balacing/1.png>
 Package pdftex.def Info: images/fields-balacing/1.png  used on input line 20.
 (pdftex.def)             Requested size: 97.87581pt x 96.63728pt.
-<images/fields-balacing/2.png, id=903, 237.88875pt x 234.8775pt>
+<images/fields-balacing/2.png, id=890, 237.88875pt x 234.8775pt>
 File: images/fields-balacing/2.png Graphic file (type png)
 <use images/fields-balacing/2.png>
 Package pdftex.def Info: images/fields-balacing/2.png  used on input line 25.
@@ -1928,12 +1914,12 @@ Overfull \hbox (2.61105pt too wide) in paragraph at lines 18--28
 []$[]$ $[]$ 
  []
 
-<images/fields-balacing/3.png, id=904, 237.88875pt x 234.8775pt>
+<images/fields-balacing/3.png, id=891, 237.88875pt x 234.8775pt>
 File: images/fields-balacing/3.png Graphic file (type png)
 <use images/fields-balacing/3.png>
 Package pdftex.def Info: images/fields-balacing/3.png  used on input line 31.
 (pdftex.def)             Requested size: 97.87581pt x 96.63728pt.
-<images/fields-balacing/4.png, id=905, 237.88875pt x 234.8775pt>
+<images/fields-balacing/4.png, id=892, 237.88875pt x 234.8775pt>
 File: images/fields-balacing/4.png Graphic file (type png)
 <use images/fields-balacing/4.png>
 Package pdftex.def Info: images/fields-balacing/4.png  used on input line 36.
@@ -1943,12 +1929,12 @@ Overfull \hbox (2.61105pt too wide) in paragraph at lines 29--39
 []$[]$ $[]$ 
  []
 
-<images/fields-balacing/5.png, id=906, 237.88875pt x 234.8775pt>
+<images/fields-balacing/5.png, id=893, 237.88875pt x 234.8775pt>
 File: images/fields-balacing/5.png Graphic file (type png)
 <use images/fields-balacing/5.png>
 Package pdftex.def Info: images/fields-balacing/5.png  used on input line 42.
 (pdftex.def)             Requested size: 97.87581pt x 96.63728pt.
-<images/fields-balacing/6.png, id=907, 237.88875pt x 234.8775pt>
+<images/fields-balacing/6.png, id=894, 237.88875pt x 234.8775pt>
 File: images/fields-balacing/6.png Graphic file (type png)
 <use images/fields-balacing/6.png>
 Package pdftex.def Info: images/fields-balacing/6.png  used on input line 47.
@@ -1958,16 +1944,16 @@ Overfull \hbox (2.61105pt too wide) in paragraph at lines 40--52
 []$[]$ $[]$ 
  []
 
-[42 <./images/fields-balacing/1.png> <./images/fields-balacing/2.png> <./images
+[40 <./images/fields-balacing/1.png> <./images/fields-balacing/2.png> <./images
 /fields-balacing/3.png> <./images/fields-balacing/4.png> <./images/fields-balac
-ing/5.png> <./images/fields-balacing/6.png>]) [43]
+ing/5.png> <./images/fields-balacing/6.png>]) [41]
 (./chapters/05-algorithm/parts/11-denosing.tex
-<images/noises/1.png, id=928, 314.17375pt x 312.16624pt>
+<images/noises/1.png, id=914, 314.17375pt x 312.16624pt>
 File: images/noises/1.png Graphic file (type png)
 <use images/noises/1.png>
 Package pdftex.def Info: images/noises/1.png  used on input line 10.
 (pdftex.def)             Requested size: 136.57462pt x 135.70071pt.
-<images/noises/2.png, id=929, 314.17375pt x 312.16624pt>
+<images/noises/2.png, id=915, 314.17375pt x 312.16624pt>
 File: images/noises/2.png Graphic file (type png)
 <use images/noises/2.png>
 Package pdftex.def Info: images/noises/2.png  used on input line 15.
@@ -1977,13 +1963,13 @@ Overfull \hbox (2.61105pt too wide) in paragraph at lines 8--19
 []$[]$ $[]$ 
  []
 
-<images/noises/3.png, id=931, 501.875pt x 497.86pt>
+<images/noises/3.png, id=917, 501.875pt x 497.86pt>
 File: images/noises/3.png Graphic file (type png)
 <use images/noises/3.png>
 Package pdftex.def Info: images/noises/3.png  used on input line 32.
 (pdftex.def)             Requested size: 136.57462pt x 135.47993pt.
-[44 <./images/noises/1.png> <./images/noises/2.png> <./images/noises/3.png>])
-[45]
+[42 <./images/noises/1.png> <./images/noises/2.png> <./images/noises/3.png>])
+[43]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 28.
@@ -1993,28 +1979,28 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 28.
 
 (./chapters/05-algorithm/parts/12-shrinking_graph.tex
-<images/m/1.png, id=945, 532.99126pt x 273.02pt>
+<images/m/1.png, id=932, 532.99126pt x 273.02pt>
 File: images/m/1.png Graphic file (type png)
 <use images/m/1.png>
 Package pdftex.def Info: images/m/1.png  used on input line 13.
 (pdftex.def)             Requested size: 182.09833pt x 93.27548pt.
-<images/m/2.png, id=946, 532.99126pt x 273.02pt>
+<images/m/2.png, id=933, 532.99126pt x 273.02pt>
 File: images/m/2.png Graphic file (type png)
 <use images/m/2.png>
 Package pdftex.def Info: images/m/2.png  used on input line 18.
 (pdftex.def)             Requested size: 182.09833pt x 93.27548pt.
- [46 <./images/m/1.png> <./images/m/2.png>]
-<images/m/3.png, id=957, 532.99126pt x 273.02pt>
+ [44 <./images/m/1.png> <./images/m/2.png>]
+<images/m/3.png, id=944, 532.99126pt x 273.02pt>
 File: images/m/3.png Graphic file (type png)
 <use images/m/3.png>
 Package pdftex.def Info: images/m/3.png  used on input line 75.
 (pdftex.def)             Requested size: 182.09833pt x 93.27548pt.
-<images/m/4.png, id=958, 532.99126pt x 273.02pt>
+<images/m/4.png, id=945, 532.99126pt x 273.02pt>
 File: images/m/4.png Graphic file (type png)
 <use images/m/4.png>
 Package pdftex.def Info: images/m/4.png  used on input line 80.
 (pdftex.def)             Requested size: 182.09833pt x 93.27548pt.
-)) (./chapters/06-tests_results/main.tex [47 <./images/m/3.png> <./images/m/4.p
+)) (./chapters/06-tests_results/main.tex [45 <./images/m/3.png> <./images/m/4.p
 ng>] (./chapters/06-tests_results/parts/01-intro.tex)
 (./chapters/06-tests_results/parts/02-m_k_results.tex
 
@@ -2029,14 +2015,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
-<images/results/m_k/without/1/partitioning.png, id=971, 477.785pt x 476.78125pt
+<images/results/m_k/without/1/partitioning.png, id=958, 477.785pt x 476.78125pt
 >
 File: images/results/m_k/without/1/partitioning.png Graphic file (type png)
 <use images/results/m_k/without/1/partitioning.png>
 Package pdftex.def Info: images/results/m_k/without/1/partitioning.png  used on
  input line 16.
 (pdftex.def)             Requested size: 182.09833pt x 181.70982pt.
-<images/results/m_k/without/1/results.png, id=972, 266.9975pt x 337.26pt>
+<images/results/m_k/without/1/results.png, id=959, 266.9975pt x 337.26pt>
 File: images/results/m_k/without/1/results.png Graphic file (type png)
 <use images/results/m_k/without/1/results.png>
 Package pdftex.def Info: images/results/m_k/without/1/results.png  used on inpu
@@ -2045,619 +2031,95 @@ t line 21.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
-[49 <./images/results/m_k/without/1/partitioning.png> <./images/results/m_k/wit
+ [46]
+[47 <./images/results/m_k/without/1/partitioning.png> <./images/results/m_k/wit
 hout/1/results.png>]
-<images/results/m_k/with/2/grid.png, id=990, 312.16624pt x 312.16624pt>
+<images/results/m_k/with/2/grid.png, id=976, 312.16624pt x 312.16624pt>
 File: images/results/m_k/with/2/grid.png Graphic file (type png)
 <use images/results/m_k/with/2/grid.png>
 Package pdftex.def Info: images/results/m_k/with/2/grid.png  used on input line
- 88.
+ 86.
 (pdftex.def)             Requested size: 90.13974pt x 90.14006pt.
-<images/results/m_k/with/2/partitioning.png, id=991, 312.16624pt x 312.16624pt>
+<images/results/m_k/with/2/partitioning.png, id=977, 312.16624pt x 312.16624pt>
 
 File: images/results/m_k/with/2/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/2/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/2/partitioning.png  used on in
-put line 93.
+put line 91.
 (pdftex.def)             Requested size: 90.13974pt x 90.14006pt.
-<images/results/m_k/with/2/results.png, id=992, 223.83624pt x 158.5925pt>
+<images/results/m_k/with/2/results.png, id=978, 223.83624pt x 158.5925pt>
 File: images/results/m_k/with/2/results.png Graphic file (type png)
 <use images/results/m_k/with/2/results.png>
 Package pdftex.def Info: images/results/m_k/with/2/results.png  used on input l
-ine 98.
+ine 96.
 (pdftex.def)             Requested size: 135.20732pt x 95.79991pt.
- [50 <./images/results/m_k/with/2/grid.png> <./images/results/m_k/with/2/partit
+ [48 <./images/results/m_k/with/2/grid.png> <./images/results/m_k/with/2/partit
 ioning.png> <./images/results/m_k/with/2/results.png>]
-<images/results/m_k/with/3/grid.png, id=1002, 376.40625pt x 376.40625pt>
+<images/results/m_k/with/3/grid.png, id=988, 376.40625pt x 376.40625pt>
 File: images/results/m_k/with/3/grid.png Graphic file (type png)
 <use images/results/m_k/with/3/grid.png>
 Package pdftex.def Info: images/results/m_k/with/3/grid.png  used on input line
- 124.
+ 122.
 (pdftex.def)             Requested size: 90.13974pt x 90.13832pt.
-<images/results/m_k/with/3/partitioning.png, id=1003, 376.40625pt x 376.40625pt
->
+<images/results/m_k/with/3/partitioning.png, id=989, 376.40625pt x 376.40625pt>
+
 File: images/results/m_k/with/3/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/3/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/3/partitioning.png  used on in
-put line 129.
+put line 127.
 (pdftex.def)             Requested size: 90.13974pt x 90.13832pt.
-<images/results/m_k/with/3/results.png, id=1004, 544.0325pt x 379.4175pt>
+<images/results/m_k/with/3/results.png, id=990, 544.0325pt x 379.4175pt>
 File: images/results/m_k/with/3/results.png Graphic file (type png)
 <use images/results/m_k/with/3/results.png>
 Package pdftex.def Info: images/results/m_k/with/3/results.png  used on input l
-ine 134.
+ine 132.
 (pdftex.def)             Requested size: 135.20732pt x 94.29836pt.
-<images/results/m_k/with/4/grid.png, id=1008, 375.4025pt x 374.39874pt>
+<images/results/m_k/with/4/grid.png, id=994, 375.4025pt x 374.39874pt>
 File: images/results/m_k/with/4/grid.png Graphic file (type png)
 <use images/results/m_k/with/4/grid.png>
 Package pdftex.def Info: images/results/m_k/with/4/grid.png  used on input line
- 161.
+ 159.
 (pdftex.def)             Requested size: 90.13974pt x 89.89752pt.
-<images/results/m_k/with/4/partitioning.png, id=1009, 376.40625pt x 375.4025pt>
-
+<images/results/m_k/with/4/partitioning.png, id=995, 376.40625pt x 375.4025pt>
 File: images/results/m_k/with/4/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/4/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/4/partitioning.png  used on in
-put line 166.
+put line 164.
 (pdftex.def)             Requested size: 90.13974pt x 89.89795pt.
-<images/results/m_k/with/4/results.png, id=1010, 260.975pt x 170.6375pt>
+<images/results/m_k/with/4/results.png, id=996, 260.975pt x 170.6375pt>
 File: images/results/m_k/with/4/results.png Graphic file (type png)
 <use images/results/m_k/with/4/results.png>
 Package pdftex.def Info: images/results/m_k/with/4/results.png  used on input l
-ine 171.
+ine 169.
 (pdftex.def)             Requested size: 135.20732pt x 88.40654pt.
-<images/results/m_k/with/1/grid.png, id=1011, 375.4025pt x 374.39874pt>
+<images/results/m_k/with/1/grid.png, id=997, 375.4025pt x 374.39874pt>
 File: images/results/m_k/with/1/grid.png Graphic file (type png)
 <use images/results/m_k/with/1/grid.png>
 Package pdftex.def Info: images/results/m_k/with/1/grid.png  used on input line
- 185.
+ 183.
 (pdftex.def)             Requested size: 90.13974pt x 89.89752pt.
-<images/results/m_k/with/1/partitioning.png, id=1012, 376.40625pt x 376.40625pt
->
+<images/results/m_k/with/1/partitioning.png, id=998, 376.40625pt x 376.40625pt>
+
 File: images/results/m_k/with/1/partitioning.png Graphic file (type png)
 <use images/results/m_k/with/1/partitioning.png>
 Package pdftex.def Info: images/results/m_k/with/1/partitioning.png  used on in
-put line 190.
+put line 188.
 (pdftex.def)             Requested size: 90.13974pt x 90.13832pt.
-<images/results/m_k/with/1/results.png, id=1013, 515.9275pt x 339.2675pt>
+<images/results/m_k/with/1/results.png, id=999, 515.9275pt x 339.2675pt>
 File: images/results/m_k/with/1/results.png Graphic file (type png)
 <use images/results/m_k/with/1/results.png>
 Package pdftex.def Info: images/results/m_k/with/1/results.png  used on input l
-ine 195.
+ine 193.
 (pdftex.def)             Requested size: 135.20732pt x 88.90633pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[51 <./images/results/m_k/with/3/grid.png> <./images/results/m_k/with/3/partiti
+[49 <./images/results/m_k/with/3/grid.png> <./images/results/m_k/with/3/partiti
 oning.png> <./images/results/m_k/with/3/results.png> <./images/results/m_k/with
 /4/grid.png> <./images/results/m_k/with/4/partitioning.png> <./images/results/m
 _k/with/4/results.png>]
-<images/results/m_k/with/5/grid.png, id=1028, 375.4025pt x 376.40625pt>
+<images/results/m_k/with/5/grid.png, id=1015, 375.4025pt x 376.40625pt>
 File: images/results/m_k/with/5/grid.png Graphic file (type png)
 <use images/results/m_k/with/5/grid.png>
-Package pdftex.def Info: images/results/m_k/with/5/grid.png  used on input line
- 222.
-(pdftex.def)             Requested size: 90.13974pt x 90.37955pt.
-<images/results/m_k/with/5/partitioning.png, id=1029, 375.4025pt x 376.40625pt>
-
-File: images/results/m_k/with/5/partitioning.png Graphic file (type png)
-<use images/results/m_k/with/5/partitioning.png>
-Package pdftex.def Info: images/results/m_k/with/5/partitioning.png  used on in
-put line 227.
-(pdftex.def)             Requested size: 90.13974pt x 90.37955pt.
-<images/results/m_k/with/5/results.png, id=1030, 538.01pt x 341.275pt>
-File: images/results/m_k/with/5/results.png Graphic file (type png)
-<use images/results/m_k/with/5/results.png>
-Package pdftex.def Info: images/results/m_k/with/5/results.png  used on input l
-ine 232.
-(pdftex.def)             Requested size: 135.20732pt x 85.76637pt.
- [52 <./images/results/m_k/with/1/grid.png> <./images/results/m_k/with/1/partit
-ioning.png> <./images/results/m_k/with/1/results.png> <./images/results/m_k/wit
-h/5/grid.png> <./images/results/m_k/with/5/partitioning.png> <./images/results/
-m_k/with/5/results.png>]
-<images/results/m_k/with/6/grid.png, id=1048, 377.41pt x 375.4025pt>
-File: images/results/m_k/with/6/grid.png Graphic file (type png)
-<use images/results/m_k/with/6/grid.png>
-Package pdftex.def Info: images/results/m_k/with/6/grid.png  used on input line
- 256.
-(pdftex.def)             Requested size: 90.13974pt x 89.65736pt.
-<images/results/m_k/with/6/partitioning.png, id=1049, 377.41pt x 375.4025pt>
-File: images/results/m_k/with/6/partitioning.png Graphic file (type png)
-<use images/results/m_k/with/6/partitioning.png>
-Package pdftex.def Info: images/results/m_k/with/6/partitioning.png  used on in
-put line 261.
-(pdftex.def)             Requested size: 90.13974pt x 89.65736pt.
-<images/results/m_k/with/6/results.png, id=1050, 540.0175pt x 212.795pt>
-File: images/results/m_k/with/6/results.png Graphic file (type png)
-<use images/results/m_k/with/6/results.png>
-Package pdftex.def Info: images/results/m_k/with/6/results.png  used on input l
-ine 266.
-(pdftex.def)             Requested size: 135.20732pt x 53.27654pt.
-<images/results/m_k/with/10/grid.png, id=1051, 375.4025pt x 375.4025pt>
-File: images/results/m_k/with/10/grid.png Graphic file (type png)
-<use images/results/m_k/with/10/grid.png>
-Package pdftex.def Info: images/results/m_k/with/10/grid.png  used on input lin
-e 278.
-(pdftex.def)             Requested size: 90.13974pt x 90.13853pt.
-<images/results/m_k/with/10/partitioning.png, id=1052, 375.4025pt x 375.4025pt>
-
-File: images/results/m_k/with/10/partitioning.png Graphic file (type png)
-<use images/results/m_k/with/10/partitioning.png>
-Package pdftex.def Info: images/results/m_k/with/10/partitioning.png  used on i
-nput line 283.
-(pdftex.def)             Requested size: 90.13974pt x 90.13853pt.
-<images/results/m_k/with/10/results.png, id=1053, 271.0125pt x 104.39pt>
-File: images/results/m_k/with/10/results.png Graphic file (type png)
-<use images/results/m_k/with/10/results.png>
-Package pdftex.def Info: images/results/m_k/with/10/results.png  used on input 
-line 288.
-(pdftex.def)             Requested size: 135.20732pt x 52.08176pt.
-<images/results/m_k/with/7/grid.png, id=1057, 375.4025pt x 375.4025pt>
-File: images/results/m_k/with/7/grid.png Graphic file (type png)
-<use images/results/m_k/with/7/grid.png>
-Package pdftex.def Info: images/results/m_k/with/7/grid.png  used on input line
- 314.
-(pdftex.def)             Requested size: 90.13974pt x 90.13853pt.
-<images/results/m_k/with/7/partitioning.png, id=1058, 375.4025pt x 375.4025pt>
-File: images/results/m_k/with/7/partitioning.png Graphic file (type png)
-<use images/results/m_k/with/7/partitioning.png>
-Package pdftex.def Info: images/results/m_k/with/7/partitioning.png  used on in
-put line 319.
-(pdftex.def)             Requested size: 90.13974pt x 90.13853pt.
-<images/results/m_k/with/7/results.png, id=1059, 270.00874pt x 146.5475pt>
-File: images/results/m_k/with/7/results.png Graphic file (type png)
-<use images/results/m_k/with/7/results.png>
-Package pdftex.def Info: images/results/m_k/with/7/results.png  used on input l
-ine 324.
-(pdftex.def)             Requested size: 135.20732pt x 73.38536pt.
-<images/results/m_k/with/8/grid.png, id=1060, 376.40625pt x 375.4025pt>
-File: images/results/m_k/with/8/grid.png Graphic file (type png)
-<use images/results/m_k/with/8/grid.png>
-Package pdftex.def Info: images/results/m_k/with/8/grid.png  used on input line
- 336.
-(pdftex.def)             Requested size: 90.13974pt x 89.89795pt.
-<images/results/m_k/with/8/partitioning.png, id=1061, 376.40625pt x 375.4025pt>
-
-File: images/results/m_k/with/8/partitioning.png Graphic file (type png)
-<use images/results/m_k/with/8/partitioning.png>
-Package pdftex.def Info: images/results/m_k/with/8/partitioning.png  used on in
-put line 341.
-(pdftex.def)             Requested size: 90.13974pt x 89.89795pt.
-<images/results/m_k/with/8/results.png, id=1062, 265.99374pt x 64.24pt>
-File: images/results/m_k/with/8/results.png Graphic file (type png)
-<use images/results/m_k/with/8/results.png>
-Package pdftex.def Info: images/results/m_k/with/8/results.png  used on input l
-ine 346.
-(pdftex.def)             Requested size: 135.20732pt x 32.65413pt.
-<images/results/m_k/with/9/grid.png, id=1063, 377.41pt x 374.39874pt>
-File: images/results/m_k/with/9/grid.png Graphic file (type png)
-<use images/results/m_k/with/9/grid.png>
-Package pdftex.def Info: images/results/m_k/with/9/grid.png  used on input line
- 358.
-(pdftex.def)             Requested size: 90.13974pt x 89.41763pt.
-<images/results/m_k/with/9/partitioning.png, id=1064, 377.41pt x 374.39874pt>
-File: images/results/m_k/with/9/partitioning.png Graphic file (type png)
-<use images/results/m_k/with/9/partitioning.png>
-Package pdftex.def Info: images/results/m_k/with/9/partitioning.png  used on in
-put line 363.
-(pdftex.def)             Requested size: 90.13974pt x 89.41763pt.
-<images/results/m_k/with/9/results.png, id=1065, 268.00125pt x 209.78375pt>
-File: images/results/m_k/with/9/results.png Graphic file (type png)
-<use images/results/m_k/with/9/results.png>
-Package pdftex.def Info: images/results/m_k/with/9/results.png  used on input l
-ine 368.
-(pdftex.def)             Requested size: 135.20732pt x 105.8359pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[53 <./images/results/m_k/with/6/grid.png> <./images/results/m_k/with/6/partiti
-oning.png> <./images/results/m_k/with/6/results.png> <./images/results/m_k/with
-/10/grid.png> <./images/results/m_k/with/10/partitioning.png> <./images/results
-/m_k/with/10/results.png>] [54 <./images/results/m_k/with/7/grid.png> <./images
-/results/m_k/with/7/partitioning.png> <./images/results/m_k/with/7/results.png>
- <./images/results/m_k/with/8/grid.png> <./images/results/m_k/with/8/partitioni
-ng.png> <./images/results/m_k/with/8/results.png> <./images/results/m_k/with/9/
-grid.png> <./images/results/m_k/with/9/partitioning.png> <./images/results/m_k/
-with/9/results.png>]
-<images/results/m_k/with/11/grid.png, id=1103, 376.40625pt x 375.4025pt>
-File: images/results/m_k/with/11/grid.png Graphic file (type png)
-<use images/results/m_k/with/11/grid.png>
-Package pdftex.def Info: images/results/m_k/with/11/grid.png  used on input lin
-e 400.
-(pdftex.def)             Requested size: 90.13974pt x 89.89795pt.
-<images/results/m_k/with/11/partitioning.png, id=1104, 376.40625pt x 375.4025pt
->
-File: images/results/m_k/with/11/partitioning.png Graphic file (type png)
-<use images/results/m_k/with/11/partitioning.png>
-Package pdftex.def Info: images/results/m_k/with/11/partitioning.png  used on i
-nput line 405.
-(pdftex.def)             Requested size: 90.13974pt x 89.89795pt.
-<images/results/m_k/with/11/results.png, id=1105, 260.975pt x 209.78375pt>
-File: images/results/m_k/with/11/results.png Graphic file (type png)
-<use images/results/m_k/with/11/results.png>
-Package pdftex.def Info: images/results/m_k/with/11/results.png  used on input 
-line 410.
-(pdftex.def)             Requested size: 135.20732pt x 108.68803pt.
-<images/results/m_k/with/12/grid.png, id=1106, 376.40625pt x 375.4025pt>
-File: images/results/m_k/with/12/grid.png Graphic file (type png)
-<use images/results/m_k/with/12/grid.png>
-Package pdftex.def Info: images/results/m_k/with/12/grid.png  used on input lin
-e 424.
-(pdftex.def)             Requested size: 90.13974pt x 89.89795pt.
-<images/results/m_k/with/12/partitioning.png, id=1107, 376.40625pt x 375.4025pt
->
-File: images/results/m_k/with/12/partitioning.png Graphic file (type png)
-<use images/results/m_k/with/12/partitioning.png>
-Package pdftex.def Info: images/results/m_k/with/12/partitioning.png  used on i
-nput line 429.
-(pdftex.def)             Requested size: 90.13974pt x 89.89795pt.
-<images/results/m_k/with/12/results.png, id=1108, 266.9975pt x 209.78375pt>
-File: images/results/m_k/with/12/results.png Graphic file (type png)
-<use images/results/m_k/with/12/results.png>
-Package pdftex.def Info: images/results/m_k/with/12/results.png  used on input 
-line 434.
-(pdftex.def)             Requested size: 135.20732pt x 106.23924pt.
-<images/results/m_k/with/14/grid.png, id=1109, 376.40625pt x 375.4025pt>
-File: images/results/m_k/with/14/grid.png Graphic file (type png)
-<use images/results/m_k/with/14/grid.png>
-Package pdftex.def Info: images/results/m_k/with/14/grid.png  used on input lin
-e 449.
-(pdftex.def)             Requested size: 90.13974pt x 89.89795pt.
-<images/results/m_k/with/14/partitioning.png, id=1110, 376.40625pt x 377.41pt>
-File: images/results/m_k/with/14/partitioning.png Graphic file (type png)
-<use images/results/m_k/with/14/partitioning.png>
-Package pdftex.def Info: images/results/m_k/with/14/partitioning.png  used on i
-nput line 454.
-(pdftex.def)             Requested size: 90.13974pt x 90.37868pt.
-<images/results/m_k/with/14/results.png, id=1111, 529.98pt x 427.5975pt>
-File: images/results/m_k/with/14/results.png Graphic file (type png)
-<use images/results/m_k/with/14/results.png>
-Package pdftex.def Info: images/results/m_k/with/14/results.png  used on input 
-line 459.
-(pdftex.def)             Requested size: 135.20732pt x 109.08485pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/results/m_k/with/13/grid.png, id=1112, 376.40625pt x 375.4025pt>
-File: images/results/m_k/with/13/grid.png Graphic file (type png)
-<use images/results/m_k/with/13/grid.png>
-Package pdftex.def Info: images/results/m_k/with/13/grid.png  used on input lin
-e 473.
-(pdftex.def)             Requested size: 90.13974pt x 89.89795pt.
-<images/results/m_k/with/13/partitioning.png, id=1113, 376.40625pt x 377.41pt>
-File: images/results/m_k/with/13/partitioning.png Graphic file (type png)
-<use images/results/m_k/with/13/partitioning.png>
-Package pdftex.def Info: images/results/m_k/with/13/partitioning.png  used on i
-nput line 478.
-(pdftex.def)             Requested size: 90.13974pt x 90.37868pt.
-<images/results/m_k/with/13/results.png, id=1114, 529.98pt x 427.5975pt>
-File: images/results/m_k/with/13/results.png Graphic file (type png)
-<use images/results/m_k/with/13/results.png>
-Package pdftex.def Info: images/results/m_k/with/13/results.png  used on input 
-line 483.
-(pdftex.def)             Requested size: 135.20732pt x 109.08485pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[55
-
- <./images/results/m_k/with/11/grid.png> <./images/results/m_k/with/11/partitio
-ning.png> <./images/results/m_k/with/11/results.png> <./images/results/m_k/with
-/12/grid.png> <./images/results/m_k/with/12/partitioning.png> <./images/results
-/m_k/with/12/results.png>]
-<images/results/m_k/with/15/grid.png, id=1140, 476.78125pt x 474.77374pt>
-File: images/results/m_k/with/15/grid.png Graphic file (type png)
-<use images/results/m_k/with/15/grid.png>
-Package pdftex.def Info: images/results/m_k/with/15/grid.png  used on input lin
-e 521.
-(pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
-<images/results/m_k/with/15/partitioning.png, id=1141, 476.78125pt x 474.77374p
-t>
-File: images/results/m_k/with/15/partitioning.png Graphic file (type png)
-<use images/results/m_k/with/15/partitioning.png>
-Package pdftex.def Info: images/results/m_k/with/15/partitioning.png  used on i
-nput line 526.
-(pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
-<images/results/m_k/with/15/results.png, id=1142, 268.00125pt x 336.25626pt>
-File: images/results/m_k/with/15/results.png Graphic file (type png)
-<use images/results/m_k/with/15/results.png>
-Package pdftex.def Info: images/results/m_k/with/15/results.png  used on input 
-line 531.
-(pdftex.def)             Requested size: 135.20732pt x 169.64131pt.
-
-Underfull \vbox (badness 5036) has occurred while \output is active []
-
- [56 <./images/results/m_k/with/14/grid.png> <./images/results/m_k/with/14/part
-itioning.png> <./images/results/m_k/with/14/results.png> <./images/results/m_k/
-with/13/grid.png> <./images/results/m_k/with/13/partitioning.png> <./images/res
-ults/m_k/with/13/results.png>]
-<images/results/m_k/with/16/grid.png, id=1158, 476.78125pt x 474.77374pt>
-File: images/results/m_k/with/16/grid.png Graphic file (type png)
-<use images/results/m_k/with/16/grid.png>
-Package pdftex.def Info: images/results/m_k/with/16/grid.png  used on input lin
-e 545.
-(pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
-<images/results/m_k/with/16/partitioning.png, id=1159, 476.78125pt x 474.77374p
-t>
-File: images/results/m_k/with/16/partitioning.png Graphic file (type png)
-<use images/results/m_k/with/16/partitioning.png>
-Package pdftex.def Info: images/results/m_k/with/16/partitioning.png  used on i
-nput line 550.
-(pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
-<images/results/m_k/with/16/results.png, id=1160, 268.00125pt x 336.25626pt>
-File: images/results/m_k/with/16/results.png Graphic file (type png)
-<use images/results/m_k/with/16/results.png>
-Package pdftex.def Info: images/results/m_k/with/16/results.png  used on input 
-line 555.
-(pdftex.def)             Requested size: 135.20732pt x 169.64131pt.
-<images/results/m_k/with/17/grid.png, id=1168, 476.78125pt x 474.77374pt>
-File: images/results/m_k/with/17/grid.png Graphic file (type png)
-<use images/results/m_k/with/17/grid.png>
-Package pdftex.def Info: images/results/m_k/with/17/grid.png  used on input lin
-e 580.
-(pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
-<images/results/m_k/with/17/partitioning.png, id=1169, 476.78125pt x 474.77374p
-t>
-File: images/results/m_k/with/17/partitioning.png Graphic file (type png)
-<use images/results/m_k/with/17/partitioning.png>
-Package pdftex.def Info: images/results/m_k/with/17/partitioning.png  used on i
-nput line 585.
-(pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
-<images/results/m_k/with/17/results.png, id=1170, 268.00125pt x 336.25626pt>
-File: images/results/m_k/with/17/results.png Graphic file (type png)
-<use images/results/m_k/with/17/results.png>
-Package pdftex.def Info: images/results/m_k/with/17/results.png  used on input 
-line 590.
-(pdftex.def)             Requested size: 135.20732pt x 169.64131pt.
-<images/results/m_k/with/18/grid.png, id=1171, 476.78125pt x 474.77374pt>
-File: images/results/m_k/with/18/grid.png Graphic file (type png)
-<use images/results/m_k/with/18/grid.png>
-Package pdftex.def Info: images/results/m_k/with/18/grid.png  used on input lin
-e 604.
-(pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
-<images/results/m_k/with/18/partitioning.png, id=1172, 476.78125pt x 474.77374p
-t>
-File: images/results/m_k/with/18/partitioning.png Graphic file (type png)
-<use images/results/m_k/with/18/partitioning.png>
-Package pdftex.def Info: images/results/m_k/with/18/partitioning.png  used on i
-nput line 609.
-(pdftex.def)             Requested size: 135.20732pt x 134.63818pt.
-<images/results/m_k/with/18/results.png, id=1173, 562.1pt x 672.5125pt>
-File: images/results/m_k/with/18/results.png Graphic file (type png)
-<use images/results/m_k/with/18/results.png>
-Package pdftex.def Info: images/results/m_k/with/18/results.png  used on input 
-line 614.
-(pdftex.def)             Requested size: 135.20732pt x 161.76546pt.
- [57 <./images/results/m_k/with/15/grid.png> <./images/results/m_k/with/15/part
-itioning.png> <./images/results/m_k/with/15/results.png> <./images/results/m_k/
-with/16/grid.png> <./images/results/m_k/with/16/partitioning.png> <./images/res
-ults/m_k/with/16/results.png>] [58 <./images/results/m_k/with/17/grid.png> <./i
-mages/results/m_k/with/17/partitioning.png> <./images/results/m_k/with/17/resul
-ts.png> <./images/results/m_k/with/18/grid.png> <./images/results/m_k/with/18/p
-artitioning.png> <./images/results/m_k/with/18/results.png>]
-<images/results/m_k/with/19/grid.png, id=1198, 1241.63875pt x 671.50874pt>
-File: images/results/m_k/with/19/grid.png Graphic file (type png)
-<use images/results/m_k/with/19/grid.png>
-Package pdftex.def Info: images/results/m_k/with/19/grid.png  used on input lin
-e 665.
-(pdftex.def)             Requested size: 341.43309pt x 184.6501pt.
-<images/results/m_k/with/19/partitioning.png, id=1199, 1241.63875pt x 671.50874
-pt>
-File: images/results/m_k/with/19/partitioning.png Graphic file (type png)
-<use images/results/m_k/with/19/partitioning.png>
-Package pdftex.def Info: images/results/m_k/with/19/partitioning.png  used on i
-nput line 670.
-(pdftex.def)             Requested size: 341.43309pt x 184.6501pt.
-<images/results/m_k/with/19/results.png, id=1200, 272.01625pt x 329.23pt>
-File: images/results/m_k/with/19/results.png Graphic file (type png)
-<use images/results/m_k/with/19/results.png>
-Package pdftex.def Info: images/results/m_k/with/19/results.png  used on input 
-line 675.
-(pdftex.def)             Requested size: 136.57462pt x 165.30785pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[59] [60 <./images/results/m_k/with/19/grid.png> <./images/results/m_k/with/19/
-partitioning.png> <./images/results/m_k/with/19/results.png>])
-(./chapters/06-tests_results/parts/03-m_results.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1.
-
-
-./chapters/06-tests_results/parts/03-m_results.tex:8: Package inputenc Error: U
-nicode character ∂ (U+2202)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...ania na $m \cdot k$ partycji, a dla każ∂
-                                                  ego z tych podziałów wyk...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-<images/results/m/1/mk.png, id=1224, 374.39874pt x 376.40625pt>
-File: images/results/m/1/mk.png Graphic file (type png)
-<use images/results/m/1/mk.png>
-Package pdftex.def Info: images/results/m/1/mk.png  used on input line 24.
-(pdftex.def)             Requested size: 105.1615pt x 105.72615pt.
-<images/results/m/1/m.png, id=1225, 374.39874pt x 376.40625pt>
-File: images/results/m/1/m.png Graphic file (type png)
-<use images/results/m/1/m.png>
-Package pdftex.def Info: images/results/m/1/m.png  used on input line 29.
-(pdftex.def)             Requested size: 105.1615pt x 105.72615pt.
-<images/results/m/1/results.png, id=1226, 538.01pt x 170.6375pt>
-File: images/results/m/1/results.png Graphic file (type png)
-<use images/results/m/1/results.png>
-Package pdftex.def Info: images/results/m/1/results.png  used on input line 34.
-
-(pdftex.def)             Requested size: 135.20732pt x 42.88318pt.
-<images/results/m/2/mk.png, id=1227, 378.41376pt x 378.41376pt>
-File: images/results/m/2/mk.png Graphic file (type png)
-<use images/results/m/2/mk.png>
-Package pdftex.def Info: images/results/m/2/mk.png  used on input line 47.
-(pdftex.def)             Requested size: 105.1615pt x 105.1583pt.
-<images/results/m/2/m.png, id=1228, 378.41376pt x 378.41376pt>
-File: images/results/m/2/m.png Graphic file (type png)
-<use images/results/m/2/m.png>
-Package pdftex.def Info: images/results/m/2/m.png  used on input line 52.
-(pdftex.def)             Requested size: 105.1615pt x 105.1583pt.
-<images/results/m/2/results.png, id=1229, 533.995pt x 299.1175pt>
-File: images/results/m/2/results.png Graphic file (type png)
-<use images/results/m/2/results.png>
-Package pdftex.def Info: images/results/m/2/results.png  used on input line 57.
-
-(pdftex.def)             Requested size: 135.20732pt x 75.73766pt.
-<images/results/m/3/mk.png, id=1230, 376.40625pt x 375.4025pt>
-File: images/results/m/3/mk.png Graphic file (type png)
-<use images/results/m/3/mk.png>
-Package pdftex.def Info: images/results/m/3/mk.png  used on input line 70.
-(pdftex.def)             Requested size: 105.1615pt x 104.88284pt.
-<images/results/m/3/m.png, id=1231, 376.40625pt x 375.4025pt>
-File: images/results/m/3/m.png Graphic file (type png)
-<use images/results/m/3/m.png>
-Package pdftex.def Info: images/results/m/3/m.png  used on input line 75.
-(pdftex.def)             Requested size: 105.1615pt x 104.88284pt.
-<images/results/m/3/results.png, id=1232, 265.99374pt x 210.7875pt>
-File: images/results/m/3/results.png Graphic file (type png)
-<use images/results/m/3/results.png>
-Package pdftex.def Info: images/results/m/3/results.png  used on input line 80.
-
-(pdftex.def)             Requested size: 135.20732pt x 107.1464pt.
-<images/results/m/4/mk.png, id=1233, 376.40625pt x 374.39874pt>
-File: images/results/m/4/mk.png Graphic file (type png)
-<use images/results/m/4/mk.png>
-Package pdftex.def Info: images/results/m/4/mk.png  used on input line 93.
-(pdftex.def)             Requested size: 105.1615pt x 104.60242pt.
-<images/results/m/4/m.png, id=1234, 376.40625pt x 374.39874pt>
-File: images/results/m/4/m.png Graphic file (type png)
-<use images/results/m/4/m.png>
-Package pdftex.def Info: images/results/m/4/m.png  used on input line 98.
-(pdftex.def)             Requested size: 105.1615pt x 104.60242pt.
-<images/results/m/4/results.png, id=1235, 265.99374pt x 336.25626pt>
-File: images/results/m/4/results.png Graphic file (type png)
-<use images/results/m/4/results.png>
-Package pdftex.def Info: images/results/m/4/results.png  used on input line 103
-.
-(pdftex.def)             Requested size: 135.20732pt x 170.92403pt.
-./chapters/06-tests_results/parts/03-m_results.tex:112: Undefined control seque
-nce.
-l.112 \Floatbarrier
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[61
-
- <./images/results/m/1/mk.png> <./images/results/m/1/m.png> <./images/results/m
-/1/results.png> <./images/results/m/2/mk.png> <./images/results/m/2/m.png> <./i
-mages/results/m/2/results.png>] [62 <./images/results/m/3/mk.png> <./images/res
-ults/m/3/m.png> <./images/results/m/3/results.png> <./images/results/m/4/mk.png
-> <./images/results/m/4/m.png> <./images/results/m/4/results.png>]
-<images/results/m/5/mk.png, id=1264, 375.4025pt x 375.4025pt>
-File: images/results/m/5/mk.png Graphic file (type png)
-<use images/results/m/5/mk.png>
-Package pdftex.def Info: images/results/m/5/mk.png  used on input line 146.
-(pdftex.def)             Requested size: 135.20732pt x 135.2078pt.
-<images/results/m/5/m.png, id=1265, 375.4025pt x 375.4025pt>
-File: images/results/m/5/m.png Graphic file (type png)
-<use images/results/m/5/m.png>
-Package pdftex.def Info: images/results/m/5/m.png  used on input line 151.
-(pdftex.def)             Requested size: 135.20732pt x 135.2078pt.
-<images/results/m/5/results.png, id=1266, 519.9425pt x 162.6075pt>
-File: images/results/m/5/results.png Graphic file (type png)
-<use images/results/m/5/results.png>
-Package pdftex.def Info: images/results/m/5/results.png  used on input line 156
-.
-(pdftex.def)             Requested size: 135.20732pt x 42.2844pt.
-) [63 <./images/results/m/5/mk.png> <./images/results/m/5/m.png> <./images/resu
-lts/m/5/results.png>]) (./chapters/07-further_development/main.tex)
-(./chapters/99-bibliography/main.tex [64]
-(/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.bbl [65]
-[66]
-Underfull \hbox (badness 10000) in paragraph at lines 196--202
-\T1/lmtt/m/n/12 wikipedia . org / w / index . php ? title = Graph % 20embedding
- & oldid = 1019397582$[]\T1/lmr/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 2359) in paragraph at lines 204--211
-[]\T1/lmr/m/n/12 Wikipedia.  Sko-ja-rze-nie (teo-ria gra-f�w) --- Wi-ki-pe-dia,
- the free en-cyc-lo-pe-
- []
-
-)) [67] (/Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FBCD9B95504497D09363A591CC1AF719;7267.
- ) 
-Here is how much of TeX's memory you used:
- 32273 strings out of 478994
- 606948 string characters out of 5858185
- 1568767 words of memory out of 5000000
- 48582 multiletter control sequences out of 15000+600000
- 484863 words of font info for 86 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 91i,11n,91p,1330b,1204s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/20
-21/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2021/texmf-dist/
-fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/
-dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/l
-m-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb>
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/loc
-al/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive
-/2021/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2021/texm
-f-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2021/texmf-dist/fon
-ts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
-blic/lm/lmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmm
-i8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2021/te
-xmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2021/texmf-dist/fon
-ts/type1/public/lm/lmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
-lic/lm/lmri12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lms
-y10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></u
-sr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/te
-xlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2021
-/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main
-.pdf (67 pages, 12872621 bytes).
-PDF statistics:
- 1453 PDF objects out of 1728 (max. 8388607)
- 1021 compressed objects within 11 object streams
- 371 named destinations out of 1000 (max. 500000)
- 1018 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Package pdftex.def Info: images/results/m_k/with/5/grid.p

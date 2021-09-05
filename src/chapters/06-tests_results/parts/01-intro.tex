@@ -1,21 +1,22 @@
-Rezultaty obliczeń były otrzymywane w ten sam sposób jak w artykule \cite{1364754}.
+Rezultaty obliczeń były otrzymywane w podobny sposób jak w artykule \cite{1364754}.
 Algorytm wywoływany był $100$ razy, a na końcu wybierany był najlepszy podział.
-O ile w artykule \cite{1364754} wybranie najlepszego wyniku odbywało się poprzez liczenie długości granic między obszarami,
-tak w moim wypadku nie było to oczywiste.
-Autorzy \cite{1364754} mogli tak zaprojektować wybieranie najlepszego podziału, ponieważ nie występowały u nich
-obszary niepodzielne, przez które znacznie ciężej zdefiniować najlepszy podział.
-W implementacji bez obszarów niepodzielnym to, co jest niezmienne to równe pola obszarów.
-Jeśli założymy, że nasza implementacja zawsze będzie w stanie zwrócić podział równy pod względem pól,
+Jednak w artykule \cite{1364754} wybranie najlepszego wyniku odbywało się poprzez liczenie długości granic między obszarami,
+a w moim przypadku były brane pod uwagę jeszcze inne kryteria.
+Autorzy \cite{1364754} mogli w ten sposób zaprojektować wybieranie najlepszego podziału, ponieważ nie występowały u nich
+obszary niepodzielne, przez które znacznie trudniej zdefiniować najlepszy podział.
+W implementacji bez obszarów niepodzielnym, niemal pewne jest otrzymanie obszarów o równych polach.
+Jeśli założymy, że nasza implementacja zawsze będzie w stanie zwrócić podział równy pod względem wielkości pól -
 co da się zagwarantować na siatce bez obszarów niepodzielnych, ponieważ tam możliwości balansowania
-pól są praktycznie nieograniczone, to pozostaje nam minimalizować sumaryczną długość granic.
-Obszary niepodzielne sprawiają, że często pola partycji nie mogą być równe, a minimalizacja długości granic może
-prowadzić do dużych nierówności w kwestii pól partycji, co pokażę na dalszych przykładach.
+pól są praktycznie nieograniczone - to pozostaje nam minimalizować sumaryczną długość granic.
+Obszary niepodzielne sprawiają, że często pola partycji nie mogą być równe, a wybór najlepszego rezultatu wedle
+kryterium najmniejszej długości granic może
+prowadzić do wyłonienia podziału o dużej nierówności pod względem wielkości pól partycji, co pokażę na dalszych przykładach.
 Kryterium wyłaniania najlepszego podziału było więc wybierane na podstawie wielkości i ułożenia obszarów niepodzielnych.
-Jeśli znacznie utrudniały lub uniemożliwiały one wyrównanie pól, a także poprzez swoje ułożenie powodowały wydłużenie długości granic,
+Jeśli znacznie utrudniały lub uniemożliwiały one wyrównanie powierzchni pól, a także poprzez swoje ułożenie powodowały wydłużenie długości granic,
 wybierałem kryterium najmniejszej różnicy w wielkości pól, ponieważ był to ważniejszy parametr oraz
 ponieważ dla tego typu przykładów algorytm często dawał obszary o stosunkowo dużych różnicach w wielkości pól.
-Kiedy dowolność ułożenia była duża z racji na małe obszary niepodzielne, kryterium była najmniejsza długość granic.
-W przypadku siatek, dla których wybór kryterium nie był oczywisty można wybrać podział dla każdego kryterium osobno,
+Kiedy dowolność ułożenia partycji była duża z racji na małe obszary niepodzielne, kryterium była najmniejsza długość granic.
+W przypadku siatek, dla których wybór kryterium nie jest oczywisty można wybrać najlepszy podział osobno wedle każdego kryterium,
 a następnie podjąć decyzję na podstawie ich parameterów.
 Kryterium najmniejszej różnicy w wielkości pól może być liczone za pomocą odchylenia standardowego bądź w mniej
 skomplikowanych przypadkach

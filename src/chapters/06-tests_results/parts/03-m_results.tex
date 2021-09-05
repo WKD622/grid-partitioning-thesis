@@ -4,18 +4,19 @@ Ten podrozdział opisuje wyniki podziału siatki podzielonej na $m \cdot k$ part
 zawiera $k$ podobszarów.
 Dla tej części zakładam, że podział na $m \cdot k$ partycji jest na równe, bądź niemal równe części i podaję
 wyniki tylko dla podziału na $m$ partycji po $k$ podobszarów każda.
-Różnica w postacji wywołania algorytmu dla tej części polega na tym, że wykonywanych jest $100$ iteracji
-partycjonowania na $m \cdot k$ partycji, a dla każ∂ego z tych podziałów wykonywanie jest $100$ iteracji poszukiwania
+Różnica w wywołaniu algorytmu dla tej części polega na tym, że wykonywanych jest $100$ iteracji
+partycjonowania na $m \cdot k$ partycji, a dla każdego z tych podziałów wykonywane jest $100$ iteracji poszukiwania
 najlepszego podzielenia tych $m \cdot k$ partycji na $m$ partycji po $k$ podobszarów każda.
-Jest to możliwe, ponieważ szukanie $m$ ma niski koszt obliczeniowy.
-Ze wszystkich wywołań wybierane jest ten podział na $m$ partycji, który ma najkrótszą długość granic.
+Jest to możliwe, ponieważ szukanie najlepszego podziału $m \cdot k$ partycji na $m$ partycji po $k$ podobszarów
+ma niski koszt obliczeniowy.
+Ze wszystkich wywołań wybierany jest ten podział na $m$ partycji, który ma najkrótszą długość granic.
 Długość granic pod rysunkiem podawana jest dla podziału na $m$ obszarów.
 
 Rysunek \ref{result:m:1} pokazuje partycjonowanie dla $k$ i $m$ wynoszącego $4$.
-$16$ obszarów dzielone jest na $4$ partycje po $4$ podobszarów każda.
-Podział na $m$ obszarów nie wykazał żadnych obszarów rozproszonych - każda partycja jest jedną całością,
+$16$ obszarów dzielone jest na $4$ partycje po $4$ podobszary każda.
+Podział na $m$ obszarów nie wykazał żadnych obszarów rozproszonych - każda partycja jest całością,
 a granica między obszarami jest krótka.
-Wszystkie z czterech partycji mają niemal równe rozmiary, to znaczy, że wielkości partycji dla podziału (a) są
+Wszystkie z czterech partycji mają niemal równe rozmiary, co znaczy, że wielkości partycji dla podziału (a) są
 niemal idealnie równe.
 \begin{figure}[h]
 \centering
@@ -114,7 +115,7 @@ Odchylenie standardowe wielkości pól wynosi $0.3742$.}
 
 Rysunek \ref{result:m:2} pokazuje partycjonowanie dla $k$ i $m$ wynoszącego $7$.
 $49$ obszarów dzielone jest na $7$ partycji po $7$ podobszarów każda.
-Po raz pierwszy widoczne są obszary rozproszone, są jednak one pojedyncze i tylko dla partycji $1$.
+Po raz pierwszy widoczne są obszary rozproszone, są one jednak pojedyncze i tylko dla partycji $1$.
 Wszystkie z siedmiu partycji mają niemal równe rozmiary, to znaczy, że wielkości partycji dla podziału (a) są
 niemal idealnie równe.
 Rysunek \ref{result:m:3} pokazuje partycjonowanie dla $k$ i $m$ wynoszącego $10$.
@@ -125,7 +126,7 @@ Podział można uznać za udany.
 Rysunek \ref{result:m:4} pokazuje partycjonowanie dla $k$ i $m$ wynoszącego $16$.
 $256$ obszarów dzielone jest na $16$ partycji po $16$ podobszarów każda.
 Widoczne jest analogiczne zachowanie jak wcześniej, rośnie liczba rozproszonych obszarów, jest ich jednak
-mniej niż $10\%$ ze wszystkich $256$ podobszarów.
+mniej niż $10\%$.
 
 Można zaobserwować, że wraz z liczbą partycji rośnie liczba partycji rozproszonych, nie jest to jednak bardzo intensywne
 zjawisko.

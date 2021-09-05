@@ -145,27 +145,13 @@
 \thispagestyle{empty}
 \newpage
 \newpage
-\thispagestyle{empty} 
-
-{~~}
-\vspace{20mm}
-\begin{center}
- \textbf{O\'swiadczenie studenta}
-\end{center}
-\LangStatementBody
-
-\vspace{2cm}
-
-\begin{flushright}
-\makebox[6cm][s]{\dotfill}\par
-\makebox[6cm][c]{\small \LangSignature}
-\end{flushright}
+\thispagestyle{empty}
 
 
 %------------------------------------------------------------------------------
 
 \clearpage
-\setcounter{page}{3}
+\setcounter{page}{2}
 
 }
 

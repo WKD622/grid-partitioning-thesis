@@ -1,13 +1,13 @@
 \subsection{Wyniki dla podziału na $m \cdot k$ obszarów}
-Ten podrozdział opisuje wyniki podziału siatki dla $m$ node'ów, każdy z nich zawierający $k$ rdzeni.
-Celem jest otrzymanie $m \cdot k$ maksymalnie równych pod względem pola partycji oraz minimalizacja długości granic
+Ten podrozdział opisuje wyniki podziału siatki dla $m$ node'ów, każdy zawierający $k$ rdzeni.
+Celem jest otrzymanie $m \cdot k$ możliwie równych pod względem wielkości pola partycji oraz minimalizacja długości granic
 między nimi.
 \vspace{5mm}
 \subsubsection{Wyniki dla podziału siatek bez obszarów niepodzielnych i wyłączonych z obliczeń}
-Dla tej kategorii kryterium zawsze była długość granic.
+Dla tej kategorii, kryterium była najmniejsza sumaryczna długość granic pomiędzy obszarami.
 Na rysunku \ref{result:w1} widzimy partycjonowanie siatki $100$x$100$ bez obszarów wyłączonych z obliczeń oraz
-niepodzielnych.
-Rezultat w kwestii długości granic jest bardzo dobry w porównaniu do innych bibliotek, które znajduje się na rysunku
+obszarów niepodzielnych.
+Rezultat pod względem długości granic jest bardzo dobry w porównaniu do innych bibliotek, których wyniki znajdują się na rysunku
 \ref{im:partitioning_results}.
 \begin{figure}[h]
 \centering
@@ -27,37 +27,35 @@ $0.0779$.}
 
 \label{result:w1}
 \end{figure}
-Wszystkie te biblioteki traktowane są przez literature jako biblioteki dające wyniki state-of-the-art.
+Wszystkie te biblioteki traktowane są przez literaturę jako biblioteki dające wyniki state-of-the-art.
 Z wynikiem $686$ metoda przedstawiona w tej pracy plasuje się blisko biblioteki Jostle i Metis,
 które otrzymały odpowiednio $695$ oraz $688$.
 Metoda zaprezentowana w niniejszej pracy bazuje na metodzie używanej przez bibliotekę Party, która dla tego problemu
-otrzymuje wynik $615$.
-Jest to wynik niemal idealny.
+otrzymuje wynik $615$ - jest to wynik bliski idealnemu.
 Wynikiem idealnym dla długości granic byłby wynik $600$.
-Charakterystyką tego podziału jest to, że ze względu na brak obszarów niepodzielnych, które mogą utrudniać
-wymianę granicznych wierzchołków udało się otrzymać niemal idealnie równe pola, świadczy o tym niskie odchylenie
-standardowe od średniej wielkości pola partycji.
-Ciężko powiedzieć, czemu wystąpiła aż tak duża różnica w kwestii długości granic w stosunku do biblioteki Party.
+Cechą charakterystyczną tego podziału jest to, że ze względu na brak obszarów niepodzielnych, które mogą utrudniać
+wymianę granicznych wierzchołków, udało się otrzymać niemal idealnie równe pola.
+Świadczy o tym niskie odchylenie standardowe od średniej wielkości pola partycji.
+Trudno powiedzieć, dlaczego wystąpiła aż tak duża różnica pod względem długości granic w stosunku do biblioteki Party.
 Być może przesądziły o tym różnice w implementacji, które najprawdopodobniej wyniknęły z nie dość szczegółowo opisanego algorytmu
 w artykule dotyczącym tej biblioteki \cite{1364754}.
-Przyglądając się mojemu rezultatowi, można zaproponować kilka pomniejszych usprawnień, które mogłyby jeszcze trochę polepszyć wynik.
+Przyglądając się mojemu rezultatowi, można zaproponować kilka pomniejszych usprawnień, które mogłyby jeszcze nieco polepszyć wynik.
 Można by przykładowo kosztem wielkości pól, zmusić algorytm do tworzenia prostych granic między obszarami.
-Ciężko mi jednak wyobrazić sobie modyfikację, która sprawiałaby, że obszary ustawiałyby się tak jakby siatka dzielona
-była pionowymi i poziomymi separatorami w algorytmie, który ma charakterystykę losową.
-Musi wydarzyć się naprawdę duży zbieg okoliczności, aby nastąpił taki podział.
-W jakiś sposób jest to możliwe dla biblioteki \cite{1364754}.
-W związku powyższym wnioskuję, że w algorytmie biblioteki Party \cite{1364754} muszą być jeszcze jakieś dodatkowe
-różnice względem rozwiązań opisanych w artykule.
+Modyfikacja, która sprawiałaby, że obszary ustawiałyby się tak jakby siatka dzielona
+była pionowymi i poziomymi separatorami jest trudna do wprowadzenia w algorytmie, który ma charakterystykę losową.
+Prawdopodobieństwo takiego podziału jest bardzo znikome.
+Jest to możliwe dla biblioteki \cite{1364754}.
+W związku z powyższym przypuszczam, że w algorytmie biblioteki Party \cite{1364754} mogły zostać wprowadzane dodatkowe rozwiązania
+nieopisane w artykule.
 Kolejną różnicą jest czas wykonania partycjonowania, który dla sprzętu wyposażonego w Pentium III $933$ MHz dual processor
 wraz z $1$ GB pamięci operacyjnej dla Party wyniósł $0.03$s.
 Dla mojego sprzętu wyposażonego w $2.3$ GHz Quad-Core Intel Core i$5$ z $2018$ roku wraz z $8$ GB pamięci operacyjnej
 czas ten wyniósł $18$s.
-Wszędzie gdzie miałem możliwość wybierałem większe zużycie pamięci kosztem krótszych obliczeń, starałem się również
-wybierać struktury danych ze stałą szybkością dostępu do informacji.
+Tam gdzie było to możliwe wybierałem większe zużycie pamięci kosztem krótszych obliczeń.
+Starałem się również wybierać struktury danych ze stałym czasem dostępu do informacji.
 Operacje umieszczone w algorytmie ze względu na obszary niepodzielne oraz wyłączone z obliczeń nie wprowadzają
 modyfikacji, które mogłyby w aż tak znacznym stopniu wpływać na złożoność obliczeniową.
-Być może jest to też kwestia kosztownych operacji na grafach dostarczonych przez bibliotekę NetworkX,
-z których korzystałem nie będąc w pełni świadomym ich złożoności obliczeniowej.
+Być może jest to kwestia kosztownych operacji na grafach dostarczonych przez bibliotekę NetworkX.
 Rozwiązanie zaproponowane w niniejszej pracy jest prototypem, którego celem
 nie było uzyskanie lepszej wydajności, ale wykazanie poprawności i jakości rozwiązania.
 Wydajność natomiast da się poprawić, czego dowodem jest istniejąca implementacja opisana w \cite{1364754}.
@@ -75,7 +73,7 @@ Siatka przedstawiona na rysunku \ref{result:2} jest trudnym przypadkiem, poniewa
 w dalszych częściach algorytmu.
 Wynik jest więc zależny od algorytmu LAM.
 Aby otrzymać najlepszy rezultat musi on dobrze ustawić partycje od samego początku.
-Dla tego przypadku nie da się otrzymać idealnie równego podziału, ale najlepszym rezultat będzie, gdy każda partycja będzie
+Dla tego przypadku nie da się uzyskać idealnie równego podziału, a najlepszym rezultat będzie, gdy każda partycja będzie
 w osobnym pionowym pasku.
 Drugi obszar niepodzielny jest o jeden piksel węższy od pozostałych, dlatego w rezultacie partycjonowania pomiędzy partycją
 $6$ a $1$ następuje wyrównanie pola.
@@ -109,9 +107,9 @@ Odchylenie standardowe wielkości pól wynosi $0.875$.}
 \textbf{Partycjonowanie 2}
 \vspace{1mm}
 
-Siatka partycjonowania na rysunku \ref{result:3} daje możliwość wymieniania się przez obszary wierzchołkami granicznymi,
-jest to jednak znacznie utrudnione przez obszary niepodzielne.
-Wyniki wybierane wedle kryterium najkrótszej długości granic dawały rezultaty z dużymi różnicami w kwestii pól partycji.
+Siatka partycjonowania na rysunku \ref{result:3} daje możliwość wymieniania się przez obszary wierzchołkami granicznymi.
+Jest to jednak znacznie utrudnione przez obszary niepodzielne.
+Wyniki wybierane według kryterium najkrótszej długości granic dawały rezultaty z dużymi różnicami pod względem wielkości pól partycji.
 Rezultat daje niemal idealnie równe pola partycji, o czym świadczy niska wartość odchylenia standardowego od średniej wielkości
 pola partycji.
 Obszary są raczej zwarte.
@@ -244,10 +242,10 @@ Odchylenie standardowe wielkości pól bez partycji $0$ wynosi $0.7596$, natomia
 \vspace{1mm}
 
 Rysunek \ref{result:6} oraz \ref{result:10} przedstawia partycjonowanie tej samej siatki.
-Dla rysunku \ref{result:6} najlepszy rezultat został wybrany poprzez kryterium najmniejszego odchylenia standardowego
-dla pól partycji, natomiast dla rysunku \ref{result:10} poprzez kryterium najmniejszej długość granic.
+Dla rysunku \ref{result:6} najlepszy rezultat został wybrany poprzez zastosowanie kryterium najmniejszego odchylenia standardowego
+dla wielkości pól partycji, natomiast dla rysunku \ref{result:10} poprzez kryterium najmniejszej długość granic.
 Widać jak różne podziały może tworzyć ten sam algorytm w zależności od początkowego ustawienia obszarów.
-Dla rysunku \ref{result:6} otrzymaliśmy partycje o bardziej zbliżonych wielkościach, kosztem gorszej długości granic pomiędzy obszarami.
+Na rysunku \ref{result:6} otrzymaliśmy partycje o bardziej zbliżonych wielkościach, kosztem większej długości granic pomiędzy obszarami.
 Na rysunku \ref{result:10} otrzymaliśmy krótsze granice, kosztem równości pól.
 \begin{figure}[h]
 \centering
@@ -300,10 +298,10 @@ Odchylenie standardowe wielkości pól wynosi $2.1419$.}
 
 Rysunek \ref{result:7}, \ref{result:8} oraz \ref{result:9} przedstawia partycjonowanie tej samej siatki, odpowiednio na
 $7$, $3$ oraz $10$ części.
-Jest to bardzo trudna siatka do partycjonowania, ponieważ z racji na ułożenie obszarów niepodzielnych
+Jest to siatka bardzo trudna do partycjonowania, ponieważ z racji na ułożenie obszarów niepodzielnych
 nie pozwala na zbytnie optymalizowanie długości granic oraz wielkości pól partycji.
 Obszary niepodzielne będą wymuszać kształt granic oraz wielkość partycji.
-Pierwszy podział jest na $7$ części, ponieważ tyle jest białych i żółtych sfer na rysunku.
+Pierwszy podział jest na $7$ części, ponieważ tyle jest białych i żółtych stref na rysunku.
 Algorytm próbuje wyrównywać pola na tyle, na ile jest to możliwe.
 Widać, że partycje, które ze sobą sąsiadują i mają możliwość wyrównania wielkości pól są podobnej wielkości.
 Jest to na przykład partycja $6$ oraz $0$.
@@ -374,10 +372,11 @@ Odchylenie standardowe wielkości pól wynosi $2.9097$.}
 \label{result:9}
 \end{figure}
 \FloatBarrier
-Można zaobserwować, że partycjonowanie na $3$ części na rysunku \ref{result:8} daje znacznie więcej swobody, w rezultacie
-partycje są niemal identycznej wielkości.
-Ustawienie obszarów niepodzielnych nadal motywuje ułożenie partycji i zwiększa długość granic.
-Partycjonowanie przedstawione na rysunku \ref{result:9} to bardziej ekstremalna wersja partycjonowania na rysunku \ref{result:7}.
+Można zaobserwować, że partycjonowanie na $3$ części na rysunku \ref{result:8} daje znacznie więcej swobody pod względem
+balansowania wielkości pól.
+W rezultacie partycje są niemal identycznej wielkości.
+Ustawienie obszarów niepodzielnych nadal warunkuje ułożenie partycji i zwiększa długość granic.
+Partycjonowanie przedstawione na rysunku \ref{result:9} to bardziej ekstremalna wersja partycjonowania od tej na rysunku \ref{result:7}.
 Partycje, które miały możliwość wyrównania pola między sobą, jak partycje $6$, $4$ oraz $5$,
 mają praktycznie identyczne pola.
 Algorytm bardzo dobrze radzi sobie z tym trudnym przypadkiem.
@@ -388,9 +387,9 @@ Algorytm bardzo dobrze radzi sobie z tym trudnym przypadkiem.
 
 Rysunek \ref{result:11} oraz \ref{result:12} pokazuje bardzo podobną sytuację jak dla rysunku \ref{result:6} oraz
 \ref{result:10}.
-Dla rysunku \ref{result:11} otrzymaliśmy równiejsze pola, kosztem gorszej długości granic pomiędzy obszarami.
+Dla rysunku \ref{result:11} otrzymaliśmy równiejsze pola, kosztem większej długości granic pomiędzy obszarami.
 Na rysunku \ref{result:12} otrzymaliśmy krótsze granice, kosztem równości pól.
-Różnicą w tym wypadku jest to, że na siatce pojawiają się zarówno obszary wyłączone z obliczeń jak i
+Różnicą w tym przypadku jest to, że na siatce pojawiają się zarówno obszary wyłączone z obliczeń jak i
 obszary niepodzielne.
 Algorytm bardzo dobrze radzi sobie z uwzględnieniem obydwu, otrzymuje krótkie granice oraz niemal równe obszary.
 \begin{figure}[h]
@@ -490,14 +489,14 @@ Wybór najlepszego rezultatu wedle kryterium najmniejszej długości granic.
 Odchylenie standardowe wielkości pól wynosi $1.9504$.}
 \label{result:13}
 \end{figure}
-Rysunek \ref{result:14} oraz \ref{result:13} prezentują partycjonowanie tej samej siatki, ale z użyciem wariantu algorytmu
+Rysunek \ref{result:14} oraz \ref{result:13} prezentują partycjonowanie tej samej siatki, ale z użyciem wariantu algorytmu,
 gdzie obszary wyłączone z obliczeń nie są mapowane na wierzchołki.
 W efekcie dla obydwu kryteriów wyboru najlepszego partycjonowania otrzymujemy mniejszą długość granic.
 Do tej pory dla wszystkich przykładów nietworzenie wierzchołków w miejsce obszarów wyłączonych z obliczeń
-zwracało lepsze rezultaty i ten trend utrzyma się do samego końca.
-Moje testowanie wykazało, że jeśli są one duże oraz mają długą granicę w stosunku do pola to są bardzo
+dawało lepsze rezultaty i ten trend utrzyma się do samego końca.
+Moje testowanie wykazało, że jeśli obszary wyłączone z obliczeń są duże oraz mają długą granicę w stosunku do wielkości pola to są bardzo
 problematyczne dla algorytmu LAM, a także znaczenie wydłużają czas partycjonowania.
-Zawsze szybszym, efektywniejszym wyjściem jest skorzystanie z opcji usunięcia ich z siatki.
+Zawsze szybszym, efektywniejszym wyjściem jest skorzystanie z opcji usunięcia ich z grafu.
 \FloatBarrier
 \vspace{3mm}
 \textbf{Partycjonowanie 8}
@@ -506,11 +505,11 @@ Zawsze szybszym, efektywniejszym wyjściem jest skorzystanie z opcji usunięcia 
 Na rysunkach \ref{result:15}, \ref{result:16}, \ref{result:17} oraz \ref{result:18} widać przykład siatki obrazującej
 mapę.
 Obszary wyłączone z obliczeń symbolizują ściany oraz pomieszczenia, na których nie będą przebiegały obliczenia.
-Żółte, niepodzielne obszary są w drzwiach lub ciasnych przejściach.
+Żółte, niepodzielne obszary to drzwi lub ciasne przejścia.
 Wygenerowałem cztery różne podziały.
 Dwa pierwsze nie zamieniają obszarów wyłączonych z obliczeń na wierzchołki w grafie.
-Partycjonowanie przedstawione na rysunku \ref{result:15} zostało wybrane wedle kryterium najmniejszego odchylenia standardowego dla pól obszarów,
-natomiast partycjonowanie z rysunku \ref{result:16} wedle kryterium najmniejszej długości granic.
+Partycjonowanie przedstawione na rysunku \ref{result:15} zostało wybrane według kryterium najmniejszego odchylenia standardowego dla wielkości pól obszarów,
+natomiast partycjonowanie z rysunku \ref{result:16} według kryterium najmniejszej długości granic.
 Dla partycjonowań \ref{result:17} oraz \ref{result:18} wygląda to analogicznie, tutaj natomiast obszary wyłączone z obliczeń
 zostały zamienione na wierzchołki o wagach $0$.
 
@@ -565,12 +564,12 @@ Odchylenie standardowe wielkości pól wynosi $1.2042$.}
 Rezultaty \ref{result:15}, \ref{result:16} są lepsze od \ref{result:17} oraz \ref{result:18} pod względem
 długości granic, ze względu na ściany, które ograniczają liczbę krawędzi łączących różne partycje.
 Natomiast rezultaty \ref{result:17} oraz \ref{result:18} są lepsze pod względem równości pól partycji.
-Wynika z tego, że jeśli wyżej cenimy optymalizację długość granic między partycjami (na przykład dle niniejszej pracy)
+Wynika z tego, że jeśli wyżej cenimy optymalizację długości granic między partycjami (na przykład jak w niniejszej pracy)
 oraz na wejściowej siatce nie ma żadnych obszarów, które są całkowicie odłączone od innych
-(innymi słowy można znaleźć ścieżkę między każdą parą pokoi na mapie)
+(innymi słowy można znaleźć ścieżkę między każdą parą pokoi na mapie),
 lepsze rezultaty daje metoda, która nie tworzy wierzchołków dla obszarów wyłączonych z obliczeń.
-Tak jak wcześniej, tam gdzie wybierany jest podział wedle kryterium najmniejszej długości granic, otrzymujemy krótsze
-granice kosztem nieco mniej równego podziału, dla drugiego kryterium na odwrót.
+Tak jak wcześniej, tam gdzie wybierany jest podział według kryterium najmniejszej długości granic, otrzymujemy krótsze
+granice kosztem nieco mniej równego podziału, dla drugiego kryterium jest na odwrót.
 Na rysunku \ref{result:17} widać, że pojedyncze partycje mają tendencję do zabierania dużych pól obszarów wyłączonych z obliczeń
 wydłużając niepotrzebnie granice (partycja $0$, $10$).
 \begin{figure}[h]
@@ -629,13 +628,13 @@ Odchylenie standardowe wielkości pól wynosi $0.2649$.}
 
 Na rysunku \ref{result:19} widoczne jest partycjonowanie siatki o większym rozmiarze, mającej
 przypominać plan budynku.
-Tym razem ze względu na czas liczenia najlepszy rezultat został wybrany spośród $10$ wywołań algorytmu.
-Algorytm bardzo dobrze poradził sobie z zadaniem otrzymując podobne pod względem pola obszary oraz uwzględniając
+Tym razem ze względu na czas liczenia, najlepszy rezultat został wybrany spośród $10$ wywołań algorytmu.
+Algorytm bardzo dobrze poradził sobie z zadaniem, otrzymując podobne pod względem wielkości pola obszary oraz uwzględniając
 obszary niepodzielne i wyłączone z obliczeń.
 Powstał jeden obszar rozproszony dla partycji numer $13$.
 Dla tego przykładu usuwanie obszarów rozproszonych było wyłączone, ponieważ ściany bardzo
 ograniczają możliwości balansowania pól i nie jest oczywistym, że obszary nierozproszone będą zawsze dawać najlepsze rezultaty.
-Ta część algorytmu daje bardzo dobrze rezultaty bez względu na wielkość siatki wejściowej.
+Ta część algorytmu daje bardzo dobre rezultaty bez względu na wielkość siatki wejściowej.
 Wielokrotne, kosztowne obliczeniowo wywołania algorytmu miały na celu wykazanie najlepszych rezultatów, jednak algorytm
 ten działa bardzo stabilnie i również bez wielokrotnych wywołań dostarcza dobre rezultaty.
 Wyniki odchylenia standardowego wielkości pól partycji dla dziesięciu kolejnych wywołań, dla siatki przedstawionej
