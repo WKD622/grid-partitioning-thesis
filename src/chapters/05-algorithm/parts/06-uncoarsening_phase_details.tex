@@ -199,14 +199,15 @@ wagi $s_{max}$ oraz miały ujemną wartość helpful, większą niż $-2$.
 W kodzie oryginalnego algorytmu później sprawdzane było, czy zbiór nie ma ujemnej wartości helpful i
 jeśli miał to budowanie zaczynało się od początku.
 Przez to algorytm wywoływał się wielokrotnie bez zakończenia się sukcesem.
-Moim rozwiązaniem była zmiana tej instrukcji na warunek na wielkość zbioru $S_A$ (linia $25$) oraz na
-pozwolenie na budowanie zbiorów o wartości helpful większej bądź równej $0$ (linia $11$ oraz $16$).
-$s_{max}$ z kolei, autorzy \cite{article} ustawiali na wartość $128$.
+Moim rozwiązaniem była zmiana tej instrukcji na warunek na wielkość zbioru $S_A$ (linia $24$) oraz na
+pozwolenie na budowanie zbiorów o wartości helpful większej bądź równej $0$ (linia $10$ oraz $15$).
+Natomiast $s_{max}$, autorzy \cite{article}, ustawiali na wartość $128$.
 Ja uzależniłem $s_{max}$ od rozmiaru optymalizowanych partycji (linia $6$).
 Użyty do tego współczynnik $0.2$ może zostać dowolnie zmieniony.
-Jednak wedle mojego doświadczenia powinien być on raczej mniejszy niż $0.4$, aby zbiór helpful nie był zbyt duży.
+Jednak doświadczenie wskazuje, że powinien być on raczej mniejszy niż $0.4$, aby zbiór helpful nie był zbyt duży.
 Zwiększa to czas partycjonowania, ale nie poprawia wyników.
-Lepiej by był on nieco za mały niż za duży, ponieważ po udanych znalezieniu małego zbioru helpful oraz zbioru balancig
+Korzystniejsze jest, gdy jest on nieco za mały, niż za duży.
+Po udanych znalezieniu małego zbioru helpful oraz zbioru balancig,
 limit i tak zostanie zwiększony, a zaczynanie od bardzo dużego zbioru helpful często kończy się nieudanym poszukiwaniem
 zbioru balancing i powrotem do początkowego podziału.
 Poszukiwanie dużego zbioru jest bardziej kosztowne.
@@ -272,14 +273,17 @@ zachowana. Na potrzeby przykładu balansowanie pól jest wyłączone.}
 \FloatBarrier
 
 Pętla WHILE, która znajduje się między liniami $7$ i $42$ jest wykonywana, dopóki suma limitów jest większa od $1$.
-W oryginalnej implementacji było to $0$, jednak wedle mojego doświadczenia algorytm wywoływał się wtedy bardzo długo,
-niekoniecznie zwiększając jakość partycjonowania.
+W oryginalnej implementacji wartość ta wynosiła $0$, jednak wtedy algorytm wywoływał się bardzo długo,
+niekoniecznie poprawiając jakość partycjonowania.
 Jeśli zbiór $l_A$-helpful ($S_A$) (z wagą $w(S_A)$ oraz wartością helpfulness wynoszącą $h(S_A)$) nie może zostać
-znaleziony (linia $12$), limit jest redukowany to najlepszej znalezionej wartości helpfulness ($b(S_A)$).
-Dalej podejmowana jest decyzja czy nastąpi wyszukiwanie w partycji $B$ (linia $14$).
+znaleziony (linia $12$), limit jest redukowany do najlepszej znalezionej wartości helpfulness ($b(S_A)$).
+
 Jeśli limit $l_A$ jest dużo mniejszy od limitu $l_B$ zbiory $A$ i $B$ są ze sobą zamieniane.
 Ten warunek powoduje, że zbiór helpful szukany jest najpierw w bardziej obiecującej partycji.
+Dalej podejmowana jest decyzja czy nastąpi wyszukiwanie w partycji $B$ (linia $14$).
 Jeśli tak, to ustalany jest zbiór $S_B$ (linia $15$).
+
+
 Dalej zbiór z większą wartością helpfulness jest nazywany $S_A$ (linia $17$) lub limit
 drugiej partycji jest redukowany (linia $19$), a zbiór $S_B$ usuwany (linia $22$).
 Jeśli wielkość zbioru helpful jest równa $0$, to limit ustawiany jest na $0$ (linia $25$), a algorytm powtarzany.

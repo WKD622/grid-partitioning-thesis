@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.5)  2 SEP 2021 22:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.5)  5 SEP 2021 17:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1714,70 +1714,70 @@ See the caption package documentation for explanation.
 <images/helpfulsets-sh/0.png, id=749, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/0.png Graphic file (type png)
 <use images/helpfulsets-sh/0.png>
-Package pdftex.def Info: images/helpfulsets-sh/0.png  used on input line 218.
+Package pdftex.def Info: images/helpfulsets-sh/0.png  used on input line 219.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
 <images/helpfulsets-sh/1.png, id=750, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/1.png Graphic file (type png)
 <use images/helpfulsets-sh/1.png>
-Package pdftex.def Info: images/helpfulsets-sh/1.png  used on input line 224.
+Package pdftex.def Info: images/helpfulsets-sh/1.png  used on input line 225.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
 <images/helpfulsets-sh/2.png, id=751, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/2.png Graphic file (type png)
 <use images/helpfulsets-sh/2.png>
-Package pdftex.def Info: images/helpfulsets-sh/2.png  used on input line 229.
+Package pdftex.def Info: images/helpfulsets-sh/2.png  used on input line 230.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 222--232
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 223--233
 []$[]$ $[]$ 
  []
 
 <images/helpfulsets-sh/3.png, id=752, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/3.png Graphic file (type png)
 <use images/helpfulsets-sh/3.png>
-Package pdftex.def Info: images/helpfulsets-sh/3.png  used on input line 235.
+Package pdftex.def Info: images/helpfulsets-sh/3.png  used on input line 236.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
 <images/helpfulsets-sh/4.png, id=753, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/4.png Graphic file (type png)
 <use images/helpfulsets-sh/4.png>
-Package pdftex.def Info: images/helpfulsets-sh/4.png  used on input line 240.
+Package pdftex.def Info: images/helpfulsets-sh/4.png  used on input line 241.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 233--243
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 234--244
 []$[]$ $[]$ 
  []
 
 <images/helpfulsets-sh/5.png, id=754, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/5.png Graphic file (type png)
 <use images/helpfulsets-sh/5.png>
-Package pdftex.def Info: images/helpfulsets-sh/5.png  used on input line 246.
+Package pdftex.def Info: images/helpfulsets-sh/5.png  used on input line 247.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
 <images/helpfulsets-sh/6.png, id=755, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/6.png Graphic file (type png)
 <use images/helpfulsets-sh/6.png>
-Package pdftex.def Info: images/helpfulsets-sh/6.png  used on input line 251.
+Package pdftex.def Info: images/helpfulsets-sh/6.png  used on input line 252.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 244--254
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 245--255
 []$[]$ $[]$ 
  []
 
 <images/helpfulsets-sh/7.png, id=756, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/7.png Graphic file (type png)
 <use images/helpfulsets-sh/7.png>
-Package pdftex.def Info: images/helpfulsets-sh/7.png  used on input line 257.
+Package pdftex.def Info: images/helpfulsets-sh/7.png  used on input line 258.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
 <images/helpfulsets-sh/8.png, id=757, 235.88126pt x 235.88126pt>
 File: images/helpfulsets-sh/8.png Graphic file (type png)
 <use images/helpfulsets-sh/8.png>
-Package pdftex.def Info: images/helpfulsets-sh/8.png  used on input line 262.
+Package pdftex.def Info: images/helpfulsets-sh/8.png  used on input line 263.
 (pdftex.def)             Requested size: 97.87581pt x 97.8781pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 255--269
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 256--270
 []$[]$ $[]$ 
  []
 
 
-LaTeX Warning: Float too large for page by 34.10728pt on input line 271.
+LaTeX Warning: Float too large for page by 34.10728pt on input line 272.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1788,20 +1788,20 @@ elpfulsets-sh/2.png> <./images/helpfulsets-sh/3.png> <./images/helpfulsets-sh/4
 /helpfulsets-sh/7.png> <./images/helpfulsets-sh/8.png>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 296.
+(caption)                particular \caption on input line 300.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 325.
+(caption)                particular \caption on input line 329.
 See the caption package documentation for explanation.
 
-)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33
 
-]
+])
 [34]
 (./chapters/05-algorithm/parts/07-uncoarsening_phase_building_helpfulsets.tex
 <images/changing_helpful_values.png, id=799, 577.15625pt x 253.94875pt>
@@ -1916,45 +1916,45 @@ See the caption package documentation for explanation.
 <images/fields-balacing/1.png, id=902, 237.88875pt x 234.8775pt>
 File: images/fields-balacing/1.png Graphic file (type png)
 <use images/fields-balacing/1.png>
-Package pdftex.def Info: images/fields-balacing/1.png  used on input line 21.
+Package pdftex.def Info: images/fields-balacing/1.png  used on input line 20.
 (pdftex.def)             Requested size: 97.87581pt x 96.63728pt.
 <images/fields-balacing/2.png, id=903, 237.88875pt x 234.8775pt>
 File: images/fields-balacing/2.png Graphic file (type png)
 <use images/fields-balacing/2.png>
-Package pdftex.def Info: images/fields-balacing/2.png  used on input line 26.
+Package pdftex.def Info: images/fields-balacing/2.png  used on input line 25.
 (pdftex.def)             Requested size: 97.87581pt x 96.63728pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 19--29
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 18--28
 []$[]$ $[]$ 
  []
 
 <images/fields-balacing/3.png, id=904, 237.88875pt x 234.8775pt>
 File: images/fields-balacing/3.png Graphic file (type png)
 <use images/fields-balacing/3.png>
-Package pdftex.def Info: images/fields-balacing/3.png  used on input line 32.
+Package pdftex.def Info: images/fields-balacing/3.png  used on input line 31.
 (pdftex.def)             Requested size: 97.87581pt x 96.63728pt.
 <images/fields-balacing/4.png, id=905, 237.88875pt x 234.8775pt>
 File: images/fields-balacing/4.png Graphic file (type png)
 <use images/fields-balacing/4.png>
-Package pdftex.def Info: images/fields-balacing/4.png  used on input line 37.
+Package pdftex.def Info: images/fields-balacing/4.png  used on input line 36.
 (pdftex.def)             Requested size: 97.87581pt x 96.63728pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 30--40
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 29--39
 []$[]$ $[]$ 
  []
 
 <images/fields-balacing/5.png, id=906, 237.88875pt x 234.8775pt>
 File: images/fields-balacing/5.png Graphic file (type png)
 <use images/fields-balacing/5.png>
-Package pdftex.def Info: images/fields-balacing/5.png  used on input line 43.
+Package pdftex.def Info: images/fields-balacing/5.png  used on input line 42.
 (pdftex.def)             Requested size: 97.87581pt x 96.63728pt.
 <images/fields-balacing/6.png, id=907, 237.88875pt x 234.8775pt>
 File: images/fields-balacing/6.png Graphic file (type png)
 <use images/fields-balacing/6.png>
-Package pdftex.def Info: images/fields-balacing/6.png  used on input line 48.
+Package pdftex.def Info: images/fields-balacing/6.png  used on input line 47.
 (pdftex.def)             Requested size: 97.87581pt x 96.63728pt.
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 41--53
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 40--52
 []$[]$ $[]$ 
  []
 
@@ -2651,7 +2651,7 @@ sr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2021
 /texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
 Output written on /Users/kuba/Workspace/Latex/grid-partitioning-thesis/out/main
-.pdf (67 pages, 12872583 bytes).
+.pdf (67 pages, 12872700 bytes).
 PDF statistics:
  1453 PDF objects out of 1728 (max. 8388607)
  1021 compressed objects within 11 object streams

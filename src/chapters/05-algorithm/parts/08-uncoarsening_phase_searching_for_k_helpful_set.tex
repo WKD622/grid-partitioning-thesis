@@ -9,14 +9,14 @@ Jednak w mojej implementacji (rysunek \ref{code:helpful_sets}) budowane są one 
 
 Podczas tego procesu brane pod uwagę są tylko wierzchołki z wartością helpfulness $\geq$ $0$.
 Może to prowadzić do przedwczesnego zakończenia wywołania algorytmu, jeśli żadne wierzchołki z taką wartością
-helpfulness nie będą już dostępne, ale to także gwarantuje, że wartość helpfulness dla zbioru Help nigdy nie będzie
-maleć.
+helpfulness nie będą już dostępne.
+To także gwarantuje, że wartość helpfulness dla zbioru Help nigdy nie będzie maleć.
 Wyszukiwanie zbioru Help kończy się, gdy jego wartość helpfulness osiąga \texttt{limit} lub jeśli nie ma więcej wierzchołków
 z wartością helpfulness $\geq$ $0$.
 
-Po udanym wywołaniu, zbiór $S$, który jest zbiorem Help z większą wartością helpfulness, przenoszony jest
+Po udanym wywołaniu, zbiór $S$, który jest zbiorem Help z większą wartością helpfulness przenoszony jest
 na drugą stronę podziału.
-Drugi zbiór Help jest usuwany i nie jest więcej brany pod uwagę.
+Drugi zbiór Help jest usuwany i nie jest dalej brany pod uwagę.
 Na rysunku \ref{im:building-helpfulsets}(b) BIG SET reprezentuje $V_1$ lub $V_2$ połączone z $S$.
 SMALL SET to pozostała część, która została zredukowana o $S$.
 \begin{figure}[h]
