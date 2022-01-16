@@ -440,3 +440,4 @@ crashlytics-build.properties
 fabric.properties
 
 .idea
+.DS_Store
